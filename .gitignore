@@ -1,0 +1,7 @@
+# Raw HTML cache from scrape_guild.py -- just a local debugging aid,
+# not needed for the site and not worth committing.
+raw_cache/
+
+__pycache__/
+*.pyc
+.DS_Store

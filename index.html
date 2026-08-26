@@ -1,0 +1,484 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Freakmont — Guild Dashboard</title>
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+<div class="layout">
+
+  <aside class="sidebar">
+    <div class="sidebar-brand">
+      <div class="crest-mini" id="crest-mini">
+        <img src="assets/guild-logo.png" alt="" id="crest-mini-img"
+             onload="document.getElementById('crest-mini').classList.add('has-logo')"
+             onerror="this.remove()" />
+        <span class="crest-fallback">F</span>
+      </div>
+      <div>
+        <div class="name">FREAKMONT</div>
+        <div class="tag">Bera 5</div>
+      </div>
+    </div>
+
+    <div class="sidebar-search">
+      <input type="text" id="sidebar-search" list="player-datalist" placeholder="Search players…" autocomplete="off" />
+      <datalist id="player-datalist"></datalist>
+      <kbd>/</kbd>
+    </div>
+
+    <div>
+      <div class="nav-label">Guild</div>
+      <nav class="nav-list">
+        <a class="nav-item active" href="index.html" data-tab-link="members"><span class="ico">⌂</span> Home</a>
+        <a class="nav-item" href="index.html#conquest" data-jump="conquest" data-tab-link="conquest"><span class="ico">⚔</span> Guild Conquest</a>
+        <a class="nav-item" href="index.html#bossbattle" data-jump="bossbattle" data-tab-link="bossbattle"><span class="ico">☠</span> Guild Boss Battle</a>
+        <a class="nav-item" href="index.html#training" data-jump="training" data-tab-link="training"><span class="ico">◎</span> Training Ground</a>
+      </nav>
+    </div>
+
+    <div class="sidebar-spacer"></div>
+
+    <div class="sidebar-foot" id="sidebar-updated">🕐 —</div>
+  </aside>
+
+  <div class="main">
+  <div class="wrap">
+
+  <div class="ticker" aria-hidden="true">
+    <div class="ticker-track">
+      <span>▶ FREAKMONT · BERA 5</span>
+      <span>▶ FREAKMONT · BERA 5</span>
+      <span>▶ FREAKMONT · BERA 5</span>
+      <span>▶ FREAKMONT · BERA 5</span>
+      <span>▶ FREAKMONT · BERA 5</span>
+      <span>▶ FREAKMONT · BERA 5</span>
+      <span>▶ FREAKMONT · BERA 5</span>
+      <span>▶ FREAKMONT · BERA 5</span>
+      <!-- duplicated for a seamless loop -->
+      <span>▶ FREAKMONT · BERA 5</span>
+      <span>▶ FREAKMONT · BERA 5</span>
+      <span>▶ FREAKMONT · BERA 5</span>
+      <span>▶ FREAKMONT · BERA 5</span>
+      <span>▶ FREAKMONT · BERA 5</span>
+      <span>▶ FREAKMONT · BERA 5</span>
+      <span>▶ FREAKMONT · BERA 5</span>
+      <span>▶ FREAKMONT · BERA 5</span>
+    </div>
+  </div>
+
+  <div class="card statusbar">
+    <span class="badge" id="source-badge">LOADING</span>
+    <span class="label">Guild dashboard, rebuilt daily</span>
+    <span class="date" id="updated-date">—</span>
+  </div>
+
+  <div class="guild-header">
+    <div class="guild-crest" id="guild-crest">
+      <img src="assets/guild-logo.png" alt="Freakmont crest" id="crest-img"
+           onload="document.getElementById('guild-crest').classList.add('has-logo')"
+           onerror="this.remove()" />
+      <span class="crest-fallback">F</span>
+    </div>
+    <div class="guild-title">
+      <h1>Freakmont</h1>
+      <div class="pills">
+        <span class="pill">Bera 5</span>
+        <span class="pill" id="member-pill">— members</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="stat-grid">
+    <div class="stat-card">
+      <div class="label">Members</div>
+      <div class="value" id="stat-members">—</div>
+      <div class="sub">roster on record</div>
+    </div>
+    <div class="stat-card accent-blue">
+      <div class="label">Total CP</div>
+      <div class="value" id="stat-total-cp">—</div>
+      <div class="sub" id="stat-total-cp-sub">&nbsp;</div>
+    </div>
+    <div class="stat-card">
+      <div class="label">Average CP</div>
+      <div class="value" id="stat-avg-cp">—</div>
+      <div class="sub" id="stat-median-cp">median —</div>
+    </div>
+    <div class="stat-card accent-green">
+      <div class="label">Average Level</div>
+      <div class="value" id="stat-avg-level">—</div>
+      <div class="sub" id="stat-median-level">median —</div>
+    </div>
+  </div>
+
+  <div class="card">
+    <h2 class="section-title">CP Distribution</h2>
+    <p class="section-sub" id="hist-caption">The power road · <span id="hist-member-count">—</span> members, bucketed on a doubling scale</p>
+    <div id="hist-summary" class="hist-summary"></div>
+    <div id="hist-plot" class="hist-plot"></div>
+    <div id="hist-labels" class="hist-labels"></div>
+  </div>
+
+  <div class="card">
+    <h2 class="section-title">All Members by CP</h2>
+    <p class="section-sub">Every roster slot, ranked</p>
+    <div class="cp-bar-list" id="cp-bar-list"></div>
+  </div>
+
+  <div class="card">
+    <h2 class="section-title">Rank Distribution</h2>
+    <p class="section-sub">Guild titles across the roster</p>
+    <div class="rank-dist-list" id="rank-dist-list"></div>
+  </div>
+
+  <div class="card" id="punch-score-card">
+    <h2 class="section-title">Punch Score</h2>
+    <p class="section-sub">Who's scoring above what their CP alone would predict</p>
+    <div id="punch-score-list"><div class="empty-state">Loading…</div></div>
+  </div>
+
+  <div class="card">
+    <div class="tabs" role="tablist">
+      <button class="tab-btn active" data-tab="members">Members</button>
+      <button class="tab-btn" data-tab="conquest">Guild Conquest</button>
+      <button class="tab-btn" data-tab="bossbattle">Guild Boss Battle</button>
+      <button class="tab-btn" data-tab="training">Training Ground</button>
+    </div>
+
+    <div class="tab-panel active" id="panel-members">
+      <table class="roster">
+        <thead>
+          <tr><th>#</th><th>Character</th><th>Class</th><th class="num">Level</th><th class="num">Combat Power</th></tr>
+        </thead>
+        <tbody id="tbody-members"><tr><td colspan="5" class="empty-state">Loading roster…</td></tr></tbody>
+      </table>
+    </div>
+
+    <div class="tab-panel" id="panel-conquest">
+      <table class="roster">
+        <thead>
+          <tr><th>#</th><th>Character</th><th>Class</th><th class="num">Level</th><th class="num">Score</th></tr>
+        </thead>
+        <tbody id="tbody-conquest"><tr><td colspan="5" class="empty-state">Loading…</td></tr></tbody>
+      </table>
+    </div>
+
+    <div class="tab-panel" id="panel-bossbattle">
+      <table class="roster">
+        <thead>
+          <tr><th>#</th><th>Character</th><th>Class</th><th class="num">Level</th><th class="num">Score</th></tr>
+        </thead>
+        <tbody id="tbody-bossbattle"><tr><td colspan="5" class="empty-state">Loading…</td></tr></tbody>
+      </table>
+    </div>
+
+    <div class="tab-panel" id="panel-training">
+      <table class="roster">
+        <thead>
+          <tr><th>#</th><th>Character</th><th>Class</th><th class="num">Level</th><th class="num">Score</th></tr>
+        </thead>
+        <tbody id="tbody-training"><tr><td colspan="5" class="empty-state">Loading…</td></tr></tbody>
+      </table>
+    </div>
+  </div>
+
+  <div class="site-footer">
+    <div class="foot-title">FREAKMONT</div>
+    <div class="foot-cols">
+      <div>
+        <h4>Pages</h4>
+        <a href="index.html">Home / Rankings</a>
+        <a href="player.html">Player Lookup</a>
+      </div>
+      <div>
+        <h4>Categories</h4>
+        <a href="#conquest" data-jump="conquest">Guild Conquest</a>
+        <a href="#bossbattle" data-jump="bossbattle">Guild Boss Battle</a>
+        <a href="#training" data-jump="training">Training Ground</a>
+      </div>
+      <div>
+        <h4>Server</h4>
+        <span style="display:block; margin-bottom:6px;">MapleStory Idle</span>
+        <span style="display:block;">Bera 5</span>
+      </div>
+    </div>
+  </div>
+
+  </div>
+  </div>
+
+</div>
+
+<script src="app.js"></script>
+<script>
+const RANK_ORDER = ['master', 'vice_master', 'elite_freak', 'guild_freak', 'day1_fweaks'];
+const RANK_COLORS = {
+  master: 'var(--rose)', vice_master: 'var(--gold)', elite_freak: 'var(--blue)',
+  guild_freak: 'var(--green)', day1_fweaks: 'var(--muted)',
+};
+
+(async function () {
+  initSidebar();
+
+  const statusBadge = document.getElementById('source-badge');
+  const updatedDate = document.getElementById('updated-date');
+
+  // -- load roster (primary: roster.json, fallback: msidle-roster.json)
+  const rosterResult = await loadGuildFile('roster.json', 'msidle-roster.json');
+  const roster = rosterResult.data || [];
+
+  // -- guild rank/title tags (hand-maintained, not scraped)
+  const ranks = await loadRanks();
+
+  // -- load category files
+  const conquest = await loadGuildFile('conquest-current.json', 'msidle-conquest-current.json');
+  const bossBattle = await loadGuildFile('guild-boss-battle-current.json', 'msidle-guild-boss-battle-current.json');
+  const training = await loadGuildFile('training-ground-current.json', 'msidle-training-ground-current.json');
+
+  statusBadge.textContent = (rosterResult.data === null && conquest.data === null) ? 'NO DATA' : 'INFO';
+
+  const dates = [conquest, bossBattle, training]
+    .map(r => r.data && r.data.date)
+    .filter(Boolean)
+    .sort();
+  updatedDate.textContent = dates.length ? `Updated ${dates[dates.length - 1]}` : '';
+  document.getElementById('sidebar-updated').textContent = dates.length ? `🕐 ${dates[dates.length - 1]}` : '🕐 —';
+
+  // -- guild header + stat cards, computed from roster --
+  document.getElementById('member-pill').textContent = `${roster.length} members`;
+  document.getElementById('stat-members').textContent = roster.length || '—';
+
+  if (roster.length) {
+    const cps = roster.map(m => m.cpRaw).filter(v => typeof v === 'number').sort((a, b) => a - b);
+    const levels = roster.map(m => m.level).filter(v => typeof v === 'number').sort((a, b) => a - b);
+
+    const totalCP = cps.reduce((a, b) => a + b, 0);
+    const avgCP = mean(cps);
+    const medCP = median(cps);
+    const avgLevel = mean(levels);
+    const medLevel = median(levels);
+
+    document.getElementById('stat-total-cp').textContent = formatCP(totalCP);
+    document.getElementById('stat-total-cp-sub').textContent = `across ${roster.length} characters`;
+    document.getElementById('stat-avg-cp').textContent = formatCP(avgCP);
+    document.getElementById('stat-median-cp').textContent = `median ${formatCP(medCP)}`;
+    document.getElementById('stat-avg-level').textContent = avgLevel.toFixed(1);
+    document.getElementById('stat-median-level').textContent = `median ${medLevel}`;
+
+    renderHistogram(cps);
+
+    const sorted = [...roster].sort((a, b) => (b.cpRaw || 0) - (a.cpRaw || 0));
+    renderCpBarList(sorted);
+    renderRankDistribution(roster, ranks);
+
+    // members table, sorted by CP desc
+    const tbody = document.getElementById('tbody-members');
+    tbody.innerHTML = sorted.map((m, i) => rosterRow(i + 1, m.name, m.class, m.level, m.cpDisplay || formatCP(m.cpRaw), ranks[m.name])).join('');
+  } else {
+    document.getElementById('hist-plot').innerHTML = '<div class="empty-state">No roster data available yet.</div>';
+    document.getElementById('tbody-members').innerHTML = '<tr><td colspan="5" class="empty-state">No roster data available yet.</td></tr>';
+  }
+
+  renderCategory('tbody-conquest', conquest.data, ranks);
+  renderCategory('tbody-bossbattle', bossBattle.data, ranks);
+  renderCategory('tbody-training', training.data, ranks);
+  renderPunchScore(roster, ranks);
+
+  function rosterRow(rank, name, cls, level, cpText, rankId) {
+    const medalClass = rank === 1 ? 'medal-1' : rank === 2 ? 'medal-2' : rank === 3 ? 'medal-3' : '';
+    return `<tr>
+      <td class="rank ${medalClass}">${rank}</td>
+      <td class="name"><a href="player.html?name=${encodeURIComponent(name)}">${name}</a></td>
+      <td class="class">${cls || '—'}${rankId ? ' ' + rankBadge(rankId) : ''}</td>
+      <td class="num">${level ?? '—'}</td>
+      <td class="num cp">${cpText}</td>
+    </tr>`;
+  }
+
+  function renderCategory(tbodyId, data, ranks) {
+    const tbody = document.getElementById(tbodyId);
+    if (!data || !data.entries || !data.entries.length) {
+      tbody.innerHTML = '<tr><td colspan="5" class="empty-state">No data available yet.</td></tr>';
+      return;
+    }
+    const rows = [...data.entries]
+      .sort((a, b) => a.rank - b.rank)
+      .map(e => rosterRow(e.rank, e.name, e.class, e.level, formatScore(e.score), ranks[e.name]));
+    tbody.innerHTML = rows.join('');
+  }
+
+  function renderHistogram(sortedCPs) {
+    document.getElementById('hist-member-count').textContent = sortedCPs.length;
+    const floor = sortedCPs[0];
+    const ceiling = sortedCPs[sortedCPs.length - 1];
+
+    // Fixed 6 buckets, evenly log-spaced between floor and ceiling.
+    // When the guild's spread happens to be ~64x (2^6), each step is a
+    // clean doubling, same as the reference; otherwise it's just an
+    // even log scale.
+    const BUCKET_COUNT = 6;
+    const ratio = ceiling > floor ? Math.pow(ceiling / floor, 1 / (BUCKET_COUNT - 1)) : 1;
+    const edges = Array.from({ length: BUCKET_COUNT }, (_, i) => floor * Math.pow(ratio, i));
+    const isDoubling = Math.abs(ratio - 2) < 0.15;
+    document.getElementById('hist-caption').innerHTML =
+      `The power road · <span id="hist-member-count">${sortedCPs.length}</span> members, ` +
+      (isDoubling ? 'bucketed on a doubling scale' : 'bucketed on an even log scale');
+
+    const buckets = edges.map(() => []);
+    sortedCPs.forEach(cp => {
+      let idx = 0;
+      for (let i = 0; i < edges.length; i++) { if (cp >= edges[i]) idx = i; }
+      buckets[idx].push(cp);
+    });
+
+    const medianVal = median(sortedCPs);
+    let medianBucket = 0;
+    for (let i = 0; i < edges.length; i++) { if (medianVal >= edges[i]) medianBucket = i; }
+
+    const mean_ = mean(sortedCPs);
+
+    // summary row
+    document.getElementById('hist-summary').innerHTML = `
+      <div><div class="num">${formatCP(medianVal)}</div><div class="lbl">Median</div></div>
+      <div><div class="num">${formatCP(mean_)}</div><div class="lbl">Mean</div></div>
+      <div><div class="num">${formatCP(floor)}</div><div class="lbl">Floor</div></div>
+      <div><div class="num">${formatCP(ceiling)}</div><div class="lbl">Ceiling</div></div>
+    `;
+
+    const maxCount = Math.max(...buckets.map(b => b.length), 1);
+    const plot = document.getElementById('hist-plot');
+    plot.innerHTML = buckets.map((b, i) => {
+      const squares = Array.from({ length: b.length }).map(() => '<div class="hist-px"></div>').join('');
+      return `<div class="hist-col" title="${b.length} members ≥ ${formatCP(edges[i])}">${squares}</div>`;
+    }).join('');
+
+    const labels = document.getElementById('hist-labels');
+    labels.innerHTML = edges.map((edge, i) =>
+      `<span class="${i === medianBucket ? 'med' : ''}">${formatCP(edge)}+${i === medianBucket ? ' med' : ''}</span>`
+    ).join('');
+  }
+
+  function renderCpBarList(sortedRoster) {
+    const list = document.getElementById('cp-bar-list');
+    if (!sortedRoster.length) { list.innerHTML = '<div class="empty-state">No roster data available yet.</div>'; return; }
+    const maxCP = sortedRoster[0].cpRaw || 1;
+    list.innerHTML = sortedRoster.map(m => {
+      const pct = Math.max(2, Math.round(((m.cpRaw || 0) / maxCP) * 100));
+      return `
+        <div class="cp-bar-row">
+          <div class="who"><a href="player.html?name=${encodeURIComponent(m.name)}">${m.name}</a></div>
+          <div class="cp-bar-track"><div class="cp-bar-fill" style="width:${pct}%"></div></div>
+          <div class="amt">${m.cpDisplay || formatCP(m.cpRaw)}</div>
+        </div>`;
+    }).join('');
+  }
+
+  function renderRankDistribution(roster, ranks) {
+    const list = document.getElementById('rank-dist-list');
+    const counts = {};
+    RANK_ORDER.forEach(id => { counts[id] = 0; });
+    roster.forEach(m => { const r = ranks[m.name]; if (r && counts[r] !== undefined) counts[r]++; });
+
+    const known = Object.values(counts).reduce((a, b) => a + b, 0);
+    if (!known) {
+      list.innerHTML = '<div class="empty-state">No rank assignments recorded yet.</div>';
+      return;
+    }
+
+    const maxCount = Math.max(...Object.values(counts), 1);
+    list.innerHTML = RANK_ORDER.map(id => {
+      const def = RANK_DEFS[id];
+      const count = counts[id];
+      const pct = Math.max(count ? 4 : 0, Math.round((count / maxCount) * 100));
+      return `
+        <div class="rank-dist-row">
+          ${rankBadge(id)}
+          <div class="rank-dist-track"><div class="rank-dist-fill" style="width:${pct}%; background:${RANK_COLORS[id]}"></div></div>
+          <div class="count">${count}</div>
+        </div>`;
+    }).join('');
+  }
+
+  /** Punch Score: how far each member's real category scores run above
+   * what their CP alone would predict, averaged across whatever
+   * categories msidle.gg has computed a comparison for. This is
+   * msidle's own scoreComparison.vs_all_pct field, not something we
+   * derive ourselves -- we just fetch each member's file and average
+   * it. Only populates for members who have an msidle player file. */
+  async function renderPunchScore(roster, ranks) {
+    const container = document.getElementById('punch-score-list');
+    const results = await Promise.all(roster.map(async (m) => {
+      const raw = await tryFetchJSON(`${DATA_DIR}/players/${m.name}-msidle.json`);
+      if (!raw || !raw.scoreComparison) return null;
+      const pcts = Object.values(raw.scoreComparison)
+        .map(c => c.vs_all_pct)
+        .filter(v => typeof v === 'number');
+      if (!pcts.length) return null;
+      return { name: m.name, class: m.class, avgPct: mean(pcts), categoryCount: pcts.length };
+    }));
+
+    const ranked = results.filter(Boolean).sort((a, b) => b.avgPct - a.avgPct);
+
+    if (!ranked.length) {
+      container.innerHTML = '<div class="empty-state">No msidle.gg comparison data available yet — this fills in as player files sync.</div>';
+      return;
+    }
+
+    const rowHtml = (r, i) => {
+      const pctStr = formatPct(r.avgPct);
+      const cls = r.avgPct >= 0 ? 'pos' : 'neg';
+      return `
+        <div class="punch-row ${i >= 10 ? 'hidden-row' : ''}">
+          <div class="idx">${i + 1}</div>
+          <div class="who">
+            <a href="player.html?name=${encodeURIComponent(r.name)}">${r.name}</a>
+            ${ranks[r.name] ? rankBadge(ranks[r.name]) : ''}
+            <span class="cls">${r.class || ''} · ${r.categoryCount} categor${r.categoryCount === 1 ? 'y' : 'ies'}</span>
+          </div>
+          <div class="val ${cls}">${pctStr}</div>
+        </div>`;
+    };
+
+    container.innerHTML = ranked.map(rowHtml).join('') +
+      (ranked.length > 10 ? `<button class="show-more-btn" id="punch-show-more">Show all ${ranked.length}</button>` : '') +
+      `<p class="punch-note">Punch Score compares each member's actual category scores to what their current Combat Power alone would predict, averaged across every category msidle.gg has a comparison for. CP reflects currently-equipped gear, so a member hunting in weaker gear than their vault can show an inflated score here — read it as a signal, not a verdict.</p>`;
+
+    const moreBtn = document.getElementById('punch-show-more');
+    if (moreBtn) {
+      moreBtn.addEventListener('click', () => {
+        document.querySelectorAll('.punch-row.hidden-row').forEach(r => r.classList.remove('hidden-row'));
+        moreBtn.remove();
+      });
+    }
+  }
+
+  // footer/sidebar jump links -> switch tab + scroll (same-page click intercept)
+  document.querySelectorAll('[data-jump]').forEach(a => {
+    a.addEventListener('click', (ev) => {
+      ev.preventDefault();
+      setActiveTab(a.getAttribute('data-jump'));
+      document.querySelector('.tabs').scrollIntoView({ behavior: 'smooth', block: 'start' });
+    });
+  });
+
+  // deep link from another page, e.g. player.html -> index.html#conquest
+  const hashTab = location.hash.replace('#', '');
+  if (hashTab) setActiveTab(hashTab);
+})();
+
+function setActiveTab(tabId) {
+  document.querySelectorAll('.tab-btn').forEach(b => b.classList.toggle('active', b.dataset.tab === tabId));
+  document.querySelectorAll('.tab-panel').forEach(p => p.classList.toggle('active', p.id === `panel-${tabId}`));
+  document.querySelectorAll('.nav-item[data-tab-link]').forEach(a => a.classList.toggle('active', a.dataset.tabLink === tabId));
+}
+
+// tabs
+document.querySelectorAll('.tab-btn').forEach(btn => {
+  btn.addEventListener('click', () => setActiveTab(btn.dataset.tab));
+});
+</script>
+</body>
+</html>

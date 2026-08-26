@@ -1,0 +1,52 @@
+name: Daily Guild Scrape
+
+on:
+  schedule:
+    # 09:17 UTC daily. Off the top of the hour on purpose -- GitHub Actions
+    # queues cron jobs and exact-hour times are the most congested, so
+    # they're the most likely to run late. Adjust the hour to whenever you
+    # want the site to refresh; keep the odd minute.
+    - cron: '17 9 * * *'
+  # Lets you trigger a run manually from the Actions tab, e.g. to pick up
+  # the rest of a batch after mapleidle.gg's rate limit clears mid-day.
+  workflow_dispatch: {}
+
+# If a manual run is triggered while the scheduled one is still going,
+# queue it instead of running both at once -- two runs writing to the same
+# files at the same time would race on the git push.
+concurrency:
+  group: scrape
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run scraper
+        run: python scrape_guild.py
+
+      - name: Commit and push updated data
+        run: |
+          git config user.name "freakmont-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/
+          if git diff --cached --quiet; then
+            echo "No data changes today, skipping commit."
+          else
+            git commit -m "Daily scrape: $(date -u +'%Y-%m-%d')"
+            git push
+          fi
