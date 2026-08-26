@@ -142,6 +142,19 @@ function rankBadge(rankId) {
 }
 
 async function initSidebar() {
+  const sidebar = document.getElementById('sidebar');
+  const toggle = document.getElementById('nav-toggle');
+  const overlay = document.getElementById('sidebar-overlay');
+
+  if (sidebar && toggle && overlay) {
+    const closeNav = () => sidebar.classList.remove('open');
+    toggle.addEventListener('click', () => sidebar.classList.toggle('open'));
+    overlay.addEventListener('click', closeNav);
+    // close after picking a nav link, so the drawer doesn't stay open
+    // on the destination page
+    sidebar.querySelectorAll('a').forEach(a => a.addEventListener('click', closeNav));
+  }
+
   const input = document.getElementById('sidebar-search');
   if (!input) return;
 

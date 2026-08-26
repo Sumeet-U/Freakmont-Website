@@ -9,7 +9,12 @@
 <body>
 <div class="layout">
 
-  <aside class="sidebar">
+  <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation">
+    <span class="bars"><span></span><span></span><span></span></span>
+    Menu
+  </button>
+
+  <aside class="sidebar" id="sidebar">
     <div class="sidebar-brand">
       <div class="crest-mini" id="crest-mini">
         <img src="assets/guild-logo.png" alt="" id="crest-mini-img"
@@ -43,6 +48,8 @@
 
     <div class="sidebar-foot" id="sidebar-updated">🕐 —</div>
   </aside>
+
+  <div class="sidebar-overlay" id="sidebar-overlay"></div>
 
   <div class="main">
   <div class="wrap">
