@@ -42,11 +42,6 @@
 
 html { scroll-behavior: smooth; }
 
-html, body {
-  overflow-x: hidden;
-  max-width: 100%;
-}
-
 body {
   margin: 0;
   background-color: var(--bg);
@@ -568,24 +563,25 @@ table.roster td.cp { font-weight: 700; color: var(--blue); }
 /* -- layout: sidebar + main -- */
 .layout {
   display: flex;
-  align-items: flex-start;
   min-height: 100vh;
 }
 
 .sidebar {
   width: 232px;
   flex-shrink: 0;
+  align-self: stretch;
   background: var(--card);
   border-right: 1.5px solid var(--border);
-  min-height: 100vh;
+}
+
+.sidebar-inner {
   position: sticky;
   top: 0;
-  align-self: flex-start;
+  min-height: 100vh;
   padding: 20px 16px;
   display: flex;
   flex-direction: column;
   gap: 18px;
-  overflow-y: auto;
 }
 
 .sidebar-brand {
@@ -750,6 +746,7 @@ table.roster td.cp { font-weight: 700; color: var(--blue); }
   }
   .sidebar.open { transform: translateX(0); }
   .sidebar.open ~ .sidebar-overlay { display: block; }
+  .sidebar-inner { overflow-y: auto; max-height: 100vh; }
 
   .main { width: 100%; }
   .main .wrap { padding-top: 64px; }
