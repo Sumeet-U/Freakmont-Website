@@ -42,6 +42,11 @@
 
 html { scroll-behavior: smooth; }
 
+html, body {
+  overflow-x: hidden;
+  max-width: 100%;
+}
+
 body {
   margin: 0;
   background-color: var(--bg);
@@ -283,8 +288,14 @@ a:hover { text-decoration-color: var(--link); }
 .tab-panel.active { display: block; }
 
 /* -- table -- */
+.table-scroll {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
 table.roster {
   width: 100%;
+  min-width: 560px;
   border-collapse: collapse;
   font-size: 13px;
 }
