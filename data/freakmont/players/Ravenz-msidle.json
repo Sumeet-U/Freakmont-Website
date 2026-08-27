@@ -3,25 +3,25 @@
     "name": "Ravenz",
     "class": "Shadower",
     "level": 111,
-    "cpRaw": 1016445122830286,
-    "cpDisplay": "1AA 16T",
-    "fame": 817
+    "cpRaw": 1027967718385690,
+    "cpDisplay": "1AA 27T",
+    "fame": 847
   },
   "ranks": {
     "global": {
-      "rank": 4169,
+      "rank": 4201,
       "percentile": 0.4
     },
     "server": {
-      "rank": 80,
+      "rank": 82,
       "percentile": 0.3
     },
     "world": {
-      "rank": 1920,
+      "rank": 1935,
       "percentile": 0.5
     },
     "job": {
-      "rank": 652,
+      "rank": 642,
       "percentile": 0.6
     }
   },
@@ -56,20 +56,20 @@
     },
     "guild_conquest": {
       "score": "156084825014",
-      "vs_all_pct": 23.1,
-      "vs_class_pct": 27.8,
+      "vs_all_pct": 23.4,
+      "vs_class_pct": 28.6,
       "date": "2026-08-25T06:05:17+00:00"
     },
     "world_boss": {
       "score": "10145918800000000",
-      "vs_all_pct": 35.6,
-      "vs_class_pct": 37.4,
+      "vs_all_pct": 35.5,
+      "vs_class_pct": 38,
       "date": "2026-08-25T04:37:12+00:00"
     },
     "guild_training_ground": {
       "score": "6269253",
       "vs_all_pct": -1.6,
-      "vs_class_pct": 5.2,
+      "vs_class_pct": 5.3,
       "date": "2026-07-17T05:54:02+00:00"
     },
     "guild_boss": {
@@ -138,12 +138,7 @@
     ],
     "cp_history": [
       {
-        "date": "2026-07-27T08:33:25+00:00",
-        "cpRaw": 409289257160666,
-        "cpDisplay": "409T 289B"
-      },
-      {
-        "date": "2026-07-28T01:01:22+00:00",
+        "date": "2026-07-28T09:40:20+00:00",
         "cpRaw": 410199540108882,
         "cpDisplay": "410T 199B"
       },
@@ -291,11 +286,21 @@
         "date": "2026-08-26T04:14:09+00:00",
         "cpRaw": 1016445122830286,
         "cpDisplay": "1AA 16T"
+      },
+      {
+        "date": "2026-08-26T22:16:10+00:00",
+        "cpRaw": 1018376853780771,
+        "cpDisplay": "1AA 18T"
+      },
+      {
+        "date": "2026-08-27T05:15:38+00:00",
+        "cpRaw": 1027967718385690,
+        "cpDisplay": "1AA 27T"
       }
     ],
     "level_history": [
       {
-        "date": "2026-07-27T08:33:25+00:00",
+        "date": "2026-07-28T09:40:20+00:00",
         "level": 109
       },
       {
@@ -308,5 +313,5 @@
       }
     ]
   },
-  "scraped_at": "2026-08-26T08:33:26.887870+00:00"
+  "scraped_at": "2026-08-27T09:40:21.885512+00:00"
 }

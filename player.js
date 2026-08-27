@@ -27,10 +27,10 @@
 
 const CATEGORY_DEFS = [
   { id: 'conquest', label: 'Guild Conquest', test: k => k.includes('conquest') },
-  { id: 'training_ground', label: 'Training Ground', test: k => k.includes('training') },
-  { id: 'guild_boss_battle', label: 'Guild Boss Battle', test: k => k.includes('boss') && !k.includes('world') },
   { id: 'world_boss', label: 'World Boss', test: k => k.includes('world_boss') || k.includes('worldboss') },
   { id: 'guild_war', label: 'Guild War', test: k => k.includes('war') },
+  { id: 'guild_boss_battle', label: 'Guild Boss Battle', test: k => k.includes('boss') && !k.includes('world') },
+  { id: 'training_ground', label: 'Training Ground', test: k => k.includes('training') },
 ];
 
 function categoryIdFor(key) {
@@ -62,15 +62,21 @@ function normalizeMapleidle(raw, rosterEntry) {
     const id = categoryIdFor(key);
     if (!id) return;
     categories[id].score = val.score;
-    categories[id].updated = val.updated;
+    categories[id].updated = resolveYearlessDate(val.updated, raw.scraped_at);
   });
 
-  // mapleidle's history array is CP/level/global-rank over time, not
-  // per-category score history -- category tabs won't have charts
+  // mapleidle's history array is CP/level/global-rank/fame over time,
+  // not per-category score history -- category tabs won't have charts
   // when this is the source, only current values.
   const history = raw.history || [];
-  const cpHistory = history.map(h => ({ date: h.date, cpRaw: h.cpRaw }));
-  const levelHistory = history.map(h => ({ date: h.date, level: h.level }));
+  const cpHistory = history.map(h => ({ date: resolveYearlessDate(h.date, raw.scraped_at), cpRaw: h.cpRaw }));
+  const levelHistory = history.map(h => ({ date: resolveYearlessDate(h.date, raw.scraped_at), level: h.level }));
+  const globalRankHistory = history
+    .filter(h => typeof h.globalRank === 'number')
+    .map(h => ({ date: resolveYearlessDate(h.date, raw.scraped_at), globalRank: h.globalRank }));
+  const fameHistory = history
+    .filter(h => typeof h.fame === 'number')
+    .map(h => ({ date: resolveYearlessDate(h.date, raw.scraped_at), fame: h.fame }));
 
   const latest = history[history.length - 1];
 
@@ -81,12 +87,14 @@ function normalizeMapleidle(raw, rosterEntry) {
       level: latest?.level ?? rosterEntry?.level ?? null,
       cpRaw: latest?.cpRaw ?? rosterEntry?.cpRaw ?? null,
       cpDisplay: latest?.cpDisplay || rosterEntry?.cpDisplay || null,
-      fame: null,
+      fame: latest?.fame ?? null,
     },
     ranks,
     categories,
     cpHistory,
     levelHistory,
+    globalRankHistory,
+    fameHistory,
     scrapedAt: raw.scraped_at,
   };
 }
@@ -124,6 +132,11 @@ function normalizeMsidle(raw, rosterEntry) {
 
   const cpHistory = (raw.history?.cp_history || []).map(e => ({ date: e.date, cpRaw: e.cpRaw }));
   const levelHistory = (raw.history?.level_history || []).map(e => ({ date: e.date, level: e.level }));
+  // msidle.gg doesn't track global rank or fame over time, only current
+  // values (picked up in identity below) -- those two charts just won't
+  // have data when this is the source.
+  const globalRankHistory = [];
+  const fameHistory = [];
 
   return {
     identity: {
@@ -138,12 +151,14 @@ function normalizeMsidle(raw, rosterEntry) {
     categories,
     cpHistory,
     levelHistory,
+    globalRankHistory,
+    fameHistory,
     scrapedAt: raw.scraped_at,
   };
 }
 
 /* -- Chart.js line chart, styled to match the parchment palette -- */
-function drawLineChart(canvasId, points, { valueKey, formatValue, color }) {
+function drawLineChart(canvasId, points, { valueKey, formatValue, color, stepped = false, reverseAxis = false }) {
   const canvas = document.getElementById(canvasId);
   if (!canvas) return null;
   if (!points.length) return null;
@@ -164,7 +179,8 @@ function drawLineChart(canvasId, points, { valueKey, formatValue, color }) {
         pointRadius: 2.5,
         pointBackgroundColor: color,
         borderWidth: 2,
-        tension: 0.25,
+        tension: stepped ? 0 : 0.25,
+        stepped: stepped ? 'before' : false,
         fill: true,
       }],
     },
@@ -185,6 +201,7 @@ function drawLineChart(canvasId, points, { valueKey, formatValue, color }) {
           ticks: { color: '#93897a', font: { family: 'JetBrains Mono', size: 10 }, maxRotation: 0, autoSkip: true, maxTicksLimit: 6 },
         },
         y: {
+          reverse: reverseAxis,
           grid: { color: '#d8cbaa' },
           ticks: {
             color: '#93897a',
@@ -221,11 +238,19 @@ async function initPlayerPage() {
   const sortedRoster = [...roster].sort((a, b) => (b.cpRaw || 0) - (a.cpRaw || 0));
   const guildRank = sortedRoster.findIndex(m => m.name === name) + 1;
 
-  // player file: primary mapleidle.gg, fallback msidle.gg
-  const primary = await tryFetchJSON(`${DATA_DIR}/players/${name}.json`);
-  const source = primary ? 'primary' : 'fallback';
-  const fallback = primary ? null : await tryFetchJSON(`${DATA_DIR}/players/${name}-msidle.json`);
-  const raw = primary || fallback;
+  // player file: primary mapleidle.gg, fallback msidle.gg. Fetch both
+  // (not primary-then-fallback) because mapleidle.gg's character page
+  // doesn't expose per-category score history at all -- each category
+  // card there is only a current value + "Updated <date>" (confirmed
+  // via HAR inspection: no history array outside the CP chartData).
+  // msidle.gg's per-player file does track category history, sparsely,
+  // so when primary data is available we still pull msidle.gg's file
+  // to backfill category charts it would otherwise be missing.
+  const [primary, msidleRaw] = await Promise.all([
+    tryFetchJSON(`${DATA_DIR}/players/${name}.json`),
+    tryFetchJSON(`${DATA_DIR}/players/${name}-msidle.json`),
+  ]);
+  const raw = primary || msidleRaw;
 
   if (!raw && !rosterEntry) {
     document.getElementById('player-root').innerHTML =
@@ -237,8 +262,22 @@ async function initPlayerPage() {
   statusBadge.textContent = 'INFO';
 
   const data = raw
-    ? (primary ? normalizeMapleidle(raw, rosterEntry) : normalizeMsidle(raw, rosterEntry))
-    : { identity: rosterEntry, ranks: [], categories: emptyCategories(), cpHistory: [], levelHistory: [], scrapedAt: null };
+    ? (primary ? normalizeMapleidle(primary, rosterEntry) : normalizeMsidle(msidleRaw, rosterEntry))
+    : { identity: rosterEntry, ranks: [], categories: emptyCategories(), cpHistory: [], levelHistory: [], globalRankHistory: [], fameHistory: [], scrapedAt: null };
+
+  // Backfill category history from msidle.gg wherever mapleidle.gg (the
+  // current-value source) doesn't have any of its own for that category.
+  if (primary && msidleRaw) {
+    const msidleData = normalizeMsidle(msidleRaw, rosterEntry);
+    Object.keys(data.categories).forEach(id => {
+      const cat = data.categories[id];
+      const msidleCat = msidleData.categories[id];
+      if (!cat.history.length && msidleCat.history.length) {
+        cat.history = msidleCat.history;
+        cat.historyFromMsidle = true;
+      }
+    });
+  }
 
   updatedDate.textContent = data.scrapedAt ? `Updated ${formatDate(data.scrapedAt)}` : '';
   const sidebarUpdated = document.getElementById('sidebar-updated');
@@ -246,12 +285,12 @@ async function initPlayerPage() {
 
   renderIdentity(data, guildRank, roster.length, ranksData[name]);
   renderRanks(data.ranks);
-  renderCpChart(data.cpHistory, data.levelHistory);
+  renderHistoryCharts(data);
   renderCategoryTabs(data.categories);
 }
 
 function renderIdentity(data, guildRank, guildSize, rankId) {
-  const { name, class: cls, level, cpDisplay, cpRaw } = data.identity || {};
+  const { name, class: cls, level, cpDisplay, cpRaw, fame } = data.identity || {};
   document.title = `${name || 'Player'} — Freakmont`;
   document.getElementById('player-name').textContent = name || 'Unknown';
   document.getElementById('player-cp').textContent = cpDisplay || formatCP(cpRaw);
@@ -262,6 +301,7 @@ function renderIdentity(data, guildRank, guildSize, rankId) {
   if (cls) pillList.push(`<span class="pill">${cls}</span>`);
   if (level) pillList.push(`<span class="pill">Level ${level}</span>`);
   if (guildRank > 0) pillList.push(`<span class="pill">#${guildRank} in guild of ${guildSize}</span>`);
+  if (typeof fame === 'number') pillList.push(`<span class="pill pill-fame">♥ ${formatScore(fame)}</span>`);
   pills.innerHTML = pillList.join('');
 }
 
@@ -278,20 +318,68 @@ function renderRanks(ranks) {
   `).join('');
 }
 
-function renderCpChart(cpHistory, levelHistory) {
-  const section = document.getElementById('cp-chart-section');
+/** Delta badge shown in each history card's header, e.g. "+146.3%" for
+ * CP or "+42" for Global Rank. `higherIsBetter=false` (Global Rank only)
+ * flips the sign so an improving (falling) rank still shows green/+. */
+function historyDelta(points, valueKey, { asPercent = false, higherIsBetter = true } = {}) {
+  const vals = points.map(p => p[valueKey]).filter(v => typeof v === 'number');
+  if (vals.length < 2) return null;
+  const first = vals[0];
+  const last = vals[vals.length - 1];
+  const raw = higherIsBetter ? (last - first) : (first - last);
+  const pos = raw >= 0;
+  const text = asPercent
+    ? formatPct(first !== 0 ? (raw / Math.abs(first)) * 100 : 0)
+    : `${pos ? '+' : ''}${Math.round(raw).toLocaleString('en-US')}`;
+  return { text, pos };
+}
+
+function renderHistoryCharts(data) {
+  const section = document.getElementById('history-section');
+  const { cpHistory, levelHistory, globalRankHistory, fameHistory } = data;
+
   if (!cpHistory.length) {
-    section.innerHTML = '<h2 class="section-title">CP Over Time</h2><div class="empty-state">No history yet — check back after a few daily scrapes.</div>';
+    section.innerHTML = '<h2 class="section-title">History</h2><div class="empty-state">No history yet — check back after a few daily scrapes.</div>';
     return;
   }
-  drawLineChart('cp-chart', cpHistory, {
-    valueKey: 'cpRaw',
-    formatValue: formatCP,
-    color: '#2f6fa8',
+
+  const panels = [
+    { id: 'cp', title: 'Combat Power', points: cpHistory, valueKey: 'cpRaw', formatValue: formatCP, color: '#2f6fa8', delta: historyDelta(cpHistory, 'cpRaw', { asPercent: true }) },
+    { id: 'rank', title: 'Global Rank', points: globalRankHistory, valueKey: 'globalRank', formatValue: (v) => `#${formatScore(v)}`, color: '#b8863b', reverseAxis: true, delta: historyDelta(globalRankHistory, 'globalRank', { higherIsBetter: false }) },
+    { id: 'level', title: 'Level', points: levelHistory, valueKey: 'level', formatValue: (v) => `${v}`, color: '#5f7d4f', stepped: true, delta: historyDelta(levelHistory, 'level') },
+    { id: 'fame', title: 'Fame', points: fameHistory, valueKey: 'fame', formatValue: formatScore, color: '#a4485c', delta: historyDelta(fameHistory, 'fame') },
+  ];
+
+  section.innerHTML = `
+    <h2 class="section-title">History</h2>
+    <div class="history-grid">
+      ${panels.map(p => `
+        <div class="history-chart-card">
+          <div class="head">
+            <span class="title">${p.title}</span>
+            ${p.delta ? `<span class="delta ${p.delta.pos ? 'pos' : 'neg'}">${p.delta.text}</span>` : ''}
+          </div>
+          ${p.points.length
+            ? `<div class="chart-wrap"><canvas id="hist-chart-${p.id}"></canvas></div>`
+            : '<div class="empty-state">No history for this source yet.</div>'}
+        </div>`).join('')}
+    </div>
+    <div class="level-log" id="level-log"></div>
+  `;
+
+  panels.forEach(p => {
+    if (!p.points.length) return;
+    drawLineChart(`hist-chart-${p.id}`, p.points, {
+      valueKey: p.valueKey,
+      formatValue: p.formatValue,
+      color: p.color,
+      stepped: !!p.stepped,
+      reverseAxis: !!p.reverseAxis,
+    });
   });
 
-  // level-up log underneath the chart, since level rarely changes
-  // and doesn't need its own chart
+  // level-up log underneath the grid, since the step chart alone
+  // doesn't show exact dates clearly at a glance
   const levelUps = [];
   let lastLevel = null;
   levelHistory.forEach(e => {
@@ -338,7 +426,8 @@ function renderCategoryTabs(categories) {
         </div>
         ${chips.length ? `<div class="comparison-row">${chips.join('')}</div>` : ''}
         ${c.history.length
-          ? `<div class="chart-wrap"><canvas id="chart-${id}"></canvas></div>`
+          ? `<div class="chart-wrap"><canvas id="chart-${id}"></canvas></div>
+             ${c.historyFromMsidle ? '<p class="chart-source-note">Trend from msidle.gg -- current value above is from mapleidle.gg and may not match the chart\'s latest point.</p>' : ''}`
           : '<div class="empty-state">No history chart for this source yet.</div>'}
       </div>
     `;

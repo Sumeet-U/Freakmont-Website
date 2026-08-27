@@ -3,25 +3,25 @@
     "name": "Pantshunter",
     "class": "Hero",
     "level": 114,
-    "cpRaw": 5290927150257623,
-    "cpDisplay": "5AA 290T",
+    "cpRaw": 5424639353723813,
+    "cpDisplay": "5AA 424T",
     "fame": 91
   },
   "ranks": {
     "global": {
-      "rank": 1547,
-      "percentile": 0.2
+      "rank": 1537,
+      "percentile": 0.1
     },
     "server": {
-      "rank": 33,
+      "rank": 32,
       "percentile": 0.1
     },
     "world": {
-      "rank": 764,
+      "rank": 757,
       "percentile": 0.2
     },
     "job": {
-      "rank": 90,
+      "rank": 86,
       "percentile": 0.1
     }
   },
@@ -56,26 +56,26 @@
     },
     "guild_conquest": {
       "score": "365781032011",
-      "vs_all_pct": 35.3,
-      "vs_class_pct": 42,
+      "vs_all_pct": 35.8,
+      "vs_class_pct": 42.5,
       "date": "2026-08-09T04:30:03+00:00"
     },
     "world_boss": {
       "score": "65923843300000000",
-      "vs_all_pct": 49.2,
-      "vs_class_pct": 47.7,
+      "vs_all_pct": 49.1,
+      "vs_class_pct": 48.2,
       "date": "2026-08-25T04:37:01+00:00"
     },
     "guild_training_ground": {
       "score": "8035854",
-      "vs_all_pct": -28.9,
-      "vs_class_pct": -22.5,
+      "vs_all_pct": -29,
+      "vs_class_pct": -22.6,
       "date": "2026-07-17T05:53:57+00:00"
     },
     "guild_boss": {
       "score": "116057966990",
-      "vs_all_pct": 2.6,
-      "vs_class_pct": 1.1,
+      "vs_all_pct": 2.5,
+      "vs_class_pct": 1,
       "date": "2026-08-21T20:35:37+00:00"
     }
   },
@@ -100,10 +100,6 @@
     "guild_war_history": [],
     "world_boss_history": [
       {
-        "date": "2026-07-28T04:06:10+00:00",
-        "score": 30278201600000000
-      },
-      {
         "date": "2026-08-07T05:47:16+00:00",
         "score": 31106057000000000
       },
@@ -126,17 +122,7 @@
     ],
     "cp_history": [
       {
-        "date": "2026-07-27T08:32:10+00:00",
-        "cpRaw": 2767164306297480,
-        "cpDisplay": "2AA 767T"
-      },
-      {
-        "date": "2026-07-28T01:01:17+00:00",
-        "cpRaw": 2811087680233279,
-        "cpDisplay": "2AA 811T"
-      },
-      {
-        "date": "2026-07-28T04:06:10+00:00",
+        "date": "2026-07-28T09:38:55+00:00",
         "cpRaw": 2829146409550345,
         "cpDisplay": "2AA 829T"
       },
@@ -204,11 +190,16 @@
         "date": "2026-08-25T04:37:01+00:00",
         "cpRaw": 5290927150257623,
         "cpDisplay": "5AA 290T"
+      },
+      {
+        "date": "2026-08-27T05:15:31+00:00",
+        "cpRaw": 5424639353723813,
+        "cpDisplay": "5AA 424T"
       }
     ],
     "level_history": [
       {
-        "date": "2026-07-27T08:32:10+00:00",
+        "date": "2026-07-28T09:38:55+00:00",
         "level": 112
       },
       {
@@ -221,5 +212,5 @@
       }
     ]
   },
-  "scraped_at": "2026-08-26T08:32:11.865390+00:00"
+  "scraped_at": "2026-08-27T09:38:56.058450+00:00"
 }

@@ -3,13 +3,13 @@
     "name": "ImYolo",
     "class": "Bishop",
     "level": 113,
-    "cpRaw": 10044572403804586,
-    "cpDisplay": "10AA 44T",
+    "cpRaw": 10669097549606246,
+    "cpDisplay": "10AA 669T",
     "fame": 778
   },
   "ranks": {
     "global": {
-      "rank": 1095,
+      "rank": 1068,
       "percentile": 0.1
     },
     "server": {
@@ -17,12 +17,12 @@
       "percentile": 0.1
     },
     "world": {
-      "rank": 543,
+      "rank": 526,
       "percentile": 0.1
     },
     "job": {
-      "rank": 192,
-      "percentile": 0.7
+      "rank": 191,
+      "percentile": 0.6
     }
   },
   "performance": {
@@ -56,26 +56,26 @@
     },
     "guild_conquest": {
       "score": "329896434378",
-      "vs_all_pct": -24.8,
-      "vs_class_pct": -20.9,
+      "vs_all_pct": -24.5,
+      "vs_class_pct": -20.4,
       "date": "2026-08-25T06:05:14+00:00"
     },
     "world_boss": {
       "score": "54788834600000000",
       "vs_all_pct": -30.5,
-      "vs_class_pct": -31.7,
+      "vs_class_pct": -31.5,
       "date": "2026-08-25T04:37:02+00:00"
     },
     "guild_training_ground": {
       "score": "8334144",
-      "vs_all_pct": -23.1,
+      "vs_all_pct": -23.2,
       "vs_class_pct": -29.4,
       "date": "2026-07-17T05:53:50+00:00"
     },
     "guild_boss": {
       "score": "105810441325",
-      "vs_all_pct": -27.8,
-      "vs_class_pct": -27.3,
+      "vs_all_pct": -27.9,
+      "vs_class_pct": -27.4,
       "date": "2026-08-21T20:36:04+00:00"
     }
   },
@@ -154,12 +154,7 @@
     ],
     "cp_history": [
       {
-        "date": "2026-07-27T08:31:41+00:00",
-        "cpRaw": 3234322580619877,
-        "cpDisplay": "3AA 234T"
-      },
-      {
-        "date": "2026-07-28T01:01:17+00:00",
+        "date": "2026-07-28T09:38:37+00:00",
         "cpRaw": 3308426398774676,
         "cpDisplay": "3AA 308T"
       },
@@ -287,11 +282,16 @@
         "date": "2026-08-25T06:05:14+00:00",
         "cpRaw": 10044572403804586,
         "cpDisplay": "10AA 44T"
+      },
+      {
+        "date": "2026-08-26T22:15:59+00:00",
+        "cpRaw": 10669097549606246,
+        "cpDisplay": "10AA 669T"
       }
     ],
     "level_history": [
       {
-        "date": "2026-07-27T08:31:41+00:00",
+        "date": "2026-07-28T09:38:38+00:00",
         "level": 110
       },
       {
@@ -308,5 +308,5 @@
       }
     ]
   },
-  "scraped_at": "2026-08-26T08:31:43.202873+00:00"
+  "scraped_at": "2026-08-27T09:38:39.014099+00:00"
 }

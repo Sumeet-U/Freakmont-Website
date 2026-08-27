@@ -4,7 +4,7 @@
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>Player — Freakmont</title>
-<link rel="stylesheet" href="styles.css" />
+<link rel="stylesheet" href="styles.css?v=20260827" />
 </head>
 <body>
 <div class="layout">
@@ -40,8 +40,10 @@
       <nav class="nav-list">
         <a class="nav-item" href="index.html" data-tab-link="members"><span class="ico">⌂</span> Home</a>
         <a class="nav-item" href="index.html#conquest" data-jump="conquest" data-tab-link="conquest"><span class="ico">⚔</span> Guild Conquest</a>
+        <a class="nav-item" href="index.html#guildwar" data-jump="guildwar" data-tab-link="guildwar"><span class="ico">🛡</span> Guild War</a>
         <a class="nav-item" href="index.html#bossbattle" data-jump="bossbattle" data-tab-link="bossbattle"><span class="ico">☠</span> Guild Boss Battle</a>
         <a class="nav-item" href="index.html#training" data-jump="training" data-tab-link="training"><span class="ico">◎</span> Training Ground</a>
+        <a class="nav-item" href="index.html#worldboss" data-jump="worldboss" data-tab-link="worldboss"><span class="ico">☄︎</span> World Boss</a>
       </nav>
     </div>
 
@@ -103,10 +105,9 @@
       <div class="rank-grid" id="rank-grid"></div>
     </div>
 
-    <div class="card" id="cp-chart-section">
-      <h2 class="section-title">CP Over Time</h2>
-      <div class="chart-wrap"><canvas id="cp-chart"></canvas></div>
-      <div class="level-log" id="level-log"></div>
+    <div class="card" id="history-section">
+      <h2 class="section-title">History</h2>
+      <div class="empty-state">Loading…</div>
     </div>
 
     <div class="card" id="category-section">
@@ -128,8 +129,10 @@
       <div>
         <h4>Categories</h4>
         <span style="display:block; margin-bottom:6px;">Guild Conquest</span>
+        <span style="display:block; margin-bottom:6px;">Guild War</span>
         <span style="display:block; margin-bottom:6px;">Guild Boss Battle</span>
-        <span style="display:block;">Training Ground</span>
+        <span style="display:block; margin-bottom:6px;">Training Ground</span>
+        <span style="display:block;">World Boss</span>
       </div>
       <div>
         <h4>Server</h4>
@@ -145,8 +148,8 @@
 </div>
 
 <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.4/dist/chart.umd.min.js"></script>
-<script src="app.js"></script>
+<script src="app.js?v=20260827"></script>
 <script>initSidebar();</script>
-<script src="player.js"></script>
+<script src="player.js?v=20260827"></script>
 </body>
 </html>

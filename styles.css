@@ -174,7 +174,7 @@ a:hover { text-decoration-color: var(--link); }
   margin: 0 0 8px;
   letter-spacing: 0.02em;
 }
-.guild-title .pills { display: flex; gap: 8px; flex-wrap: wrap; }
+.guild-title .pills { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
 .pill {
   border: 1.5px solid var(--border);
   border-radius: 999px;
@@ -245,6 +245,9 @@ a:hover { text-decoration-color: var(--link); }
 .hist-summary .lbl { font-size: 10.5px; color: var(--muted); text-transform: uppercase; letter-spacing: 0.05em; margin-top: 3px; }
 .hist-summary .sub2 { font-size: 10.5px; color: var(--muted); }
 
+/* -- CP distribution: log-spaced block-column histogram. Floor/median/
+ * ceiling labels are absolutely positioned by log-scale percentage
+ * (independent of bucket count) so they stay put and never overlap. -- */
 .hist-plot {
   display: flex;
   align-items: flex-end;
@@ -256,7 +259,10 @@ a:hover { text-decoration-color: var(--link); }
 }
 .hist-col { display: flex; flex-direction: column-reverse; gap: 3px; align-items: center; width: 26px; }
 .hist-px { width: 12px; height: 12px; background: var(--blue); border-radius: 2px; }
-.hist-labels { display: flex; justify-content: space-between; padding: 0 10px; font-size: 11px; color: var(--muted); }
+.hist-labels { position: relative; height: 16px; padding: 0 10px; font-size: 11px; color: var(--muted); }
+.hist-labels span { position: absolute; transform: translateX(-50%); white-space: nowrap; }
+.hist-labels span:first-child { transform: translateX(0); }
+.hist-labels span:last-child { transform: translateX(-100%); }
 .hist-labels .med { color: var(--rose); font-weight: 700; }
 
 /* -- tabs -- */
@@ -347,7 +353,7 @@ table.roster td.cp { font-weight: 700; color: var(--blue); }
   margin: 0 0 8px;
   letter-spacing: 0.02em;
 }
-.player-title .pills { display: flex; gap: 8px; flex-wrap: wrap; }
+.player-title .pills { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
 .player-cp {
   text-align: right;
 }
@@ -407,6 +413,38 @@ table.roster td.cp { font-weight: 700; color: var(--blue); }
   color: var(--muted);
 }
 .level-log span { color: var(--ink-dim); font-weight: 600; }
+
+/* -- history section: 2-up grid of small chart cards, mirroring the
+ * CP/Global Rank/Level/Fame layout on mapleidle.gg's character page -- */
+.history-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 16px;
+  margin-top: 10px;
+}
+.history-chart-card {
+  background: var(--card-alt);
+  border: 1.5px solid var(--border);
+  border-radius: var(--radius-sm);
+  padding: 14px 16px;
+}
+.history-chart-card .head {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+}
+.history-chart-card .title {
+  font-size: 11px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: var(--muted);
+  font-weight: 700;
+}
+.history-chart-card .delta { font-size: 11.5px; font-weight: 700; }
+.history-chart-card .delta.pos { color: var(--green); }
+.history-chart-card .delta.neg { color: var(--rose); }
+.history-chart-card .chart-wrap { height: 170px; margin-top: 6px; }
+.pill-fame { color: var(--rose); border-color: var(--rose); }
 
 /* -- category panel -- */
 .category-summary {
@@ -478,6 +516,12 @@ table.roster td.cp { font-weight: 700; color: var(--blue); }
   border-top: 1px solid var(--border-soft);
   line-height: 1.5;
 }
+.chart-source-note {
+  font-size: 11px;
+  color: var(--muted);
+  margin-top: 8px;
+  line-height: 1.4;
+}
 .show-more-btn {
   display: block;
   width: 100%;
@@ -496,7 +540,10 @@ table.roster td.cp { font-weight: 700; color: var(--blue); }
 
 /* -- guild rank badges -- */
 .rank-badge {
-  display: inline-block;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 1;
   font-size: 10.5px;
   font-weight: 700;
   letter-spacing: 0.02em;

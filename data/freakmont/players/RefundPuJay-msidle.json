@@ -3,25 +3,25 @@
     "name": "RefundPuJay",
     "class": "Marksman",
     "level": 109,
-    "cpRaw": 770493934238804,
-    "cpDisplay": "770T 493B",
+    "cpRaw": 820964912487114,
+    "cpDisplay": "820T 964B",
     "fame": 40
   },
   "ranks": {
     "global": {
-      "rank": 4993,
+      "rank": 4850,
       "percentile": 0.5
     },
     "server": {
-      "rank": 104,
+      "rank": 100,
       "percentile": 0.4
     },
     "world": {
-      "rank": 2276,
+      "rank": 2212,
       "percentile": 0.5
     },
     "job": {
-      "rank": 547,
+      "rank": 530,
       "percentile": 1.2
     }
   },
@@ -56,14 +56,14 @@
     },
     "guild_conquest": {
       "score": "127899901045",
-      "vs_all_pct": 23.3,
+      "vs_all_pct": 23.5,
       "vs_class_pct": 21.9,
       "date": "2026-08-22T04:17:39+00:00"
     },
     "world_boss": {
       "score": "6064425080000000",
       "vs_all_pct": 29.5,
-      "vs_class_pct": 9,
+      "vs_class_pct": 9.1,
       "date": "2026-08-21T17:27:48+00:00"
     },
     "guild_training_ground": {
@@ -112,10 +112,6 @@
     "guild_war_history": [],
     "world_boss_history": [
       {
-        "date": "2026-07-28T04:06:14+00:00",
-        "score": 1136636210000000
-      },
-      {
         "date": "2026-08-07T05:47:44+00:00",
         "score": 1392649680000000
       },
@@ -158,12 +154,7 @@
     ],
     "cp_history": [
       {
-        "date": "2026-07-27T08:34:02+00:00",
-        "cpRaw": 165926740329231,
-        "cpDisplay": "165T 926B"
-      },
-      {
-        "date": "2026-07-28T01:01:28+00:00",
+        "date": "2026-07-28T09:40:47+00:00",
         "cpRaw": 177320114384544,
         "cpDisplay": "177T 320B"
       },
@@ -281,11 +272,21 @@
         "date": "2026-08-25T04:37:19+00:00",
         "cpRaw": 770493934238804,
         "cpDisplay": "770T 493B"
+      },
+      {
+        "date": "2026-08-26T22:16:14+00:00",
+        "cpRaw": 785433200767815,
+        "cpDisplay": "785T 433B"
+      },
+      {
+        "date": "2026-08-27T05:15:43+00:00",
+        "cpRaw": 820964912487114,
+        "cpDisplay": "820T 964B"
       }
     ],
     "level_history": [
       {
-        "date": "2026-07-27T08:34:02+00:00",
+        "date": "2026-07-28T09:40:47+00:00",
         "level": 106
       },
       {
@@ -302,5 +303,5 @@
       }
     ]
   },
-  "scraped_at": "2026-08-26T08:34:03.932778+00:00"
+  "scraped_at": "2026-08-27T09:40:48.702342+00:00"
 }

@@ -96,11 +96,13 @@ function prettifyLabel(key) {
     .join(' ');
 }
 
-/** Large scores (world boss damage etc.) read better in CP notation;
- * smaller ones (conquest points) read better with thousands commas. */
+/** All category scores (conquest, boss battle, training ground, guild
+ * war, world boss, etc.) use the same CP-style suffix notation as
+ * Combat Power, regardless of magnitude -- kept as its own name since
+ * "score" and "CP" are conceptually different fields that happen to
+ * format the same way. */
 function formatBig(n) {
-  if (n === null || n === undefined) return '—';
-  return Math.abs(n) >= 1e12 ? formatCP(n) : formatScore(n);
+  return formatCP(n);
 }
 
 function formatPct(n, decimals = 1) {
@@ -115,6 +117,27 @@ function formatDate(iso) {
   const d = new Date(iso);
   if (isNaN(d)) return iso;
   return d.toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' });
+}
+
+/** mapleidle.gg's short dates ("7/26", "Aug 23") never include a year --
+ * JS's Date parser silently defaults an omitted year to 2001, which is
+ * why unpatched dates render as e.g. "Jul 26, 2001". This reconstructs
+ * the real year from a reference timestamp (the record's own scraped_at,
+ * since every date in a mapleidle.gg history/performance block is on or
+ * before the moment it was scraped): guess the reference year, then
+ * roll back a year if that guess would land in the future -- handles a
+ * scrape early in the year referencing data from the previous Dec. Full
+ * ISO strings (already containing a 4-digit year) pass through untouched. */
+function resolveYearlessDate(dateStr, referenceDate) {
+  if (!dateStr || /\d{4}/.test(dateStr)) return dateStr;
+  const ref = referenceDate instanceof Date ? referenceDate : new Date(referenceDate || Date.now());
+  if (isNaN(ref)) return dateStr;
+  const guess = new Date(`${dateStr} ${ref.getFullYear()}`);
+  if (isNaN(guess)) return dateStr;
+  if (guess.getTime() - ref.getTime() > 24 * 60 * 60 * 1000) {
+    guess.setFullYear(ref.getFullYear() - 1);
+  }
+  return guess.toISOString();
 }
 
 /* -- shared sidebar: player search + "/" shortcut -- */

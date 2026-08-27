@@ -3,13 +3,13 @@
     "name": "Lighttt",
     "class": "Night Lord",
     "level": 108,
-    "cpRaw": 548044144513489,
-    "cpDisplay": "548T 44B",
+    "cpRaw": 568815097443581,
+    "cpDisplay": "568T 815B",
     "fame": 25
   },
   "ranks": {
     "global": {
-      "rank": 6268,
+      "rank": 6200,
       "percentile": 0.6
     },
     "server": {
@@ -17,11 +17,11 @@
       "percentile": 0.5
     },
     "world": {
-      "rank": 2851,
+      "rank": 2804,
       "percentile": 0.7
     },
     "job": {
-      "rank": 844,
+      "rank": 865,
       "percentile": 0.5
     }
   },
@@ -50,14 +50,14 @@
   "scoreComparison": {
     "guild_conquest": {
       "score": "104821871775",
-      "vs_all_pct": 15.2,
-      "vs_class_pct": 25.2,
+      "vs_all_pct": 15.5,
+      "vs_class_pct": 25.1,
       "date": "2026-08-26T04:14:16+00:00"
     },
     "world_boss": {
       "score": "4457391640000000",
-      "vs_all_pct": 26.5,
-      "vs_class_pct": 34.9,
+      "vs_all_pct": 26.4,
+      "vs_class_pct": 34,
       "date": "2026-08-25T04:37:22+00:00"
     },
     "guild_training_ground": {
@@ -69,7 +69,7 @@
     "guild_boss": {
       "score": "3166899315",
       "vs_all_pct": -22.2,
-      "vs_class_pct": -19.8,
+      "vs_class_pct": -19.9,
       "date": "2026-06-15T08:42:23+00:00"
     }
   },
@@ -139,12 +139,7 @@
     ],
     "cp_history": [
       {
-        "date": "2026-07-27T08:34:21+00:00",
-        "cpRaw": 106629899112727,
-        "cpDisplay": "106T 629B"
-      },
-      {
-        "date": "2026-07-27T11:32:49+00:00",
+        "date": "2026-07-28T09:41:04+00:00",
         "cpRaw": 106653438002136,
         "cpDisplay": "106T 653B"
       },
@@ -262,11 +257,16 @@
         "date": "2026-08-26T04:14:16+00:00",
         "cpRaw": 548044144513489,
         "cpDisplay": "548T 44B"
+      },
+      {
+        "date": "2026-08-26T22:16:18+00:00",
+        "cpRaw": 568815097443581,
+        "cpDisplay": "568T 815B"
       }
     ],
     "level_history": [
       {
-        "date": "2026-07-27T08:34:21+00:00",
+        "date": "2026-07-28T09:41:04+00:00",
         "level": 105
       },
       {
@@ -283,5 +283,5 @@
       }
     ]
   },
-  "scraped_at": "2026-08-26T08:34:22.622181+00:00"
+  "scraped_at": "2026-08-27T09:41:05.767652+00:00"
 }

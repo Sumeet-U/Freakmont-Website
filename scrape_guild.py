@@ -1,5 +1,5 @@
 """
-Daily guild-data puller for Freakmont (Bera 5). We are simply attempting to lightweight website to track our guild, inspired by https://gocelest.com/
+Daily guild-data puller for Freakmont (Bera 5). We created a lightweight website to track our guild, inspired by https://gocelest.com/
 
 Key discovery (via HAR inspection of the real page): mapleidle.gg is a Next.js
 App Router site. The guild page is server-rendered, and the full member roster
@@ -18,29 +18,36 @@ Design notes:
 - Single page fetch per guild -- no concurrency, no burst traffic.
 - Caches the raw HTML locally so re-runs / debugging don't require re-hitting
   the site.
+- Uses curl_cffi (browser TLS/HTTP fingerprint impersonation) instead of
+  plain `requests`, plus retry/backoff on 429s.
 """
 
 import re
 import json
 import time
+import random
 import pathlib
 import datetime
 
-import requests
+from curl_cffi import requests
 
 # --- Config -----------------------------------------------------------
 
 MAPLEIDLE_BASE_URL = "https://mapleidle.gg"
 MAPLEIDLE_REGION = "bera"
+MAPLEIDLE_WORLD = 5  # Bera 5 -- matches MAPLEIDLE_REGION, needed as a
+                     # separate query param for the score-analysis API
 MSIDLE_BASE_URL = "https://www.msidle.gg"
 
 GUILD_NAME = "freakmont"  # used as the folder name under data/
 MAPLEIDLE_GUILD_PATH = "/guild/bera/Freakmont"
 MSIDLE_GUILD_PATH = "/guilds/bera/Freakmont"
 
-HEADERS = {
-    "User-Agent": "CelestAllianceBot/1.0 (Discord: Kobe4Life https://discord.com/users/135969126425427968",
-}
+HEADERS = {}
+
+# TLS/HTTP fingerprint to impersonate via curl_cffi.
+# Note this only changes the low-level connection fingerprint
+IMPERSONATE_PROFILE = "chrome124"
 
 DATA_DIR = pathlib.Path("data") / GUILD_NAME
 DATA_DIR.mkdir(parents=True, exist_ok=True)
@@ -60,13 +67,51 @@ GAME_MODE_FILE_STEMS = {
 
 
 # --- Fetch --------------------------------------------------------------
+# Retry/backoff for 429s: if the site tells us when it resets (Retry-After),
+# we honor that; otherwise we fall back to exponential backoff. Waits are
+# capped so a single stuck request can't stall a scheduled run for hours --
+# after MAX_RETRIES we give up and let the caller decide (skip this
+# character, stop the batch, skip this source for today), same as before.
+
+MAX_RETRIES = 3
+RETRY_BACKOFF_BASE_SECONDS = 10  # doubles each attempt: 10s, 20s, 40s
+MAX_RETRY_WAIT_SECONDS = 120
+
+
+def _parse_retry_after(resp: requests.Response) -> float | None:
+    """Seconds to wait before retrying, per the Retry-After header, if the
+    site sent one. Handles both the plain-seconds form and the HTTP-date
+    form (RFC 7231 allows either)."""
+    value = resp.headers.get("Retry-After")
+    if not value:
+        return None
+    try:
+        return float(value)
+    except ValueError:
+        pass
+    try:
+        from email.utils import parsedate_to_datetime
+        dt = parsedate_to_datetime(value)
+        if dt is None:
+            return None
+        return max((dt - datetime.datetime.now(dt.tzinfo)).total_seconds(), 0)
+    except Exception:
+        return None
+
 
 def _fetch(url: str, extra_headers: dict = None) -> requests.Response:
     headers = {**HEADERS, **(extra_headers or {})}
-    resp = requests.get(url, headers=headers, timeout=15)
 
-    if resp.status_code == 429:
-        print(f"Rate limited (429) on {url}.")
+    for attempt in range(MAX_RETRIES + 1):
+        resp = requests.get(
+            url, headers=headers, timeout=15, impersonate=IMPERSONATE_PROFILE
+        )
+
+        if resp.status_code != 429:
+            resp.raise_for_status()
+            return resp
+
+        print(f"Rate limited (429) on {url} (attempt {attempt + 1}/{MAX_RETRIES + 1}).")
 
         # Print any rate-limit-related headers the site sent back -- these
         # often tell us exactly when it's safe to retry, instead of guessing.
@@ -78,16 +123,26 @@ def _fetch(url: str, extra_headers: dict = None) -> requests.Response:
             print("Rate-limit info from response headers:")
             for k, v in rate_limit_headers.items():
                 print(f"  {k}: {v}")
-        else:
-            print(
-                "No rate-limit headers in the response -- the site didn't "
-                "tell us when it resets. This usually clears in a few "
-                "minutes to an hour. Since this only runs once a day, this "
-                "shouldn't come up in normal scheduled use -- it's most "
-                "likely from repeated manual testing in a short window."
-            )
-        resp.raise_for_status()
 
+        if attempt >= MAX_RETRIES:
+            # Out of retries -- surface the error like before so the caller
+            # can decide what to do (stop the character batch, skip this
+            # source for today, etc.).
+            resp.raise_for_status()
+
+        wait = _parse_retry_after(resp)
+        if wait is None:
+            print(
+                "  No Retry-After header -- falling back to exponential "
+                "backoff."
+            )
+            wait = RETRY_BACKOFF_BASE_SECONDS * (2 ** attempt)
+        wait = min(wait, MAX_RETRY_WAIT_SECONDS)
+
+        print(f"  waiting {wait:.0f}s before retrying...")
+        time.sleep(wait)
+
+    # Unreachable -- the loop above always either returns or raises.
     resp.raise_for_status()
     return resp
 
@@ -100,9 +155,24 @@ def fetch_mapleidle_character_page(name: str) -> str:
     return _fetch(f"{MAPLEIDLE_BASE_URL}/characters/{MAPLEIDLE_REGION}/{name}").text
 
 
+def fetch_mapleidle_score_analysis(name: str) -> dict:
+    """mapleidle.gg's Score Analysis tool (https://mapleidle.gg/tools/
+    score-analysis) is backed by a plain JSON API, discovered via HAR
+    inspection: one GET returns a character's current score in every
+    category *plus* ~12 server-wide peers nearest in CP for that category
+    (not limited to our guild), each flagged 'above'/'below' relative to
+    the character's own CP. Crucially this includes Guild War, which
+    nothing else on mapleidle.gg (or msidle.gg) exposes a comparison for."""
+    url = (
+        f"{MAPLEIDLE_BASE_URL}/api/score-analysis/character"
+        f"?region={MAPLEIDLE_REGION}&world={MAPLEIDLE_WORLD}&name={name}"
+    )
+    resp = _fetch(url, extra_headers={"Accept": "application/json"})
+    return resp.json()
+
+
 def fetch_msidle_page() -> str:
     return _fetch(f"{MSIDLE_BASE_URL}{MSIDLE_GUILD_PATH}").text
-    return resp.text
 
 
 def cache_raw_html(html: str, source: str) -> None:
@@ -345,6 +415,10 @@ def parse_mapleidle_character_page(html: str) -> dict:
             "cpDisplay": format_cp(cp_raw),
             "level": entry.get("level"),
             "globalRank": entry.get("global_rank"),
+            # "popularity" in the raw flight data is mapleidle.gg's Fame
+            # stat (confirmed by matching the heart-icon number and the
+            # History > Fame chart on the character page).
+            "fame": entry.get("popularity"),
         })
 
     return {
@@ -353,6 +427,58 @@ def parse_mapleidle_character_page(html: str) -> dict:
         "history": history,
         "scraped_at": datetime.datetime.now(datetime.timezone.utc).isoformat(),
     }
+
+
+# --- Parse (mapleidle.gg score-analysis API) --------------------------------
+# API category key -> our internal category id (same ids used everywhere
+# else: player.js's CATEGORY_DEFS, msidle's performance/scoreComparison
+# keys, etc.) so this slots into the existing per-player file layout.
+SCORE_ANALYSIS_CATEGORY_KEYS = {
+    "conquest": "conquest",
+    "worldBoss": "world_boss",
+    "trainingGround": "training_ground",
+    "guildWar": "guild_war",
+    "guildBossBattle": "guild_boss_battle",
+}
+
+
+def parse_score_analysis(data: dict, name: str) -> dict:
+    """Turn the raw API response into { category_id: {score, snapshotDate,
+    peerRank, peerCount, percentile} }.
+
+    The 'peers' list for each category includes the character itself
+    alongside ~12 server-wide players nearest in CP (not limited to our
+    guild). We rank everyone in that list by score and derive a
+    percentile: the share of peers this character's score beats, 0-100,
+    higher is better. With a small peer set (~12) this is a coarse
+    estimate, not a precise population percentile -- treat it as "roughly
+    where this character stands among similarly-powered players," not an
+    exact figure."""
+    result = {}
+    peers_by_cat = data.get("peers", {}) or {}
+    for api_key, cat_id in SCORE_ANALYSIS_CATEGORY_KEYS.items():
+        cat = data.get(api_key)
+        peers = peers_by_cat.get(api_key) or []
+        if not cat or not peers:
+            continue
+
+        scored = [p for p in peers if isinstance(p.get("score"), (int, float))]
+        scored.sort(key=lambda p: p["score"], reverse=True)
+        rank = next((i for i, p in enumerate(scored) if p.get("name") == name), None)
+        n = len(scored)
+
+        percentile = None
+        if rank is not None and n > 1:
+            percentile = round((n - 1 - rank) / (n - 1) * 100, 1)
+
+        result[cat_id] = {
+            "score": cat.get("score"),
+            "snapshotDate": cat.get("snapshotDate"),
+            "peerRank": (rank + 1) if rank is not None else None,
+            "peerCount": n,
+            "percentile": percentile,
+        }
+    return result
 
 
 # --- Parse (msidle.gg) ------------------------------------------------
@@ -646,10 +772,19 @@ MSIDLE_GAME_MODE_FILE_STEMS = {
 # Given mapleidle.gg's rate limiting has already been an issue for a single
 # guild-page request, per-character pulls (one request per member) need a
 # real gap between them -- this is 30x the request volume of the guild page
-# alone in one run.
-CHARACTER_FETCH_DELAY_SECONDS = 3
+# alone in one run. A bit of random jitter is added on top so requests don't
+# land at a perfectly predictable interval.
+CHARACTER_FETCH_DELAY_SECONDS = 10
+CHARACTER_FETCH_JITTER_SECONDS = 2  # actual delay: base +/- this, randomized
+SCORE_ANALYSIS_FETCH_DELAY_SECONDS = 3  # gap between the page fetch and the
+                                          # score-analysis fetch for the same
+                                          # character, separate from the
+                                          # between-character delay above
 PLAYERS_DIR = DATA_DIR / "players"
 PLAYERS_DIR.mkdir(parents=True, exist_ok=True)
+
+PLAYERS_ARCHIVE_DIR = DATA_DIR / "players-archive"
+PLAYERS_ARCHIVE_DIR.mkdir(parents=True, exist_ok=True)
 
 MSIDLE_CHARACTER_PATH_TEMPLATE = "/characters/bera/{name}"
 # msidle.gg character pages need 5 requests each (1 base + 4 deferred-prop
@@ -723,8 +858,38 @@ def run_mapleidle_characters(members: list):
                   f"{len(parsed['ranks'])} rank cards, "
                   f"{len(parsed['performance'])} performance cards")
 
+        # Score Analysis: a separate, lightweight JSON endpoint -- one
+        # extra request per character. Written to its own '-score-
+        # analysis' file rather than merged into the page-scrape file
+        # above, so a failure here never risks the primary character
+        # data, and a 429 here still stops the batch cleanly.
+        time.sleep(SCORE_ANALYSIS_FETCH_DELAY_SECONDS)
+        try:
+            sa_raw = fetch_mapleidle_score_analysis(name)
+            sa_parsed = parse_score_analysis(sa_raw, name)
+            if sa_parsed:
+                _write_json(PLAYERS_DIR / f"{name}-score-analysis.json", sa_parsed)
+                print(f"  {name}: score analysis -- {len(sa_parsed)} categories")
+            else:
+                print(f"  {name}: score analysis returned no usable categories, skipping write")
+        except requests.exceptions.HTTPError as e:
+            if "429" in str(e):
+                print(
+                    f"Rate limited on score analysis for '{name}' -- "
+                    f"stopping the rest of this batch ({len(members) - i} "
+                    f"remaining) rather than continuing to hit a "
+                    f"throttled site. Already-written files are "
+                    f"unaffected; rerun later to pick up the rest."
+                )
+                return
+            print(f"  {name}: score analysis failed ({e}), skipping")
+        except (ValueError, json.JSONDecodeError) as e:
+            print(f"  {name}: score analysis failed to parse ({e}), skipping")
+
         if i < len(members) - 1:
-            time.sleep(CHARACTER_FETCH_DELAY_SECONDS)
+            time.sleep(CHARACTER_FETCH_DELAY_SECONDS
+                       + random.uniform(-CHARACTER_FETCH_JITTER_SECONDS,
+                                         CHARACTER_FETCH_JITTER_SECONDS))
 
 
 def run_msidle():
@@ -799,6 +964,66 @@ def run_msidle_characters(members: list):
             time.sleep(MSIDLE_CHARACTER_FETCH_DELAY_SECONDS)
 
 
+# --- Archive departed members' per-player files ----------------------------
+# Every current guild stat (Punch Score, Peer Percentile, the leaderboard
+# tables) is computed by iterating *today's* roster and fetching player
+# files by name -- nothing on the site ever lists the players/ directory
+# directly. So a departed member's files were already excluded from those
+# calculations the moment they dropped off the roster. This step exists
+# for a different reason: without it, their old files (and their
+# player.html page) just sit there unchanged forever, indistinguishable
+# from a current member's page to anyone who still has the link. Moving
+# them to players-archive/ makes "no longer in the guild" explicit and
+# keeps players/ representing only current members, while still keeping
+# the data around instead of deleting it outright.
+
+_PLAYER_FILE_SUFFIXES = ("-msidle.json", "-score-analysis.json", ".json")
+
+
+def _name_from_player_filename(filename: str) -> str | None:
+    """'RefundKobe-msidle.json' -> 'RefundKobe', etc. Longest suffix
+    first, since '.json' alone would otherwise also match the others."""
+    for suffix in _PLAYER_FILE_SUFFIXES:
+        if filename.endswith(suffix):
+            return filename[: -len(suffix)]
+    return None
+
+
+def archive_departed_players() -> None:
+    """Move any players/*.json file whose name isn't in either roster
+    (mapleidle.gg or msidle.gg, read back from disk -- not from this
+    run's in-memory results, so a source that failed or was skipped this
+    run doesn't cause a false-positive archive of someone still actually
+    in the guild) into players-archive/."""
+    roster = _read_json(DATA_DIR / "roster.json", [])
+    msidle_roster = _read_json(DATA_DIR / "msidle-roster.json", [])
+    current_names = {
+        m.get("name")
+        for m in (roster + msidle_roster)
+        if isinstance(m, dict) and m.get("name")
+    }
+
+    if not current_names:
+        # Both rosters missing/empty -- refuse to archive anything rather
+        # than risk moving every player file out on a bad or first-ever run.
+        print("No roster data on disk -- skipping departed-member archival.")
+        return
+
+    archived = []
+    for path in PLAYERS_DIR.glob("*.json"):
+        name = _name_from_player_filename(path.name)
+        if name is None or name in current_names:
+            continue
+        path.rename(PLAYERS_ARCHIVE_DIR / path.name)
+        archived.append(path.name)
+
+    if archived:
+        print(f"Archived {len(archived)} file(s) for departed member(s): "
+              f"{', '.join(sorted(archived))}")
+    else:
+        print("No departed members to archive.")
+
+
 def main():
     try:
         run_mapleidle()
@@ -811,6 +1036,9 @@ def main():
         run_msidle()
     except requests.exceptions.HTTPError as e:
         print(f"msidle.gg run failed, skipping: {e}")
+
+    print()
+    archive_departed_players()
 
     print(f"\nDone. Files written under {DATA_DIR}/")
 

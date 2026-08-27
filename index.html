@@ -4,7 +4,7 @@
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>Freakmont — Guild Dashboard</title>
-<link rel="stylesheet" href="styles.css" />
+<link rel="stylesheet" href="styles.css?v=20260827" />
 </head>
 <body>
 <div class="layout">
@@ -40,8 +40,10 @@
       <nav class="nav-list">
         <a class="nav-item active" href="index.html" data-tab-link="members"><span class="ico">⌂</span> Home</a>
         <a class="nav-item" href="index.html#conquest" data-jump="conquest" data-tab-link="conquest"><span class="ico">⚔</span> Guild Conquest</a>
+        <a class="nav-item" href="index.html#guildwar" data-jump="guildwar" data-tab-link="guildwar"><span class="ico">🛡</span> Guild War</a>
         <a class="nav-item" href="index.html#bossbattle" data-jump="bossbattle" data-tab-link="bossbattle"><span class="ico">☠</span> Guild Boss Battle</a>
         <a class="nav-item" href="index.html#training" data-jump="training" data-tab-link="training"><span class="ico">◎</span> Training Ground</a>
+        <a class="nav-item" href="index.html#worldboss" data-jump="worldboss" data-tab-link="worldboss"><span class="ico">☄︎</span> World Boss</a>
       </nav>
     </div>
 
@@ -149,12 +151,20 @@
     <div id="punch-score-list"><div class="empty-state">Loading…</div></div>
   </div>
 
+  <div class="card" id="peer-percentile-card">
+    <h2 class="section-title">Peer Percentile</h2>
+    <p class="section-sub">Standing among the ~12 nearest-CP players server-wide, per category (mapleidle.gg's Score Analysis tool)</p>
+    <div id="peer-percentile-list"><div class="empty-state">Loading…</div></div>
+  </div>
+
   <div class="card">
     <div class="tabs" role="tablist">
       <button class="tab-btn active" data-tab="members">Members</button>
       <button class="tab-btn" data-tab="conquest">Guild Conquest</button>
+      <button class="tab-btn" data-tab="guildwar">Guild War</button>
       <button class="tab-btn" data-tab="bossbattle">Guild Boss Battle</button>
       <button class="tab-btn" data-tab="training">Training Ground</button>
+      <button class="tab-btn" data-tab="worldboss">World Boss</button>
     </div>
 
     <div class="tab-panel active" id="panel-members">
@@ -175,6 +185,15 @@
       </table></div>
     </div>
 
+    <div class="tab-panel" id="panel-guildwar">
+      <div class="table-scroll"><table class="roster">
+        <thead>
+          <tr><th>#</th><th>Character</th><th>Class</th><th class="num">Level</th><th class="num">Score</th></tr>
+        </thead>
+        <tbody id="tbody-guildwar"><tr><td colspan="5" class="empty-state">Loading…</td></tr></tbody>
+      </table></div>
+    </div>
+
     <div class="tab-panel" id="panel-bossbattle">
       <div class="table-scroll"><table class="roster">
         <thead>
@@ -192,6 +211,15 @@
         <tbody id="tbody-training"><tr><td colspan="5" class="empty-state">Loading…</td></tr></tbody>
       </table></div>
     </div>
+
+    <div class="tab-panel" id="panel-worldboss">
+      <div class="table-scroll"><table class="roster">
+        <thead>
+          <tr><th>#</th><th>Character</th><th>Class</th><th class="num">Level</th><th class="num">Score</th></tr>
+        </thead>
+        <tbody id="tbody-worldboss"><tr><td colspan="5" class="empty-state">Loading…</td></tr></tbody>
+      </table></div>
+    </div>
   </div>
 
   <div class="site-footer">
@@ -205,8 +233,10 @@
       <div>
         <h4>Categories</h4>
         <a href="#conquest" data-jump="conquest">Guild Conquest</a>
+        <a href="#guildwar" data-jump="guildwar">Guild War</a>
         <a href="#bossbattle" data-jump="bossbattle">Guild Boss Battle</a>
         <a href="#training" data-jump="training">Training Ground</a>
+        <a href="#worldboss" data-jump="worldboss">World Boss</a>
       </div>
       <div>
         <h4>Server</h4>
@@ -221,7 +251,7 @@
 
 </div>
 
-<script src="app.js"></script>
+<script src="app.js?v=20260827"></script>
 <script>
 const RANK_ORDER = ['master', 'vice_master', 'elite_freak', 'guild_freak', 'day1_fweaks'];
 const RANK_COLORS = {
@@ -246,10 +276,15 @@ const RANK_COLORS = {
   const conquest = await loadGuildFile('conquest-current.json', 'msidle-conquest-current.json');
   const bossBattle = await loadGuildFile('guild-boss-battle-current.json', 'msidle-guild-boss-battle-current.json');
   const training = await loadGuildFile('training-ground-current.json', 'msidle-training-ground-current.json');
+  // Guild War and World Boss are mapleidle.gg-only -- msidle.gg's guild
+  // war numbers are user-submitted/unverified, and it has no world boss
+  // category at all, so neither has a fallback file.
+  const guildWar = { data: await tryFetchJSON(`${DATA_DIR}/guild-war-current.json`) };
+  const worldBoss = { data: await tryFetchJSON(`${DATA_DIR}/world-boss-current.json`) };
 
   statusBadge.textContent = (rosterResult.data === null && conquest.data === null) ? 'NO DATA' : 'INFO';
 
-  const dates = [conquest, bossBattle, training]
+  const dates = [conquest, bossBattle, training, guildWar, worldBoss]
     .map(r => r.data && r.data.date)
     .filter(Boolean)
     .sort();
@@ -277,7 +312,7 @@ const RANK_COLORS = {
     document.getElementById('stat-avg-level').textContent = avgLevel.toFixed(1);
     document.getElementById('stat-median-level').textContent = `median ${medLevel}`;
 
-    renderHistogram(cps);
+    renderHistogram(roster.filter(m => typeof m.cpRaw === 'number'));
 
     const sorted = [...roster].sort((a, b) => (b.cpRaw || 0) - (a.cpRaw || 0));
     renderCpBarList(sorted);
@@ -292,9 +327,12 @@ const RANK_COLORS = {
   }
 
   renderCategory('tbody-conquest', conquest.data, ranks);
+  renderCategory('tbody-guildwar', guildWar.data, ranks);
   renderCategory('tbody-bossbattle', bossBattle.data, ranks);
   renderCategory('tbody-training', training.data, ranks);
+  renderCategory('tbody-worldboss', worldBoss.data, ranks);
   renderPunchScore(roster, ranks);
+  renderPeerPercentile(roster, ranks);
 
   function rosterRow(rank, name, cls, level, cpText, rankId) {
     const medalClass = rank === 1 ? 'medal-1' : rank === 2 ? 'medal-2' : rank === 3 ? 'medal-3' : '';
@@ -314,42 +352,42 @@ const RANK_COLORS = {
       return;
     }
     const rows = [...data.entries]
-      .sort((a, b) => a.rank - b.rank)
-      .map(e => rosterRow(e.rank, e.name, e.class, e.level, formatScore(e.score), ranks[e.name]));
+      // entries with no recorded score (rank: null) sort last, not first
+      .sort((a, b) => (a.rank ?? Infinity) - (b.rank ?? Infinity))
+      .map(e => rosterRow(e.rank ?? '—', e.name, e.class, e.level, formatBig(e.score), ranks[e.name]));
     tbody.innerHTML = rows.join('');
   }
 
-  function renderHistogram(sortedCPs) {
-    document.getElementById('hist-member-count').textContent = sortedCPs.length;
+  /** CP Distribution: block-column histogram, log-spaced buckets. Bumped
+   * from 6 to 14 buckets (each step ~1.6x instead of ~4x) so members who
+   * are genuinely close in CP are far more likely to land in the same
+   * bucket -- at 6 buckets two members only ~8% apart in CP could still
+   * end up split into different columns; at 14 they land together.
+   * Column tooltips list who's actually in that bucket. Only floor,
+   * median, and ceiling are labeled beneath the plot (not every bucket
+   * edge) so labels stay readable at this finer bucket count. */
+  function renderHistogram(members) {
+    document.getElementById('hist-member-count').textContent = members.length;
+    const sortedCPs = members.map(m => m.cpRaw).sort((a, b) => a - b);
     const floor = sortedCPs[0];
     const ceiling = sortedCPs[sortedCPs.length - 1];
 
-    // Fixed 6 buckets, evenly log-spaced between floor and ceiling.
-    // When the guild's spread happens to be ~64x (2^6), each step is a
-    // clean doubling, same as the reference; otherwise it's just an
-    // even log scale.
-    const BUCKET_COUNT = 6;
+    const BUCKET_COUNT = 14;
     const ratio = ceiling > floor ? Math.pow(ceiling / floor, 1 / (BUCKET_COUNT - 1)) : 1;
     const edges = Array.from({ length: BUCKET_COUNT }, (_, i) => floor * Math.pow(ratio, i));
-    const isDoubling = Math.abs(ratio - 2) < 0.15;
     document.getElementById('hist-caption').innerHTML =
-      `The power road · <span id="hist-member-count">${sortedCPs.length}</span> members, ` +
-      (isDoubling ? 'bucketed on a doubling scale' : 'bucketed on an even log scale');
+      `The power road · <span id="hist-member-count">${members.length}</span> members, bucketed on an even log scale`;
 
     const buckets = edges.map(() => []);
-    sortedCPs.forEach(cp => {
+    members.forEach(m => {
       let idx = 0;
-      for (let i = 0; i < edges.length; i++) { if (cp >= edges[i]) idx = i; }
-      buckets[idx].push(cp);
+      for (let i = 0; i < edges.length; i++) { if (m.cpRaw >= edges[i]) idx = i; }
+      buckets[idx].push(m);
     });
 
     const medianVal = median(sortedCPs);
-    let medianBucket = 0;
-    for (let i = 0; i < edges.length; i++) { if (medianVal >= edges[i]) medianBucket = i; }
-
     const mean_ = mean(sortedCPs);
 
-    // summary row
     document.getElementById('hist-summary').innerHTML = `
       <div><div class="num">${formatCP(medianVal)}</div><div class="lbl">Median</div></div>
       <div><div class="num">${formatCP(mean_)}</div><div class="lbl">Mean</div></div>
@@ -357,17 +395,28 @@ const RANK_COLORS = {
       <div><div class="num">${formatCP(ceiling)}</div><div class="lbl">Ceiling</div></div>
     `;
 
-    const maxCount = Math.max(...buckets.map(b => b.length), 1);
     const plot = document.getElementById('hist-plot');
     plot.innerHTML = buckets.map((b, i) => {
-      const squares = Array.from({ length: b.length }).map(() => '<div class="hist-px"></div>').join('');
-      return `<div class="hist-col" title="${b.length} members ≥ ${formatCP(edges[i])}">${squares}</div>`;
+      const squares = b.map(() => '<div class="hist-px"></div>').join('');
+      const names = b.map(m => m.name).join(', ');
+      const tooltip = b.length
+        ? `${b.length} member${b.length === 1 ? '' : 's'} ≥ ${formatCP(edges[i])}: ${names}`
+        : `0 members ≥ ${formatCP(edges[i])}`;
+      return `<div class="hist-col" title="${tooltip}">${squares}</div>`;
     }).join('');
 
+    // Floor/median/ceiling only, positioned by log-scale percentage --
+    // independent of bucket count, so it can never overlap or crowd.
+    const logFloor = Math.log(floor || 1);
+    const logCeil = Math.log(ceiling || 1);
+    const span = (logCeil - logFloor) || 1;
+    const medianPct = ((Math.log(medianVal) - logFloor) / span) * 100;
     const labels = document.getElementById('hist-labels');
-    labels.innerHTML = edges.map((edge, i) =>
-      `<span class="${i === medianBucket ? 'med' : ''}">${formatCP(edge)}+${i === medianBucket ? ' med' : ''}</span>`
-    ).join('');
+    labels.innerHTML = `
+      <span style="left:0%">${formatCP(floor)}</span>
+      <span class="med" style="left:${medianPct}%">${formatCP(medianVal)} med</span>
+      <span style="left:100%">${formatCP(ceiling)}</span>
+    `;
   }
 
   function renderCpBarList(sortedRoster) {
@@ -414,16 +463,29 @@ const RANK_COLORS = {
   /** Punch Score: how far each member's real category scores run above
    * what their CP alone would predict, averaged across whatever
    * categories msidle.gg has computed a comparison for. This is
-   * msidle's own scoreComparison.vs_all_pct field, not something we
-   * derive ourselves -- we just fetch each member's file and average
-   * it. Only populates for members who have an msidle player file. */
+   * msidle's own scoreComparison.vs_all_pct field -- a genuine "vs what
+   * this CP should score" model, not something we derive ourselves.
+   *
+   * Guild War is deliberately NOT included. msidle.gg doesn't track
+   * Guild War at all, and the only substitute we could compute
+   * ourselves -- % above/below the guild's own average Guild War score
+   * -- isn't CP-adjusted: with an uneven CP spread across the guild,
+   * that would systematically punish lower-CP members and flatter
+   * higher-CP ones regardless of actual performance, which defeats the
+   * point of a "punching above your weight" metric. The Peer
+   * Percentile card below does include Guild War, since it's ranked
+   * against CP-similar peers rather than a guild-wide average. */
   async function renderPunchScore(roster, ranks) {
     const container = document.getElementById('punch-score-list');
     const results = await Promise.all(roster.map(async (m) => {
       const raw = await tryFetchJSON(`${DATA_DIR}/players/${m.name}-msidle.json`);
       if (!raw || !raw.scoreComparison) return null;
-      const pcts = Object.values(raw.scoreComparison)
-        .map(c => c.vs_all_pct)
+      const pcts = Object.entries(raw.scoreComparison)
+        // msidle.gg also ships a 'chapter' (story-progress) entry here
+        // alongside the combat categories -- exclude it, Punch Score
+        // is meant to be combat performance only.
+        .filter(([key]) => key !== 'chapter')
+        .map(([, c]) => c.vs_all_pct)
         .filter(v => typeof v === 'number');
       if (!pcts.length) return null;
       return { name: m.name, class: m.class, avgPct: mean(pcts), categoryCount: pcts.length };
@@ -453,13 +515,68 @@ const RANK_COLORS = {
 
     container.innerHTML = ranked.map(rowHtml).join('') +
       (ranked.length > 10 ? `<button class="show-more-btn" id="punch-show-more">Show all ${ranked.length}</button>` : '') +
-      `<p class="punch-note">Punch Score compares each member's actual category scores to what their current Combat Power alone would predict, averaged across every category msidle.gg has a comparison for. CP reflects currently-equipped gear, so a member hunting in weaker gear than their vault can show an inflated score here — read it as a signal, not a verdict.</p>`;
+      `<p class="punch-note">Punch Score compares each member's actual category scores to what their current Combat Power alone would predict, averaged across every category msidle.gg has a comparison for (Guild Conquest, World Boss, Training Ground, Guild Boss Battle). Guild War isn't included: msidle.gg doesn't track it, and the only substitute we could compute ourselves — % above/below the guild's own average score — isn't CP-adjusted, so with our guild's uneven CP spread it would unfairly penalize lower-CP members and flatter higher-CP ones regardless of actual performance. The Peer Percentile card below does cover Guild War, since it's ranked against CP-similar peers instead of a guild-wide average. CP reflects currently-equipped gear, so a member hunting in weaker gear than their vault can show an inflated score here — read it as a signal, not a verdict.</p>`;
 
     const moreBtn = document.getElementById('punch-show-more');
     if (moreBtn) {
       moreBtn.addEventListener('click', () => {
         document.querySelectorAll('.punch-row.hidden-row').forEach(r => r.classList.remove('hidden-row'));
         moreBtn.remove();
+      });
+    }
+  }
+
+  /** Peer Percentile: how each member's score in a category ranks among
+   * the ~12 server-wide players nearest to them in CP for that category
+   * (not limited to Freakmont), averaged across whichever categories
+   * mapleidle.gg's Score Analysis tool has data for -- including Guild
+   * War, which nothing else on the site can compare. Sourced from each
+   * member's -score-analysis.json file (percentile field, 0-100, higher
+   * is better), computed by the scraper from the tool's own peer lists.
+   * With only ~12 peers per category this is a coarse read, not a
+   * precise population percentile. */
+  async function renderPeerPercentile(roster, ranks) {
+    const container = document.getElementById('peer-percentile-list');
+    const results = await Promise.all(roster.map(async (m) => {
+      const raw = await tryFetchJSON(`${DATA_DIR}/players/${m.name}-score-analysis.json`);
+      if (!raw) return null;
+      const pcts = Object.values(raw)
+        .map(c => c.percentile)
+        .filter(v => typeof v === 'number');
+      if (!pcts.length) return null;
+      return { name: m.name, class: m.class, avgPct: mean(pcts), categoryCount: pcts.length };
+    }));
+
+    const ranked = results.filter(Boolean).sort((a, b) => b.avgPct - a.avgPct);
+
+    if (!ranked.length) {
+      container.innerHTML = '<div class="empty-state">No score analysis data available yet — this fills in after the next scrape.</div>';
+      return;
+    }
+
+    const rowHtml = (r, i) => {
+      const cls = r.avgPct >= 50 ? 'pos' : 'neg';
+      return `
+        <div class="punch-row ${i >= 10 ? 'hidden-row' : ''}">
+          <div class="idx">${i + 1}</div>
+          <div class="who">
+            <a href="player.html?name=${encodeURIComponent(r.name)}">${r.name}</a>
+            ${ranks[r.name] ? rankBadge(ranks[r.name]) : ''}
+            <span class="cls">${r.class || ''} · ${r.categoryCount} categor${r.categoryCount === 1 ? 'y' : 'ies'}</span>
+          </div>
+          <div class="val ${cls}">${r.avgPct.toFixed(1)}th pct</div>
+        </div>`;
+    };
+
+    container.innerHTML = ranked.map(rowHtml).join('') +
+      (ranked.length > 10 ? `<button class="show-more-btn" id="peer-percentile-show-more">Show all ${ranked.length}</button>` : '') +
+      `<p class="punch-note">Peer Percentile ranks each member's category score against roughly a dozen server-wide players closest to them in Combat Power at the time of that score, then averages across every category with data (Guild Conquest, World Boss, Training Ground, Guild Boss Battle, and Guild War). 50th is right in the middle of that peer group; higher means outperforming similarly-powered players. With such a small peer set per category, treat this as a rough read, not a precise ranking.</p>`;
+
+    const morePeerBtn = document.getElementById('peer-percentile-show-more');
+    if (morePeerBtn) {
+      morePeerBtn.addEventListener('click', () => {
+        container.querySelectorAll('.punch-row.hidden-row').forEach(r => r.classList.remove('hidden-row'));
+        morePeerBtn.remove();
       });
     }
   }

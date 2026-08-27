@@ -2,33 +2,33 @@
   "character": {
     "name": "Wolfram",
     "class": "Night Lord",
-    "level": 106,
-    "cpRaw": 156442640343550,
-    "cpDisplay": "156T 442B",
+    "level": 107,
+    "cpRaw": 156632238697014,
+    "cpDisplay": "156T 632B",
     "fame": 108
   },
   "ranks": {
     "global": {
-      "rank": 14368,
+      "rank": 14541,
       "percentile": 1.4
     },
     "server": {
-      "rank": 335,
+      "rank": 341,
       "percentile": 1.3
     },
     "world": {
-      "rank": 6315,
+      "rank": 6391,
       "percentile": 1.5
     },
     "job": {
-      "rank": 1920,
+      "rank": 1973,
       "percentile": 1.2
     }
   },
   "performance": {
     "conquest": {
       "score": 40261677950,
-      "percentile": 11.4,
+      "percentile": 11.3,
       "updated": "2026-08-25T06:05:37+00:00"
     },
     "training_ground": {
@@ -42,43 +42,39 @@
       "updated": "2026-06-15T08:42:17+00:00"
     },
     "world_boss": {
-      "score": 794771769000000,
-      "percentile": 8.2,
-      "updated": "2026-08-25T04:37:03+00:00"
+      "score": 1030300260000000,
+      "percentile": 7.3,
+      "updated": "2026-08-27T05:15:35+00:00"
     }
   },
   "scoreComparison": {
     "guild_conquest": {
       "score": "40261677950",
-      "vs_all_pct": -7.8,
-      "vs_class_pct": 0.2,
+      "vs_all_pct": -7.7,
+      "vs_class_pct": 0,
       "date": "2026-08-25T06:05:37+00:00"
     },
     "world_boss": {
-      "score": "794771769000000",
-      "vs_all_pct": -11.8,
-      "vs_class_pct": -6,
-      "date": "2026-08-25T04:37:03+00:00"
+      "score": "1030300260000000",
+      "vs_all_pct": 2.1,
+      "vs_class_pct": 8.2,
+      "date": "2026-08-27T05:15:35+00:00"
     },
     "guild_training_ground": {
       "score": "3078519",
       "vs_all_pct": -5.1,
-      "vs_class_pct": -4.5,
+      "vs_class_pct": -4.6,
       "date": "2026-07-03T01:52:33+00:00"
     },
     "guild_boss": {
       "score": "3628052196",
       "vs_all_pct": 2.5,
-      "vs_class_pct": 5.7,
+      "vs_class_pct": 5.5,
       "date": "2026-06-15T08:42:17+00:00"
     }
   },
   "history": {
     "conquest_history": [
-      {
-        "date": "2026-07-28T04:07:06+00:00",
-        "score": 18304586260
-      },
       {
         "date": "2026-08-05T06:36:56+00:00",
         "score": 21062018880
@@ -96,10 +92,6 @@
     "guild_boss_battle_history": [],
     "guild_war_history": [],
     "world_boss_history": [
-      {
-        "date": "2026-07-28T04:06:16+00:00",
-        "score": 248040851000000
-      },
       {
         "date": "2026-07-29T04:22:17+00:00",
         "score": 270853119000000
@@ -139,16 +131,15 @@
       {
         "date": "2026-08-25T04:37:03+00:00",
         "score": 794771769000000
+      },
+      {
+        "date": "2026-08-27T05:15:35+00:00",
+        "score": 1030300260000000
       }
     ],
     "cp_history": [
       {
-        "date": "2026-07-27T08:35:46+00:00",
-        "cpRaw": 48551264224866,
-        "cpDisplay": "48T 551B"
-      },
-      {
-        "date": "2026-07-28T01:01:27+00:00",
+        "date": "2026-07-28T09:42:22+00:00",
         "cpRaw": 49561604512251,
         "cpDisplay": "49T 561B"
       },
@@ -281,11 +272,16 @@
         "date": "2026-08-26T04:14:33+00:00",
         "cpRaw": 156442640343550,
         "cpDisplay": "156T 442B"
+      },
+      {
+        "date": "2026-08-27T05:15:34+00:00",
+        "cpRaw": 156632238697014,
+        "cpDisplay": "156T 632B"
       }
     ],
     "level_history": [
       {
-        "date": "2026-07-27T08:35:46+00:00",
+        "date": "2026-07-28T09:42:22+00:00",
         "level": 104
       },
       {
@@ -295,8 +291,12 @@
       {
         "date": "2026-08-15T01:15:19+00:00",
         "level": 106
+      },
+      {
+        "date": "2026-08-26T22:16:14+00:00",
+        "level": 107
       }
     ]
   },
-  "scraped_at": "2026-08-26T08:35:48.029101+00:00"
+  "scraped_at": "2026-08-27T09:42:23.370981+00:00"
 }
