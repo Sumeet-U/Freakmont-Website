@@ -1,12 +1,12 @@
 {
   "ranks": {
     "global_rank": {
-      "rank": 3939,
-      "total": 226806
+      "rank": 3972,
+      "total": 227514
     },
     "bera": {
-      "rank": 2312,
-      "total": 100556
+      "rank": 2329,
+      "total": 100798
     },
     "bera_5": {
       "rank": 104,
@@ -14,7 +14,7 @@
     },
     "fire/poison_mage": {
       "rank": 75,
-      "total": 11337
+      "total": 11354
     }
   },
   "performance": {
@@ -35,19 +35,11 @@
       "updated": "Aug 25"
     },
     "guild_boss_battle": {
-      "score": 48722407193.65908,
-      "updated": "Aug 20"
+      "score": 55429331516.93219,
+      "updated": "Aug 27"
     }
   },
   "history": [
-    {
-      "date": "7/26",
-      "cpRaw": 263171831885162.66,
-      "cpDisplay": "263T 171B",
-      "level": 110,
-      "globalRank": 4019,
-      "fame": 287
-    },
     {
       "date": "7/27",
       "cpRaw": 263250456800191,
@@ -279,7 +271,15 @@
       "level": 111,
       "globalRank": 3939,
       "fame": 326
+    },
+    {
+      "date": "8/27",
+      "cpRaw": 752789996358077,
+      "cpDisplay": "752T 789B",
+      "level": 112,
+      "globalRank": 3972,
+      "fame": 327
     }
   ],
-  "scraped_at": "2026-08-27T09:35:29.267445+00:00"
+  "scraped_at": "2026-08-27T21:09:16.154009+00:00"
 }

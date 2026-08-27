@@ -3,13 +3,13 @@
     "name": "xpo168",
     "class": "Arch Mage (Fire/Poison)",
     "level": 112,
-    "cpRaw": 752789996358077,
-    "cpDisplay": "752T 789B",
+    "cpRaw": 752891422715667,
+    "cpDisplay": "752T 891B",
     "fame": 327
   },
   "ranks": {
     "global": {
-      "rank": 5155,
+      "rank": 5175,
       "percentile": 0.5
     },
     "server": {
@@ -17,7 +17,7 @@
       "percentile": 0.4
     },
     "world": {
-      "rank": 2351,
+      "rank": 2358,
       "percentile": 0.6
     },
     "job": {
@@ -37,9 +37,9 @@
       "updated": "2026-07-03T01:50:05+00:00"
     },
     "guild_boss_battle": {
-      "score": 48722407194,
-      "percentile": 4.5,
-      "updated": "2026-08-21T20:36:30+00:00"
+      "score": 55429331517,
+      "percentile": 4.7,
+      "updated": "2026-08-27T16:28:11+00:00"
     },
     "world_boss": {
       "score": 12377707100000000,
@@ -56,27 +56,27 @@
     },
     "guild_conquest": {
       "score": "129096906268",
-      "vs_all_pct": 24.2,
-      "vs_class_pct": 48.6,
+      "vs_all_pct": 24.3,
+      "vs_class_pct": 48.7,
       "date": "2026-08-21T19:35:49+00:00"
     },
     "world_boss": {
       "score": "12377707100000000",
-      "vs_all_pct": 127.3,
-      "vs_class_pct": 181.8,
+      "vs_all_pct": 127.2,
+      "vs_class_pct": 181.7,
       "date": "2026-08-27T05:15:36+00:00"
     },
     "guild_training_ground": {
       "score": "7430415",
       "vs_all_pct": 30.4,
-      "vs_class_pct": 13.1,
+      "vs_class_pct": 13,
       "date": "2026-07-03T01:50:05+00:00"
     },
     "guild_boss": {
-      "score": "48722407194",
-      "vs_all_pct": 22.2,
-      "vs_class_pct": 28.1,
-      "date": "2026-08-21T20:36:30+00:00"
+      "score": "55429331517",
+      "vs_all_pct": 34.1,
+      "vs_class_pct": 40.7,
+      "date": "2026-08-27T16:28:11+00:00"
     }
   },
   "history": {
@@ -103,6 +103,10 @@
       {
         "date": "2026-08-21T20:36:30+00:00",
         "score": 48722407194
+      },
+      {
+        "date": "2026-08-27T16:28:11+00:00",
+        "score": 55429331517
       }
     ],
     "guild_war_history": [],
@@ -150,12 +154,7 @@
     ],
     "cp_history": [
       {
-        "date": "2026-07-28T09:40:56+00:00",
-        "cpRaw": 268671854458503,
-        "cpDisplay": "268T 671B"
-      },
-      {
-        "date": "2026-07-28T15:01:06+00:00",
+        "date": "2026-07-28T21:15:13+00:00",
         "cpRaw": 298529611144805,
         "cpDisplay": "298T 529B"
       },
@@ -288,11 +287,16 @@
         "date": "2026-08-26T22:16:14+00:00",
         "cpRaw": 752789996358077,
         "cpDisplay": "752T 789B"
+      },
+      {
+        "date": "2026-08-27T16:28:11+00:00",
+        "cpRaw": 752891422715667,
+        "cpDisplay": "752T 891B"
       }
     ],
     "level_history": [
       {
-        "date": "2026-07-28T09:40:56+00:00",
+        "date": "2026-07-28T21:15:13+00:00",
         "level": 110
       },
       {
@@ -305,5 +309,5 @@
       }
     ]
   },
-  "scraped_at": "2026-08-27T09:40:57.225176+00:00"
+  "scraped_at": "2026-08-27T21:15:14.334133+00:00"
 }

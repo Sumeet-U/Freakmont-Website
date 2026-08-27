@@ -3,13 +3,13 @@
     "name": "Pantshunter",
     "class": "Hero",
     "level": 114,
-    "cpRaw": 5424639353723813,
-    "cpDisplay": "5AA 424T",
+    "cpRaw": 5524160625067694,
+    "cpDisplay": "5AA 524T",
     "fame": 91
   },
   "ranks": {
     "global": {
-      "rank": 1537,
+      "rank": 1525,
       "percentile": 0.1
     },
     "server": {
@@ -17,11 +17,11 @@
       "percentile": 0.1
     },
     "world": {
-      "rank": 757,
+      "rank": 752,
       "percentile": 0.2
     },
     "job": {
-      "rank": 86,
+      "rank": 84,
       "percentile": 0.1
     }
   },
@@ -37,9 +37,9 @@
       "updated": "2026-07-17T05:53:57+00:00"
     },
     "guild_boss_battle": {
-      "score": 116057966990,
-      "percentile": 1.7,
-      "updated": "2026-08-21T20:35:37+00:00"
+      "score": 121902860513,
+      "percentile": 1.9,
+      "updated": "2026-08-27T16:27:31+00:00"
     },
     "world_boss": {
       "score": 65923843300000000,
@@ -56,14 +56,14 @@
     },
     "guild_conquest": {
       "score": "365781032011",
-      "vs_all_pct": 35.8,
-      "vs_class_pct": 42.5,
+      "vs_all_pct": 36,
+      "vs_class_pct": 43,
       "date": "2026-08-09T04:30:03+00:00"
     },
     "world_boss": {
       "score": "65923843300000000",
-      "vs_all_pct": 49.1,
-      "vs_class_pct": 48.2,
+      "vs_all_pct": 49,
+      "vs_class_pct": 48.6,
       "date": "2026-08-25T04:37:01+00:00"
     },
     "guild_training_ground": {
@@ -73,10 +73,10 @@
       "date": "2026-07-17T05:53:57+00:00"
     },
     "guild_boss": {
-      "score": "116057966990",
-      "vs_all_pct": 2.5,
-      "vs_class_pct": 1,
-      "date": "2026-08-21T20:35:37+00:00"
+      "score": "121902860513",
+      "vs_all_pct": 3.2,
+      "vs_class_pct": 1.8,
+      "date": "2026-08-27T16:27:31+00:00"
     }
   },
   "history": {
@@ -95,6 +95,10 @@
       {
         "date": "2026-08-21T20:35:37+00:00",
         "score": 116057966990
+      },
+      {
+        "date": "2026-08-27T16:27:31+00:00",
+        "score": 121902860513
       }
     ],
     "guild_war_history": [],
@@ -122,7 +126,7 @@
     ],
     "cp_history": [
       {
-        "date": "2026-07-28T09:38:55+00:00",
+        "date": "2026-07-28T21:12:56+00:00",
         "cpRaw": 2829146409550345,
         "cpDisplay": "2AA 829T"
       },
@@ -195,11 +199,16 @@
         "date": "2026-08-27T05:15:31+00:00",
         "cpRaw": 5424639353723813,
         "cpDisplay": "5AA 424T"
+      },
+      {
+        "date": "2026-08-27T16:27:31+00:00",
+        "cpRaw": 5524160625067694,
+        "cpDisplay": "5AA 524T"
       }
     ],
     "level_history": [
       {
-        "date": "2026-07-28T09:38:55+00:00",
+        "date": "2026-07-28T21:12:56+00:00",
         "level": 112
       },
       {
@@ -212,5 +221,5 @@
       }
     ]
   },
-  "scraped_at": "2026-08-27T09:38:56.058450+00:00"
+  "scraped_at": "2026-08-27T21:12:57.866291+00:00"
 }

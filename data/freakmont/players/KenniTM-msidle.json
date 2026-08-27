@@ -3,25 +3,25 @@
     "name": "KenniTM",
     "class": "Paladin",
     "level": 112,
-    "cpRaw": 3769912494597533,
-    "cpDisplay": "3AA 769T",
+    "cpRaw": 3857183695367318,
+    "cpDisplay": "3AA 857T",
     "fame": 167
   },
   "ranks": {
     "global": {
-      "rank": 1911,
+      "rank": 1891,
       "percentile": 0.2
     },
     "server": {
-      "rank": 37,
+      "rank": 36,
       "percentile": 0.1
     },
     "world": {
-      "rank": 914,
+      "rank": 908,
       "percentile": 0.2
     },
     "job": {
-      "rank": 229,
+      "rank": 228,
       "percentile": 1.3
     }
   },
@@ -37,9 +37,9 @@
       "updated": "2026-07-17T05:53:52+00:00"
     },
     "guild_boss_battle": {
-      "score": 80908446831,
-      "percentile": 2.7,
-      "updated": "2026-08-21T20:36:07+00:00"
+      "score": 100926204622,
+      "percentile": 2.6,
+      "updated": "2026-08-27T16:27:27+00:00"
     },
     "world_boss": {
       "score": 50038317900000000,
@@ -56,27 +56,27 @@
     },
     "guild_conquest": {
       "score": "367962839033",
-      "vs_all_pct": 43,
-      "vs_class_pct": 38.5,
+      "vs_all_pct": 43.2,
+      "vs_class_pct": 38.7,
       "date": "2026-08-27T05:15:58+00:00"
     },
     "world_boss": {
       "score": "50038317900000000",
-      "vs_all_pct": 62.8,
-      "vs_class_pct": 42.8,
+      "vs_all_pct": 62.7,
+      "vs_class_pct": 43,
       "date": "2026-08-27T05:15:32+00:00"
     },
     "guild_training_ground": {
       "score": "8254155",
       "vs_all_pct": 4.6,
-      "vs_class_pct": 9.7,
+      "vs_class_pct": 9.6,
       "date": "2026-07-17T05:53:52+00:00"
     },
     "guild_boss": {
-      "score": "80908446831",
-      "vs_all_pct": -3,
-      "vs_class_pct": -5.8,
-      "date": "2026-08-21T20:36:07+00:00"
+      "score": "100926204622",
+      "vs_all_pct": 3.3,
+      "vs_class_pct": 0.4,
+      "date": "2026-08-27T16:27:27+00:00"
     }
   },
   "history": {
@@ -127,6 +127,10 @@
       {
         "date": "2026-08-21T20:36:07+00:00",
         "score": 80908446831
+      },
+      {
+        "date": "2026-08-27T16:27:27+00:00",
+        "score": 100926204622
       }
     ],
     "guild_war_history": [],
@@ -170,12 +174,7 @@
     ],
     "cp_history": [
       {
-        "date": "2026-07-28T09:39:29+00:00",
-        "cpRaw": 1064881507003509,
-        "cpDisplay": "1AA 64T"
-      },
-      {
-        "date": "2026-07-28T15:00:58+00:00",
+        "date": "2026-07-28T21:13:35+00:00",
         "cpRaw": 1068555686359794,
         "cpDisplay": "1AA 68T"
       },
@@ -328,11 +327,16 @@
         "date": "2026-08-26T04:14:05+00:00",
         "cpRaw": 3769912494597533,
         "cpDisplay": "3AA 769T"
+      },
+      {
+        "date": "2026-08-27T16:27:27+00:00",
+        "cpRaw": 3857183695367318,
+        "cpDisplay": "3AA 857T"
       }
     ],
     "level_history": [
       {
-        "date": "2026-07-28T09:39:29+00:00",
+        "date": "2026-07-28T21:13:35+00:00",
         "level": 109
       },
       {
@@ -349,5 +353,5 @@
       }
     ]
   },
-  "scraped_at": "2026-08-27T09:39:30.424302+00:00"
+  "scraped_at": "2026-08-27T21:13:36.893761+00:00"
 }

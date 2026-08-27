@@ -19,98 +19,98 @@
       "name": "poljjak",
       "class": "Bishop",
       "level": 115,
-      "score": 143918456955,
+      "score": 161432540042,
       "rank": 3
     },
     {
       "name": "Pantshunter",
       "class": "Hero",
       "level": 114,
-      "score": 116057966990,
+      "score": 121902860513,
       "rank": 4
+    },
+    {
+      "name": "ImYolo",
+      "class": "Bishop",
+      "level": 113,
+      "score": 115741900801,
+      "rank": 5
+    },
+    {
+      "name": "JaiLBalT",
+      "class": "Shadower",
+      "level": 113,
+      "score": 109571194390,
+      "rank": 6
     },
     {
       "name": "kbaFM",
       "class": "Night Lord",
       "level": 113,
       "score": 106879632177,
-      "rank": 5
-    },
-    {
-      "name": "ImYolo",
-      "class": "Bishop",
-      "level": 113,
-      "score": 105810441325,
-      "rank": 6
-    },
-    {
-      "name": "JaiLBalT",
-      "class": "Shadower",
-      "level": 113,
-      "score": 100372996615,
       "rank": 7
     },
     {
       "name": "KenniTM",
       "class": "Paladin",
       "level": 112,
-      "score": 80908446831,
+      "score": 100926204622,
       "rank": 8
     },
     {
       "name": "zVinics",
       "class": "Bishop",
       "level": 113,
-      "score": 80524622934,
+      "score": 94936716734,
       "rank": 9
     },
     {
       "name": "YungSeaTurtl",
       "class": "Night Lord",
       "level": 111,
-      "score": 66537982231,
+      "score": 70729659273,
       "rank": 10
     },
     {
       "name": "SuuperCow",
       "class": "Dark Knight",
       "level": 112,
-      "score": 64189441648,
+      "score": 70129150881,
       "rank": 11
-    },
-    {
-      "name": "Caycidia",
-      "class": "Arch Mage (Ice/Lightning)",
-      "level": 111,
-      "score": 52498489193,
-      "rank": 12
-    },
-    {
-      "name": "xpo168",
-      "class": "Arch Mage (Fire/Poison)",
-      "level": 112,
-      "score": 48722407194,
-      "rank": 13
-    },
-    {
-      "name": "Ravenz",
-      "class": "Shadower",
-      "level": 111,
-      "score": 46064528005,
-      "rank": 14
-    },
-    {
-      "name": "Xanite",
-      "class": "Bowmaster",
-      "level": 112,
-      "score": 42712985315,
-      "rank": 15
     },
     {
       "name": "Came",
       "class": "Paladin",
       "level": 111,
-      "score": 42412610978,
+      "score": 57803609108,
+      "rank": 12
+    },
+    {
+      "name": "Caycidia",
+      "class": "Arch Mage (Ice/Lightning)",
+      "level": 111,
+      "score": 56217464696,
+      "rank": 13
+    },
+    {
+      "name": "xpo168",
+      "class": "Arch Mage (Fire/Poison)",
+      "level": 112,
+      "score": 55429331517,
+      "rank": 14
+    },
+    {
+      "name": "Ravenz",
+      "class": "Shadower",
+      "level": 111,
+      "score": 52425612577,
+      "rank": 15
+    },
+    {
+      "name": "Xanite",
+      "class": "Bowmaster",
+      "level": 112,
+      "score": 47765435127,
       "rank": 16
     },
     {

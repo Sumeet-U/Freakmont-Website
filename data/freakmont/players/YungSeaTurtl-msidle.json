@@ -3,13 +3,13 @@
     "name": "YungSeaTurtl",
     "class": "Night Lord",
     "level": 111,
-    "cpRaw": 1100925530776984,
-    "cpDisplay": "1AA 100T",
+    "cpRaw": 1101542160906855,
+    "cpDisplay": "1AA 101T",
     "fame": 738
   },
   "ranks": {
     "global": {
-      "rank": 4022,
+      "rank": 4048,
       "percentile": 0.4
     },
     "server": {
@@ -17,11 +17,11 @@
       "percentile": 0.3
     },
     "world": {
-      "rank": 1865,
-      "percentile": 0.4
+      "rank": 1879,
+      "percentile": 0.5
     },
     "job": {
-      "rank": 534,
+      "rank": 540,
       "percentile": 0.3
     }
   },
@@ -37,9 +37,9 @@
       "updated": "2026-07-17T05:53:52+00:00"
     },
     "guild_boss_battle": {
-      "score": 66537982231,
-      "percentile": 3.3,
-      "updated": "2026-08-21T20:35:49+00:00"
+      "score": 70729659273,
+      "percentile": 3.7,
+      "updated": "2026-08-27T16:27:53+00:00"
     },
     "world_boss": {
       "score": 21215633100000000,
@@ -56,14 +56,14 @@
     },
     "guild_conquest": {
       "score": "194982071914",
-      "vs_all_pct": 47.5,
+      "vs_all_pct": 47.6,
       "vs_class_pct": 59.8,
       "date": "2026-08-26T04:14:06+00:00"
     },
     "world_boss": {
       "score": "21215633100000000",
-      "vs_all_pct": 159,
-      "vs_class_pct": 174.5,
+      "vs_all_pct": 158.9,
+      "vs_class_pct": 174.6,
       "date": "2026-08-27T05:15:34+00:00"
     },
     "guild_training_ground": {
@@ -73,10 +73,10 @@
       "date": "2026-07-17T05:53:52+00:00"
     },
     "guild_boss": {
-      "score": "66537982231",
-      "vs_all_pct": 40.7,
-      "vs_class_pct": 44.8,
-      "date": "2026-08-21T20:35:49+00:00"
+      "score": "70729659273",
+      "vs_all_pct": 40,
+      "vs_class_pct": 44.2,
+      "date": "2026-08-27T16:27:53+00:00"
     }
   },
   "history": {
@@ -119,6 +119,10 @@
       {
         "date": "2026-08-21T20:35:49+00:00",
         "score": 66537982231
+      },
+      {
+        "date": "2026-08-27T16:27:53+00:00",
+        "score": 70729659273
       }
     ],
     "guild_war_history": [],
@@ -166,12 +170,7 @@
     ],
     "cp_history": [
       {
-        "date": "2026-07-28T09:40:03+00:00",
-        "cpRaw": 306026934454529,
-        "cpDisplay": "306T 26B"
-      },
-      {
-        "date": "2026-07-28T15:01:05+00:00",
+        "date": "2026-07-28T21:14:14+00:00",
         "cpRaw": 309460789517471,
         "cpDisplay": "309T 460B"
       },
@@ -314,11 +313,16 @@
         "date": "2026-08-27T05:15:33+00:00",
         "cpRaw": 1100925530776984,
         "cpDisplay": "1AA 100T"
+      },
+      {
+        "date": "2026-08-27T16:27:53+00:00",
+        "cpRaw": 1101542160906855,
+        "cpDisplay": "1AA 101T"
       }
     ],
     "level_history": [
       {
-        "date": "2026-07-28T09:40:03+00:00",
+        "date": "2026-07-28T21:14:14+00:00",
         "level": 108
       },
       {
@@ -335,5 +339,5 @@
       }
     ]
   },
-  "scraped_at": "2026-08-27T09:40:04.599473+00:00"
+  "scraped_at": "2026-08-27T21:14:15.602878+00:00"
 }

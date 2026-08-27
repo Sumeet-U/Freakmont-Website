@@ -26,5 +26,12 @@
     "peerRank": 11,
     "peerCount": 12,
     "percentile": 9.1
+  },
+  "guild_boss_battle": {
+    "score": 33149337880.973343,
+    "snapshotDate": "2026-08-27",
+    "peerRank": 3,
+    "peerCount": 12,
+    "percentile": 81.8
   }
 }

@@ -1,20 +1,20 @@
 {
   "ranks": {
     "global_rank": {
-      "rank": 8880,
-      "total": 226806
+      "rank": 8994,
+      "total": 227514
     },
     "bera": {
-      "rank": 5073,
-      "total": 100556
+      "rank": 5138,
+      "total": 100798
     },
     "bera_5": {
-      "rank": 262,
+      "rank": 268,
       "total": 2000
     },
     "hero": {
       "rank": 569,
-      "total": 14071
+      "total": 14098
     }
   },
   "performance": {
@@ -40,14 +40,6 @@
     }
   },
   "history": [
-    {
-      "date": "7/26",
-      "cpRaw": 64307483210368.445,
-      "cpDisplay": "64T 307B",
-      "level": 105,
-      "globalRank": 9664,
-      "fame": 43
-    },
     {
       "date": "7/27",
       "cpRaw": 76130647006296.38,
@@ -279,7 +271,15 @@
       "level": 108,
       "globalRank": 8880,
       "fame": 48
+    },
+    {
+      "date": "8/27",
+      "cpRaw": 227142468282008.34,
+      "cpDisplay": "227T 142B",
+      "level": 108,
+      "globalRank": 8994,
+      "fame": 48
     }
   ],
-  "scraped_at": "2026-08-27T09:37:19.889022+00:00"
+  "scraped_at": "2026-08-27T21:11:18.570891+00:00"
 }

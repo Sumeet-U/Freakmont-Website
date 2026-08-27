@@ -1,20 +1,20 @@
 {
   "ranks": {
     "global_rank": {
-      "rank": 3077,
-      "total": 226806
+      "rank": 3111,
+      "total": 227514
     },
     "bera": {
-      "rank": 1825,
-      "total": 100556
+      "rank": 1843,
+      "total": 100798
     },
     "bera_5": {
-      "rank": 73,
+      "rank": 74,
       "total": 2000
     },
     "night_lord": {
-      "rank": 392,
-      "total": 28994
+      "rank": 404,
+      "total": 29061
     }
   },
   "performance": {
@@ -35,19 +35,11 @@
       "updated": "Aug 25"
     },
     "guild_boss_battle": {
-      "score": 66537982230.64873,
-      "updated": "Aug 20"
+      "score": 70729659273.18109,
+      "updated": "Aug 27"
     }
   },
   "history": [
-    {
-      "date": "7/26",
-      "cpRaw": 298375261291155.6,
-      "cpDisplay": "298T 375B",
-      "level": 108,
-      "globalRank": 3725,
-      "fame": 687
-    },
     {
       "date": "7/27",
       "cpRaw": 306026934454529.56,
@@ -279,7 +271,15 @@
       "level": 111,
       "globalRank": 3077,
       "fame": 736
+    },
+    {
+      "date": "8/27",
+      "cpRaw": 1100925530776984.4,
+      "cpDisplay": "1AA 100T",
+      "level": 111,
+      "globalRank": 3111,
+      "fame": 738
     }
   ],
-  "scraped_at": "2026-08-27T09:34:01.130301+00:00"
+  "scraped_at": "2026-08-27T21:07:39.879433+00:00"
 }
