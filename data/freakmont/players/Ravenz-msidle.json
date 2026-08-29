@@ -3,25 +3,25 @@
     "name": "Ravenz",
     "class": "Shadower",
     "level": 111,
-    "cpRaw": 1028917913691035,
-    "cpDisplay": "1AA 28T",
+    "cpRaw": 1032979136911357,
+    "cpDisplay": "1AA 32T",
     "fame": 847
   },
   "ranks": {
     "global": {
-      "rank": 4228,
+      "rank": 4285,
       "percentile": 0.4
     },
     "server": {
-      "rank": 83,
+      "rank": 84,
       "percentile": 0.3
     },
     "world": {
-      "rank": 1945,
+      "rank": 1959,
       "percentile": 0.5
     },
     "job": {
-      "rank": 645,
+      "rank": 646,
       "percentile": 0.6
     }
   },
@@ -41,6 +41,11 @@
       "percentile": 5,
       "updated": "2026-08-27T16:27:21+00:00"
     },
+    "guild_war": {
+      "score": 105284673899,
+      "percentile": 6.7,
+      "updated": "2026-08-28T00:00:56+00:00"
+    },
     "world_boss": {
       "score": 10145918800000000,
       "percentile": 2.3,
@@ -56,26 +61,32 @@
     },
     "guild_conquest": {
       "score": "156084825014",
-      "vs_all_pct": 23.5,
-      "vs_class_pct": 28.5,
+      "vs_all_pct": 23.6,
+      "vs_class_pct": 28.8,
       "date": "2026-08-25T06:05:17+00:00"
     },
     "world_boss": {
       "score": "10145918800000000",
-      "vs_all_pct": 35.5,
-      "vs_class_pct": 38,
+      "vs_all_pct": 35.6,
+      "vs_class_pct": 38.3,
       "date": "2026-08-25T04:37:12+00:00"
+    },
+    "guild_war": {
+      "score": "105284673899",
+      "vs_all_pct": 41.2,
+      "vs_class_pct": 37.7,
+      "date": "2026-08-28T00:00:56+00:00"
     },
     "guild_training_ground": {
       "score": "6269253",
       "vs_all_pct": -1.6,
-      "vs_class_pct": 5.3,
+      "vs_class_pct": 5.2,
       "date": "2026-07-17T05:54:02+00:00"
     },
     "guild_boss": {
       "score": "52425612577",
-      "vs_all_pct": 7.6,
-      "vs_class_pct": 5.2,
+      "vs_all_pct": 6.1,
+      "vs_class_pct": 4.1,
       "date": "2026-08-27T16:27:21+00:00"
     }
   },
@@ -117,7 +128,12 @@
         "score": 52425612577
       }
     ],
-    "guild_war_history": [],
+    "guild_war_history": [
+      {
+        "date": "2026-08-28T00:00:56+00:00",
+        "score": 105284673899
+      }
+    ],
     "world_boss_history": [
       {
         "date": "2026-08-07T05:47:29+00:00",
@@ -142,17 +158,7 @@
     ],
     "cp_history": [
       {
-        "date": "2026-07-28T21:14:34+00:00",
-        "cpRaw": 411565221817474,
-        "cpDisplay": "411T 565B"
-      },
-      {
-        "date": "2026-07-29T04:22:17+00:00",
-        "cpRaw": 434413045399070,
-        "cpDisplay": "434T 413B"
-      },
-      {
-        "date": "2026-07-29T18:39:28+00:00",
+        "date": "2026-07-29T23:34:26+00:00",
         "cpRaw": 451819509122314,
         "cpDisplay": "451T 819B"
       },
@@ -300,11 +306,16 @@
         "date": "2026-08-27T16:27:21+00:00",
         "cpRaw": 1028917913691035,
         "cpDisplay": "1AA 28T"
+      },
+      {
+        "date": "2026-08-28T05:03:57+00:00",
+        "cpRaw": 1032979136911357,
+        "cpDisplay": "1AA 32T"
       }
     ],
     "level_history": [
       {
-        "date": "2026-07-28T21:14:34+00:00",
+        "date": "2026-07-29T23:34:27+00:00",
         "level": 109
       },
       {
@@ -317,5 +328,5 @@
       }
     ]
   },
-  "scraped_at": "2026-08-27T21:14:35.302349+00:00"
+  "scraped_at": "2026-08-28T23:34:28.273282+00:00"
 }

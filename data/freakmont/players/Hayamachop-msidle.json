@@ -3,26 +3,26 @@
     "name": "Hayamachop",
     "class": "Hero",
     "level": 108,
-    "cpRaw": 226362245997832,
-    "cpDisplay": "226T 362B",
+    "cpRaw": 227142468282008,
+    "cpDisplay": "227T 142B",
     "fame": 48
   },
   "ranks": {
     "global": {
-      "rank": 11749,
-      "percentile": 1.1
+      "rank": 11908,
+      "percentile": 1.2
     },
     "server": {
-      "rank": 269,
+      "rank": 273,
       "percentile": 1
     },
     "world": {
-      "rank": 5179,
-      "percentile": 1.2
+      "rank": 5254,
+      "percentile": 1.3
     },
     "job": {
-      "rank": 657,
-      "percentile": 0.9
+      "rank": 665,
+      "percentile": 1
     }
   },
   "performance": {
@@ -40,6 +40,11 @@
       "score": 4965136451,
       "percentile": 16.1,
       "updated": "2026-06-05T14:32:10+00:00"
+    },
+    "guild_war": {
+      "score": 24022646946,
+      "percentile": 25.8,
+      "updated": "2026-08-28T00:00:56+00:00"
     },
     "world_boss": {
       "score": 877296739000000,
@@ -63,8 +68,14 @@
     "world_boss": {
       "score": "877296739000000",
       "vs_all_pct": -36.7,
-      "vs_class_pct": -36.9,
+      "vs_class_pct": -36.8,
       "date": "2026-08-25T04:36:59+00:00"
+    },
+    "guild_war": {
+      "score": "24022646946",
+      "vs_all_pct": -27.2,
+      "vs_class_pct": -21.4,
+      "date": "2026-08-28T00:00:56+00:00"
     },
     "guild_training_ground": {
       "score": "3014280",
@@ -74,8 +85,8 @@
     },
     "guild_boss": {
       "score": "4965136451",
-      "vs_all_pct": 7.9,
-      "vs_class_pct": 6.4,
+      "vs_all_pct": 7.5,
+      "vs_class_pct": 5.7,
       "date": "2026-06-05T14:32:10+00:00"
     }
   },
@@ -104,7 +115,12 @@
     ],
     "training_ground_history": [],
     "guild_boss_battle_history": [],
-    "guild_war_history": [],
+    "guild_war_history": [
+      {
+        "date": "2026-08-28T00:00:56+00:00",
+        "score": 24022646946
+      }
+    ],
     "world_boss_history": [
       {
         "date": "2026-08-05T06:35:54+00:00",
@@ -133,7 +149,7 @@
     ],
     "cp_history": [
       {
-        "date": "2026-07-28T21:16:31+00:00",
+        "date": "2026-07-29T23:36:30+00:00",
         "cpRaw": 76130647006296,
         "cpDisplay": "76T 130B"
       },
@@ -196,11 +212,16 @@
         "date": "2026-08-26T22:16:01+00:00",
         "cpRaw": 226362245997832,
         "cpDisplay": "226T 362B"
+      },
+      {
+        "date": "2026-08-28T05:04:00+00:00",
+        "cpRaw": 227142468282008,
+        "cpDisplay": "227T 142B"
       }
     ],
     "level_history": [
       {
-        "date": "2026-07-28T21:16:31+00:00",
+        "date": "2026-07-29T23:36:31+00:00",
         "level": 105
       },
       {
@@ -217,5 +238,5 @@
       }
     ]
   },
-  "scraped_at": "2026-08-27T21:16:32.268562+00:00"
+  "scraped_at": "2026-08-28T23:36:32.319906+00:00"
 }
