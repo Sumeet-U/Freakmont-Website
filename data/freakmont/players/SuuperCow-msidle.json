@@ -3,33 +3,33 @@
     "name": "SuuperCow",
     "class": "Dark Knight",
     "level": 112,
-    "cpRaw": 1830848368471502,
-    "cpDisplay": "1AA 830T",
-    "fame": 299
+    "cpRaw": 2070450951813441,
+    "cpDisplay": "2AA 70T",
+    "fame": 305
   },
   "ranks": {
     "global": {
-      "rank": 3020,
+      "rank": 2889,
       "percentile": 0.3
     },
     "server": {
-      "rank": 60,
+      "rank": 55,
       "percentile": 0.2
     },
     "world": {
-      "rank": 1401,
+      "rank": 1335,
       "percentile": 0.3
     },
     "job": {
-      "rank": 193,
-      "percentile": 0.2
+      "rank": 182,
+      "percentile": 0.1
     }
   },
   "performance": {
     "conquest": {
-      "score": 169902072284,
-      "percentile": 3.1,
-      "updated": "2026-08-17T07:59:06+00:00"
+      "score": 201614164910,
+      "percentile": 2.6,
+      "updated": "2026-08-31T06:28:57+00:00"
     },
     "training_ground": {
       "score": 10167543,
@@ -43,44 +43,44 @@
     },
     "guild_war": {
       "score": 103861987062,
-      "percentile": 6.8,
+      "percentile": 7.1,
       "updated": "2026-08-28T00:00:56+00:00"
     },
     "world_boss": {
-      "score": 12160282000000000,
-      "percentile": 2.1,
-      "updated": "2026-08-28T05:03:56+00:00"
+      "score": 13227782300000000,
+      "percentile": 2,
+      "updated": "2026-08-31T04:40:02+00:00"
     }
   },
   "scoreComparison": {
     "guild_conquest": {
-      "score": "169902072284",
-      "vs_all_pct": 12.3,
-      "vs_class_pct": 27.4,
-      "date": "2026-08-17T07:59:06+00:00"
+      "score": "201614164910",
+      "vs_all_pct": 8.5,
+      "vs_class_pct": 23.3,
+      "date": "2026-08-31T06:28:57+00:00"
     },
     "world_boss": {
-      "score": "12160282000000000",
-      "vs_all_pct": -14,
-      "vs_class_pct": -9.4,
-      "date": "2026-08-28T05:03:56+00:00"
+      "score": "13227782300000000",
+      "vs_all_pct": -16,
+      "vs_class_pct": -12,
+      "date": "2026-08-31T04:40:02+00:00"
     },
     "guild_war": {
       "score": "103861987062",
-      "vs_all_pct": 2.2,
-      "vs_class_pct": 7,
+      "vs_all_pct": 2.3,
+      "vs_class_pct": 7.7,
       "date": "2026-08-28T00:00:56+00:00"
     },
     "guild_training_ground": {
       "score": "10167543",
-      "vs_all_pct": 30.5,
+      "vs_all_pct": 30.3,
       "vs_class_pct": 33.2,
       "date": "2026-07-17T05:53:53+00:00"
     },
     "guild_boss": {
       "score": "70129150881",
-      "vs_all_pct": 4.8,
-      "vs_class_pct": 7,
+      "vs_all_pct": 4.6,
+      "vs_class_pct": 6.9,
       "date": "2026-08-27T16:27:55+00:00"
     }
   },
@@ -93,6 +93,10 @@
       {
         "date": "2026-08-17T07:59:06+00:00",
         "score": 169902072284
+      },
+      {
+        "date": "2026-08-31T06:28:57+00:00",
+        "score": 201614164910
       }
     ],
     "training_ground_history": [],
@@ -124,21 +128,15 @@
       {
         "date": "2026-08-28T05:03:56+00:00",
         "score": 12160282000000000
+      },
+      {
+        "date": "2026-08-31T04:40:02+00:00",
+        "score": 13227782300000000
       }
     ],
     "cp_history": [
       {
-        "date": "2026-07-29T23:33:45+00:00",
-        "cpRaw": 844865159194146,
-        "cpDisplay": "844T 865B"
-      },
-      {
-        "date": "2026-07-31T04:53:13+00:00",
-        "cpRaw": 921132082502881,
-        "cpDisplay": "921T 132B"
-      },
-      {
-        "date": "2026-07-31T13:43:49+00:00",
+        "date": "2026-08-01T15:40:46+00:00",
         "cpRaw": 942652306429321,
         "cpDisplay": "942T 652B"
       },
@@ -226,11 +224,26 @@
         "date": "2026-08-28T05:03:56+00:00",
         "cpRaw": 1830848368471502,
         "cpDisplay": "1AA 830T"
+      },
+      {
+        "date": "2026-08-29T08:14:42+00:00",
+        "cpRaw": 1865037840898405,
+        "cpDisplay": "1AA 865T"
+      },
+      {
+        "date": "2026-08-31T01:37:11+00:00",
+        "cpRaw": 2022565222195339,
+        "cpDisplay": "2AA 22T"
+      },
+      {
+        "date": "2026-08-31T06:28:56+00:00",
+        "cpRaw": 2070450951813441,
+        "cpDisplay": "2AA 70T"
       }
     ],
     "level_history": [
       {
-        "date": "2026-07-29T23:33:45+00:00",
+        "date": "2026-08-01T15:40:46+00:00",
         "level": 111
       },
       {
@@ -239,5 +252,5 @@
       }
     ]
   },
-  "scraped_at": "2026-08-28T23:33:46.470423+00:00"
+  "scraped_at": "2026-08-31T15:40:46.420560+00:00"
 }

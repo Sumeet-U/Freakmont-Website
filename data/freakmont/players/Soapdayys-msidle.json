@@ -3,21 +3,21 @@
     "name": "Soapdayys",
     "class": "Dark Knight",
     "level": 111,
-    "cpRaw": 2849890942104651,
-    "cpDisplay": "2AA 849T",
+    "cpRaw": 2918273002989114,
+    "cpDisplay": "2AA 918T",
     "fame": 24
   },
   "ranks": {
     "global": {
-      "rank": 2292,
+      "rank": 2338,
       "percentile": 0.2
     },
     "server": {
-      "rank": 47,
+      "rank": 48,
       "percentile": 0.2
     },
     "world": {
-      "rank": 1090,
+      "rank": 1096,
       "percentile": 0.3
     },
     "job": {
@@ -27,9 +27,9 @@
   },
   "performance": {
     "conquest": {
-      "score": 131479407584,
-      "percentile": 4.2,
-      "updated": "2026-08-17T07:59:12+00:00"
+      "score": 156638406696,
+      "percentile": 3.5,
+      "updated": "2026-08-31T06:29:00+00:00"
     },
     "training_ground": {
       "score": 4171341,
@@ -43,44 +43,44 @@
     },
     "guild_war": {
       "score": 95211718338,
-      "percentile": 7.2,
+      "percentile": 7.4,
       "updated": "2026-08-28T00:00:56+00:00"
     },
     "world_boss": {
       "score": 10024924400000000,
-      "percentile": 2.3,
+      "percentile": 2.4,
       "updated": "2026-08-27T05:15:38+00:00"
     }
   },
   "scoreComparison": {
     "guild_conquest": {
-      "score": "131479407584",
-      "vs_all_pct": -21.3,
-      "vs_class_pct": -10.7,
-      "date": "2026-08-17T07:59:12+00:00"
+      "score": "156638406696",
+      "vs_all_pct": -30,
+      "vs_class_pct": -20.4,
+      "date": "2026-08-31T06:29:00+00:00"
     },
     "world_boss": {
       "score": "10024924400000000",
-      "vs_all_pct": -54.2,
-      "vs_class_pct": -51.8,
+      "vs_all_pct": -54.3,
+      "vs_class_pct": -52.1,
       "date": "2026-08-27T05:15:38+00:00"
     },
     "guild_war": {
       "score": "95211718338",
       "vs_all_pct": -24.8,
-      "vs_class_pct": -21.3,
+      "vs_class_pct": -20.8,
       "date": "2026-08-28T00:00:56+00:00"
     },
     "guild_training_ground": {
       "score": "4171341",
-      "vs_all_pct": -39.7,
+      "vs_all_pct": -39.8,
       "vs_class_pct": -38.4,
       "date": "2026-07-03T01:51:24+00:00"
     },
     "guild_boss": {
       "score": "40727945170",
-      "vs_all_pct": -43.6,
-      "vs_class_pct": -42.4,
+      "vs_all_pct": -43.7,
+      "vs_class_pct": -42.5,
       "date": "2026-08-21T20:35:37+00:00"
     }
   },
@@ -101,6 +101,10 @@
       {
         "date": "2026-08-17T07:59:12+00:00",
         "score": 131479407584
+      },
+      {
+        "date": "2026-08-31T06:29:00+00:00",
+        "score": 156638406696
       }
     ],
     "training_ground_history": [],
@@ -152,22 +156,7 @@
     ],
     "cp_history": [
       {
-        "date": "2026-07-29T23:33:35+00:00",
-        "cpRaw": 1022173761982765,
-        "cpDisplay": "1AA 22T"
-      },
-      {
-        "date": "2026-07-30T04:46:25+00:00",
-        "cpRaw": 1029634230435037,
-        "cpDisplay": "1AA 29T"
-      },
-      {
-        "date": "2026-07-31T04:53:14+00:00",
-        "cpRaw": 1046228450374708,
-        "cpDisplay": "1AA 46T"
-      },
-      {
-        "date": "2026-07-31T13:43:48+00:00",
+        "date": "2026-08-01T15:40:33+00:00",
         "cpRaw": 1125256203543217,
         "cpDisplay": "1AA 125T"
       },
@@ -315,15 +304,26 @@
         "date": "2026-08-28T05:03:58+00:00",
         "cpRaw": 2849890942104651,
         "cpDisplay": "2AA 849T"
+      },
+      {
+        "date": "2026-08-29T04:22:50+00:00",
+        "cpRaw": 2850212904151921,
+        "cpDisplay": "2AA 850T"
+      },
+      {
+        "date": "2026-08-30T06:23:55+00:00",
+        "cpRaw": 2870836089841480,
+        "cpDisplay": "2AA 870T"
+      },
+      {
+        "date": "2026-08-31T01:37:09+00:00",
+        "cpRaw": 2918273002989114,
+        "cpDisplay": "2AA 918T"
       }
     ],
     "level_history": [
       {
-        "date": "2026-07-29T23:33:35+00:00",
-        "level": 108
-      },
-      {
-        "date": "2026-07-31T13:43:48+00:00",
+        "date": "2026-08-01T15:40:33+00:00",
         "level": 109
       },
       {
@@ -336,5 +336,5 @@
       }
     ]
   },
-  "scraped_at": "2026-08-28T23:33:36.368825+00:00"
+  "scraped_at": "2026-08-31T15:40:33.455696+00:00"
 }

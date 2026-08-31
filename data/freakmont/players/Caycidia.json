@@ -1,20 +1,20 @@
 {
   "ranks": {
     "global_rank": {
-      "rank": 3499,
-      "total": 228408
+      "rank": 3571,
+      "total": 229873
     },
     "bera": {
-      "rank": 2054,
-      "total": 101078
+      "rank": 2092,
+      "total": 101664
     },
     "bera_5": {
-      "rank": 92,
+      "rank": 94,
       "total": 2000
     },
     "ice/lightning_mage": {
       "rank": 158,
-      "total": 26042
+      "total": 26129
     }
   },
   "performance": {
@@ -23,8 +23,8 @@
       "updated": "Aug 23"
     },
     "world_boss": {
-      "score": 6509385890000000,
-      "updated": "Aug 13"
+      "score": 8079603730000000,
+      "updated": "Aug 30"
     },
     "training_ground": {
       "score": 6411192,
@@ -40,22 +40,6 @@
     }
   },
   "history": [
-    {
-      "date": "7/29",
-      "cpRaw": 375238765431802.7,
-      "cpDisplay": "375T 238B",
-      "level": 109,
-      "globalRank": 3466,
-      "fame": 1271
-    },
-    {
-      "date": "7/30",
-      "cpRaw": 375238765431802.7,
-      "cpDisplay": "375T 238B",
-      "level": 109,
-      "globalRank": 3520,
-      "fame": 1273
-    },
     {
       "date": "7/31",
       "cpRaw": 438367250325908.9,
@@ -279,7 +263,23 @@
       "level": 111,
       "globalRank": 3499,
       "fame": 1300
+    },
+    {
+      "date": "8/29",
+      "cpRaw": 958333322277647.4,
+      "cpDisplay": "958T 333B",
+      "level": 111,
+      "globalRank": 3529,
+      "fame": 1300
+    },
+    {
+      "date": "8/30",
+      "cpRaw": 958333322277647.4,
+      "cpDisplay": "958T 333B",
+      "level": 111,
+      "globalRank": 3571,
+      "fame": 1300
     }
   ],
-  "scraped_at": "2026-08-28T23:28:15.674160+00:00"
+  "scraped_at": "2026-08-31T15:35:00.295539+00:00"
 }

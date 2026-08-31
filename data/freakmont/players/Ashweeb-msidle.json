@@ -3,32 +3,32 @@
     "name": "Ashweeb",
     "class": "Shadower",
     "level": 109,
-    "cpRaw": 372706662385787,
-    "cpDisplay": "372T 706B",
-    "fame": 1243
+    "cpRaw": 430772868317897,
+    "cpDisplay": "430T 772B",
+    "fame": 1247
   },
   "ranks": {
     "global": {
-      "rank": 8572,
+      "rank": 8064,
       "percentile": 0.8
     },
     "server": {
-      "rank": 180,
-      "percentile": 0.7
+      "rank": 165,
+      "percentile": 0.6
     },
     "world": {
-      "rank": 3816,
+      "rank": 3597,
       "percentile": 0.9
     },
     "job": {
-      "rank": 1356,
-      "percentile": 1.3
+      "rank": 1233,
+      "percentile": 1.2
     }
   },
   "performance": {
     "conquest": {
       "score": 105182698884,
-      "percentile": 5.6,
+      "percentile": 5.8,
       "updated": "2026-08-27T05:16:04+00:00"
     },
     "training_ground": {
@@ -43,44 +43,44 @@
     },
     "guild_war": {
       "score": 42571504412,
-      "percentile": 13.8,
+      "percentile": 14.1,
       "updated": "2026-08-28T00:00:56+00:00"
     },
     "world_boss": {
-      "score": 3198345520000000,
-      "percentile": 4.1,
-      "updated": "2026-08-22T04:17:37+00:00"
+      "score": 3916793800000000,
+      "percentile": 3.8,
+      "updated": "2026-08-30T06:24:06+00:00"
     }
   },
   "scoreComparison": {
     "guild_conquest": {
       "score": "105182698884",
-      "vs_all_pct": 42.8,
-      "vs_class_pct": 48.8,
+      "vs_all_pct": 42.6,
+      "vs_class_pct": 49.5,
       "date": "2026-08-27T05:16:04+00:00"
     },
     "world_boss": {
-      "score": "3198345520000000",
-      "vs_all_pct": 30.2,
-      "vs_class_pct": 32.8,
-      "date": "2026-08-22T04:17:37+00:00"
+      "score": "3916793800000000",
+      "vs_all_pct": 30.9,
+      "vs_class_pct": 33.9,
+      "date": "2026-08-30T06:24:06+00:00"
     },
     "guild_war": {
       "score": "42571504412",
       "vs_all_pct": -1.3,
-      "vs_class_pct": -3.8,
+      "vs_class_pct": -4.4,
       "date": "2026-08-28T00:00:56+00:00"
     },
     "guild_training_ground": {
       "score": "4032201",
-      "vs_all_pct": -11.8,
-      "vs_class_pct": -5.7,
+      "vs_all_pct": -11.9,
+      "vs_class_pct": -5.6,
       "date": "2026-07-17T05:54:47+00:00"
     },
     "guild_boss": {
       "score": "30120899098",
-      "vs_all_pct": 8.1,
-      "vs_class_pct": 6,
+      "vs_all_pct": 8,
+      "vs_class_pct": 5.9,
       "date": "2026-08-21T20:36:13+00:00"
     }
   },
@@ -126,10 +126,6 @@
     ],
     "world_boss_history": [
       {
-        "date": "2026-07-31T04:53:16+00:00",
-        "score": 1370770490000000
-      },
-      {
         "date": "2026-08-07T05:47:40+00:00",
         "score": 1613211680000000
       },
@@ -156,21 +152,15 @@
       {
         "date": "2026-08-22T04:17:37+00:00",
         "score": 3198345520000000
+      },
+      {
+        "date": "2026-08-30T06:24:06+00:00",
+        "score": 3916793800000000
       }
     ],
     "cp_history": [
       {
-        "date": "2026-07-29T23:35:28+00:00",
-        "cpRaw": 133868205727009,
-        "cpDisplay": "133T 868B"
-      },
-      {
-        "date": "2026-07-30T22:48:24+00:00",
-        "cpRaw": 143299130665540,
-        "cpDisplay": "143T 299B"
-      },
-      {
-        "date": "2026-07-31T13:44:01+00:00",
+        "date": "2026-08-01T15:43:07+00:00",
         "cpRaw": 143344793069797,
         "cpDisplay": "143T 344B"
       },
@@ -253,11 +243,26 @@
         "date": "2026-08-27T05:15:48+00:00",
         "cpRaw": 372706662385787,
         "cpDisplay": "372T 706B"
+      },
+      {
+        "date": "2026-08-29T04:23:05+00:00",
+        "cpRaw": 410631666354191,
+        "cpDisplay": "410T 631B"
+      },
+      {
+        "date": "2026-08-30T06:24:06+00:00",
+        "cpRaw": 430716487690074,
+        "cpDisplay": "430T 716B"
+      },
+      {
+        "date": "2026-08-31T01:37:28+00:00",
+        "cpRaw": 430772868317897,
+        "cpDisplay": "430T 772B"
       }
     ],
     "level_history": [
       {
-        "date": "2026-07-29T23:35:28+00:00",
+        "date": "2026-08-01T15:43:07+00:00",
         "level": 107
       },
       {
@@ -270,5 +275,5 @@
       }
     ]
   },
-  "scraped_at": "2026-08-28T23:35:30.214204+00:00"
+  "scraped_at": "2026-08-31T15:43:07.962404+00:00"
 }

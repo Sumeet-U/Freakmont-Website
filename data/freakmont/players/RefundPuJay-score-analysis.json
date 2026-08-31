@@ -9,9 +9,9 @@
   "world_boss": {
     "score": 6044520320000000,
     "snapshotDate": "2026-08-25",
-    "peerRank": 12,
+    "peerRank": null,
     "peerCount": 12,
-    "percentile": 0.0
+    "percentile": null
   },
   "training_ground": {
     "score": 3505833,

@@ -3,13 +3,13 @@
     "name": "JaiLBalT",
     "class": "Shadower",
     "level": 113,
-    "cpRaw": 4346093036269673,
-    "cpDisplay": "4AA 346T",
-    "fame": 977
+    "cpRaw": 4624578409307840,
+    "cpDisplay": "4AA 624T",
+    "fame": 997
   },
   "ranks": {
     "global": {
-      "rank": 1776,
+      "rank": 1763,
       "percentile": 0.2
     },
     "server": {
@@ -17,19 +17,19 @@
       "percentile": 0.1
     },
     "world": {
-      "rank": 854,
+      "rank": 842,
       "percentile": 0.2
     },
     "job": {
-      "rank": 256,
+      "rank": 239,
       "percentile": 0.2
     }
   },
   "performance": {
     "conquest": {
-      "score": 294254974630,
-      "percentile": 1.9,
-      "updated": "2026-08-28T05:05:07+00:00"
+      "score": 307389049104,
+      "percentile": 1.8,
+      "updated": "2026-08-31T06:28:55+00:00"
     },
     "training_ground": {
       "score": 10757229,
@@ -43,7 +43,7 @@
     },
     "guild_war": {
       "score": 147445557931,
-      "percentile": 3.8,
+      "percentile": 4.1,
       "updated": "2026-08-28T00:00:56+00:00"
     },
     "world_boss": {
@@ -60,42 +60,38 @@
       "date": "2026-08-17T03:06:52+00:00"
     },
     "guild_conquest": {
-      "score": "294254974630",
-      "vs_all_pct": 6.1,
-      "vs_class_pct": 10.6,
-      "date": "2026-08-28T05:05:07+00:00"
+      "score": "307389049104",
+      "vs_all_pct": 7.3,
+      "vs_class_pct": 12.4,
+      "date": "2026-08-31T06:28:55+00:00"
     },
     "world_boss": {
       "score": "39140349400000000",
-      "vs_all_pct": 18.9,
-      "vs_class_pct": 21.3,
+      "vs_all_pct": 18.7,
+      "vs_class_pct": 21.4,
       "date": "2026-08-25T04:37:04+00:00"
     },
     "guild_war": {
       "score": "147445557931",
-      "vs_all_pct": -8.8,
-      "vs_class_pct": -11.1,
+      "vs_all_pct": -8.7,
+      "vs_class_pct": -11.6,
       "date": "2026-08-28T00:00:56+00:00"
     },
     "guild_training_ground": {
       "score": "10757229",
-      "vs_all_pct": 5.7,
-      "vs_class_pct": 13.1,
+      "vs_all_pct": 5.5,
+      "vs_class_pct": 13,
       "date": "2026-07-17T05:53:47+00:00"
     },
     "guild_boss": {
       "score": "109571194390",
-      "vs_all_pct": 3.7,
-      "vs_class_pct": 1.8,
+      "vs_all_pct": 3.5,
+      "vs_class_pct": 1.6,
       "date": "2026-08-27T16:28:07+00:00"
     }
   },
   "history": {
     "conquest_history": [
-      {
-        "date": "2026-07-30T04:47:47+00:00",
-        "score": 179655110378
-      },
       {
         "date": "2026-08-02T09:38:02+00:00",
         "score": 190271893310
@@ -119,6 +115,10 @@
       {
         "date": "2026-08-28T05:05:07+00:00",
         "score": 294254974630
+      },
+      {
+        "date": "2026-08-31T06:28:55+00:00",
+        "score": 307389049104
       }
     ],
     "training_ground_history": [],
@@ -139,10 +139,6 @@
       }
     ],
     "world_boss_history": [
-      {
-        "date": "2026-07-31T04:53:13+00:00",
-        "score": 20057497500000000
-      },
       {
         "date": "2026-08-07T05:47:17+00:00",
         "score": 20590836000000000
@@ -170,17 +166,7 @@
     ],
     "cp_history": [
       {
-        "date": "2026-07-29T23:33:14+00:00",
-        "cpRaw": 2239193114630580,
-        "cpDisplay": "2AA 239T"
-      },
-      {
-        "date": "2026-07-30T08:57:53+00:00",
-        "cpRaw": 2326181990113441,
-        "cpDisplay": "2AA 326T"
-      },
-      {
-        "date": "2026-07-31T04:53:13+00:00",
+        "date": "2026-08-01T15:40:08+00:00",
         "cpRaw": 2493745762663715,
         "cpDisplay": "2AA 493T"
       },
@@ -278,15 +264,31 @@
         "date": "2026-08-28T05:03:52+00:00",
         "cpRaw": 4346093036269673,
         "cpDisplay": "4AA 346T"
+      },
+      {
+        "date": "2026-08-29T04:22:44+00:00",
+        "cpRaw": 4504261788979785,
+        "cpDisplay": "4AA 504T"
+      },
+      {
+        "date": "2026-08-30T06:23:49+00:00",
+        "cpRaw": 4583580440809918,
+        "cpDisplay": "4AA 583T"
+      },
+      {
+        "date": "2026-08-31T01:37:07+00:00",
+        "cpRaw": 4600193902567633,
+        "cpDisplay": "4AA 600T"
+      },
+      {
+        "date": "2026-08-31T04:39:59+00:00",
+        "cpRaw": 4624578409307840,
+        "cpDisplay": "4AA 624T"
       }
     ],
     "level_history": [
       {
-        "date": "2026-07-29T23:33:14+00:00",
-        "level": 111
-      },
-      {
-        "date": "2026-07-30T08:57:53+00:00",
+        "date": "2026-08-01T15:40:08+00:00",
         "level": 112
       },
       {
@@ -295,5 +297,5 @@
       }
     ]
   },
-  "scraped_at": "2026-08-28T23:33:15.526403+00:00"
+  "scraped_at": "2026-08-31T15:40:08.314045+00:00"
 }

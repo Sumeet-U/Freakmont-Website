@@ -2,33 +2,33 @@
   "character": {
     "name": "Lighttt",
     "class": "Night Lord",
-    "level": 108,
-    "cpRaw": 568815097443581,
-    "cpDisplay": "568T 815B",
+    "level": 109,
+    "cpRaw": 681169354204068,
+    "cpDisplay": "681T 169B",
     "fame": 25
   },
   "ranks": {
     "global": {
-      "rank": 6342,
+      "rank": 5849,
       "percentile": 0.6
     },
     "server": {
-      "rank": 127,
+      "rank": 120,
       "percentile": 0.5
     },
     "world": {
-      "rank": 2865,
-      "percentile": 0.7
+      "rank": 2643,
+      "percentile": 0.6
     },
     "job": {
-      "rank": 898,
+      "rank": 857,
       "percentile": 0.5
     }
   },
   "performance": {
     "conquest": {
       "score": 104821871775,
-      "percentile": 5.7,
+      "percentile": 5.9,
       "updated": "2026-08-26T04:14:16+00:00"
     },
     "training_ground": {
@@ -43,27 +43,27 @@
     },
     "guild_war": {
       "score": 40630370347,
-      "percentile": 15.1,
+      "percentile": 15.3,
       "updated": "2026-08-28T00:00:56+00:00"
     },
     "world_boss": {
-      "score": 4457391640000000,
-      "percentile": 3.5,
-      "updated": "2026-08-25T04:37:22+00:00"
+      "score": 5391548200000000,
+      "percentile": 3.3,
+      "updated": "2026-08-31T04:40:08+00:00"
     }
   },
   "scoreComparison": {
     "guild_conquest": {
       "score": "104821871775",
-      "vs_all_pct": 15.6,
-      "vs_class_pct": 25.1,
+      "vs_all_pct": 15.5,
+      "vs_class_pct": 25,
       "date": "2026-08-26T04:14:16+00:00"
     },
     "world_boss": {
-      "score": "4457391640000000",
-      "vs_all_pct": 26.5,
-      "vs_class_pct": 34.1,
-      "date": "2026-08-25T04:37:22+00:00"
+      "score": "5391548200000000",
+      "vs_all_pct": 10.1,
+      "vs_class_pct": 16.3,
+      "date": "2026-08-31T04:40:08+00:00"
     },
     "guild_war": {
       "score": "40630370347",
@@ -74,13 +74,13 @@
     "guild_training_ground": {
       "score": "4633215",
       "vs_all_pct": 13.7,
-      "vs_class_pct": 14.5,
+      "vs_class_pct": 14.6,
       "date": "2026-07-17T05:54:21+00:00"
     },
     "guild_boss": {
       "score": "3166899315",
       "vs_all_pct": -22.5,
-      "vs_class_pct": -20.3,
+      "vs_class_pct": -20.4,
       "date": "2026-06-15T08:42:23+00:00"
     }
   },
@@ -147,11 +147,19 @@
       {
         "date": "2026-08-25T04:37:22+00:00",
         "score": 4457391640000000
+      },
+      {
+        "date": "2026-08-29T04:22:59+00:00",
+        "score": 5079590080000000
+      },
+      {
+        "date": "2026-08-31T04:40:08+00:00",
+        "score": 5391548200000000
       }
     ],
     "cp_history": [
       {
-        "date": "2026-07-29T23:35:18+00:00",
+        "date": "2026-08-01T15:42:52+00:00",
         "cpRaw": 106653438002136,
         "cpDisplay": "106T 653B"
       },
@@ -274,15 +282,21 @@
         "date": "2026-08-26T22:16:18+00:00",
         "cpRaw": 568815097443581,
         "cpDisplay": "568T 815B"
+      },
+      {
+        "date": "2026-08-29T04:22:58+00:00",
+        "cpRaw": 636941740906727,
+        "cpDisplay": "636T 941B"
+      },
+      {
+        "date": "2026-08-31T01:37:21+00:00",
+        "cpRaw": 681169354204068,
+        "cpDisplay": "681T 169B"
       }
     ],
     "level_history": [
       {
-        "date": "2026-07-29T23:35:18+00:00",
-        "level": 105
-      },
-      {
-        "date": "2026-07-30T08:58:06+00:00",
+        "date": "2026-08-01T15:42:52+00:00",
         "level": 106
       },
       {
@@ -292,8 +306,12 @@
       {
         "date": "2026-08-19T00:26:20+00:00",
         "level": 108
+      },
+      {
+        "date": "2026-08-29T08:14:55+00:00",
+        "level": 109
       }
     ]
   },
-  "scraped_at": "2026-08-28T23:35:20.187087+00:00"
+  "scraped_at": "2026-08-31T15:42:52.535774+00:00"
 }

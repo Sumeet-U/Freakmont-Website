@@ -3,33 +3,33 @@
     "name": "RefundPuJay",
     "class": "Marksman",
     "level": 109,
-    "cpRaw": 820964912487114,
-    "cpDisplay": "820T 964B",
+    "cpRaw": 831245730656578,
+    "cpDisplay": "831T 245B",
     "fame": 40
   },
   "ranks": {
     "global": {
-      "rank": 4963,
+      "rank": 5127,
       "percentile": 0.5
     },
     "server": {
-      "rank": 101,
+      "rank": 107,
       "percentile": 0.4
     },
     "world": {
-      "rank": 2250,
-      "percentile": 0.5
+      "rank": 2317,
+      "percentile": 0.6
     },
     "job": {
-      "rank": 542,
+      "rank": 543,
       "percentile": 1.2
     }
   },
   "performance": {
     "conquest": {
-      "score": 127899901045,
-      "percentile": 4.3,
-      "updated": "2026-08-22T04:17:39+00:00"
+      "score": 129991078195,
+      "percentile": 4.4,
+      "updated": "2026-08-31T06:29:04+00:00"
     },
     "training_ground": {
       "score": 3505833,
@@ -43,13 +43,13 @@
     },
     "guild_war": {
       "score": 62239201084,
-      "percentile": 10.2,
+      "percentile": 10.4,
       "updated": "2026-08-28T00:00:56+00:00"
     },
     "world_boss": {
-      "score": 6064425080000000,
-      "percentile": 3,
-      "updated": "2026-08-21T17:27:48+00:00"
+      "score": 7157285960000000,
+      "percentile": 2.9,
+      "updated": "2026-08-31T04:40:06+00:00"
     }
   },
   "scoreComparison": {
@@ -60,42 +60,38 @@
       "date": "2026-07-15T02:50:14+00:00"
     },
     "guild_conquest": {
-      "score": "127899901045",
-      "vs_all_pct": 23.7,
-      "vs_class_pct": 22,
-      "date": "2026-08-22T04:17:39+00:00"
+      "score": "129991078195",
+      "vs_all_pct": 14.4,
+      "vs_class_pct": 12.9,
+      "date": "2026-08-31T06:29:04+00:00"
     },
     "world_boss": {
-      "score": "6064425080000000",
-      "vs_all_pct": 29.6,
-      "vs_class_pct": 9.8,
-      "date": "2026-08-21T17:27:48+00:00"
+      "score": "7157285960000000",
+      "vs_all_pct": 18.1,
+      "vs_class_pct": 0.8,
+      "date": "2026-08-31T04:40:06+00:00"
     },
     "guild_war": {
       "score": "62239201084",
       "vs_all_pct": -5.7,
-      "vs_class_pct": -7.9,
+      "vs_class_pct": -8,
       "date": "2026-08-28T00:00:56+00:00"
     },
     "guild_training_ground": {
       "score": "3505833",
-      "vs_all_pct": -29.8,
+      "vs_all_pct": -29.9,
       "vs_class_pct": -33.4,
       "date": "2026-07-17T05:55:00+00:00"
     },
     "guild_boss": {
       "score": "28357410039",
-      "vs_all_pct": -27,
-      "vs_class_pct": -30.3,
+      "vs_all_pct": -27.1,
+      "vs_class_pct": -30.4,
       "date": "2026-08-21T20:35:49+00:00"
     }
   },
   "history": {
     "conquest_history": [
-      {
-        "date": "2026-07-30T04:47:50+00:00",
-        "score": 50586079189
-      },
       {
         "date": "2026-08-04T12:47:44+00:00",
         "score": 63541302979
@@ -111,6 +107,10 @@
       {
         "date": "2026-08-22T04:17:39+00:00",
         "score": 127899901045
+      },
+      {
+        "date": "2026-08-31T06:29:04+00:00",
+        "score": 129991078195
       }
     ],
     "training_ground_history": [],
@@ -166,21 +166,15 @@
       {
         "date": "2026-08-21T17:27:48+00:00",
         "score": 6064425080000000
+      },
+      {
+        "date": "2026-08-31T04:40:06+00:00",
+        "score": 7157285960000000
       }
     ],
     "cp_history": [
       {
-        "date": "2026-07-29T23:34:57+00:00",
-        "cpRaw": 192710245118050,
-        "cpDisplay": "192T 710B"
-      },
-      {
-        "date": "2026-07-30T04:46:28+00:00",
-        "cpRaw": 193640937199233,
-        "cpDisplay": "193T 640B"
-      },
-      {
-        "date": "2026-07-30T22:48:21+00:00",
+        "date": "2026-08-01T15:42:16+00:00",
         "cpRaw": 200784422340027,
         "cpDisplay": "200T 784B"
       },
@@ -283,11 +277,16 @@
         "date": "2026-08-27T05:15:43+00:00",
         "cpRaw": 820964912487114,
         "cpDisplay": "820T 964B"
+      },
+      {
+        "date": "2026-08-31T01:37:19+00:00",
+        "cpRaw": 831245730656578,
+        "cpDisplay": "831T 245B"
       }
     ],
     "level_history": [
       {
-        "date": "2026-07-29T23:34:57+00:00",
+        "date": "2026-08-01T15:42:16+00:00",
         "level": 106
       },
       {
@@ -304,5 +303,5 @@
       }
     ]
   },
-  "scraped_at": "2026-08-28T23:34:58.813000+00:00"
+  "scraped_at": "2026-08-31T15:42:17.069201+00:00"
 }

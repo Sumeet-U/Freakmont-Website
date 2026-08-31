@@ -1,20 +1,20 @@
 {
   "ranks": {
     "global_rank": {
-      "rank": 9023,
-      "total": 228408
+      "rank": 8995,
+      "total": 229873
     },
     "bera": {
-      "rank": 5159,
-      "total": 101078
+      "rank": 5142,
+      "total": 101664
     },
     "bera_5": {
-      "rank": 264,
+      "rank": 262,
       "total": 2000
     },
     "marksman": {
-      "rank": 1036,
-      "total": 12492
+      "rank": 1028,
+      "total": 12526
     }
   },
   "performance": {
@@ -23,8 +23,8 @@
       "updated": "Aug 23"
     },
     "world_boss": {
-      "score": 1738030430000000,
-      "updated": "Aug 25"
+      "score": 1878480720000000,
+      "updated": "Aug 30"
     },
     "training_ground": {
       "score": 3818724,
@@ -40,22 +40,6 @@
     }
   },
   "history": [
-    {
-      "date": "7/29",
-      "cpRaw": 108958139223741.08,
-      "cpDisplay": "108T 958B",
-      "level": 105,
-      "globalRank": 7753,
-      "fame": 65
-    },
-    {
-      "date": "7/30",
-      "cpRaw": 109513349730307.45,
-      "cpDisplay": "109T 513B",
-      "level": 106,
-      "globalRank": 7873,
-      "fame": 66
-    },
     {
       "date": "7/31",
       "cpRaw": 124878406264349.97,
@@ -279,7 +263,23 @@
       "level": 108,
       "globalRank": 9023,
       "fame": 74
+    },
+    {
+      "date": "8/29",
+      "cpRaw": 232494760172386.75,
+      "cpDisplay": "232T 494B",
+      "level": 108,
+      "globalRank": 9117,
+      "fame": 74
+    },
+    {
+      "date": "8/30",
+      "cpRaw": 242275160158244.66,
+      "cpDisplay": "242T 275B",
+      "level": 108,
+      "globalRank": 8995,
+      "fame": 74
     }
   ],
-  "scraped_at": "2026-08-28T23:30:39.109367+00:00"
+  "scraped_at": "2026-08-31T15:37:22.098380+00:00"
 }

@@ -3,32 +3,32 @@
     "name": "KayaaToast",
     "class": "Marksman",
     "level": 109,
-    "cpRaw": 172440541455768,
-    "cpDisplay": "172T 440B",
-    "fame": 187
+    "cpRaw": 179115329674501,
+    "cpDisplay": "179T 115B",
+    "fame": 188
   },
   "ranks": {
     "global": {
-      "rank": 14030,
+      "rank": 14274,
       "percentile": 1.4
     },
     "server": {
-      "rank": 330,
-      "percentile": 1.2
+      "rank": 335,
+      "percentile": 1.3
     },
     "world": {
-      "rank": 6174,
+      "rank": 6243,
       "percentile": 1.5
     },
     "job": {
-      "rank": 1560,
+      "rank": 1573,
       "percentile": 3.4
     }
   },
   "performance": {
     "conquest": {
       "score": 70937208630,
-      "percentile": 7.7,
+      "percentile": 7.9,
       "updated": "2026-08-25T06:05:27+00:00"
     },
     "training_ground": {
@@ -43,50 +43,50 @@
     },
     "guild_war": {
       "score": 25028076023,
-      "percentile": 24.4,
+      "percentile": 24.6,
       "updated": "2026-08-28T00:00:56+00:00"
     },
     "world_boss": {
       "score": 2739890300000000,
-      "percentile": 4.4,
+      "percentile": 4.5,
       "updated": "2026-08-27T05:15:50+00:00"
     }
   },
   "scoreComparison": {
     "chapter": {
       "score": "260",
-      "vs_all_pct": 0,
+      "vs_all_pct": -0.4,
       "vs_class_pct": null,
       "date": "2026-07-21T19:18:33+00:00"
     },
     "guild_conquest": {
       "score": "70937208630",
-      "vs_all_pct": 49.9,
-      "vs_class_pct": 47.9,
+      "vs_all_pct": 49.6,
+      "vs_class_pct": 47.7,
       "date": "2026-08-25T06:05:27+00:00"
     },
     "world_boss": {
       "score": "2739890300000000",
-      "vs_all_pct": 145.1,
-      "vs_class_pct": 107.6,
+      "vs_all_pct": 144.8,
+      "vs_class_pct": 108.9,
       "date": "2026-08-27T05:15:50+00:00"
     },
     "guild_war": {
       "score": "25028076023",
       "vs_all_pct": -12.1,
-      "vs_class_pct": -14.1,
+      "vs_class_pct": -14.3,
       "date": "2026-08-28T00:00:56+00:00"
     },
     "guild_training_ground": {
       "score": "5883633",
-      "vs_all_pct": 32.7,
-      "vs_class_pct": 26,
+      "vs_all_pct": 32.6,
+      "vs_class_pct": 26.1,
       "date": "2026-07-17T05:54:05+00:00"
     },
     "guild_boss": {
       "score": "4074053726",
-      "vs_all_pct": 50,
-      "vs_class_pct": 43.2,
+      "vs_all_pct": 50.1,
+      "vs_class_pct": 43.5,
       "date": "2026-06-05T14:36:50+00:00"
     }
   },
@@ -123,10 +123,6 @@
     ],
     "world_boss_history": [
       {
-        "date": "2026-07-31T04:53:16+00:00",
-        "score": 1141741940000000
-      },
-      {
         "date": "2026-08-07T05:47:39+00:00",
         "score": 1685168380000000
       },
@@ -161,12 +157,7 @@
     ],
     "cp_history": [
       {
-        "date": "2026-07-29T23:36:41+00:00",
-        "cpRaw": 96515661741656,
-        "cpDisplay": "96T 515B"
-      },
-      {
-        "date": "2026-07-30T04:46:29+00:00",
+        "date": "2026-08-01T15:44:43+00:00",
         "cpRaw": 97542712367847,
         "cpDisplay": "97T 542B"
       },
@@ -234,11 +225,16 @@
         "date": "2026-08-26T04:14:22+00:00",
         "cpRaw": 172440541455768,
         "cpDisplay": "172T 440B"
+      },
+      {
+        "date": "2026-08-29T04:23:07+00:00",
+        "cpRaw": 179115329674501,
+        "cpDisplay": "179T 115B"
       }
     ],
     "level_history": [
       {
-        "date": "2026-07-29T23:36:41+00:00",
+        "date": "2026-08-01T15:44:43+00:00",
         "level": 107
       },
       {
@@ -251,5 +247,5 @@
       }
     ]
   },
-  "scraped_at": "2026-08-28T23:36:42.835286+00:00"
+  "scraped_at": "2026-08-31T15:44:43.957623+00:00"
 }

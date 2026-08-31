@@ -1,20 +1,20 @@
 {
   "ranks": {
     "global_rank": {
-      "rank": 6925,
-      "total": 228408
+      "rank": 6852,
+      "total": 229873
     },
     "bera": {
-      "rank": 3990,
-      "total": 101078
+      "rank": 3948,
+      "total": 101664
     },
     "bera_5": {
-      "rank": 190,
+      "rank": 189,
       "total": 2000
     },
     "ice/lightning_mage": {
-      "rank": 390,
-      "total": 26042
+      "rank": 379,
+      "total": 26129
     }
   },
   "performance": {
@@ -40,22 +40,6 @@
     }
   },
   "history": [
-    {
-      "date": "7/29",
-      "cpRaw": 108988959073694.11,
-      "cpDisplay": "108T 988B",
-      "level": 107,
-      "globalRank": 7750,
-      "fame": 219
-    },
-    {
-      "date": "7/30",
-      "cpRaw": 108988959073694.11,
-      "cpDisplay": "108T 988B",
-      "level": 107,
-      "globalRank": 7897,
-      "fame": 219
-    },
     {
       "date": "7/31",
       "cpRaw": 108988959073694.11,
@@ -279,7 +263,23 @@
       "level": 109,
       "globalRank": 6925,
       "fame": 260
+    },
+    {
+      "date": "8/29",
+      "cpRaw": 357374829904026.56,
+      "cpDisplay": "357T 374B",
+      "level": 109,
+      "globalRank": 6865,
+      "fame": 262
+    },
+    {
+      "date": "8/30",
+      "cpRaw": 362201422904777,
+      "cpDisplay": "362T 201B",
+      "level": 109,
+      "globalRank": 6852,
+      "fame": 263
     }
   ],
-  "scraped_at": "2026-08-28T23:29:34.300632+00:00"
+  "scraped_at": "2026-08-31T15:36:15.570432+00:00"
 }

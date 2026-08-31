@@ -1,20 +1,20 @@
 {
   "ranks": {
     "global_rank": {
-      "rank": 3397,
-      "total": 228408
+      "rank": 3420,
+      "total": 229873
     },
     "bera": {
-      "rank": 1989,
-      "total": 101078
+      "rank": 2002,
+      "total": 101664
     },
     "bera_5": {
-      "rank": 87,
+      "rank": 86,
       "total": 2000
     },
     "paladin": {
-      "rank": 308,
-      "total": 8316
+      "rank": 311,
+      "total": 8367
     }
   },
   "performance": {
@@ -23,8 +23,8 @@
       "updated": "Aug 23"
     },
     "world_boss": {
-      "score": 9624755180000000,
-      "updated": "Aug 25"
+      "score": 12963952300000000,
+      "updated": "Aug 30"
     },
     "training_ground": {
       "score": 6149094,
@@ -40,22 +40,6 @@
     }
   },
   "history": [
-    {
-      "date": "7/29",
-      "cpRaw": 375056639113753.7,
-      "cpDisplay": "375T 56B",
-      "level": 109,
-      "globalRank": 3467,
-      "fame": 187
-    },
-    {
-      "date": "7/30",
-      "cpRaw": 375056639113753.7,
-      "cpDisplay": "375T 56B",
-      "level": 109,
-      "globalRank": 3522,
-      "fame": 187
-    },
     {
       "date": "7/31",
       "cpRaw": 448781135415902.25,
@@ -279,7 +263,23 @@
       "level": 111,
       "globalRank": 3397,
       "fame": 199
+    },
+    {
+      "date": "8/29",
+      "cpRaw": 1004305221215680.9,
+      "cpDisplay": "1AA 4T",
+      "level": 111,
+      "globalRank": 3438,
+      "fame": 199
+    },
+    {
+      "date": "8/30",
+      "cpRaw": 1025560685804904.8,
+      "cpDisplay": "1AA 25T",
+      "level": 111,
+      "globalRank": 3420,
+      "fame": 199
     }
   ],
-  "scraped_at": "2026-08-28T23:27:59.693367+00:00"
+  "scraped_at": "2026-08-31T15:34:42.873303+00:00"
 }

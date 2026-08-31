@@ -1,11 +1,11 @@
 {
-  "date": "2026-08-27",
+  "date": "2026-08-28",
   "entries": [
     {
       "name": "JaneGarden",
       "class": "Shadower",
       "level": 116,
-      "score": 1041967194015,
+      "score": 1074314414054,
       "rank": 1
     },
     {
@@ -33,21 +33,21 @@
       "name": "KenniTM",
       "class": "Paladin",
       "level": 112,
-      "score": 367962839033,
+      "score": 381502103912,
       "rank": 5
+    },
+    {
+      "name": "ImYolo",
+      "class": "Bishop",
+      "level": 113,
+      "score": 365856965212,
+      "rank": 6
     },
     {
       "name": "Pantshunter",
       "class": "Hero",
       "level": 114,
       "score": 365781032011,
-      "rank": 6
-    },
-    {
-      "name": "ImYolo",
-      "class": "Bishop",
-      "level": 113,
-      "score": 329896434378,
       "rank": 7
     },
     {
@@ -61,7 +61,7 @@
       "name": "JaiLBalT",
       "class": "Shadower",
       "level": 113,
-      "score": 269785740560,
+      "score": 294254974630,
       "rank": 9
     },
     {

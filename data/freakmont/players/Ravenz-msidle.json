@@ -3,33 +3,33 @@
     "name": "Ravenz",
     "class": "Shadower",
     "level": 111,
-    "cpRaw": 1032979136911357,
-    "cpDisplay": "1AA 32T",
-    "fame": 847
+    "cpRaw": 1210835373949176,
+    "cpDisplay": "1AA 210T",
+    "fame": 895
   },
   "ranks": {
     "global": {
-      "rank": 4285,
+      "rank": 4017,
       "percentile": 0.4
     },
     "server": {
-      "rank": 84,
+      "rank": 75,
       "percentile": 0.3
     },
     "world": {
-      "rank": 1959,
-      "percentile": 0.5
+      "rank": 1840,
+      "percentile": 0.4
     },
     "job": {
-      "rank": 646,
-      "percentile": 0.6
+      "rank": 568,
+      "percentile": 0.5
     }
   },
   "performance": {
     "conquest": {
-      "score": 156084825014,
+      "score": 160950564213,
       "percentile": 3.4,
-      "updated": "2026-08-25T06:05:17+00:00"
+      "updated": "2026-08-31T06:29:00+00:00"
     },
     "training_ground": {
       "score": 6269253,
@@ -43,12 +43,12 @@
     },
     "guild_war": {
       "score": 105284673899,
-      "percentile": 6.7,
+      "percentile": 7,
       "updated": "2026-08-28T00:00:56+00:00"
     },
     "world_boss": {
       "score": 10145918800000000,
-      "percentile": 2.3,
+      "percentile": 2.4,
       "updated": "2026-08-25T04:37:12+00:00"
     }
   },
@@ -60,33 +60,33 @@
       "date": "2026-03-28T20:32:30+00:00"
     },
     "guild_conquest": {
-      "score": "156084825014",
-      "vs_all_pct": 23.6,
-      "vs_class_pct": 28.8,
-      "date": "2026-08-25T06:05:17+00:00"
+      "score": "160950564213",
+      "vs_all_pct": 15.6,
+      "vs_class_pct": 21.2,
+      "date": "2026-08-31T06:29:00+00:00"
     },
     "world_boss": {
       "score": "10145918800000000",
-      "vs_all_pct": 35.6,
-      "vs_class_pct": 38.3,
+      "vs_all_pct": 35.4,
+      "vs_class_pct": 38.6,
       "date": "2026-08-25T04:37:12+00:00"
     },
     "guild_war": {
       "score": "105284673899",
-      "vs_all_pct": 41.2,
-      "vs_class_pct": 37.7,
+      "vs_all_pct": 41.3,
+      "vs_class_pct": 36.9,
       "date": "2026-08-28T00:00:56+00:00"
     },
     "guild_training_ground": {
       "score": "6269253",
-      "vs_all_pct": -1.6,
+      "vs_all_pct": -1.7,
       "vs_class_pct": 5.2,
       "date": "2026-07-17T05:54:02+00:00"
     },
     "guild_boss": {
       "score": "52425612577",
-      "vs_all_pct": 6.1,
-      "vs_class_pct": 4.1,
+      "vs_all_pct": 6,
+      "vs_class_pct": 4,
       "date": "2026-08-27T16:27:21+00:00"
     }
   },
@@ -115,6 +115,10 @@
       {
         "date": "2026-08-25T06:05:17+00:00",
         "score": 156084825014
+      },
+      {
+        "date": "2026-08-31T06:29:00+00:00",
+        "score": 160950564213
       }
     ],
     "training_ground_history": [],
@@ -158,17 +162,7 @@
     ],
     "cp_history": [
       {
-        "date": "2026-07-29T23:34:26+00:00",
-        "cpRaw": 451819509122314,
-        "cpDisplay": "451T 819B"
-      },
-      {
-        "date": "2026-07-30T08:57:55+00:00",
-        "cpRaw": 513177143992972,
-        "cpDisplay": "513T 177B"
-      },
-      {
-        "date": "2026-07-30T22:48:14+00:00",
+        "date": "2026-08-01T15:41:11+00:00",
         "cpRaw": 513293001971540,
         "cpDisplay": "513T 293B"
       },
@@ -311,11 +305,26 @@
         "date": "2026-08-28T05:03:57+00:00",
         "cpRaw": 1032979136911357,
         "cpDisplay": "1AA 32T"
+      },
+      {
+        "date": "2026-08-29T04:22:50+00:00",
+        "cpRaw": 1203887687735747,
+        "cpDisplay": "1AA 203T"
+      },
+      {
+        "date": "2026-08-29T08:14:46+00:00",
+        "cpRaw": 1208231454222712,
+        "cpDisplay": "1AA 208T"
+      },
+      {
+        "date": "2026-08-31T01:37:13+00:00",
+        "cpRaw": 1210835373949176,
+        "cpDisplay": "1AA 210T"
       }
     ],
     "level_history": [
       {
-        "date": "2026-07-29T23:34:27+00:00",
+        "date": "2026-08-01T15:41:11+00:00",
         "level": 109
       },
       {
@@ -328,5 +337,5 @@
       }
     ]
   },
-  "scraped_at": "2026-08-28T23:34:28.273282+00:00"
+  "scraped_at": "2026-08-31T15:41:12.521841+00:00"
 }

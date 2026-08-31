@@ -3,33 +3,33 @@
     "name": "Caycidia",
     "class": "Arch Mage (Ice/Lightning)",
     "level": 111,
-    "cpRaw": 955245451428763,
-    "cpDisplay": "955T 245B",
-    "fame": 1300
+    "cpRaw": 1022675877757954,
+    "cpDisplay": "1AA 22T",
+    "fame": 1302
   },
   "ranks": {
     "global": {
-      "rank": 4522,
+      "rank": 4498,
       "percentile": 0.4
     },
     "server": {
-      "rank": 92,
+      "rank": 90,
       "percentile": 0.3
     },
     "world": {
-      "rank": 2070,
+      "rank": 2045,
       "percentile": 0.5
     },
     "job": {
-      "rank": 182,
+      "rank": 184,
       "percentile": 0.1
     }
   },
   "performance": {
     "conquest": {
-      "score": 159592856147,
+      "score": 167014745052,
       "percentile": 3.3,
-      "updated": "2026-08-26T04:14:09+00:00"
+      "updated": "2026-08-31T06:28:59+00:00"
     },
     "training_ground": {
       "score": 6411192,
@@ -43,44 +43,44 @@
     },
     "guild_war": {
       "score": 84183539441,
-      "percentile": 8,
+      "percentile": 8.3,
       "updated": "2026-08-28T00:00:56+00:00"
     },
     "world_boss": {
-      "score": 8030901690000000,
-      "percentile": 2.6,
-      "updated": "2026-08-27T05:15:39+00:00"
+      "score": 8079603730000000,
+      "percentile": 2.7,
+      "updated": "2026-08-31T04:40:04+00:00"
     }
   },
   "scoreComparison": {
     "guild_conquest": {
-      "score": "159592856147",
-      "vs_all_pct": 32.7,
-      "vs_class_pct": 56.8,
-      "date": "2026-08-26T04:14:09+00:00"
+      "score": "167014745052",
+      "vs_all_pct": 31.4,
+      "vs_class_pct": 55.6,
+      "date": "2026-08-31T06:28:59+00:00"
     },
     "world_boss": {
-      "score": "8030901690000000",
-      "vs_all_pct": 15.3,
-      "vs_class_pct": 43,
-      "date": "2026-08-27T05:15:39+00:00"
+      "score": "8079603730000000",
+      "vs_all_pct": 6.7,
+      "vs_class_pct": 32.6,
+      "date": "2026-08-31T04:40:04+00:00"
     },
     "guild_war": {
       "score": "84183539441",
-      "vs_all_pct": 17.5,
+      "vs_all_pct": 17.6,
       "vs_class_pct": 35.2,
       "date": "2026-08-28T00:00:56+00:00"
     },
     "guild_training_ground": {
       "score": "6411192",
-      "vs_all_pct": 8.7,
-      "vs_class_pct": 18.7,
+      "vs_all_pct": 8.6,
+      "vs_class_pct": 18.5,
       "date": "2026-07-17T05:54:11+00:00"
     },
     "guild_boss": {
       "score": "56217464696",
-      "vs_all_pct": 18.4,
-      "vs_class_pct": 26,
+      "vs_all_pct": 18.2,
+      "vs_class_pct": 25.6,
       "date": "2026-08-27T16:28:04+00:00"
     }
   },
@@ -105,6 +105,10 @@
       {
         "date": "2026-08-26T04:14:09+00:00",
         "score": 159592856147
+      },
+      {
+        "date": "2026-08-31T06:28:59+00:00",
+        "score": 167014745052
       }
     ],
     "training_ground_history": [],
@@ -156,21 +160,15 @@
       {
         "date": "2026-08-27T05:15:39+00:00",
         "score": 8030901690000000
+      },
+      {
+        "date": "2026-08-31T04:40:04+00:00",
+        "score": 8079603730000000
       }
     ],
     "cp_history": [
       {
-        "date": "2026-07-29T23:34:47+00:00",
-        "cpRaw": 375238765431802,
-        "cpDisplay": "375T 238B"
-      },
-      {
-        "date": "2026-07-30T22:48:15+00:00",
-        "cpRaw": 424448031692914,
-        "cpDisplay": "424T 448B"
-      },
-      {
-        "date": "2026-07-31T04:53:14+00:00",
+        "date": "2026-08-01T15:42:04+00:00",
         "cpRaw": 438367250325908,
         "cpDisplay": "438T 367B"
       },
@@ -293,11 +291,21 @@
         "date": "2026-08-27T16:28:04+00:00",
         "cpRaw": 955245451428763,
         "cpDisplay": "955T 245B"
+      },
+      {
+        "date": "2026-08-29T04:22:53+00:00",
+        "cpRaw": 958333322277647,
+        "cpDisplay": "958T 333B"
+      },
+      {
+        "date": "2026-08-31T01:37:16+00:00",
+        "cpRaw": 1022675877757954,
+        "cpDisplay": "1AA 22T"
       }
     ],
     "level_history": [
       {
-        "date": "2026-07-29T23:34:47+00:00",
+        "date": "2026-08-01T15:42:04+00:00",
         "level": 109
       },
       {
@@ -310,5 +318,5 @@
       }
     ]
   },
-  "scraped_at": "2026-08-28T23:34:48.365306+00:00"
+  "scraped_at": "2026-08-31T15:42:04.492423+00:00"
 }
