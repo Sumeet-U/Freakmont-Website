@@ -570,6 +570,35 @@ table.roster td.cp { font-weight: 700; color: var(--blue); }
 .rank-dist-fill { height: 100%; border-radius: 3px; min-width: 3px; }
 .rank-dist-row .count { width: 28px; text-align: right; font-size: 12.5px; font-weight: 600; }
 
+/* -- Guild War Forecast page -- */
+.gw-crest { background: linear-gradient(155deg, var(--rose) 0%, #7a3a2c 100%); }
+.gw-crest img { width: 82%; height: 82%; image-rendering: auto; }
+.gw-intro { margin-bottom: var(--gap); line-height: 1.5; }
+.pill-us { background: var(--rose-soft); border-color: var(--rose); color: #7a3a2c; font-weight: 700; }
+
+.gw-standings-list { display: flex; flex-direction: column; gap: 10px; margin-top: 6px; }
+.gw-standings-row { display: flex; align-items: center; gap: 12px; }
+.gw-standings-row .rank {
+  width: 26px;
+  text-align: center;
+  font-family: var(--font-display);
+  font-size: 13px;
+  color: var(--muted);
+  flex-shrink: 0;
+}
+.gw-standings-row.is-us .rank { color: var(--rose); }
+.gw-standings-row .who { width: 160px; flex-shrink: 0; min-width: 0; }
+.gw-standings-row .who .name { font-size: 13.5px; font-weight: 700; }
+.gw-standings-row.is-us .who .name { color: var(--rose); }
+.gw-standings-row .who .sub { display: block; font-size: 11px; color: var(--muted); }
+.gw-standings-track { flex: 1; background: var(--card-alt); border-radius: 3px; height: 18px; overflow: hidden; }
+.gw-standings-fill { background: var(--blue); height: 100%; border-radius: 3px; min-width: 3px; }
+.gw-standings-row.is-us .gw-standings-fill { background: var(--rose); }
+.gw-standings-row .pts { width: 96px; text-align: right; font-size: 12.5px; font-weight: 700; flex-shrink: 0; }
+
+table.roster tr.is-us td { background: var(--gold-soft); }
+table.roster td.class.is-us-guild { color: var(--rose); font-weight: 700; }
+
 /* -- footer -- */
 .site-footer {
   background: var(--border);

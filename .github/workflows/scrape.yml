@@ -23,7 +23,12 @@ permissions:
 
 jobs:
   scrape:
-    runs-on: ubuntu-latest
+    # Runs on your own Windows machine instead of GitHub's shared pool --
+    # mapleidle.gg/msidle.gg block GitHub-hosted runners' IP range outright
+    # (429/403 on the very first request), which a home IP doesn't hit.
+    # Machine must be on and connected at 09:17 UTC for the schedule to
+    # fire; see SETUP.md for how the runner service was installed.
+    runs-on: [self-hosted, Windows]
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -38,6 +43,14 @@ jobs:
 
       - name: Run scraper
         run: python scrape_guild.py
+
+      - name: Run Guild War forecast scraper
+        # Separate step so a failure here (or simply no active matchup in
+        # gw-opponents.json) never blocks committing the main daily scrape
+        # above -- scrape_gw_forecast.py itself already exits cleanly when
+        # there's no configured matchup; this guards against anything
+        # unexpected too.
+        run: python scrape_gw_forecast.py || echo "Guild War forecast step failed or skipped, continuing."
 
       - name: Commit and push updated data
         run: |

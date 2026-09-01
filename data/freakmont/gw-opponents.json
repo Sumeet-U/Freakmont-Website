@@ -1,0 +1,12 @@
+{
+  "_note": "Hand-maintained: this week's Guild War matchup. The scraper (scrape_gw_forecast.py) never writes to this file, only reads it -- edit it by hand whenever Guild War re-matches guilds (usually weekly). Copy this file to gw-opponents.json (drop the '.template') to activate it; gw-opponents.json is what the scraper actually reads.",
+  "week_of": "2026-08-31",
+  "active": true,
+  "opponents": [
+    "Mythic",
+    "Cloud",
+    "DisneyWorld",
+    "Extinct"
+  ],
+  "_opponents_note": "Exactly as the guild name appears in its mapleidle.gg URL, e.g. https://mapleidle.gg/guild/bera/Mythic -> \"Mythic\". Case-sensitive. Normally 4 names (Guild War is a 5-guild bracket including us), but the scraper will run with however many are listed. Set \"active\" to false between matchups to skip building the forecast page without deleting this file."
+}

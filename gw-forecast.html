@@ -1,0 +1,194 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Guild War Forecast — Freakmont</title>
+<link rel="stylesheet" href="styles.css?v=20260827" />
+</head>
+<body>
+<div class="layout">
+
+  <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation">
+    <span class="bars"><span></span><span></span><span></span></span>
+    Menu
+  </button>
+
+  <aside class="sidebar" id="sidebar">
+   <div class="sidebar-inner">
+    <div class="sidebar-brand">
+      <div class="crest-mini" id="crest-mini">
+        <img src="assets/guild-logo.png" alt="" id="crest-mini-img"
+             onload="document.getElementById('crest-mini').classList.add('has-logo')"
+             onerror="this.remove()" />
+        <span class="crest-fallback">F</span>
+      </div>
+      <div>
+        <div class="name">FREAKMONT</div>
+        <div class="tag">Bera 5</div>
+      </div>
+    </div>
+
+    <div class="sidebar-search">
+      <input type="text" id="sidebar-search" list="player-datalist" placeholder="Search players…" autocomplete="off" />
+      <datalist id="player-datalist"></datalist>
+      <kbd>/</kbd>
+    </div>
+
+    <div>
+      <div class="nav-label">Guild</div>
+      <nav class="nav-list">
+        <a class="nav-item" href="index.html" data-tab-link="members"><span class="ico">⌂</span> Home</a>
+        <a class="nav-item" href="index.html#conquest" data-jump="conquest" data-tab-link="conquest"><span class="ico">⚔</span> Guild Conquest</a>
+        <a class="nav-item" href="index.html#guildwar" data-jump="guildwar" data-tab-link="guildwar"><span class="ico">🛡</span> Guild War</a>
+        <a class="nav-item" href="index.html#bossbattle" data-jump="bossbattle" data-tab-link="bossbattle"><span class="ico">☠</span> Guild Boss Battle</a>
+        <a class="nav-item" href="index.html#training" data-jump="training" data-tab-link="training"><span class="ico">◎</span> Training Ground</a>
+        <a class="nav-item" href="index.html#worldboss" data-jump="worldboss" data-tab-link="worldboss"><span class="ico">☄︎</span> World Boss</a>
+      </nav>
+    </div>
+
+    <div>
+      <div class="nav-label">Tools</div>
+      <nav class="nav-list">
+        <a class="nav-item active" href="gw-forecast.html" data-tab-link="gwforecast"><span class="ico">⚑</span> War Forecast</a>
+      </nav>
+    </div>
+
+    <div class="sidebar-spacer"></div>
+
+    <div class="sidebar-foot" id="sidebar-updated">🕐 —</div>
+   </div>
+  </aside>
+
+  <div class="sidebar-overlay" id="sidebar-overlay"></div>
+
+  <div class="main">
+  <div class="wrap">
+
+  <div class="ticker" aria-hidden="true">
+    <div class="ticker-track">
+      <span>▶ FREAKMONT · BERA 5</span>
+      <span>▶ FREAKMONT · BERA 5</span>
+      <span>▶ FREAKMONT · BERA 5</span>
+      <span>▶ FREAKMONT · BERA 5</span>
+      <span>▶ FREAKMONT · BERA 5</span>
+      <span>▶ FREAKMONT · BERA 5</span>
+      <span>▶ FREAKMONT · BERA 5</span>
+      <span>▶ FREAKMONT · BERA 5</span>
+      <!-- duplicated for a seamless loop -->
+      <span>▶ FREAKMONT · BERA 5</span>
+      <span>▶ FREAKMONT · BERA 5</span>
+      <span>▶ FREAKMONT · BERA 5</span>
+      <span>▶ FREAKMONT · BERA 5</span>
+      <span>▶ FREAKMONT · BERA 5</span>
+      <span>▶ FREAKMONT · BERA 5</span>
+      <span>▶ FREAKMONT · BERA 5</span>
+      <span>▶ FREAKMONT · BERA 5</span>
+    </div>
+  </div>
+
+  <div class="card statusbar">
+    <span class="badge" id="source-badge">LOADING</span>
+    <span class="label">Guild War forecast — pooled ranking across this week's bracket</span>
+    <span class="date" id="updated-date">—</span>
+  </div>
+
+  <div class="guild-header">
+    <div class="guild-crest gw-crest" id="gw-crest">
+      <img src="assets/gw-icon.png" alt="" id="gw-crest-img"
+           onload="document.getElementById('gw-crest').classList.add('has-logo')"
+           onerror="this.remove()" />
+      <span class="crest-fallback">⚑</span>
+    </div>
+    <div class="guild-title">
+      <h1>Guild War Forecast</h1>
+      <div class="pills" id="matchup-pills"><span class="pill">Loading matchup…</span></div>
+    </div>
+  </div>
+
+  <p class="note gw-intro">
+    Every Guild War participant across the 5-guild bracket is pooled into one ranking by real Guild War
+    score. Each rank pays a fixed number of Guild Points (rank 1 = 1,000,000, rank 2 = 900,000, …
+    down to rank 150) — it's the <em>position</em> that pays, not the raw damage gap. A guild's total is
+    the sum of its members' points. This reflects the latest Guild War score on file for every player in
+    the bracket, as if the war paid out right now — it does not model no-shows or turnout, so treat it as
+    a snapshot rather than a guaranteed outcome.
+  </p>
+
+  <div class="card">
+    <h2 class="section-title">Projected Standings</h2>
+    <p class="section-sub">Guild point totals across the pooled field · <span id="standings-updated">—</span></p>
+    <div class="gw-standings-list" id="gw-standings-list"><div class="empty-state">Loading…</div></div>
+  </div>
+
+  <div class="card">
+    <h2 class="section-title">Freakmont — Projected Ranks</h2>
+    <p class="section-sub">Where each of our members lands in the pooled 1–150 field, and what that rank pays</p>
+    <div class="table-scroll"><table class="roster">
+      <thead>
+        <tr><th>#</th><th>Character</th><th>Class</th><th class="num">Score</th><th class="num">Points</th></tr>
+      </thead>
+      <tbody id="tbody-our-members"><tr><td colspan="5" class="empty-state">Loading…</td></tr></tbody>
+    </table></div>
+  </div>
+
+  <div class="card">
+    <h2 class="section-title">Pooled Leaderboard</h2>
+    <p class="section-sub"><span id="leaderboard-count">—</span> participants across the bracket · our members highlighted</p>
+    <div class="table-scroll"><table class="roster">
+      <thead>
+        <tr><th>#</th><th>Character</th><th>Guild</th><th class="num">Score</th><th class="num">Points</th></tr>
+      </thead>
+      <tbody id="tbody-leaderboard"><tr><td colspan="5" class="empty-state">Loading…</td></tr></tbody>
+    </table></div>
+    <button class="show-more-btn" id="leaderboard-show-more" style="display:none;">Show full leaderboard</button>
+  </div>
+
+  <div class="card">
+    <h2 class="section-title">How this reads</h2>
+    <p class="punch-note" id="methodology-note">
+      Guild War is a rank tournament: everyone in the 5-guild bracket is pooled into one ranking by real
+      Guild War damage, and each participant earns the fixed points for their rank (1st = 1,000,000,
+      2nd = 900,000, … it's the position that pays, not the damage itself). Freakmont's own numbers come
+      from the daily scrape; opponent guilds are fetched fresh from their public mapleidle.gg guild page
+      the same way. This is a projection from whatever Guild War score is currently on file for each
+      player — a fresh run, an off week, or a new member with no recorded run yet will all shift a
+      real result away from this snapshot. Update <code>data/freakmont/gw-opponents.json</code> whenever
+      the matchup changes to refresh who's compared against whom.
+    </p>
+  </div>
+
+  <div class="site-footer">
+    <div class="foot-title">FREAKMONT</div>
+    <div class="foot-cols">
+      <div>
+        <h4>Pages</h4>
+        <a href="index.html">Home / Rankings</a>
+        <a href="player.html">Player Lookup</a>
+        <a href="gw-forecast.html">War Forecast</a>
+      </div>
+      <div>
+        <h4>Categories</h4>
+        <a href="index.html#conquest">Guild Conquest</a>
+        <a href="index.html#guildwar">Guild War</a>
+        <a href="index.html#bossbattle">Guild Boss Battle</a>
+        <a href="index.html#training">Training Ground</a>
+        <a href="index.html#worldboss">World Boss</a>
+      </div>
+      <div>
+        <h4>Server</h4>
+        <span style="display:block; margin-bottom:6px;">MapleStory Idle</span>
+        <span style="display:block;">Bera 5</span>
+      </div>
+    </div>
+  </div>
+
+  </div>
+  </div>
+
+</div>
+
+<script src="app.js?v=20260827"></script>
+<script src="gw-forecast.js?v=20260827"></script>
+</body>
+</html>

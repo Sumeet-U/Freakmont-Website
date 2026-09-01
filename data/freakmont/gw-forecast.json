@@ -1,0 +1,1499 @@
+{
+  "date": "2026-08-31",
+  "our_guild": "Freakmont",
+  "guilds": [
+    {
+      "name": "Freakmont",
+      "isUs": true,
+      "memberCount": 30,
+      "participantCount": 30,
+      "totalPoints": 5194400,
+      "projectedRank": 1
+    },
+    {
+      "name": "Mythic",
+      "isUs": false,
+      "memberCount": 29,
+      "participantCount": 29,
+      "totalPoints": 5076000,
+      "projectedRank": 2
+    },
+    {
+      "name": "Cloud",
+      "isUs": false,
+      "memberCount": 29,
+      "participantCount": 29,
+      "totalPoints": 4805000,
+      "projectedRank": 3
+    },
+    {
+      "name": "Extinct",
+      "isUs": false,
+      "memberCount": 29,
+      "participantCount": 27,
+      "totalPoints": 2603700,
+      "projectedRank": 4
+    },
+    {
+      "name": "DisneyWorld",
+      "isUs": false,
+      "memberCount": 30,
+      "participantCount": 30,
+      "totalPoints": 2375200,
+      "projectedRank": 5
+    }
+  ],
+  "leaderboard": [
+    {
+      "rank": 1,
+      "name": "Ontos",
+      "guild": "Extinct",
+      "class": "Bishop",
+      "level": 118,
+      "score": 528938158959.562,
+      "points": 1000000,
+      "isUs": false
+    },
+    {
+      "rank": 2,
+      "name": "Playboi",
+      "guild": "DisneyWorld",
+      "class": "Night Lord",
+      "level": 118,
+      "score": 467845192113.169,
+      "points": 900000,
+      "isUs": false
+    },
+    {
+      "rank": 3,
+      "name": "Fossil",
+      "guild": "Mythic",
+      "class": "Night Lord",
+      "level": 117,
+      "score": 392797931511.267,
+      "points": 800000,
+      "isUs": false
+    },
+    {
+      "rank": 4,
+      "name": "JihyoPark",
+      "guild": "Mythic",
+      "class": "Paladin",
+      "level": 116,
+      "score": 392017768693.706,
+      "points": 730000,
+      "isUs": false
+    },
+    {
+      "rank": 5,
+      "name": "JaneGarden",
+      "guild": "Freakmont",
+      "class": "Shadower",
+      "level": 117,
+      "score": 329515591378.511,
+      "points": 660000,
+      "isUs": true
+    },
+    {
+      "rank": 6,
+      "name": "Depresso",
+      "guild": "Cloud",
+      "class": "Bishop",
+      "level": 116,
+      "score": 313062342172.461,
+      "points": 610000,
+      "isUs": false
+    },
+    {
+      "rank": 7,
+      "name": "RefundKobe",
+      "guild": "Freakmont",
+      "class": "Marksman",
+      "level": 116,
+      "score": 299429738124.048,
+      "points": 560000,
+      "isUs": true
+    },
+    {
+      "rank": 8,
+      "name": "Worky",
+      "guild": "Cloud",
+      "class": "Hero",
+      "level": 115,
+      "score": 258455427045.827,
+      "points": 510000,
+      "isUs": false
+    },
+    {
+      "rank": 9,
+      "name": "Vargi",
+      "guild": "Mythic",
+      "class": "Shadower",
+      "level": 114,
+      "score": 251442181564.123,
+      "points": 460000,
+      "isUs": false
+    },
+    {
+      "rank": 10,
+      "name": "poljjak",
+      "guild": "Freakmont",
+      "class": "Bishop",
+      "level": 115,
+      "score": 233351315690.457,
+      "points": 410000,
+      "isUs": true
+    },
+    {
+      "rank": 11,
+      "name": "Pantshunter",
+      "guild": "Freakmont",
+      "class": "Hero",
+      "level": 114,
+      "score": 207361196570.474,
+      "points": 380000,
+      "isUs": true
+    },
+    {
+      "rank": 12,
+      "name": "Miwako",
+      "guild": "Cloud",
+      "class": "Marksman",
+      "level": 113,
+      "score": 169221668260.18,
+      "points": 350000,
+      "isUs": false
+    },
+    {
+      "rank": 13,
+      "name": "itsvinny11",
+      "guild": "Extinct",
+      "class": "Ice/Lightning Mage",
+      "level": 114,
+      "score": 168250878965.532,
+      "points": 320000,
+      "isUs": false
+    },
+    {
+      "rank": 14,
+      "name": "kbaFM",
+      "guild": "Freakmont",
+      "class": "Night Lord",
+      "level": 113,
+      "score": 166977841040.638,
+      "points": 290000,
+      "isUs": true
+    },
+    {
+      "rank": 15,
+      "name": "ImYolo",
+      "guild": "Freakmont",
+      "class": "Bishop",
+      "level": 113,
+      "score": 164862787931.839,
+      "points": 260000,
+      "isUs": true
+    },
+    {
+      "rank": 16,
+      "name": "Multigainz",
+      "guild": "Cloud",
+      "class": "Night Lord",
+      "level": 113,
+      "score": 161070903245.372,
+      "points": 250000,
+      "isUs": false
+    },
+    {
+      "rank": 17,
+      "name": "Brewe",
+      "guild": "Cloud",
+      "class": "Dark Knight",
+      "level": 114,
+      "score": 150954019980.409,
+      "points": 240000,
+      "isUs": false
+    },
+    {
+      "rank": 18,
+      "name": "Soar",
+      "guild": "Cloud",
+      "class": "Night Lord",
+      "level": 113,
+      "score": 147960111211.835,
+      "points": 230000,
+      "isUs": false
+    },
+    {
+      "rank": 19,
+      "name": "JaiLBalT",
+      "guild": "Freakmont",
+      "class": "Shadower",
+      "level": 113,
+      "score": 147445557930.763,
+      "points": 220000,
+      "isUs": true
+    },
+    {
+      "rank": 20,
+      "name": "KenniTM",
+      "guild": "Freakmont",
+      "class": "Paladin",
+      "level": 112,
+      "score": 147161533621.597,
+      "points": 210000,
+      "isUs": true
+    },
+    {
+      "rank": 21,
+      "name": "zVinics",
+      "guild": "Freakmont",
+      "class": "Bishop",
+      "level": 113,
+      "score": 141749631659.09,
+      "points": 205000,
+      "isUs": true
+    },
+    {
+      "rank": 22,
+      "name": "Shinzoyuri",
+      "guild": "Cloud",
+      "class": "Marksman",
+      "level": 112,
+      "score": 140945269802.406,
+      "points": 200000,
+      "isUs": false
+    },
+    {
+      "rank": 23,
+      "name": "Royal",
+      "guild": "Mythic",
+      "class": "Buccaneer",
+      "level": 113,
+      "score": 135974339713.091,
+      "points": 195000,
+      "isUs": false
+    },
+    {
+      "rank": 24,
+      "name": "YungSeaTurtl",
+      "guild": "Freakmont",
+      "class": "Night Lord",
+      "level": 111,
+      "score": 122270191262.249,
+      "points": 190000,
+      "isUs": true
+    },
+    {
+      "rank": 25,
+      "name": "AFKGOD",
+      "guild": "Mythic",
+      "class": "Shadower",
+      "level": 113,
+      "score": 121452058609.74,
+      "points": 185000,
+      "isUs": false
+    },
+    {
+      "rank": 26,
+      "name": "Aerin",
+      "guild": "Cloud",
+      "class": "Night Lord",
+      "level": 111,
+      "score": 120492914434.212,
+      "points": 180000,
+      "isUs": false
+    },
+    {
+      "rank": 27,
+      "name": "Beelzebub",
+      "guild": "Mythic",
+      "class": "Ice/Lightning Mage",
+      "level": 112,
+      "score": 117494486994.081,
+      "points": 175000,
+      "isUs": false
+    },
+    {
+      "rank": 28,
+      "name": "TheMythe",
+      "guild": "Mythic",
+      "class": "Hero",
+      "level": 111,
+      "score": 109414186651.382,
+      "points": 170000,
+      "isUs": false
+    },
+    {
+      "rank": 29,
+      "name": "Muggles",
+      "guild": "Mythic",
+      "class": "Shadower",
+      "level": 111,
+      "score": 109334529602.477,
+      "points": 165000,
+      "isUs": false
+    },
+    {
+      "rank": 30,
+      "name": "Tets",
+      "guild": "Cloud",
+      "class": "Shadower",
+      "level": 111,
+      "score": 108817084439.99,
+      "points": 160000,
+      "isUs": false
+    },
+    {
+      "rank": 31,
+      "name": "Xanite",
+      "guild": "Freakmont",
+      "class": "Bowmaster",
+      "level": 112,
+      "score": 107966957071.158,
+      "points": 157000,
+      "isUs": true
+    },
+    {
+      "rank": 32,
+      "name": "LaBob",
+      "guild": "Mythic",
+      "class": "Night Lord",
+      "level": 111,
+      "score": 107348226886.385,
+      "points": 154000,
+      "isUs": false
+    },
+    {
+      "rank": 33,
+      "name": "Ravenz",
+      "guild": "Freakmont",
+      "class": "Shadower",
+      "level": 111,
+      "score": 105284673899.499,
+      "points": 151000,
+      "isUs": true
+    },
+    {
+      "rank": 34,
+      "name": "Coldspell",
+      "guild": "Mythic",
+      "class": "Ice/Lightning Mage",
+      "level": 111,
+      "score": 104975813522.213,
+      "points": 148000,
+      "isUs": false
+    },
+    {
+      "rank": 35,
+      "name": "Maskonite",
+      "guild": "Cloud",
+      "class": "Hero",
+      "level": 112,
+      "score": 104866235750.271,
+      "points": 145000,
+      "isUs": false
+    },
+    {
+      "rank": 36,
+      "name": "Amascut",
+      "guild": "Freakmont",
+      "class": "Bowmaster",
+      "level": 111,
+      "score": 104308035337.626,
+      "points": 142000,
+      "isUs": true
+    },
+    {
+      "rank": 37,
+      "name": "Soma",
+      "guild": "Mythic",
+      "class": "Fire/Poison Mage",
+      "level": 113,
+      "score": 104177920469.655,
+      "points": 139000,
+      "isUs": false
+    },
+    {
+      "rank": 38,
+      "name": "Eevee",
+      "guild": "Cloud",
+      "class": "Shadower",
+      "level": 112,
+      "score": 103967870325.193,
+      "points": 136000,
+      "isUs": false
+    },
+    {
+      "rank": 39,
+      "name": "SuuperCow",
+      "guild": "Freakmont",
+      "class": "Dark Knight",
+      "level": 112,
+      "score": 103861987062.261,
+      "points": 133000,
+      "isUs": true
+    },
+    {
+      "rank": 40,
+      "name": "IcyWrath",
+      "guild": "Mythic",
+      "class": "Paladin",
+      "level": 110,
+      "score": 102682168173.214,
+      "points": 130000,
+      "isUs": false
+    },
+    {
+      "rank": 41,
+      "name": "cwis",
+      "guild": "Cloud",
+      "class": "Shadower",
+      "level": 112,
+      "score": 102254569560.469,
+      "points": 128000,
+      "isUs": false
+    },
+    {
+      "rank": 42,
+      "name": "omakase",
+      "guild": "Cloud",
+      "class": "Night Lord",
+      "level": 112,
+      "score": 101652012473.793,
+      "points": 126000,
+      "isUs": false
+    },
+    {
+      "rank": 43,
+      "name": "Soapdayys",
+      "guild": "Freakmont",
+      "class": "Dark Knight",
+      "level": 111,
+      "score": 95211718337.8039,
+      "points": 124000,
+      "isUs": true
+    },
+    {
+      "rank": 44,
+      "name": "grammar",
+      "guild": "Mythic",
+      "class": "Shadower",
+      "level": 111,
+      "score": 90897222179.2838,
+      "points": 122000,
+      "isUs": false
+    },
+    {
+      "rank": 45,
+      "name": "Noob",
+      "guild": "Mythic",
+      "class": "Ice/Lightning Mage",
+      "level": 112,
+      "score": 90188069188.4138,
+      "points": 120000,
+      "isUs": false
+    },
+    {
+      "rank": 46,
+      "name": "HaterHere",
+      "guild": "Cloud",
+      "class": "Shadower",
+      "level": 111,
+      "score": 89685409606.0906,
+      "points": 118000,
+      "isUs": false
+    },
+    {
+      "rank": 47,
+      "name": "OriusRex",
+      "guild": "Mythic",
+      "class": "Night Lord",
+      "level": 110,
+      "score": 87760843492.3018,
+      "points": 116000,
+      "isUs": false
+    },
+    {
+      "rank": 48,
+      "name": "GlobgorOfMew",
+      "guild": "Cloud",
+      "class": "Corsair",
+      "level": 112,
+      "score": 87749869584.3094,
+      "points": 114000,
+      "isUs": false
+    },
+    {
+      "rank": 49,
+      "name": "SerenityMI",
+      "guild": "Cloud",
+      "class": "Bowmaster",
+      "level": 111,
+      "score": 87519218554.4822,
+      "points": 112000,
+      "isUs": false
+    },
+    {
+      "rank": 50,
+      "name": "ryder",
+      "guild": "Mythic",
+      "class": "Buccaneer",
+      "level": 113,
+      "score": 87285912658.9029,
+      "points": 110000,
+      "isUs": false
+    },
+    {
+      "rank": 51,
+      "name": "Dreadstar",
+      "guild": "Cloud",
+      "class": "Shadower",
+      "level": 111,
+      "score": 86467181833.619,
+      "points": 109000,
+      "isUs": false
+    },
+    {
+      "rank": 52,
+      "name": "Came",
+      "guild": "Freakmont",
+      "class": "Paladin",
+      "level": 111,
+      "score": 84993167019.7591,
+      "points": 108000,
+      "isUs": true
+    },
+    {
+      "rank": 53,
+      "name": "Caycidia",
+      "guild": "Freakmont",
+      "class": "Ice/Lightning Mage",
+      "level": 111,
+      "score": 84183539441.3421,
+      "points": 107000,
+      "isUs": true
+    },
+    {
+      "rank": 54,
+      "name": "Hamoods",
+      "guild": "Mythic",
+      "class": "Buccaneer",
+      "level": 111,
+      "score": 83948271610.6951,
+      "points": 106000,
+      "isUs": false
+    },
+    {
+      "rank": 55,
+      "name": "K1ngRagnar",
+      "guild": "DisneyWorld",
+      "class": "Bishop",
+      "level": 111,
+      "score": 83068040553.7838,
+      "points": 105000,
+      "isUs": false
+    },
+    {
+      "rank": 56,
+      "name": "xpo168",
+      "guild": "Freakmont",
+      "class": "Fire/Poison Mage",
+      "level": 112,
+      "score": 82397374631.4126,
+      "points": 104000,
+      "isUs": true
+    },
+    {
+      "rank": 57,
+      "name": "Pixelle",
+      "guild": "Mythic",
+      "class": "Bishop",
+      "level": 113,
+      "score": 80098999131.2679,
+      "points": 103000,
+      "isUs": false
+    },
+    {
+      "rank": 58,
+      "name": "Smurfy",
+      "guild": "Cloud",
+      "class": "Hero",
+      "level": 112,
+      "score": 79583389259.6941,
+      "points": 102000,
+      "isUs": false
+    },
+    {
+      "rank": 59,
+      "name": "DevilsKush",
+      "guild": "Cloud",
+      "class": "Night Lord",
+      "level": 113,
+      "score": 79467332136.7135,
+      "points": 101000,
+      "isUs": false
+    },
+    {
+      "rank": 60,
+      "name": "TrueDisplayz",
+      "guild": "Cloud",
+      "class": "Marksman",
+      "level": 111,
+      "score": 77766862280.7157,
+      "points": 100000,
+      "isUs": false
+    },
+    {
+      "rank": 61,
+      "name": "Toeknee",
+      "guild": "Mythic",
+      "class": "Shadower",
+      "level": 110,
+      "score": 70799872589.5358,
+      "points": 99000,
+      "isUs": false
+    },
+    {
+      "rank": 62,
+      "name": "Ed3n",
+      "guild": "Mythic",
+      "class": "Paladin",
+      "level": 111,
+      "score": 69865639333.3101,
+      "points": 98000,
+      "isUs": false
+    },
+    {
+      "rank": 63,
+      "name": "Leephoria",
+      "guild": "Cloud",
+      "class": "Night Lord",
+      "level": 111,
+      "score": 68849123377.2094,
+      "points": 97000,
+      "isUs": false
+    },
+    {
+      "rank": 64,
+      "name": "blupers",
+      "guild": "DisneyWorld",
+      "class": "Bishop",
+      "level": 110,
+      "score": 68358009028.904,
+      "points": 96000,
+      "isUs": false
+    },
+    {
+      "rank": 65,
+      "name": "WallA",
+      "guild": "Cloud",
+      "class": "Ice/Lightning Mage",
+      "level": 112,
+      "score": 67039982320.3731,
+      "points": 95000,
+      "isUs": false
+    },
+    {
+      "rank": 66,
+      "name": "Panko",
+      "guild": "Cloud",
+      "class": "Shadower",
+      "level": 111,
+      "score": 66240810204.3259,
+      "points": 94000,
+      "isUs": false
+    },
+    {
+      "rank": 67,
+      "name": "Mellody",
+      "guild": "DisneyWorld",
+      "class": "Bishop",
+      "level": 110,
+      "score": 65633413328.9506,
+      "points": 93000,
+      "isUs": false
+    },
+    {
+      "rank": 68,
+      "name": "laws",
+      "guild": "Cloud",
+      "class": "Marksman",
+      "level": 111,
+      "score": 64887519128.2241,
+      "points": 92000,
+      "isUs": false
+    },
+    {
+      "rank": 69,
+      "name": "hadi",
+      "guild": "Mythic",
+      "class": "Ice/Lightning Mage",
+      "level": 111,
+      "score": 64730929301.7,
+      "points": 91000,
+      "isUs": false
+    },
+    {
+      "rank": 70,
+      "name": "GrimSpear",
+      "guild": "Mythic",
+      "class": "Dark Knight",
+      "level": 110,
+      "score": 62350127045.5018,
+      "points": 90000,
+      "isUs": false
+    },
+    {
+      "rank": 71,
+      "name": "RefundPuJay",
+      "guild": "Freakmont",
+      "class": "Marksman",
+      "level": 109,
+      "score": 62239201084.1698,
+      "points": 89000,
+      "isUs": true
+    },
+    {
+      "rank": 72,
+      "name": "Variety",
+      "guild": "Cloud",
+      "class": "Bishop",
+      "level": 110,
+      "score": 61051318532.117,
+      "points": 88000,
+      "isUs": false
+    },
+    {
+      "rank": 73,
+      "name": "MIKEYdds",
+      "guild": "Mythic",
+      "class": "Night Lord",
+      "level": 110,
+      "score": 60941921704.4189,
+      "points": 87000,
+      "isUs": false
+    },
+    {
+      "rank": 74,
+      "name": "WORLD",
+      "guild": "Mythic",
+      "class": "Shadower",
+      "level": 110,
+      "score": 59997406883.4869,
+      "points": 86000,
+      "isUs": false
+    },
+    {
+      "rank": 75,
+      "name": "Natetorius",
+      "guild": "Mythic",
+      "class": "Night Lord",
+      "level": 112,
+      "score": 53592159228.9983,
+      "points": 85000,
+      "isUs": false
+    },
+    {
+      "rank": 76,
+      "name": "RIZZLYBEAR",
+      "guild": "Cloud",
+      "class": "Bishop",
+      "level": 110,
+      "score": 53052409802.7427,
+      "points": 84000,
+      "isUs": false
+    },
+    {
+      "rank": 77,
+      "name": "LuckyLegend",
+      "guild": "Mythic",
+      "class": "Shadower",
+      "level": 109,
+      "score": 52955219378.0409,
+      "points": 83000,
+      "isUs": false
+    },
+    {
+      "rank": 78,
+      "name": "Demon",
+      "guild": "Cloud",
+      "class": "Marksman",
+      "level": 111,
+      "score": 51109190222.6838,
+      "points": 82000,
+      "isUs": false
+    },
+    {
+      "rank": 79,
+      "name": "klekks",
+      "guild": "DisneyWorld",
+      "class": "Night Lord",
+      "level": 110,
+      "score": 49826039559.9286,
+      "points": 81000,
+      "isUs": false
+    },
+    {
+      "rank": 80,
+      "name": "misha",
+      "guild": "Mythic",
+      "class": "Fire/Poison Mage",
+      "level": 109,
+      "score": 49559079647.089,
+      "points": 80000,
+      "isUs": false
+    },
+    {
+      "rank": 81,
+      "name": "Fentanyl",
+      "guild": "Cloud",
+      "class": "Hero",
+      "level": 109,
+      "score": 44276223768.6602,
+      "points": 79000,
+      "isUs": false
+    },
+    {
+      "rank": 82,
+      "name": "Ashweeb",
+      "guild": "Freakmont",
+      "class": "Shadower",
+      "level": 109,
+      "score": 42571504412.3333,
+      "points": 78000,
+      "isUs": true
+    },
+    {
+      "rank": 83,
+      "name": "RainsFlower",
+      "guild": "Extinct",
+      "class": "Hero",
+      "level": 109,
+      "score": 42118833805.1089,
+      "points": 77000,
+      "isUs": false
+    },
+    {
+      "rank": 84,
+      "name": "Lighttt",
+      "guild": "Freakmont",
+      "class": "Night Lord",
+      "level": 109,
+      "score": 40630370346.5668,
+      "points": 76000,
+      "isUs": true
+    },
+    {
+      "rank": 85,
+      "name": "RequiemCross",
+      "guild": "Mythic",
+      "class": "Marksman",
+      "level": 108,
+      "score": 40284159178.5275,
+      "points": 75000,
+      "isUs": false
+    },
+    {
+      "rank": 86,
+      "name": "IPeeAtCows",
+      "guild": "Mythic",
+      "class": "Ice/Lightning Mage",
+      "level": 109,
+      "score": 40140406340.1803,
+      "points": 74000,
+      "isUs": false
+    },
+    {
+      "rank": 87,
+      "name": "Taijutsu",
+      "guild": "Cloud",
+      "class": "Buccaneer",
+      "level": 110,
+      "score": 39563853297.3967,
+      "points": 73000,
+      "isUs": false
+    },
+    {
+      "rank": 88,
+      "name": "MSTR",
+      "guild": "Extinct",
+      "class": "Dark Knight",
+      "level": 110,
+      "score": 33531321807.7878,
+      "points": 72000,
+      "isUs": false
+    },
+    {
+      "rank": 89,
+      "name": "Akademy",
+      "guild": "DisneyWorld",
+      "class": "Marksman",
+      "level": 109,
+      "score": 33440969212.3242,
+      "points": 71000,
+      "isUs": false
+    },
+    {
+      "rank": 90,
+      "name": "wwaaaatttt12",
+      "guild": "Extinct",
+      "class": "Shadower",
+      "level": 109,
+      "score": 32921890925.2508,
+      "points": 70000,
+      "isUs": false
+    },
+    {
+      "rank": 91,
+      "name": "Byro",
+      "guild": "Freakmont",
+      "class": "Ice/Lightning Mage",
+      "level": 109,
+      "score": 32113162922.8848,
+      "points": 69000,
+      "isUs": true
+    },
+    {
+      "rank": 92,
+      "name": "greenbanana",
+      "guild": "Freakmont",
+      "class": "Marksman",
+      "level": 108,
+      "score": 30961397641.2673,
+      "points": 68000,
+      "isUs": true
+    },
+    {
+      "rank": 93,
+      "name": "yclzero",
+      "guild": "Freakmont",
+      "class": "Bowmaster",
+      "level": 109,
+      "score": 29928475913.2083,
+      "points": 67000,
+      "isUs": true
+    },
+    {
+      "rank": 94,
+      "name": "JennaTailia",
+      "guild": "DisneyWorld",
+      "class": "Bowmaster",
+      "level": 107,
+      "score": 26502971129.5999,
+      "points": 66000,
+      "isUs": false
+    },
+    {
+      "rank": 95,
+      "name": "Kovalev",
+      "guild": "DisneyWorld",
+      "class": "Hero",
+      "level": 108,
+      "score": 26352598686.7408,
+      "points": 65000,
+      "isUs": false
+    },
+    {
+      "rank": 96,
+      "name": "Osubo",
+      "guild": "Freakmont",
+      "class": "Marksman",
+      "level": 108,
+      "score": 26283087113.7245,
+      "points": 64000,
+      "isUs": true
+    },
+    {
+      "rank": 97,
+      "name": "OceanEX",
+      "guild": "Extinct",
+      "class": "Dark Knight",
+      "level": 108,
+      "score": 25859716954.4591,
+      "points": 63000,
+      "isUs": false
+    },
+    {
+      "rank": 98,
+      "name": "KayaaToast",
+      "guild": "Freakmont",
+      "class": "Marksman",
+      "level": 109,
+      "score": 25028076022.8417,
+      "points": 62000,
+      "isUs": true
+    },
+    {
+      "rank": 99,
+      "name": "Wolfram",
+      "guild": "Freakmont",
+      "class": "Night Lord",
+      "level": 107,
+      "score": 24624726929.2782,
+      "points": 61000,
+      "isUs": true
+    },
+    {
+      "rank": 100,
+      "name": "WindSurfer",
+      "guild": "DisneyWorld",
+      "class": "Hero",
+      "level": 108,
+      "score": 24623496309.4595,
+      "points": 60300,
+      "isUs": false
+    },
+    {
+      "rank": 101,
+      "name": "bruvvvv",
+      "guild": "DisneyWorld",
+      "class": "Buccaneer",
+      "level": 107,
+      "score": 24208158649.552,
+      "points": 59600,
+      "isUs": false
+    },
+    {
+      "rank": 102,
+      "name": "Hayamachop",
+      "guild": "Freakmont",
+      "class": "Hero",
+      "level": 108,
+      "score": 24022646946.2067,
+      "points": 58900,
+      "isUs": true
+    },
+    {
+      "rank": 103,
+      "name": "lkkaku",
+      "guild": "Extinct",
+      "class": "Dark Knight",
+      "level": 109,
+      "score": 23718197111.1762,
+      "points": 58200,
+      "isUs": false
+    },
+    {
+      "rank": 104,
+      "name": "aDuu",
+      "guild": "Extinct",
+      "class": "Corsair",
+      "level": 109,
+      "score": 21449700721.0277,
+      "points": 57500,
+      "isUs": false
+    },
+    {
+      "rank": 105,
+      "name": "kkyu",
+      "guild": "DisneyWorld",
+      "class": "Bishop",
+      "level": 107,
+      "score": 21082839895.9834,
+      "points": 56800,
+      "isUs": false
+    },
+    {
+      "rank": 106,
+      "name": "Bulbit",
+      "guild": "Extinct",
+      "class": "Bishop",
+      "level": 108,
+      "score": 20997412723.6204,
+      "points": 56100,
+      "isUs": false
+    },
+    {
+      "rank": 107,
+      "name": "Loopy302",
+      "guild": "Extinct",
+      "class": "Buccaneer",
+      "level": 107,
+      "score": 20870298489.1155,
+      "points": 55400,
+      "isUs": false
+    },
+    {
+      "rank": 108,
+      "name": "GabiBraun",
+      "guild": "Extinct",
+      "class": "Marksman",
+      "level": 107,
+      "score": 20869459323.9455,
+      "points": 54700,
+      "isUs": false
+    },
+    {
+      "rank": 109,
+      "name": "Nonillion",
+      "guild": "Extinct",
+      "class": "Night Lord",
+      "level": 108,
+      "score": 20826818373.4098,
+      "points": 54000,
+      "isUs": false
+    },
+    {
+      "rank": 110,
+      "name": "Applecat",
+      "guild": "Extinct",
+      "class": "Bishop",
+      "level": 106,
+      "score": 19873543662.5584,
+      "points": 53300,
+      "isUs": false
+    },
+    {
+      "rank": 111,
+      "name": "Mistuko",
+      "guild": "Extinct",
+      "class": "Shadower",
+      "level": 106,
+      "score": 19734506782.0672,
+      "points": 52600,
+      "isUs": false
+    },
+    {
+      "rank": 112,
+      "name": "Lougheed",
+      "guild": "DisneyWorld",
+      "class": "Paladin",
+      "level": 106,
+      "score": 19520207006.6078,
+      "points": 51900,
+      "isUs": false
+    },
+    {
+      "rank": 113,
+      "name": "SaunaRobeSin",
+      "guild": "Extinct",
+      "class": "Shadower",
+      "level": 107,
+      "score": 17467402496.2487,
+      "points": 51200,
+      "isUs": false
+    },
+    {
+      "rank": 114,
+      "name": "Arlooooo",
+      "guild": "Freakmont",
+      "class": "Hero",
+      "level": 109,
+      "score": 17214506135.5092,
+      "points": 50500,
+      "isUs": true
+    },
+    {
+      "rank": 115,
+      "name": "ViolentHobos",
+      "guild": "DisneyWorld",
+      "class": "Dark Knight",
+      "level": 105,
+      "score": 16790284362.0016,
+      "points": 49800,
+      "isUs": false
+    },
+    {
+      "rank": 116,
+      "name": "bbon",
+      "guild": "DisneyWorld",
+      "class": "Marksman",
+      "level": 107,
+      "score": 16721766400.0174,
+      "points": 49100,
+      "isUs": false
+    },
+    {
+      "rank": 117,
+      "name": "Soyduck",
+      "guild": "Extinct",
+      "class": "Paladin",
+      "level": 106,
+      "score": 16588394305.7743,
+      "points": 48400,
+      "isUs": false
+    },
+    {
+      "rank": 118,
+      "name": "XxBladexX",
+      "guild": "Extinct",
+      "class": "Dark Knight",
+      "level": 104,
+      "score": 16369377572.9755,
+      "points": 47700,
+      "isUs": false
+    },
+    {
+      "rank": 119,
+      "name": "Kenos",
+      "guild": "Extinct",
+      "class": "Dark Knight",
+      "level": 107,
+      "score": 14659483968.6088,
+      "points": 47000,
+      "isUs": false
+    },
+    {
+      "rank": 120,
+      "name": "Yeeet",
+      "guild": "Extinct",
+      "class": "Ice/Lightning Mage",
+      "level": 106,
+      "score": 14478069334.0115,
+      "points": 46300,
+      "isUs": false
+    },
+    {
+      "rank": 121,
+      "name": "Yurri",
+      "guild": "Extinct",
+      "class": "Bishop",
+      "level": 105,
+      "score": 14470969341.6335,
+      "points": 45600,
+      "isUs": false
+    },
+    {
+      "rank": 122,
+      "name": "JaeChoi",
+      "guild": "DisneyWorld",
+      "class": "Hero",
+      "level": 107,
+      "score": 14157929465.0359,
+      "points": 44900,
+      "isUs": false
+    },
+    {
+      "rank": 123,
+      "name": "NashMD",
+      "guild": "Extinct",
+      "class": "Marksman",
+      "level": 106,
+      "score": 13735856027.0715,
+      "points": 44200,
+      "isUs": false
+    },
+    {
+      "rank": 124,
+      "name": "NotOops",
+      "guild": "Extinct",
+      "class": "Dark Knight",
+      "level": 105,
+      "score": 11886035947.1723,
+      "points": 43500,
+      "isUs": false
+    },
+    {
+      "rank": 125,
+      "name": "NotMyHammer",
+      "guild": "Extinct",
+      "class": "Night Lord",
+      "level": 104,
+      "score": 11557108267.9304,
+      "points": 42800,
+      "isUs": false
+    },
+    {
+      "rank": 126,
+      "name": "Accepted",
+      "guild": "Extinct",
+      "class": "Shadower",
+      "level": 105,
+      "score": 11401368496.4104,
+      "points": 42100,
+      "isUs": false
+    },
+    {
+      "rank": 127,
+      "name": "DisneySea",
+      "guild": "DisneyWorld",
+      "class": "Hero",
+      "level": 105,
+      "score": 10659090742.7901,
+      "points": 41400,
+      "isUs": false
+    },
+    {
+      "rank": 128,
+      "name": "Zuckit",
+      "guild": "DisneyWorld",
+      "class": "Night Lord",
+      "level": 105,
+      "score": 10545590847.9743,
+      "points": 40700,
+      "isUs": false
+    },
+    {
+      "rank": 129,
+      "name": "jbboaf0ng",
+      "guild": "Freakmont",
+      "class": "Night Lord",
+      "level": 104,
+      "score": 10293647372.4896,
+      "points": 40000,
+      "isUs": true
+    },
+    {
+      "rank": 130,
+      "name": "Naladin",
+      "guild": "DisneyWorld",
+      "class": "Paladin",
+      "level": 106,
+      "score": 10276567445.0207,
+      "points": 39300,
+      "isUs": false
+    },
+    {
+      "rank": 131,
+      "name": "ratatattat",
+      "guild": "DisneyWorld",
+      "class": "Corsair",
+      "level": 104,
+      "score": 10226343491.487,
+      "points": 38600,
+      "isUs": false
+    },
+    {
+      "rank": 132,
+      "name": "xJello",
+      "guild": "DisneyWorld",
+      "class": "Bishop",
+      "level": 104,
+      "score": 10093854649.8092,
+      "points": 37900,
+      "isUs": false
+    },
+    {
+      "rank": 133,
+      "name": "Deadge",
+      "guild": "DisneyWorld",
+      "class": "Bishop",
+      "level": 103,
+      "score": 9921374181.83261,
+      "points": 37200,
+      "isUs": false
+    },
+    {
+      "rank": 134,
+      "name": "Pepcid",
+      "guild": "Extinct",
+      "class": "Shadower",
+      "level": 105,
+      "score": 9732657754.61753,
+      "points": 36500,
+      "isUs": false
+    },
+    {
+      "rank": 135,
+      "name": "Ahriyo",
+      "guild": "DisneyWorld",
+      "class": "Night Lord",
+      "level": 103,
+      "score": 8535121082.50779,
+      "points": 35800,
+      "isUs": false
+    },
+    {
+      "rank": 136,
+      "name": "Artemys",
+      "guild": "Extinct",
+      "class": "Shadower",
+      "level": 105,
+      "score": 8291729949.84578,
+      "points": 35100,
+      "isUs": false
+    },
+    {
+      "rank": 137,
+      "name": "Sainte",
+      "guild": "DisneyWorld",
+      "class": "Buccaneer",
+      "level": 103,
+      "score": 7529687777.76705,
+      "points": 34400,
+      "isUs": false
+    },
+    {
+      "rank": 138,
+      "name": "Sanguineee",
+      "guild": "DisneyWorld",
+      "class": "Dark Knight",
+      "level": 103,
+      "score": 7427696941.70668,
+      "points": 33700,
+      "isUs": false
+    },
+    {
+      "rank": 139,
+      "name": "Cheuckolate",
+      "guild": "DisneyWorld",
+      "class": "Paladin",
+      "level": 104,
+      "score": 7340752793.08992,
+      "points": 33000,
+      "isUs": false
+    },
+    {
+      "rank": 140,
+      "name": "Sinjecht63",
+      "guild": "DisneyWorld",
+      "class": "Hero",
+      "level": 103,
+      "score": 6261410520.97131,
+      "points": 32300,
+      "isUs": false
+    },
+    {
+      "rank": 141,
+      "name": "EricWins",
+      "guild": "DisneyWorld",
+      "class": "Bishop",
+      "level": 102,
+      "score": 6045933561.59037,
+      "points": 31600,
+      "isUs": false
+    },
+    {
+      "rank": 142,
+      "name": "PPMoist",
+      "guild": "DisneyWorld",
+      "class": "Shadower",
+      "level": 102,
+      "score": 4852666210.48072,
+      "points": 30900,
+      "isUs": false
+    },
+    {
+      "rank": 143,
+      "name": "Name2203",
+      "guild": "DisneyWorld",
+      "class": "Hero",
+      "level": 102,
+      "score": 4501226112.51934,
+      "points": 30200,
+      "isUs": false
+    },
+    {
+      "rank": 144,
+      "name": "PurpleDrank",
+      "guild": "Extinct",
+      "class": "Night Lord",
+      "level": 102,
+      "score": 3692248258.35137,
+      "points": 29500,
+      "isUs": false
+    },
+    {
+      "rank": 145,
+      "name": "CheemsBinch",
+      "guild": "DisneyWorld",
+      "class": "Paladin",
+      "level": 103,
+      "score": 2867461110.28074,
+      "points": 28800,
+      "isUs": false
+    }
+  ],
+  "generated_at": "2026-09-01T03:19:46.866165+00:00"
+}
