@@ -3,25 +3,25 @@
     "name": "Amascut",
     "class": "Bowmaster",
     "level": 111,
-    "cpRaw": 1473760982350045,
-    "cpDisplay": "1AA 473T",
+    "cpRaw": 1484565803680553,
+    "cpDisplay": "1AA 484T",
     "fame": 230
   },
   "ranks": {
     "global": {
-      "rank": 3540,
+      "rank": 3598,
       "percentile": 0.3
     },
     "server": {
-      "rank": 68,
+      "rank": 69,
       "percentile": 0.3
     },
     "world": {
-      "rank": 1623,
+      "rank": 1645,
       "percentile": 0.4
     },
     "job": {
-      "rank": 189,
+      "rank": 196,
       "percentile": 0.3
     }
   },
@@ -47,40 +47,40 @@
       "updated": "2026-08-28T00:00:56+00:00"
     },
     "world_boss": {
-      "score": 7354623210000000,
+      "score": 7537279880000000,
       "percentile": 2.8,
-      "updated": "2026-08-25T04:37:17+00:00"
+      "updated": "2026-09-02T05:20:10+00:00"
     }
   },
   "scoreComparison": {
     "guild_conquest": {
       "score": "147796310300",
-      "vs_all_pct": -4.5,
-      "vs_class_pct": 3.1,
+      "vs_all_pct": -4.2,
+      "vs_class_pct": 3.4,
       "date": "2026-08-31T06:29:01+00:00"
     },
     "world_boss": {
-      "score": "7354623210000000",
-      "vs_all_pct": -33.6,
-      "vs_class_pct": -34.4,
-      "date": "2026-08-25T04:37:17+00:00"
+      "score": "7537279880000000",
+      "vs_all_pct": -33.3,
+      "vs_class_pct": -34.5,
+      "date": "2026-09-02T05:20:10+00:00"
     },
     "guild_war": {
       "score": "104308035338",
       "vs_all_pct": 15.9,
-      "vs_class_pct": 15.8,
+      "vs_class_pct": 15.6,
       "date": "2026-08-28T00:00:56+00:00"
     },
     "guild_training_ground": {
       "score": "5216160",
       "vs_all_pct": 13.9,
-      "vs_class_pct": -5.1,
+      "vs_class_pct": -5,
       "date": "2026-06-19T04:14:53+00:00"
     },
     "guild_boss": {
       "score": "10771153977",
-      "vs_all_pct": -12.5,
-      "vs_class_pct": -15.2,
+      "vs_all_pct": -12.6,
+      "vs_class_pct": -15.3,
       "date": "2026-06-15T08:41:51+00:00"
     }
   },
@@ -135,21 +135,15 @@
       {
         "date": "2026-08-25T04:37:17+00:00",
         "score": 7354623210000000
+      },
+      {
+        "date": "2026-09-02T05:20:10+00:00",
+        "score": 7537279880000000
       }
     ],
     "cp_history": [
       {
-        "date": "2026-08-01T15:40:58+00:00",
-        "cpRaw": 570308378583675,
-        "cpDisplay": "570T 308B"
-      },
-      {
-        "date": "2026-08-02T05:14:24+00:00",
-        "cpRaw": 571242996254221,
-        "cpDisplay": "571T 242B"
-      },
-      {
-        "date": "2026-08-03T06:16:31+00:00",
+        "date": "2026-08-03T08:15:58+00:00",
         "cpRaw": 571313926027114,
         "cpDisplay": "571T 313B"
       },
@@ -267,11 +261,16 @@
         "date": "2026-08-30T06:23:59+00:00",
         "cpRaw": 1473760982350045,
         "cpDisplay": "1AA 473T"
+      },
+      {
+        "date": "2026-09-01T23:14:31+00:00",
+        "cpRaw": 1484565803680553,
+        "cpDisplay": "1AA 484T"
       }
     ],
     "level_history": [
       {
-        "date": "2026-08-01T15:40:58+00:00",
+        "date": "2026-08-03T08:15:58+00:00",
         "level": 109
       },
       {
@@ -284,5 +283,5 @@
       }
     ]
   },
-  "scraped_at": "2026-08-31T15:40:58.365362+00:00"
+  "scraped_at": "2026-09-02T08:15:59.800644+00:00"
 }

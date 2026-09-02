@@ -2,14 +2,14 @@
   "character": {
     "name": "JaiLBalT",
     "class": "Shadower",
-    "level": 113,
-    "cpRaw": 4624578409307840,
-    "cpDisplay": "4AA 624T",
-    "fame": 997
+    "level": 114,
+    "cpRaw": 4688397356902017,
+    "cpDisplay": "4AA 688T",
+    "fame": 999
   },
   "ranks": {
     "global": {
-      "rank": 1763,
+      "rank": 1780,
       "percentile": 0.2
     },
     "server": {
@@ -17,11 +17,11 @@
       "percentile": 0.1
     },
     "world": {
-      "rank": 842,
+      "rank": 849,
       "percentile": 0.2
     },
     "job": {
-      "rank": 239,
+      "rank": 230,
       "percentile": 0.2
     }
   },
@@ -47,55 +47,51 @@
       "updated": "2026-08-28T00:00:56+00:00"
     },
     "world_boss": {
-      "score": 39140349400000000,
-      "percentile": 1.1,
-      "updated": "2026-08-25T04:37:04+00:00"
+      "score": 47642816800000000,
+      "percentile": 1,
+      "updated": "2026-09-02T05:19:59+00:00"
     }
   },
   "scoreComparison": {
     "chapter": {
       "score": "322",
-      "vs_all_pct": 0.9,
+      "vs_all_pct": 0.3,
       "vs_class_pct": null,
       "date": "2026-08-17T03:06:52+00:00"
     },
     "guild_conquest": {
       "score": "307389049104",
-      "vs_all_pct": 7.3,
-      "vs_class_pct": 12.4,
+      "vs_all_pct": 7.7,
+      "vs_class_pct": 13.2,
       "date": "2026-08-31T06:28:55+00:00"
     },
     "world_boss": {
-      "score": "39140349400000000",
-      "vs_all_pct": 18.7,
-      "vs_class_pct": 21.4,
-      "date": "2026-08-25T04:37:04+00:00"
+      "score": "47642816800000000",
+      "vs_all_pct": 22.6,
+      "vs_class_pct": 25.6,
+      "date": "2026-09-02T05:19:59+00:00"
     },
     "guild_war": {
       "score": "147445557931",
       "vs_all_pct": -8.7,
-      "vs_class_pct": -11.6,
+      "vs_class_pct": -11,
       "date": "2026-08-28T00:00:56+00:00"
     },
     "guild_training_ground": {
       "score": "10757229",
       "vs_all_pct": 5.5,
-      "vs_class_pct": 13,
+      "vs_class_pct": 12.8,
       "date": "2026-07-17T05:53:47+00:00"
     },
     "guild_boss": {
       "score": "109571194390",
-      "vs_all_pct": 3.5,
-      "vs_class_pct": 1.6,
+      "vs_all_pct": 3.4,
+      "vs_class_pct": 1.5,
       "date": "2026-08-27T16:28:07+00:00"
     }
   },
   "history": {
     "conquest_history": [
-      {
-        "date": "2026-08-02T09:38:02+00:00",
-        "score": 190271893310
-      },
       {
         "date": "2026-08-07T05:48:28+00:00",
         "score": 213804976886
@@ -162,16 +158,15 @@
       {
         "date": "2026-08-25T04:37:04+00:00",
         "score": 39140349400000000
+      },
+      {
+        "date": "2026-09-02T05:19:59+00:00",
+        "score": 47642816800000000
       }
     ],
     "cp_history": [
       {
-        "date": "2026-08-01T15:40:08+00:00",
-        "cpRaw": 2493745762663715,
-        "cpDisplay": "2AA 493T"
-      },
-      {
-        "date": "2026-08-02T05:14:06+00:00",
+        "date": "2026-08-03T08:15:19+00:00",
         "cpRaw": 2688508820638042,
         "cpDisplay": "2AA 688T"
       },
@@ -284,18 +279,32 @@
         "date": "2026-08-31T04:39:59+00:00",
         "cpRaw": 4624578409307840,
         "cpDisplay": "4AA 624T"
+      },
+      {
+        "date": "2026-09-01T23:14:25+00:00",
+        "cpRaw": 4642243278232937,
+        "cpDisplay": "4AA 642T"
+      },
+      {
+        "date": "2026-09-02T05:19:59+00:00",
+        "cpRaw": 4688397356902017,
+        "cpDisplay": "4AA 688T"
       }
     ],
     "level_history": [
       {
-        "date": "2026-08-01T15:40:08+00:00",
+        "date": "2026-08-03T08:15:19+00:00",
         "level": 112
       },
       {
         "date": "2026-08-15T01:14:58+00:00",
         "level": 113
+      },
+      {
+        "date": "2026-09-01T23:14:25+00:00",
+        "level": 114
       }
     ]
   },
-  "scraped_at": "2026-08-31T15:40:08.314045+00:00"
+  "scraped_at": "2026-09-02T08:15:20.983584+00:00"
 }

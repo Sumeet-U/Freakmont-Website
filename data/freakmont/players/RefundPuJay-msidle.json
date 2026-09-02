@@ -3,26 +3,26 @@
     "name": "RefundPuJay",
     "class": "Marksman",
     "level": 109,
-    "cpRaw": 831245730656578,
-    "cpDisplay": "831T 245B",
+    "cpRaw": 891950817496559,
+    "cpDisplay": "891T 950B",
     "fame": 40
   },
   "ranks": {
     "global": {
-      "rank": 5127,
+      "rank": 5039,
       "percentile": 0.5
     },
     "server": {
-      "rank": 107,
+      "rank": 106,
       "percentile": 0.4
     },
     "world": {
-      "rank": 2317,
-      "percentile": 0.6
+      "rank": 2273,
+      "percentile": 0.5
     },
     "job": {
-      "rank": 543,
-      "percentile": 1.2
+      "rank": 526,
+      "percentile": 1.1
     }
   },
   "performance": {
@@ -47,9 +47,9 @@
       "updated": "2026-08-28T00:00:56+00:00"
     },
     "world_boss": {
-      "score": 7157285960000000,
-      "percentile": 2.9,
-      "updated": "2026-08-31T04:40:06+00:00"
+      "score": 9154104410000000,
+      "percentile": 2.5,
+      "updated": "2026-09-02T05:20:08+00:00"
     }
   },
   "scoreComparison": {
@@ -61,31 +61,31 @@
     },
     "guild_conquest": {
       "score": "129991078195",
-      "vs_all_pct": 14.4,
-      "vs_class_pct": 12.9,
+      "vs_all_pct": 14.7,
+      "vs_class_pct": 13.4,
       "date": "2026-08-31T06:29:04+00:00"
     },
     "world_boss": {
-      "score": "7157285960000000",
-      "vs_all_pct": 18.1,
-      "vs_class_pct": 0.8,
-      "date": "2026-08-31T04:40:06+00:00"
+      "score": "9154104410000000",
+      "vs_all_pct": 40.1,
+      "vs_class_pct": 19.3,
+      "date": "2026-09-02T05:20:08+00:00"
     },
     "guild_war": {
       "score": "62239201084",
       "vs_all_pct": -5.7,
-      "vs_class_pct": -8,
+      "vs_class_pct": -8.3,
       "date": "2026-08-28T00:00:56+00:00"
     },
     "guild_training_ground": {
       "score": "3505833",
       "vs_all_pct": -29.9,
-      "vs_class_pct": -33.4,
+      "vs_class_pct": -33.3,
       "date": "2026-07-17T05:55:00+00:00"
     },
     "guild_boss": {
       "score": "28357410039",
-      "vs_all_pct": -27.1,
+      "vs_all_pct": -27.2,
       "vs_class_pct": -30.4,
       "date": "2026-08-21T20:35:49+00:00"
     }
@@ -170,16 +170,15 @@
       {
         "date": "2026-08-31T04:40:06+00:00",
         "score": 7157285960000000
+      },
+      {
+        "date": "2026-09-02T05:20:08+00:00",
+        "score": 9154104410000000
       }
     ],
     "cp_history": [
       {
-        "date": "2026-08-01T15:42:16+00:00",
-        "cpRaw": 200784422340027,
-        "cpDisplay": "200T 784B"
-      },
-      {
-        "date": "2026-08-02T09:38:31+00:00",
+        "date": "2026-08-03T08:16:57+00:00",
         "cpRaw": 212036817899586,
         "cpDisplay": "212T 36B"
       },
@@ -282,15 +281,16 @@
         "date": "2026-08-31T01:37:19+00:00",
         "cpRaw": 831245730656578,
         "cpDisplay": "831T 245B"
+      },
+      {
+        "date": "2026-09-01T23:14:38+00:00",
+        "cpRaw": 891950817496559,
+        "cpDisplay": "891T 950B"
       }
     ],
     "level_history": [
       {
-        "date": "2026-08-01T15:42:16+00:00",
-        "level": 106
-      },
-      {
-        "date": "2026-08-03T06:17:01+00:00",
+        "date": "2026-08-03T08:16:58+00:00",
         "level": 107
       },
       {
@@ -303,5 +303,5 @@
       }
     ]
   },
-  "scraped_at": "2026-08-31T15:42:17.069201+00:00"
+  "scraped_at": "2026-09-02T08:16:59.290847+00:00"
 }

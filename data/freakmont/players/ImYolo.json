@@ -1,26 +1,26 @@
 {
   "ranks": {
     "global_rank": {
-      "rank": 842,
-      "total": 229873
+      "rank": 859,
+      "total": 231348
     },
     "bera": {
-      "rank": 524,
-      "total": 101664
+      "rank": 535,
+      "total": 102264
     },
     "bera_5": {
       "rank": 17,
       "total": 2000
     },
     "bishop": {
-      "rank": 142,
-      "total": 16759
+      "rank": 144,
+      "total": 17031
     }
   },
   "performance": {
     "guild_conquest": {
-      "score": 333595843645.0124,
-      "updated": "Aug 23"
+      "score": 398199664356.1653,
+      "updated": "Aug 30"
     },
     "world_boss": {
       "score": 59147828300000000,
@@ -31,8 +31,8 @@
       "updated": "Jul 16"
     },
     "guild_war": {
-      "score": 164862787931.83875,
-      "updated": "Aug 25"
+      "score": 173537540104.8067,
+      "updated": "Sep 1"
     },
     "guild_boss_battle": {
       "score": 115741900800.97202,
@@ -40,22 +40,6 @@
     }
   },
   "history": [
-    {
-      "date": "7/31",
-      "cpRaw": 3628522753227155,
-      "cpDisplay": "3AA 628T",
-      "level": 111,
-      "globalRank": 1017,
-      "fame": 663
-    },
-    {
-      "date": "8/1",
-      "cpRaw": 3628522753227155,
-      "cpDisplay": "3AA 628T",
-      "level": 111,
-      "globalRank": 1031,
-      "fame": 664
-    },
     {
       "date": "8/2",
       "cpRaw": 3715135299758546.5,
@@ -279,7 +263,23 @@
       "level": 113,
       "globalRank": 842,
       "fame": 790
+    },
+    {
+      "date": "8/31",
+      "cpRaw": 10669097549606246,
+      "cpDisplay": "10AA 669T",
+      "level": 113,
+      "globalRank": 854,
+      "fame": 795
+    },
+    {
+      "date": "9/1",
+      "cpRaw": 10669097549606246,
+      "cpDisplay": "10AA 669T",
+      "level": 113,
+      "globalRank": 859,
+      "fame": 799
     }
   ],
-  "scraped_at": "2026-08-31T15:31:28.549033+00:00"
+  "scraped_at": "2026-09-02T08:06:46.831594+00:00"
 }

@@ -1,26 +1,26 @@
 {
   "ranks": {
     "global_rank": {
-      "rank": 3910,
-      "total": 229873
+      "rank": 3938,
+      "total": 231348
     },
     "bera": {
-      "rank": 2279,
-      "total": 101664
+      "rank": 2294,
+      "total": 102264
     },
     "bera_5": {
-      "rank": 103,
+      "rank": 105,
       "total": 2000
     },
     "marksman": {
       "rank": 420,
-      "total": 12526
+      "total": 12559
     }
   },
   "performance": {
     "guild_conquest": {
-      "score": 127899901045.24135,
-      "updated": "Aug 23"
+      "score": 131327790623.18124,
+      "updated": "Aug 30"
     },
     "world_boss": {
       "score": 6044520320000000,
@@ -31,8 +31,8 @@
       "updated": "Jul 16"
     },
     "guild_war": {
-      "score": 62239201084.1698,
-      "updated": "Aug 25"
+      "score": 65907122779.560234,
+      "updated": "Sep 1"
     },
     "guild_boss_battle": {
       "score": 43862000320.535515,
@@ -40,22 +40,6 @@
     }
   },
   "history": [
-    {
-      "date": "7/31",
-      "cpRaw": 200784422340027.88,
-      "cpDisplay": "200T 784B",
-      "level": 106,
-      "globalRank": 5480,
-      "fame": 29
-    },
-    {
-      "date": "8/1",
-      "cpRaw": 200784422340027.88,
-      "cpDisplay": "200T 784B",
-      "level": 107,
-      "globalRank": 5573,
-      "fame": 29
-    },
     {
       "date": "8/2",
       "cpRaw": 212036817899586.16,
@@ -279,7 +263,23 @@
       "level": 109,
       "globalRank": 3910,
       "fame": 40
+    },
+    {
+      "date": "8/31",
+      "cpRaw": 841122205349220.5,
+      "cpDisplay": "841T 122B",
+      "level": 109,
+      "globalRank": 3931,
+      "fame": 40
+    },
+    {
+      "date": "9/1",
+      "cpRaw": 854697461148946.9,
+      "cpDisplay": "854T 697B",
+      "level": 109,
+      "globalRank": 3938,
+      "fame": 40
     }
   ],
-  "scraped_at": "2026-08-31T15:35:13.857436+00:00"
+  "scraped_at": "2026-09-02T08:10:49.397482+00:00"
 }

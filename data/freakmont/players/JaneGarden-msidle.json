@@ -1,7 +1,7 @@
 {
   "character": {
     "name": "JaneGarden",
-    "class": "Shadower",
+    "class": "Night Lord",
     "level": 117,
     "cpRaw": 12874680287721334,
     "cpDisplay": "12AA 874T",
@@ -9,7 +9,7 @@
   },
   "ranks": {
     "global": {
-      "rank": 1004,
+      "rank": 1021,
       "percentile": 0.1
     },
     "server": {
@@ -17,11 +17,11 @@
       "percentile": 0.1
     },
     "world": {
-      "rank": 484,
+      "rank": 492,
       "percentile": 0.1
     },
     "job": {
-      "rank": 118,
+      "rank": 143,
       "percentile": 0.1
     }
   },
@@ -47,55 +47,51 @@
       "updated": "2026-08-28T00:00:56+00:00"
     },
     "world_boss": {
-      "score": 508909521999999936,
+      "score": 518143081000000000,
       "percentile": 0.3,
-      "updated": "2026-08-30T06:23:45+00:00"
+      "updated": "2026-09-02T05:19:56+00:00"
     }
   },
   "scoreComparison": {
     "chapter": {
       "score": "324",
-      "vs_all_pct": -4.4,
+      "vs_all_pct": -5,
       "vs_class_pct": null,
       "date": "2026-08-17T04:05:56+00:00"
     },
     "guild_conquest": {
       "score": "1101398924206",
-      "vs_all_pct": 121.3,
-      "vs_class_pct": 132,
+      "vs_all_pct": 122.5,
+      "vs_class_pct": 140.5,
       "date": "2026-08-30T06:24:55+00:00"
     },
     "world_boss": {
-      "score": "508909521999999936",
-      "vs_all_pct": 342.4,
-      "vs_class_pct": 352.6,
-      "date": "2026-08-30T06:23:45+00:00"
+      "score": "518143081000000000",
+      "vs_all_pct": 350.5,
+      "vs_class_pct": 375.6,
+      "date": "2026-09-02T05:19:56+00:00"
     },
     "guild_war": {
       "score": "329515591379",
       "vs_all_pct": 17.8,
-      "vs_class_pct": 14.1,
+      "vs_class_pct": 17.9,
       "date": "2026-08-28T00:00:56+00:00"
     },
     "guild_training_ground": {
       "score": "14982645",
-      "vs_all_pct": 11.6,
-      "vs_class_pct": 19.5,
+      "vs_all_pct": 11.5,
+      "vs_class_pct": 12.5,
       "date": "2026-07-03T01:50:24+00:00"
     },
     "guild_boss": {
       "score": "235474275167",
-      "vs_all_pct": 29.8,
-      "vs_class_pct": 27.3,
+      "vs_all_pct": 29.6,
+      "vs_class_pct": 33,
       "date": "2026-08-21T20:36:13+00:00"
     }
   },
   "history": {
     "conquest_history": [
-      {
-        "date": "2026-08-02T09:37:58+00:00",
-        "score": 835928031439
-      },
       {
         "date": "2026-08-10T05:41:19+00:00",
         "score": 874731976221
@@ -178,11 +174,15 @@
       {
         "date": "2026-08-30T06:23:45+00:00",
         "score": 508909521999999936
+      },
+      {
+        "date": "2026-09-02T05:19:56+00:00",
+        "score": 518143081000000000
       }
     ],
     "cp_history": [
       {
-        "date": "2026-08-01T15:38:57+00:00",
+        "date": "2026-08-03T08:14:19+00:00",
         "cpRaw": 8508952900325045,
         "cpDisplay": "8AA 508T"
       },
@@ -299,7 +299,7 @@
     ],
     "level_history": [
       {
-        "date": "2026-08-01T15:38:57+00:00",
+        "date": "2026-08-03T08:14:19+00:00",
         "level": 115
       },
       {
@@ -312,5 +312,5 @@
       }
     ]
   },
-  "scraped_at": "2026-08-31T15:38:58.094867+00:00"
+  "scraped_at": "2026-09-02T08:14:20.513988+00:00"
 }

@@ -1,10 +1,10 @@
 {
-  "date": "2026-08-28",
+  "date": "2026-08-31",
   "entries": [
     {
       "name": "JaneGarden",
       "class": "Shadower",
-      "level": 116,
+      "level": 117,
       "score": 235474275167,
       "rank": 1
     },
@@ -185,7 +185,7 @@
     },
     {
       "name": "Wolfram",
-      "class": "Night Lord",
+      "class": "Shadower",
       "level": 107,
       "score": 3628052196,
       "rank": 27
@@ -193,7 +193,7 @@
     {
       "name": "Lighttt",
       "class": "Night Lord",
-      "level": 108,
+      "level": 109,
       "score": 3166899315,
       "rank": 28
     },

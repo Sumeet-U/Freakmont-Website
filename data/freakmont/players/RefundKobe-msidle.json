@@ -3,13 +3,13 @@
     "name": "RefundKobe",
     "class": "Marksman",
     "level": 116,
-    "cpRaw": 14338340570856148,
-    "cpDisplay": "14AA 338T",
-    "fame": 1591
+    "cpRaw": 14345785643657692,
+    "cpDisplay": "14AA 345T",
+    "fame": 1597
   },
   "ranks": {
     "global": {
-      "rank": 963,
+      "rank": 972,
       "percentile": 0.1
     },
     "server": {
@@ -17,7 +17,7 @@
       "percentile": 0.1
     },
     "world": {
-      "rank": 458,
+      "rank": 462,
       "percentile": 0.1
     },
     "job": {
@@ -47,40 +47,40 @@
       "updated": "2026-08-28T00:00:56+00:00"
     },
     "world_boss": {
-      "score": 245805254000000000,
+      "score": 255325148999999968,
       "percentile": 0.4,
-      "updated": "2026-08-29T04:22:41+00:00"
+      "updated": "2026-09-02T05:19:56+00:00"
     }
   },
   "scoreComparison": {
     "guild_conquest": {
       "score": "950916724738",
-      "vs_all_pct": 80.8,
-      "vs_class_pct": 78.5,
+      "vs_all_pct": 81.7,
+      "vs_class_pct": 79.7,
       "date": "2026-08-29T04:23:47+00:00"
     },
     "world_boss": {
-      "score": "245805254000000000",
-      "vs_all_pct": 91.3,
-      "vs_class_pct": 63.3,
-      "date": "2026-08-29T04:22:41+00:00"
+      "score": "255325148999999968",
+      "vs_all_pct": 97.7,
+      "vs_class_pct": 68.4,
+      "date": "2026-09-02T05:19:56+00:00"
     },
     "guild_war": {
       "score": "299429738124",
       "vs_all_pct": 2.4,
-      "vs_class_pct": -0.2,
+      "vs_class_pct": -0.4,
       "date": "2026-08-28T00:00:56+00:00"
     },
     "guild_training_ground": {
       "score": "11982144",
-      "vs_all_pct": -15,
-      "vs_class_pct": -19.2,
+      "vs_all_pct": -15.1,
+      "vs_class_pct": -19.3,
       "date": "2026-07-17T05:53:54+00:00"
     },
     "guild_boss": {
       "score": "205212103738",
-      "vs_all_pct": 14.4,
-      "vs_class_pct": 9.3,
+      "vs_all_pct": 14.3,
+      "vs_class_pct": 9.2,
       "date": "2026-08-21T20:36:21+00:00"
     }
   },
@@ -148,11 +148,15 @@
       {
         "date": "2026-08-29T04:22:41+00:00",
         "score": 245805254000000000
+      },
+      {
+        "date": "2026-09-02T05:19:56+00:00",
+        "score": 255325148999999968
       }
     ],
     "cp_history": [
       {
-        "date": "2026-08-01T15:38:45+00:00",
+        "date": "2026-08-03T08:14:08+00:00",
         "cpRaw": 6975369069546092,
         "cpDisplay": "6AA 975T"
       },
@@ -275,11 +279,16 @@
         "date": "2026-08-31T01:37:04+00:00",
         "cpRaw": 14338340570856148,
         "cpDisplay": "14AA 338T"
+      },
+      {
+        "date": "2026-09-01T23:14:22+00:00",
+        "cpRaw": 14345785643657692,
+        "cpDisplay": "14AA 345T"
       }
     ],
     "level_history": [
       {
-        "date": "2026-08-01T15:38:45+00:00",
+        "date": "2026-08-03T08:14:08+00:00",
         "level": 114
       },
       {
@@ -292,5 +301,5 @@
       }
     ]
   },
-  "scraped_at": "2026-08-31T15:38:45.477510+00:00"
+  "scraped_at": "2026-09-02T08:14:09.708527+00:00"
 }
