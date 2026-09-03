@@ -1,5 +1,5 @@
 {
-  "date": "2026-09-02",
+  "date": "2026-09-03",
   "entries": [
     {
       "name": "JaneGarden",
@@ -12,7 +12,7 @@
       "name": "RefundKobe",
       "class": "Marksman",
       "level": 116,
-      "score": 950916724738,
+      "score": 1072894519131,
       "rank": 2
     },
     {
@@ -33,7 +33,7 @@
       "name": "KenniTM",
       "class": "Paladin",
       "level": 112,
-      "score": 400885807316,
+      "score": 453804072402,
       "rank": 5
     },
     {
@@ -79,38 +79,38 @@
       "rank": 11
     },
     {
+      "name": "Ravenz",
+      "class": "Shadower",
+      "level": 111,
+      "score": 177925328104,
+      "rank": 12
+    },
+    {
       "name": "Caycidia",
       "class": "Arch Mage (Ice/Lightning)",
       "level": 111,
       "score": 167014745052,
-      "rank": 12
+      "rank": 13
     },
     {
       "name": "xpo168",
       "class": "Arch Mage (Fire/Poison)",
       "level": 112,
       "score": 164993077254,
-      "rank": 13
+      "rank": 14
     },
     {
       "name": "Xanite",
       "class": "Bowmaster",
       "level": 112,
       "score": 164103178367,
-      "rank": 14
+      "rank": 15
     },
     {
       "name": "Came",
       "class": "Paladin",
       "level": 111,
       "score": 162006385866,
-      "rank": 15
-    },
-    {
-      "name": "Ravenz",
-      "class": "Shadower",
-      "level": 111,
-      "score": 160950564213,
       "rank": 16
     },
     {
@@ -201,7 +201,7 @@
       "name": "Wolfram",
       "class": "Shadower",
       "level": 107,
-      "score": 40261677950,
+      "score": 50991006592,
       "rank": 29
     },
     {

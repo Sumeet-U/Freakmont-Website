@@ -1,5 +1,5 @@
 {
-  "date": "2026-09-02",
+  "date": "2026-09-03",
   "entries": [
     {
       "name": "JaneGarden",
@@ -38,8 +38,8 @@
     },
     {
       "name": "SuuperCow",
-      "class": "Dark Knight",
-      "level": 112,
+      "class": "Paladin",
+      "level": 113,
       "score": 10167543,
       "rank": 6
     },
@@ -53,14 +53,14 @@
     {
       "name": "ImYolo",
       "class": "Bishop",
-      "level": 113,
+      "level": 114,
       "score": 8334144,
       "rank": 8
     },
     {
       "name": "YungSeaTurtl",
       "class": "Night Lord",
-      "level": 111,
+      "level": 112,
       "score": 8263503,
       "rank": 9
     },
@@ -158,7 +158,7 @@
     {
       "name": "Ashweeb",
       "class": "Shadower",
-      "level": 109,
+      "level": 110,
       "score": 4032201,
       "rank": 23
     },
@@ -192,7 +192,7 @@
     },
     {
       "name": "greenbanana",
-      "class": "Marksman",
+      "class": "Corsair",
       "level": 108,
       "score": 2726196,
       "rank": 28

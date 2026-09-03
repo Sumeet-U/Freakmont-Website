@@ -1,20 +1,20 @@
 {
   "ranks": {
     "global_rank": {
-      "rank": 3537,
-      "total": 231348
+      "rank": 3542,
+      "total": 232362
     },
     "bera": {
       "rank": 2069,
-      "total": 102264
+      "total": 102479
     },
     "bera_5": {
-      "rank": 89,
+      "rank": 88,
       "total": 2000
     },
     "paladin": {
-      "rank": 325,
-      "total": 8457
+      "rank": 327,
+      "total": 8559
     }
   },
   "performance": {
@@ -40,22 +40,6 @@
     }
   },
   "history": [
-    {
-      "date": "8/2",
-      "cpRaw": 448781135415902.25,
-      "cpDisplay": "448T 781B",
-      "level": 109,
-      "globalRank": 3281,
-      "fame": 188
-    },
-    {
-      "date": "8/3",
-      "cpRaw": 448781135415902.25,
-      "cpDisplay": "448T 781B",
-      "level": 109,
-      "globalRank": 3339,
-      "fame": 188
-    },
     {
       "date": "8/4",
       "cpRaw": 448781135415902.25,
@@ -279,7 +263,23 @@
       "level": 111,
       "globalRank": 3537,
       "fame": 200
+    },
+    {
+      "date": "9/2",
+      "cpRaw": 1119974631434545.4,
+      "cpDisplay": "1AA 119T",
+      "level": 111,
+      "globalRank": 3369,
+      "fame": 200
+    },
+    {
+      "date": "9/3",
+      "cpRaw": 1119974631434545.4,
+      "cpDisplay": "1AA 119T",
+      "level": 111,
+      "globalRank": 3542,
+      "fame": 200
     }
   ],
-  "scraped_at": "2026-09-02T08:10:17.101426+00:00"
+  "scraped_at": "2026-09-03T20:41:57.907135+00:00"
 }

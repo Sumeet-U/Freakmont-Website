@@ -1,9 +1,9 @@
 {
-  "date": "2026-08-31",
+  "date": "2026-09-02",
   "entries": [
     {
       "name": "JaneGarden",
-      "class": "Shadower",
+      "class": "Night Lord",
       "level": 117,
       "score": 236159503915.146,
       "rank": 1
@@ -32,7 +32,7 @@
     {
       "name": "Pantshunter",
       "class": "Hero",
-      "level": 114,
+      "level": 115,
       "score": 121902860512.839,
       "rank": 5
     },
@@ -46,7 +46,7 @@
     {
       "name": "JaiLBalT",
       "class": "Shadower",
-      "level": 113,
+      "level": 114,
       "score": 109571194389.723,
       "rank": 7
     },
@@ -199,7 +199,7 @@
     },
     {
       "name": "Wolfram",
-      "class": "Night Lord",
+      "class": "Shadower",
       "level": 107,
       "score": 13271948218.8406,
       "rank": 29

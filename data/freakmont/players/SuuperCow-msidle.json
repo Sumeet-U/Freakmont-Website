@@ -3,25 +3,25 @@
     "name": "SuuperCow",
     "class": "Dark Knight",
     "level": 112,
-    "cpRaw": 2079654757844253,
-    "cpDisplay": "2AA 79T",
+    "cpRaw": 2234306322790917,
+    "cpDisplay": "2AA 234T",
     "fame": 307
   },
   "ranks": {
     "global": {
-      "rank": 2958,
+      "rank": 2992,
       "percentile": 0.3
     },
     "server": {
-      "rank": 58,
+      "rank": 56,
       "percentile": 0.2
     },
     "world": {
-      "rank": 1358,
+      "rank": 1402,
       "percentile": 0.3
     },
     "job": {
-      "rank": 185,
+      "rank": 179,
       "percentile": 0.1
     }
   },
@@ -43,7 +43,7 @@
     },
     "guild_war": {
       "score": 103861987062,
-      "percentile": 7.1,
+      "percentile": 23.9,
       "updated": "2026-08-28T00:00:56+00:00"
     },
     "world_boss": {
@@ -55,32 +55,32 @@
   "scoreComparison": {
     "guild_conquest": {
       "score": "201614164910",
-      "vs_all_pct": 8.8,
-      "vs_class_pct": 24,
+      "vs_all_pct": 9.3,
+      "vs_class_pct": 24.4,
       "date": "2026-08-31T06:28:57+00:00"
     },
     "world_boss": {
       "score": "16648593500000000",
-      "vs_all_pct": 2.6,
-      "vs_class_pct": 7.6,
+      "vs_all_pct": 3.5,
+      "vs_class_pct": 8.2,
       "date": "2026-09-02T05:20:02+00:00"
     },
     "guild_war": {
       "score": "103861987062",
-      "vs_all_pct": 2.3,
-      "vs_class_pct": 7.7,
+      "vs_all_pct": 1.5,
+      "vs_class_pct": 6.4,
       "date": "2026-08-28T00:00:56+00:00"
     },
     "guild_training_ground": {
       "score": "10167543",
       "vs_all_pct": 30.2,
-      "vs_class_pct": 33.3,
+      "vs_class_pct": 33.2,
       "date": "2026-07-17T05:53:53+00:00"
     },
     "guild_boss": {
       "score": "70129150881",
-      "vs_all_pct": 4.5,
-      "vs_class_pct": 6.9,
+      "vs_all_pct": 4.4,
+      "vs_class_pct": 6.8,
       "date": "2026-08-27T16:27:55+00:00"
     }
   },
@@ -88,59 +88,59 @@
     "conquest_history": [
       {
         "date": "2026-08-10T05:41:25+00:00",
-        "score": 149987123105
+        "score": "149987123105"
       },
       {
         "date": "2026-08-17T07:59:06+00:00",
-        "score": 169902072284
+        "score": "169902072284"
       },
       {
         "date": "2026-08-31T06:28:57+00:00",
-        "score": 201614164910
+        "score": "201614164910"
       }
     ],
     "training_ground_history": [],
     "guild_boss_battle_history": [
       {
         "date": "2026-08-21T20:35:58+00:00",
-        "score": 64189441648
+        "score": "64189441648"
       },
       {
         "date": "2026-08-27T16:27:55+00:00",
-        "score": 70129150881
+        "score": "70129150881"
       }
     ],
     "guild_war_history": [
       {
         "date": "2026-08-28T00:00:56+00:00",
-        "score": 103861987062
+        "score": "103861987062"
       }
     ],
     "world_boss_history": [
       {
         "date": "2026-08-11T05:25:25+00:00",
-        "score": 8952238890000000
+        "score": "8952238890000000"
       },
       {
         "date": "2026-08-18T04:23:39+00:00",
-        "score": 11765116100000000
+        "score": "11765116100000000"
       },
       {
         "date": "2026-08-28T05:03:56+00:00",
-        "score": 12160282000000000
+        "score": "12160282000000000"
       },
       {
         "date": "2026-08-31T04:40:02+00:00",
-        "score": 13227782300000000
+        "score": "13227782300000000"
       },
       {
         "date": "2026-09-02T05:20:02+00:00",
-        "score": 16648593500000000
+        "score": "16648593500000000"
       }
     ],
     "cp_history": [
       {
-        "date": "2026-08-03T08:15:48+00:00",
+        "date": "2026-08-04T20:47:12+00:00",
         "cpRaw": 945918614107725,
         "cpDisplay": "945T 918B"
       },
@@ -243,11 +243,16 @@
         "date": "2026-09-02T05:20:02+00:00",
         "cpRaw": 2079654757844253,
         "cpDisplay": "2AA 79T"
+      },
+      {
+        "date": "2026-09-03T05:39:18+00:00",
+        "cpRaw": 2234306322790917,
+        "cpDisplay": "2AA 234T"
       }
     ],
     "level_history": [
       {
-        "date": "2026-08-03T08:15:49+00:00",
+        "date": "2026-08-04T20:47:12+00:00",
         "level": 111
       },
       {
@@ -256,5 +261,5 @@
       }
     ]
   },
-  "scraped_at": "2026-09-02T08:15:50.439196+00:00"
+  "scraped_at": "2026-09-03T20:47:13.904752+00:00"
 }

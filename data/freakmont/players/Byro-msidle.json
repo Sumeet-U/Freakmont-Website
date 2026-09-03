@@ -3,32 +3,32 @@
     "name": "Byro",
     "class": "Arch Mage (Ice/Lightning)",
     "level": 109,
-    "cpRaw": 410291899242864,
-    "cpDisplay": "410T 291B",
+    "cpRaw": 411541478170864,
+    "cpDisplay": "411T 541B",
     "fame": 265
   },
   "ranks": {
     "global": {
-      "rank": 8625,
+      "rank": 8913,
       "percentile": 0.8
     },
     "server": {
-      "rank": 181,
+      "rank": 191,
       "percentile": 0.7
     },
     "world": {
-      "rank": 3815,
-      "percentile": 0.9
+      "rank": 4004,
+      "percentile": 1
     },
     "job": {
-      "rank": 423,
+      "rank": 436,
       "percentile": 0.3
     }
   },
   "performance": {
     "conquest": {
       "score": 58295250376,
-      "percentile": 9.2,
+      "percentile": 9.3,
       "updated": "2026-08-30T06:25:10+00:00"
     },
     "training_ground": {
@@ -43,7 +43,7 @@
     },
     "guild_war": {
       "score": 32113162923,
-      "percentile": 19.6,
+      "percentile": 64.3,
       "updated": "2026-08-28T00:00:56+00:00"
     },
     "world_boss": {
@@ -61,32 +61,32 @@
     },
     "guild_conquest": {
       "score": "58295250376",
-      "vs_all_pct": -19.6,
-      "vs_class_pct": -4.7,
+      "vs_all_pct": -19.4,
+      "vs_class_pct": -4.1,
       "date": "2026-08-30T06:25:10+00:00"
     },
     "world_boss": {
       "score": "2108034570000000",
-      "vs_all_pct": -25.7,
-      "vs_class_pct": -7.5,
+      "vs_all_pct": -25.2,
+      "vs_class_pct": -6.6,
       "date": "2026-09-02T05:20:28+00:00"
     },
     "guild_war": {
       "score": "32113162923",
-      "vs_all_pct": -21.4,
-      "vs_class_pct": -9.5,
+      "vs_all_pct": -22.1,
+      "vs_class_pct": -11.7,
       "date": "2026-08-28T00:00:56+00:00"
     },
     "guild_training_ground": {
       "score": "4257657",
       "vs_all_pct": -2.9,
-      "vs_class_pct": 6,
+      "vs_class_pct": 5.9,
       "date": "2026-07-17T05:54:32+00:00"
     },
     "guild_boss": {
       "score": "5704273952",
       "vs_all_pct": 32.2,
-      "vs_class_pct": 40.4,
+      "vs_class_pct": 40.5,
       "date": "2026-06-15T08:41:59+00:00"
     }
   },
@@ -94,23 +94,23 @@
     "conquest_history": [
       {
         "date": "2026-08-09T04:30:19+00:00",
-        "score": 33137966055
+        "score": "33137966055"
       },
       {
         "date": "2026-08-16T06:43:56+00:00",
-        "score": 44071972270
+        "score": "44071972270"
       },
       {
         "date": "2026-08-17T07:59:38+00:00",
-        "score": 48788670633
+        "score": "48788670633"
       },
       {
         "date": "2026-08-25T06:05:31+00:00",
-        "score": 57062109409
+        "score": "57062109409"
       },
       {
         "date": "2026-08-30T06:25:10+00:00",
-        "score": 58295250376
+        "score": "58295250376"
       }
     ],
     "training_ground_history": [],
@@ -118,34 +118,34 @@
     "guild_war_history": [
       {
         "date": "2026-08-28T00:00:56+00:00",
-        "score": 32113162923
+        "score": "32113162923"
       }
     ],
     "world_boss_history": [
       {
         "date": "2026-08-07T05:48:00+00:00",
-        "score": 808289637000000
+        "score": "808289637000000"
       },
       {
         "date": "2026-08-15T04:38:28+00:00",
-        "score": 848127583000000
+        "score": "848127583000000"
       },
       {
         "date": "2026-08-17T04:32:14+00:00",
-        "score": 1322466750000000
+        "score": "1322466750000000"
       },
       {
         "date": "2026-08-25T04:37:45+00:00",
-        "score": 1686831510000000
+        "score": "1686831510000000"
       },
       {
         "date": "2026-09-02T05:20:28+00:00",
-        "score": 2108034570000000
+        "score": "2108034570000000"
       }
     ],
     "cp_history": [
       {
-        "date": "2026-08-03T08:17:37+00:00",
+        "date": "2026-08-04T20:49:10+00:00",
         "cpRaw": 108988959073694,
         "cpDisplay": "108T 988B"
       },
@@ -268,11 +268,16 @@
         "date": "2026-09-02T05:20:27+00:00",
         "cpRaw": 410291899242864,
         "cpDisplay": "410T 291B"
+      },
+      {
+        "date": "2026-09-03T05:39:39+00:00",
+        "cpRaw": 411541478170864,
+        "cpDisplay": "411T 541B"
       }
     ],
     "level_history": [
       {
-        "date": "2026-08-03T08:17:37+00:00",
+        "date": "2026-08-04T20:49:10+00:00",
         "level": 107
       },
       {
@@ -285,5 +290,5 @@
       }
     ]
   },
-  "scraped_at": "2026-09-02T08:17:39.145979+00:00"
+  "scraped_at": "2026-09-03T20:49:11.703761+00:00"
 }

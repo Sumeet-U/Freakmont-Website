@@ -1,20 +1,20 @@
 {
   "ranks": {
     "global_rank": {
-      "rank": 859,
-      "total": 231348
+      "rank": 827,
+      "total": 232362
     },
     "bera": {
-      "rank": 535,
-      "total": 102264
+      "rank": 509,
+      "total": 102479
     },
     "bera_5": {
-      "rank": 17,
+      "rank": 16,
       "total": 2000
     },
     "bishop": {
-      "rank": 144,
-      "total": 17031
+      "rank": 134,
+      "total": 17292
     }
   },
   "performance": {
@@ -40,22 +40,6 @@
     }
   },
   "history": [
-    {
-      "date": "8/2",
-      "cpRaw": 3715135299758546.5,
-      "cpDisplay": "3AA 715T",
-      "level": 111,
-      "globalRank": 1032,
-      "fame": 665
-    },
-    {
-      "date": "8/3",
-      "cpRaw": 3757399116123970,
-      "cpDisplay": "3AA 757T",
-      "level": 111,
-      "globalRank": 1047,
-      "fame": 668
-    },
     {
       "date": "8/4",
       "cpRaw": 3950771767733733.5,
@@ -279,7 +263,23 @@
       "level": 113,
       "globalRank": 859,
       "fame": 799
+    },
+    {
+      "date": "9/2",
+      "cpRaw": 11267676371822348,
+      "cpDisplay": "11AA 267T",
+      "level": 113,
+      "globalRank": 837,
+      "fame": 801
+    },
+    {
+      "date": "9/3",
+      "cpRaw": 14004004653380274,
+      "cpDisplay": "14AA 4T",
+      "level": 114,
+      "globalRank": 827,
+      "fame": 804
     }
   ],
-  "scraped_at": "2026-09-02T08:06:46.831594+00:00"
+  "scraped_at": "2026-09-03T20:38:07.762388+00:00"
 }

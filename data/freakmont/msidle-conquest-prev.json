@@ -1,9 +1,9 @@
 {
-  "date": "2026-08-31",
+  "date": "2026-09-02",
   "entries": [
     {
       "name": "JaneGarden",
-      "class": "Shadower",
+      "class": "Night Lord",
       "level": 117,
       "score": 1101398924206,
       "rank": 1
@@ -19,14 +19,14 @@
       "name": "poljjak",
       "class": "Bishop",
       "level": 115,
-      "score": 558016025721,
+      "score": 569577820840,
       "rank": 3
     },
     {
       "name": "kbaFM",
       "class": "Night Lord",
       "level": 113,
-      "score": 481548059431,
+      "score": 498997189454,
       "rank": 4
     },
     {
@@ -46,7 +46,7 @@
     {
       "name": "Pantshunter",
       "class": "Hero",
-      "level": 114,
+      "level": 115,
       "score": 397973346859,
       "rank": 7
     },
@@ -60,7 +60,7 @@
     {
       "name": "JaiLBalT",
       "class": "Shadower",
-      "level": 113,
+      "level": 114,
       "score": 307389049104,
       "rank": 9
     },
@@ -96,7 +96,7 @@
       "name": "Xanite",
       "class": "Bowmaster",
       "level": 112,
-      "score": 162705215034,
+      "score": 164103178367,
       "rank": 14
     },
     {
@@ -135,24 +135,24 @@
       "rank": 19
     },
     {
+      "name": "Lighttt",
+      "class": "Night Lord",
+      "level": 109,
+      "score": 110172561547,
+      "rank": 20
+    },
+    {
       "name": "Ashweeb",
       "class": "Shadower",
       "level": 109,
       "score": 105182698884,
-      "rank": 20
-    },
-    {
-      "name": "Lighttt",
-      "class": "Night Lord",
-      "level": 109,
-      "score": 104821871775,
       "rank": 21
     },
     {
       "name": "yclzero",
       "class": "Bowmaster",
       "level": 109,
-      "score": 81343245098,
+      "score": 92589439741,
       "rank": 22
     },
     {
@@ -194,7 +194,7 @@
       "name": "Hayamachop",
       "class": "Hero",
       "level": 108,
-      "score": 50544649056,
+      "score": 54549601204,
       "rank": 28
     },
     {

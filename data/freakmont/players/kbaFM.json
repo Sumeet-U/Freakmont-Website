@@ -1,20 +1,20 @@
 {
   "ranks": {
     "global_rank": {
-      "rank": 1203,
-      "total": 231348
+      "rank": 1092,
+      "total": 232362
     },
     "bera": {
-      "rank": 747,
-      "total": 102264
+      "rank": 675,
+      "total": 102479
     },
     "bera_5": {
-      "rank": 30,
+      "rank": 27,
       "total": 2000
     },
     "night_lord": {
-      "rank": 189,
-      "total": 29278
+      "rank": 178,
+      "total": 29339
     }
   },
   "performance": {
@@ -40,22 +40,6 @@
     }
   },
   "history": [
-    {
-      "date": "8/2",
-      "cpRaw": 3147575321054177,
-      "cpDisplay": "3AA 147T",
-      "level": 111,
-      "globalRank": 1144,
-      "fame": 1271
-    },
-    {
-      "date": "8/3",
-      "cpRaw": 3294898305163251,
-      "cpDisplay": "3AA 294T",
-      "level": 111,
-      "globalRank": 1118,
-      "fame": 1276
-    },
     {
       "date": "8/4",
       "cpRaw": 3294898305163251,
@@ -279,7 +263,23 @@
       "level": 113,
       "globalRank": 1203,
       "fame": 1392
+    },
+    {
+      "date": "9/2",
+      "cpRaw": 5730693340399017,
+      "cpDisplay": "5AA 730T",
+      "level": 113,
+      "globalRank": 1215,
+      "fame": 1397
+    },
+    {
+      "date": "9/3",
+      "cpRaw": 8404308217419431,
+      "cpDisplay": "8AA 404T",
+      "level": 113,
+      "globalRank": 1092,
+      "fame": 1404
     }
   ],
-  "scraped_at": "2026-09-02T08:07:18.282206+00:00"
+  "scraped_at": "2026-09-03T20:38:38.106520+00:00"
 }

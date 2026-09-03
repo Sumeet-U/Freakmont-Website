@@ -3,10 +3,10 @@
   "week_of": "2026-08-31",
   "active": true,
   "opponents": [
-    "Mythic",
-    "Cloud",
-    "DisneyWorld",
-    "Extinct"
+    "Blackhawk",
+    "FinsMarket",
+    "Ambush",
+    "Chaa"
   ],
   "_opponents_note": "Exactly as the guild name appears in its mapleidle.gg URL, e.g. https://mapleidle.gg/guild/bera/Mythic -> \"Mythic\". Case-sensitive. Normally 4 names (Guild War is a 5-guild bracket including us), but the scraper will run with however many are listed. Set \"active\" to false between matchups to skip building the forecast page without deleting this file."
 }

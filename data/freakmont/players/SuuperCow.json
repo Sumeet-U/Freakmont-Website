@@ -1,20 +1,20 @@
 {
   "ranks": {
     "global_rank": {
-      "rank": 2261,
-      "total": 231348
+      "rank": 2139,
+      "total": 232362
     },
     "bera": {
-      "rank": 1347,
-      "total": 102264
+      "rank": 1277,
+      "total": 102479
     },
     "bera_5": {
-      "rank": 56,
+      "rank": 53,
       "total": 2000
     },
-    "dark_knight": {
-      "rank": 148,
-      "total": 22739
+    "paladin": {
+      "rank": 229,
+      "total": 8559
     }
   },
   "performance": {
@@ -40,22 +40,6 @@
     }
   },
   "history": [
-    {
-      "date": "8/2",
-      "cpRaw": 945918614107725.8,
-      "cpDisplay": "945T 918B",
-      "level": 111,
-      "globalRank": 2158,
-      "fame": 284
-    },
-    {
-      "date": "8/3",
-      "cpRaw": 945918614107725.8,
-      "cpDisplay": "945T 918B",
-      "level": 111,
-      "globalRank": 2193,
-      "fame": 288
-    },
     {
       "date": "8/4",
       "cpRaw": 945974131735606.6,
@@ -279,7 +263,23 @@
       "level": 112,
       "globalRank": 2261,
       "fame": 306
+    },
+    {
+      "date": "9/2",
+      "cpRaw": 2079654757844253.8,
+      "cpDisplay": "2AA 79T",
+      "level": 112,
+      "globalRank": 2267,
+      "fame": 307
+    },
+    {
+      "date": "9/3",
+      "cpRaw": 2655480763802425,
+      "cpDisplay": "2AA 655T",
+      "level": 113,
+      "globalRank": 2139,
+      "fame": 308
     }
   ],
-  "scraped_at": "2026-09-02T08:08:59.268002+00:00"
+  "scraped_at": "2026-09-03T20:40:28.478295+00:00"
 }
