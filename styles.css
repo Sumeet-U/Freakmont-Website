@@ -127,6 +127,7 @@ a:hover { text-decoration-color: var(--link); }
 }
 .statusbar .label { color: var(--ink-dim); flex: 1; }
 .statusbar .date { color: var(--muted); font-size: 12px; }
+.label-short { display: none; }
 
 /* -- header block -- */
 .guild-header {
@@ -167,6 +168,10 @@ a:hover { text-decoration-color: var(--link); }
 }
 .guild-crest.has-logo .crest-fallback {
   display: none;
+}
+.guild-title {
+  flex: 1;
+  min-width: 0;
 }
 .guild-title h1 {
   font-family: var(--font-display);
@@ -354,6 +359,9 @@ table.roster td.cp { font-weight: 700; color: var(--blue); }
   letter-spacing: 0.02em;
 }
 .player-title .pills { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
+/* match the guild-rank badge to the size of the other pills on the player page
+ * (the shared .rank-badge is intentionally smaller elsewhere, e.g. roster tables) */
+.player-title .rank-badge { font-size: 12px; padding: 3px 12px; }
 .player-cp {
   text-align: right;
 }
@@ -837,4 +845,20 @@ table.roster td.class.is-us-guild { color: var(--rose); font-weight: 700; }
   .stat-grid { grid-template-columns: 1fr; }
   .hist-summary { grid-template-columns: repeat(2, 1fr); }
   .foot-cols { grid-template-columns: 1fr; }
+}
+
+@media (max-width: 640px) {
+  /* -- statusbar: swap in the shorter label variant where a page provides one -- */
+  .statusbar { flex-wrap: wrap; padding: 10px 14px; }
+  .label-full { display: none; }
+  .label-short { display: inline; }
+
+  /* -- player header: center the name + CP on mobile, matching the tighter card -- */
+  .player-header { flex-direction: column; align-items: center; text-align: center; }
+  .player-title { text-align: center; width: 100%; }
+  .player-title .pills { justify-content: center; }
+  .player-cp { text-align: center; }
+
+  /* -- guild header: keep the title on one line beside the crest on narrow screens -- */
+  .gw-title.gw-title { font-size: 19px; }
 }

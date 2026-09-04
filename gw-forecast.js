@@ -40,21 +40,16 @@ const LEADERBOARD_COLLAPSED_COUNT = 25;
 
   function renderMatchupPills(config, forecastData) {
     const container = document.getElementById('matchup-pills');
-    const guildNames = forecastData && forecastData.guilds && forecastData.guilds.length
-      ? forecastData.guilds.map(g => ({ name: g.name, isUs: g.isUs }))
-      : (config && config.opponents
-          ? [{ name: 'Freakmont', isUs: true }, ...config.opponents.map(name => ({ name, isUs: false }))]
-          : null);
+    const hasMatchup = (forecastData && forecastData.guilds && forecastData.guilds.length)
+      || (config && config.opponents && config.opponents.length);
 
-    if (!guildNames) {
+    if (!hasMatchup) {
       container.innerHTML = '<span class="pill">No matchup set</span>';
       return;
     }
 
     const weekLabel = config && config.week_of ? `Week of ${config.week_of}` : null;
-    container.innerHTML =
-      (weekLabel ? `<span class="pill">${weekLabel}</span>` : '') +
-      guildNames.map(g => `<span class="pill${g.isUs ? ' pill-us' : ''}">${g.name}</span>`).join('');
+    container.innerHTML = weekLabel ? `<span class="pill">${weekLabel}</span>` : '';
   }
 
   function renderStandings(guilds) {
