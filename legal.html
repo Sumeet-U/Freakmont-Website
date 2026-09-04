@@ -3,12 +3,12 @@
 <head>
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>Player — Freakmont</title>
+<title>About & Legal — Freakmont</title>
 <link rel="icon" type="image/png" href="assets/favicon-32.png" sizes="32x32" />
 <link rel="apple-touch-icon" href="assets/favicon-180.png" />
-<meta name="description" content="Per-character stats and history for Freakmont guild members (Bera 5) in MapleStory Idle." />
-<meta property="og:title" content="Freakmont HQ — Player Lookup" />
-<meta property="og:description" content="Per-character stats and history for Freakmont guild members (Bera 5) in MapleStory Idle." />
+<meta name="description" content="Fan-made, unofficial Guild War/CP tracker for the Freakmont guild (Bera 5) in MapleStory Idle. Not affiliated with Nexon." />
+<meta property="og:title" content="Freakmont HQ — About & Legal" />
+<meta property="og:description" content="Fan-made, unofficial Guild War/CP tracker for Freakmont (Bera 5). Not affiliated with Nexon or MapleStory." />
 <meta property="og:type" content="website" />
 <meta property="og:image" content="assets/gw-icon.png" />
 <meta name="twitter:card" content="summary" />
@@ -74,72 +74,76 @@
   <div class="main">
   <div class="wrap">
 
-  <div class="ticker" aria-hidden="true">
-    <div class="ticker-track">
-      <span>▶ FREAKMONT · BERA 5</span>
-      <span>▶ FREAKMONT · BERA 5</span>
-      <span>▶ FREAKMONT · BERA 5</span>
-      <span>▶ FREAKMONT · BERA 5</span>
-      <span>▶ FREAKMONT · BERA 5</span>
-      <span>▶ FREAKMONT · BERA 5</span>
-      <span>▶ FREAKMONT · BERA 5</span>
-      <span>▶ FREAKMONT · BERA 5</span>
-      <span>▶ FREAKMONT · BERA 5</span>
-      <span>▶ FREAKMONT · BERA 5</span>
-      <span>▶ FREAKMONT · BERA 5</span>
-      <span>▶ FREAKMONT · BERA 5</span>
-      <span>▶ FREAKMONT · BERA 5</span>
-      <span>▶ FREAKMONT · BERA 5</span>
-      <span>▶ FREAKMONT · BERA 5</span>
-      <span>▶ FREAKMONT · BERA 5</span>
-    </div>
-  </div>
-
   <div class="card statusbar">
-    <span class="badge" id="source-badge">LOADING</span>
-    <span class="label">Player lookup, rebuilt daily</span>
-    <span class="date" id="updated-date">—</span>
+    <span class="badge">INFO</span>
+    <span class="label">About this site, data sources, and how to reach us</span>
   </div>
 
-  <a class="back-link" href="index.html">← All Members</a>
-
-  <div class="card player-switch">
-    <label for="player-search" class="player-switch-label">Look up a player</label>
-    <div class="player-switch-row">
-      <input type="text" id="player-search" placeholder="Search players…" autocomplete="off" />
-      <div class="search-dropdown" id="player-search-dropdown"></div>
+  <div class="guild-header">
+    <div class="guild-crest">
+      <span class="crest-fallback">ℹ</span>
+    </div>
+    <div class="guild-title">
+      <h1>About &amp; Legal</h1>
+      <div class="pills"><span class="pill">Unofficial fan project</span></div>
     </div>
   </div>
 
-  <div id="player-root">
+  <div class="card">
+    <h2 class="section-title">What this is</h2>
+    <p class="note">
+      Freakmont HQ is a fan-made statistics tracker for the <strong>Freakmont</strong> guild
+      (Bera 5) in <em>MapleStory Idle</em>. It displays Combat Power, Guild War, Guild Conquest,
+      Guild Boss Battle, Training Ground, and World Boss standings pulled from publicly viewable
+      in-game leaderboard pages. It's built and maintained by guild members, for guild members —
+      not a commercial product, and not run by Nexon.
+    </p>
+  </div>
 
-    <div class="card player-header">
-      <div class="player-title">
-        <h1 id="player-name">—</h1>
-        <div class="pills" id="player-pills"></div>
-      </div>
-      <div class="player-cp">
-        <div class="cp-label">Combat Power</div>
-        <div class="cp-value" id="player-cp">—</div>
-      </div>
-    </div>
+  <div class="card">
+    <h2 class="section-title">Disclaimer</h2>
+    <p class="note">
+      This site is <strong>not affiliated with, endorsed by, or sponsored by Nexon</strong> or the
+      developers/publishers of MapleStory or MapleStory Idle. All game names, character names,
+      class names, and related assets referenced here are trademarks of their respective owners
+      and are used solely to identify the game this site tracks. All data on this site is provided
+      "as is," for informational purposes only, with no guarantee of accuracy or completeness —
+      see the Guild War Forecast page specifically for how projections there work and what they
+      don't account for.
+    </p>
+  </div>
 
-    <div class="card" id="rank-card-section">
-      <h2 class="section-title">Rankings</h2>
-      <div class="rank-grid" id="rank-grid"></div>
-    </div>
+  <div class="card">
+    <h2 class="section-title">Data & Privacy</h2>
+    <p class="note">
+      This site collects <strong>nothing about you</strong> directly — no accounts, no forms, no
+      analytics, no cookies, and nothing saved in your browser's local storage. It's static pages
+      that read pre-built data files; there's no server-side code and no database.
+    </p>
+    <p class="note">
+      The character stats shown (Combat Power, scores, rankings, etc.) are the same information
+      already visible to anyone who visits the public in-game guild/character pages this site
+      reads from — nothing here is private or exclusive to this site.
+    </p>
+  </div>
 
-    <div class="card" id="history-section">
-      <h2 class="section-title">History</h2>
-      <div class="empty-state">Loading…</div>
-    </div>
+  <div class="card">
+    <h2 class="section-title">Data sources & credits</h2>
+    <p class="note">
+      Guild and character data is pulled from <strong>mapleidle.gg</strong> (primary) and
+      <strong>msidle.gg</strong> (secondary info), both community-run MapleStory Idle statistics sites.
+      Charts on player pages are rendered with
+      <a href="https://www.chartjs.org/" target="_blank" rel="noopener">Chart.js</a>, an open-source
+      library.
+    </p>
+  </div>
 
-    <div class="card" id="category-section">
-      <h2 class="section-title">Category Performance</h2>
-      <div class="tabs" id="category-tabs"></div>
-      <div id="category-panels"></div>
-    </div>
-
+  <div class="card">
+    <h2 class="section-title">Contact</h2>
+    <p class="note">
+      Questions, comments, or corrections — reach
+      out in the Freakmont Discord, or ping <strong>kbaFM</strong> directly in-game.
+    </p>
   </div>
 
   <div class="site-footer">
@@ -153,11 +157,11 @@
       </div>
       <div>
         <h4>Categories</h4>
-        <span style="display:block; margin-bottom:6px;">Guild Conquest</span>
-        <span style="display:block; margin-bottom:6px;">Guild War</span>
-        <span style="display:block; margin-bottom:6px;">Guild Boss Battle</span>
-        <span style="display:block; margin-bottom:6px;">Training Ground</span>
-        <span style="display:block;">World Boss</span>
+        <a href="index.html#conquest">Guild Conquest</a>
+        <a href="index.html#guildwar">Guild War</a>
+        <a href="index.html#bossbattle">Guild Boss Battle</a>
+        <a href="index.html#training">Training Ground</a>
+        <a href="index.html#worldboss">World Boss</a>
       </div>
       <div>
         <h4>Server</h4>
@@ -176,9 +180,7 @@
 
 </div>
 
-<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.4/dist/chart.umd.min.js"></script>
 <script src="app.js?v=20260827"></script>
 <script>initSidebar();</script>
-<script src="player.js?v=20260827"></script>
 </body>
 </html>

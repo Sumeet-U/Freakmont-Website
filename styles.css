@@ -624,7 +624,7 @@ table.roster td.class.is-us-guild { color: var(--rose); font-weight: 700; }
 }
 .foot-cols {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
   gap: 20px;
 }
 .foot-cols h4 { font-size: 10.5px; text-transform: uppercase; letter-spacing: 0.06em; color: #9a927f; margin: 0 0 10px; }
@@ -734,6 +734,66 @@ table.roster td.class.is-us-guild { color: var(--rose); font-weight: 700; }
   padding: 1px 5px;
   background: var(--card);
   pointer-events: none;
+}
+
+/* -- custom player-search dropdown, shared by the sidebar search and the
+      player-page switcher. A real <datalist> would be simpler, but iOS
+      Safari doesn't render datalist suggestions at all, so results would
+      silently never show up there -- this renders its own list instead,
+      which works identically everywhere. -- */
+.search-dropdown {
+  display: none;
+  position: absolute;
+  top: calc(100% + 4px);
+  left: 0;
+  right: 0;
+  max-height: 260px;
+  overflow-y: auto;
+  background: var(--card);
+  border: 1.5px solid var(--border);
+  border-radius: var(--radius-sm);
+  box-shadow: 0 6px 16px rgba(0,0,0,0.18);
+  z-index: 100;
+}
+.search-dropdown.open { display: block; }
+.search-option {
+  padding: 8px 10px;
+  font-size: 12.5px;
+  font-family: var(--font-body);
+  color: var(--ink);
+  cursor: pointer;
+  border-bottom: 1px solid var(--border-soft);
+}
+.search-option:last-child { border-bottom: none; }
+.search-option:hover, .search-option.active { background: var(--gold-soft); }
+
+/* -- player page: switch-player search box, always visible so you're
+      never stuck needing to go back to the home page to look someone
+      else up -- */
+.player-switch { position: relative; margin-bottom: var(--gap); }
+.player-switch-label {
+  display: block;
+  font-size: 10.5px;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--muted);
+  margin-bottom: 8px;
+}
+.player-switch-row { position: relative; }
+.player-switch-row input {
+  width: 100%;
+  font-family: var(--font-body);
+  font-size: 13px;
+  padding: 10px 12px;
+  border: 1.5px solid var(--border);
+  border-radius: var(--radius-sm);
+  background: var(--card-alt);
+  color: var(--ink);
+}
+.player-switch-row input:focus {
+  outline: none;
+  border-color: var(--blue);
+  background: var(--bg);
 }
 
 .nav-label {

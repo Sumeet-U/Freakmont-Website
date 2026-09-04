@@ -179,6 +179,7 @@ async function initSidebar() {
   }
 
   const input = document.getElementById('sidebar-search');
+  const dropdown = document.getElementById('sidebar-search-dropdown');
   if (!input) return;
 
   // "/" focuses the search box from anywhere, unless already typing
@@ -190,19 +191,92 @@ async function initSidebar() {
     input.focus();
   });
 
+  initPlayerSearch(input, dropdown);
+}
+
+/**
+ * Wires up a live player-search box: typing filters the roster and shows
+ * a custom dropdown of matches below the input, which navigates to
+ * player.html?name=... on selection. This renders its own dropdown
+ * rather than using a native <datalist> because iOS Safari doesn't show
+ * datalist suggestions at all -- results would just silently never
+ * appear there. `names`, if provided, skips the roster fetch (useful on
+ * pages that already loaded the roster for something else); otherwise
+ * it's fetched here.
+ */
+async function initPlayerSearch(input, dropdown, names) {
+  if (!input || !dropdown) return;
+
+  if (!names) {
+    const { data: roster } = await loadGuildFile('roster.json', 'msidle-roster.json');
+    names = (roster || []).map(m => m.name);
+  }
+  names = names.slice().sort((a, b) => a.localeCompare(b));
+
+  let matches = [];
+  let activeIndex = -1;
+
+  function close() {
+    dropdown.innerHTML = '';
+    dropdown.classList.remove('open');
+    matches = [];
+    activeIndex = -1;
+  }
+
+  function setActive(i) {
+    activeIndex = i;
+    [...dropdown.children].forEach((el, idx) => el.classList.toggle('active', idx === activeIndex));
+    const activeEl = dropdown.children[activeIndex];
+    if (activeEl) activeEl.scrollIntoView({ block: 'nearest' });
+  }
+
+  function renderMatches(query) {
+    const q = query.trim().toLowerCase();
+    if (!q) { close(); return; }
+    matches = names.filter(n => n.toLowerCase().includes(q)).slice(0, 8);
+    if (!matches.length) { close(); return; }
+    dropdown.innerHTML = matches
+      .map(n => `<div class="search-option" data-name="${n}">${n}</div>`).join('');
+    dropdown.classList.add('open');
+    activeIndex = -1;
+  }
+
+  function go(name) {
+    if (!name) return;
+    location.href = `player.html?name=${encodeURIComponent(name)}`;
+  }
+
+  input.addEventListener('input', () => renderMatches(input.value));
+  input.addEventListener('focus', () => { if (input.value.trim()) renderMatches(input.value); });
+
   input.addEventListener('keydown', (ev) => {
-    if (ev.key !== 'Enter') return;
-    const val = input.value.trim();
-    if (!val) return;
-    location.href = `player.html?name=${encodeURIComponent(val)}`;
+    if (ev.key === 'ArrowDown' && matches.length) {
+      ev.preventDefault();
+      setActive(Math.min(activeIndex + 1, matches.length - 1));
+    } else if (ev.key === 'ArrowUp' && matches.length) {
+      ev.preventDefault();
+      setActive(Math.max(activeIndex - 1, 0));
+    } else if (ev.key === 'Enter') {
+      if (activeIndex >= 0 && matches[activeIndex]) {
+        go(matches[activeIndex]);
+      } else if (matches.length === 1) {
+        go(matches[0]);
+      } else {
+        go(input.value.trim());
+      }
+    } else if (ev.key === 'Escape') {
+      close();
+    }
   });
 
-  // populate the datalist for autocomplete once the roster loads
-  const { data: roster } = await loadGuildFile('roster.json', 'msidle-roster.json');
-  const list = document.getElementById('player-datalist');
-  if (roster && list) {
-    list.innerHTML = roster
-      .slice().sort((a, b) => a.name.localeCompare(b.name))
-      .map(m => `<option value="${m.name}"></option>`).join('');
-  }
+  // mousedown (not click) fires before the input's blur event, so the
+  // dropdown is still there to be clicked on touch devices too
+  dropdown.addEventListener('mousedown', (ev) => {
+    const opt = ev.target.closest('.search-option');
+    if (opt) go(opt.dataset.name);
+  });
+
+  document.addEventListener('click', (ev) => {
+    if (!input.contains(ev.target) && !dropdown.contains(ev.target)) close();
+  });
 }

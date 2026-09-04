@@ -1,0 +1,44 @@
+# Freakmont HQ (freakmonthq.com)
+#
+# Reminder for future edits: this is a request, not a lock. Well-behaved
+# crawlers (Google, Bing, etc.) honor it; it does nothing to actually
+# restrict who can load a URL directly. Don't rely on it to keep anything
+# truly private -- see legal.html's Data & Privacy section for what
+# actually is and isn't exposed.
+
+User-agent: *
+# Raw data files aren't useful search results and would just clutter an
+# index with JSON -- keep crawlers on the actual pages instead.
+Disallow: /data/
+# player.html works fine with no query string (shows a blank/prompt
+# state) and with one per character (?name=X) -- without this, a crawler
+# can "discover" 30 near-duplicate indexed URLs for one page. Let it
+# index the page itself; keep it off the per-character variants.
+Disallow: /player.html?*
+Allow: /
+
+# A handful of crawlers that scrape sites specifically to train AI models
+# rather than to serve search results -- opting the whole site out of
+# that use, since it's a guild fan project, not published content.
+User-agent: GPTBot
+Disallow: /
+
+User-agent: ChatGPT-User
+Disallow: /
+
+User-agent: CCBot
+Disallow: /
+
+User-agent: anthropic-ai
+Disallow: /
+
+User-agent: ClaudeBot
+Disallow: /
+
+User-agent: Google-Extended
+Disallow: /
+
+User-agent: Bytespider
+Disallow: /
+
+Sitemap: https://freakmonthq.com/sitemap.xml

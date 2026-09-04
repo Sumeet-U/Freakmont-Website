@@ -216,25 +216,49 @@ function drawLineChart(canvasId, points, { valueKey, formatValue, color, stepped
 
 async function initPlayerPage() {
   const params = new URLSearchParams(location.search);
-  const name = params.get('name');
+  const rawName = params.get('name');
 
   const statusBadge = document.getElementById('source-badge');
   const updatedDate = document.getElementById('updated-date');
 
   const ranksData = await loadRanks();
 
-  if (!name) {
+  // roster gives us guild-wide context: this member's identity as of
+  // the last guild-page scrape, and their rank within Freakmont by CP.
+  // Loaded before the "no name" check below (not after) specifically so
+  // the always-visible player-switch search box works even when no
+  // player is loaded yet, instead of only after picking one.
+  const rosterResult = await loadGuildFile('roster.json', 'msidle-roster.json');
+  const roster = rosterResult.data || [];
+  initPlayerSearch(
+    document.getElementById('player-search'),
+    document.getElementById('player-search-dropdown'),
+    roster.map(m => m.name)
+  );
+
+  if (!rawName) {
     document.getElementById('player-root').innerHTML =
-      '<div class="card"><div class="empty-state">No character specified. Go back to the guild page and pick a name.</div></div>';
+      '<div class="card"><div class="empty-state">Search for a player above, or browse the full roster on the <a href="index.html">home page</a>.</div></div>';
     statusBadge.textContent = 'NO DATA';
     return;
   }
 
-  // roster gives us guild-wide context: this member's identity as of
-  // the last guild-page scrape, and their rank within Freakmont by CP.
-  const rosterResult = await loadGuildFile('roster.json', 'msidle-roster.json');
-  const roster = rosterResult.data || [];
-  const rosterEntry = roster.find(m => m.name === name) || null;
+  // Look-ups and per-player JSON files are all keyed by exact,
+  // case-sensitive name (the files on disk are literally named
+  // "Lighttt.json", and GitHub Pages' file server is case-sensitive like
+  // any Linux host) -- but a typed URL or search shouldn't have to match
+  // capitalization exactly. Resolve against the roster's canonical
+  // casing once, up front, and use that resolved name for everything
+  // below instead of whatever casing came in on the URL.
+  const rosterEntry = roster.find(m => m.name.toLowerCase() === rawName.toLowerCase()) || null;
+  const name = rosterEntry ? rosterEntry.name : rawName;
+  if (name !== rawName) {
+    // keep the address bar (and anything copied from it) canonical too
+    history.replaceState(null, '', `player.html?name=${encodeURIComponent(name)}`);
+  }
+  const playerSearchInput = document.getElementById('player-search');
+  if (playerSearchInput) playerSearchInput.value = name;
+
   const sortedRoster = [...roster].sort((a, b) => (b.cpRaw || 0) - (a.cpRaw || 0));
   const guildRank = sortedRoster.findIndex(m => m.name === name) + 1;
 
