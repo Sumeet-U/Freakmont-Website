@@ -3,32 +3,32 @@
     "name": "yclzero",
     "class": "Bowmaster",
     "level": 109,
-    "cpRaw": 355802204279792,
-    "cpDisplay": "355T 802B",
-    "fame": 188
+    "cpRaw": 383351664623222,
+    "cpDisplay": "383T 351B",
+    "fame": 189
   },
   "ranks": {
     "global": {
-      "rank": 9875,
+      "rank": 10090,
       "percentile": 0.9
     },
     "server": {
-      "rank": 213,
+      "rank": 221,
       "percentile": 0.8
     },
     "world": {
-      "rank": 4423,
-      "percentile": 1.1
+      "rank": 4386,
+      "percentile": 1
     },
     "job": {
-      "rank": 609,
+      "rank": 613,
       "percentile": 0.8
     }
   },
   "performance": {
     "conquest": {
       "score": 92589439741,
-      "percentile": 6.7,
+      "percentile": 6.8,
       "updated": "2026-09-01T04:14:07+00:00"
     },
     "training_ground": {
@@ -38,7 +38,7 @@
     },
     "guild_boss_battle": {
       "score": 5826300687,
-      "percentile": 15,
+      "percentile": 24.1,
       "updated": "2026-06-15T08:42:09+00:00"
     },
     "guild_war": {
@@ -47,9 +47,9 @@
       "updated": "2026-08-28T00:00:56+00:00"
     },
     "world_boss": {
-      "score": 3377000260000000,
-      "percentile": 4.2,
-      "updated": "2026-08-31T04:40:10+00:00"
+      "score": 4127972120000000,
+      "percentile": 3.9,
+      "updated": "2026-09-05T04:39:05+00:00"
     }
   },
   "scoreComparison": {
@@ -61,45 +61,37 @@
     },
     "guild_conquest": {
       "score": "92589439741",
-      "vs_all_pct": 47,
-      "vs_class_pct": 58.3,
+      "vs_all_pct": 47.8,
+      "vs_class_pct": 58.6,
       "date": "2026-09-01T04:14:07+00:00"
     },
     "world_boss": {
-      "score": "3377000260000000",
-      "vs_all_pct": 80.6,
-      "vs_class_pct": 76.8,
-      "date": "2026-08-31T04:40:10+00:00"
+      "score": "4127972120000000",
+      "vs_all_pct": 59.4,
+      "vs_class_pct": 56.1,
+      "date": "2026-09-05T04:39:05+00:00"
     },
     "guild_war": {
       "score": "29928475913",
       "vs_all_pct": -19.1,
-      "vs_class_pct": -27.7,
+      "vs_class_pct": -27.6,
       "date": "2026-08-28T00:00:56+00:00"
     },
     "guild_training_ground": {
       "score": "5225106",
-      "vs_all_pct": 13.2,
-      "vs_class_pct": -5.5,
+      "vs_all_pct": 13.3,
+      "vs_class_pct": -5.3,
       "date": "2026-07-17T05:54:13+00:00"
     },
     "guild_boss": {
       "score": "5826300687",
-      "vs_all_pct": 41.3,
-      "vs_class_pct": 36.7,
+      "vs_all_pct": 46.9,
+      "vs_class_pct": 42.6,
       "date": "2026-06-15T08:42:09+00:00"
     }
   },
   "history": {
     "conquest_history": [
-      {
-        "date": "2026-08-04T21:42:09+00:00",
-        "score": "50195350717"
-      },
-      {
-        "date": "2026-08-05T06:36:40+00:00",
-        "score": "51487879186"
-      },
       {
         "date": "2026-08-07T05:48:43+00:00",
         "score": "51487879187"
@@ -177,26 +169,19 @@
       {
         "date": "2026-08-31T04:40:10+00:00",
         "score": "3377000260000000"
+      },
+      {
+        "date": "2026-09-04T09:00:41+00:00",
+        "score": "3897417910000000"
+      },
+      {
+        "date": "2026-09-05T04:39:05+00:00",
+        "score": "4127972120000000"
       }
     ],
     "cp_history": [
       {
-        "date": "2026-08-04T20:49:31+00:00",
-        "cpRaw": 130703138560633,
-        "cpDisplay": "130T 703B"
-      },
-      {
-        "date": "2026-08-05T03:36:14+00:00",
-        "cpRaw": 136239545634777,
-        "cpDisplay": "136T 239B"
-      },
-      {
-        "date": "2026-08-05T06:36:40+00:00",
-        "cpRaw": 136642289834144,
-        "cpDisplay": "136T 642B"
-      },
-      {
-        "date": "2026-08-06T04:20:40+00:00",
+        "date": "2026-08-06T17:57:28+00:00",
         "cpRaw": 136682064199738,
         "cpDisplay": "136T 682B"
       },
@@ -314,11 +299,21 @@
         "date": "2026-09-03T05:39:29+00:00",
         "cpRaw": 355802204279792,
         "cpDisplay": "355T 802B"
+      },
+      {
+        "date": "2026-09-04T09:00:41+00:00",
+        "cpRaw": 363335294913626,
+        "cpDisplay": "363T 335B"
+      },
+      {
+        "date": "2026-09-05T04:39:05+00:00",
+        "cpRaw": 383351664623222,
+        "cpDisplay": "383T 351B"
       }
     ],
     "level_history": [
       {
-        "date": "2026-08-04T20:49:31+00:00",
+        "date": "2026-08-06T17:57:28+00:00",
         "level": 107
       },
       {
@@ -331,5 +326,5 @@
       }
     ]
   },
-  "scraped_at": "2026-09-03T20:49:33.159513+00:00"
+  "scraped_at": "2026-09-05T17:57:29.557712+00:00"
 }

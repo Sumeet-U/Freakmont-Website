@@ -3,33 +3,33 @@
     "name": "Byro",
     "class": "Arch Mage (Ice/Lightning)",
     "level": 109,
-    "cpRaw": 411541478170864,
-    "cpDisplay": "411T 541B",
-    "fame": 265
+    "cpRaw": 411542623983461,
+    "cpDisplay": "411T 542B",
+    "fame": 266
   },
   "ranks": {
     "global": {
-      "rank": 8913,
-      "percentile": 0.8
+      "rank": 9597,
+      "percentile": 0.9
     },
     "server": {
-      "rank": 191,
-      "percentile": 0.7
+      "rank": 206,
+      "percentile": 0.8
     },
     "world": {
-      "rank": 4004,
+      "rank": 4171,
       "percentile": 1
     },
     "job": {
-      "rank": 436,
+      "rank": 472,
       "percentile": 0.3
     }
   },
   "performance": {
     "conquest": {
-      "score": 58295250376,
-      "percentile": 9.3,
-      "updated": "2026-08-30T06:25:10+00:00"
+      "score": 60781929236,
+      "percentile": 9,
+      "updated": "2026-09-05T09:01:57+00:00"
     },
     "training_ground": {
       "score": 4257657,
@@ -38,7 +38,7 @@
     },
     "guild_boss_battle": {
       "score": 5704273952,
-      "percentile": 15.2,
+      "percentile": 24.2,
       "updated": "2026-06-15T08:41:59+00:00"
     },
     "guild_war": {
@@ -48,7 +48,7 @@
     },
     "world_boss": {
       "score": 2108034570000000,
-      "percentile": 5.4,
+      "percentile": 5.5,
       "updated": "2026-09-02T05:20:28+00:00"
     }
   },
@@ -60,15 +60,15 @@
       "date": "2026-08-27T13:09:28+00:00"
     },
     "guild_conquest": {
-      "score": "58295250376",
-      "vs_all_pct": -19.4,
-      "vs_class_pct": -4.1,
-      "date": "2026-08-30T06:25:10+00:00"
+      "score": "60781929236",
+      "vs_all_pct": -21.1,
+      "vs_class_pct": -6.3,
+      "date": "2026-09-05T09:01:57+00:00"
     },
     "world_boss": {
       "score": "2108034570000000",
-      "vs_all_pct": -25.2,
-      "vs_class_pct": -6.6,
+      "vs_all_pct": -24.3,
+      "vs_class_pct": -5.9,
       "date": "2026-09-02T05:20:28+00:00"
     },
     "guild_war": {
@@ -79,14 +79,14 @@
     },
     "guild_training_ground": {
       "score": "4257657",
-      "vs_all_pct": -2.9,
-      "vs_class_pct": 5.9,
+      "vs_all_pct": -2.8,
+      "vs_class_pct": 6,
       "date": "2026-07-17T05:54:32+00:00"
     },
     "guild_boss": {
       "score": "5704273952",
-      "vs_all_pct": 32.2,
-      "vs_class_pct": 40.5,
+      "vs_all_pct": 37.6,
+      "vs_class_pct": 47.1,
       "date": "2026-06-15T08:41:59+00:00"
     }
   },
@@ -111,6 +111,10 @@
       {
         "date": "2026-08-30T06:25:10+00:00",
         "score": "58295250376"
+      },
+      {
+        "date": "2026-09-05T09:01:57+00:00",
+        "score": "60781929236"
       }
     ],
     "training_ground_history": [],
@@ -145,17 +149,7 @@
     ],
     "cp_history": [
       {
-        "date": "2026-08-04T20:49:10+00:00",
-        "cpRaw": 108988959073694,
-        "cpDisplay": "108T 988B"
-      },
-      {
-        "date": "2026-08-04T21:41:54+00:00",
-        "cpRaw": 119483121840172,
-        "cpDisplay": "119T 483B"
-      },
-      {
-        "date": "2026-08-05T03:36:17+00:00",
+        "date": "2026-08-06T17:57:18+00:00",
         "cpRaw": 126930616254938,
         "cpDisplay": "126T 930B"
       },
@@ -273,11 +267,16 @@
         "date": "2026-09-03T05:39:39+00:00",
         "cpRaw": 411541478170864,
         "cpDisplay": "411T 541B"
+      },
+      {
+        "date": "2026-09-04T09:00:57+00:00",
+        "cpRaw": 411542623983461,
+        "cpDisplay": "411T 542B"
       }
     ],
     "level_history": [
       {
-        "date": "2026-08-04T20:49:10+00:00",
+        "date": "2026-08-06T17:57:18+00:00",
         "level": 107
       },
       {
@@ -290,5 +289,5 @@
       }
     ]
   },
-  "scraped_at": "2026-09-03T20:49:11.703761+00:00"
+  "scraped_at": "2026-09-05T17:57:19.504249+00:00"
 }

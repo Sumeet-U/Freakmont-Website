@@ -1,5 +1,5 @@
 {
-  "date": "2026-09-03",
+  "date": "2026-09-05",
   "entries": [
     {
       "name": "JaneGarden",
@@ -25,7 +25,7 @@
     {
       "name": "poljjak",
       "class": "Bishop",
-      "level": 115,
+      "level": 116,
       "score": 11330913,
       "rank": 4
     },
@@ -46,7 +46,7 @@
     {
       "name": "kbaFM",
       "class": "Night Lord",
-      "level": 113,
+      "level": 114,
       "score": 8492232,
       "rank": 7
     },
@@ -67,7 +67,7 @@
     {
       "name": "KenniTM",
       "class": "Paladin",
-      "level": 112,
+      "level": 113,
       "score": 8254155,
       "rank": 10
     },
@@ -88,14 +88,14 @@
     {
       "name": "Caycidia",
       "class": "Ice/Lightning Mage",
-      "level": 111,
+      "level": 112,
       "score": 6411192,
       "rank": 13
     },
     {
       "name": "Ravenz",
       "class": "Shadower",
-      "level": 111,
+      "level": 112,
       "score": 6269253,
       "rank": 14
     },
@@ -109,14 +109,14 @@
     {
       "name": "KayaaToast",
       "class": "Marksman",
-      "level": 109,
+      "level": 110,
       "score": 5883633,
       "rank": 16
     },
     {
       "name": "Xanite",
       "class": "Bowmaster",
-      "level": 112,
+      "level": 113,
       "score": 5601204,
       "rank": 17
     },
@@ -130,7 +130,7 @@
     {
       "name": "Amascut",
       "class": "Bowmaster",
-      "level": 111,
+      "level": 112,
       "score": 5216160,
       "rank": 19
     },
@@ -144,7 +144,7 @@
     {
       "name": "Byro",
       "class": "Ice/Lightning Mage",
-      "level": 109,
+      "level": 110,
       "score": 4257657,
       "rank": 21
     },
@@ -172,7 +172,7 @@
     {
       "name": "RefundPuJay",
       "class": "Marksman",
-      "level": 109,
+      "level": 110,
       "score": 3505833,
       "rank": 25
     },
@@ -200,7 +200,7 @@
     {
       "name": "Arlooooo",
       "class": "Hero",
-      "level": 109,
+      "level": 110,
       "score": 2671449,
       "rank": 29
     },

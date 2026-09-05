@@ -3,33 +3,33 @@
     "name": "jbboaf0ng",
     "class": "Night Lord",
     "level": 104,
-    "cpRaw": 20781585898370,
-    "cpDisplay": "20T 781B",
+    "cpRaw": 21190181462688,
+    "cpDisplay": "21T 190B",
     "fame": 12
   },
   "ranks": {
     "global": {
-      "rank": 33282,
+      "rank": 34433,
       "percentile": 3.2
     },
     "server": {
-      "rank": 766,
+      "rank": 777,
       "percentile": 2.9
     },
     "world": {
-      "rank": 14244,
+      "rank": 14362,
       "percentile": 3.4
     },
     "job": {
-      "rank": 4777,
+      "rank": 4871,
       "percentile": 2.9
     }
   },
   "performance": {
     "conquest": {
-      "score": 13521895798,
-      "percentile": 23.5,
-      "updated": "2026-08-25T06:06:01+00:00"
+      "score": 14398771094,
+      "percentile": 22.8,
+      "updated": "2026-09-04T09:00:48+00:00"
     },
     "training_ground": {
       "score": 2356158,
@@ -37,9 +37,9 @@
       "updated": "2026-07-17T05:55:35+00:00"
     },
     "guild_boss_battle": {
-      "score": 1685509651,
-      "percentile": 40,
-      "updated": "2026-06-15T08:43:07+00:00"
+      "score": 6045244226,
+      "percentile": 23.8,
+      "updated": "2026-09-04T16:42:07+00:00"
     },
     "guild_war": {
       "score": 10293647372,
@@ -54,34 +54,34 @@
   },
   "scoreComparison": {
     "guild_conquest": {
-      "score": "13521895798",
-      "vs_all_pct": 7.6,
-      "vs_class_pct": 16.3,
-      "date": "2026-08-25T06:06:01+00:00"
+      "score": "14398771094",
+      "vs_all_pct": -7.2,
+      "vs_class_pct": 0.1,
+      "date": "2026-09-04T09:00:48+00:00"
     },
     "world_boss": {
       "score": "105643065000000",
-      "vs_all_pct": -2.9,
-      "vs_class_pct": 2.8,
+      "vs_all_pct": -2.1,
+      "vs_class_pct": 3.1,
       "date": "2026-09-02T05:20:07+00:00"
     },
     "guild_war": {
       "score": "10293647372",
-      "vs_all_pct": 38.1,
-      "vs_class_pct": 37.9,
+      "vs_all_pct": 38.2,
+      "vs_class_pct": 37.8,
       "date": "2026-08-28T00:00:56+00:00"
     },
     "guild_training_ground": {
       "score": "2356158",
       "vs_all_pct": 10.4,
-      "vs_class_pct": 11.3,
+      "vs_class_pct": 11.4,
       "date": "2026-07-17T05:55:35+00:00"
     },
     "guild_boss": {
-      "score": "1685509651",
-      "vs_all_pct": -0.9,
-      "vs_class_pct": 1.6,
-      "date": "2026-06-15T08:43:07+00:00"
+      "score": "6045244226",
+      "vs_all_pct": 0.9,
+      "vs_class_pct": 3,
+      "date": "2026-09-04T16:42:07+00:00"
     }
   },
   "history": {
@@ -93,10 +93,19 @@
       {
         "date": "2026-08-25T06:06:01+00:00",
         "score": "13521895798"
+      },
+      {
+        "date": "2026-09-04T09:00:48+00:00",
+        "score": "14398771094"
       }
     ],
     "training_ground_history": [],
-    "guild_boss_battle_history": [],
+    "guild_boss_battle_history": [
+      {
+        "date": "2026-09-04T16:42:07+00:00",
+        "score": "6045244226"
+      }
+    ],
     "guild_war_history": [
       {
         "date": "2026-08-28T00:00:56+00:00",
@@ -104,10 +113,6 @@
       }
     ],
     "world_boss_history": [
-      {
-        "date": "2026-08-05T06:35:56+00:00",
-        "score": "41134985700000"
-      },
       {
         "date": "2026-08-12T05:58:21+00:00",
         "score": "50017544200000"
@@ -131,7 +136,7 @@
     ],
     "cp_history": [
       {
-        "date": "2026-08-04T20:50:36+00:00",
+        "date": "2026-08-06T17:58:18+00:00",
         "cpRaw": 6124693717989,
         "cpDisplay": "6T 124B"
       },
@@ -224,15 +229,16 @@
         "date": "2026-09-03T05:39:24+00:00",
         "cpRaw": 20781585898370,
         "cpDisplay": "20T 781B"
+      },
+      {
+        "date": "2026-09-04T18:08:07+00:00",
+        "cpRaw": 21190181462688,
+        "cpDisplay": "21T 190B"
       }
     ],
     "level_history": [
       {
-        "date": "2026-08-04T20:50:36+00:00",
-        "level": 102
-      },
-      {
-        "date": "2026-08-05T14:01:47+00:00",
+        "date": "2026-08-06T17:58:18+00:00",
         "level": 103
       },
       {
@@ -241,5 +247,5 @@
       }
     ]
   },
-  "scraped_at": "2026-09-03T20:50:37.827970+00:00"
+  "scraped_at": "2026-09-05T17:58:19.816096+00:00"
 }

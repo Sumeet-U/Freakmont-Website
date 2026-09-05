@@ -1,20 +1,20 @@
 {
   "ranks": {
     "global_rank": {
-      "rank": 1357,
-      "total": 232362
+      "rank": 1473,
+      "total": 233634
     },
     "bera": {
-      "rank": 835,
-      "total": 102479
+      "rank": 895,
+      "total": 102711
     },
     "bera_5": {
-      "rank": 35,
+      "rank": 36,
       "total": 2000
     },
     "paladin": {
-      "rank": 155,
-      "total": 8559
+      "rank": 164,
+      "total": 8584
     }
   },
   "performance": {
@@ -35,27 +35,11 @@
       "updated": "Sep 1"
     },
     "guild_boss_battle": {
-      "score": 100926204621.9704,
-      "updated": "Aug 27"
+      "score": 108374736304.20026,
+      "updated": "Sep 3"
     }
   },
   "history": [
-    {
-      "date": "8/4",
-      "cpRaw": 1502905968990512.2,
-      "cpDisplay": "1AA 502T",
-      "level": 110,
-      "globalRank": 1727,
-      "fame": 160
-    },
-    {
-      "date": "8/5",
-      "cpRaw": 1502905968990512.2,
-      "cpDisplay": "1AA 502T",
-      "level": 110,
-      "globalRank": 1754,
-      "fame": 160
-    },
     {
       "date": "8/6",
       "cpRaw": 1566716786032514.8,
@@ -279,7 +263,23 @@
       "level": 112,
       "globalRank": 1357,
       "fame": 169
+    },
+    {
+      "date": "9/4",
+      "cpRaw": 5605444542805399,
+      "cpDisplay": "5AA 605T",
+      "level": 113,
+      "globalRank": 1446,
+      "fame": 169
+    },
+    {
+      "date": "9/5",
+      "cpRaw": 5644406065796884,
+      "cpDisplay": "5AA 644T",
+      "level": 113,
+      "globalRank": 1473,
+      "fame": 169
     }
   ],
-  "scraped_at": "2026-09-03T20:39:55.530371+00:00"
+  "scraped_at": "2026-09-05T17:52:17.715352+00:00"
 }

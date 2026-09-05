@@ -30,8 +30,8 @@
   "guild_boss_battle": {
     "score": 27767506854.250443,
     "snapshotDate": "2026-08-27",
-    "peerRank": 2,
+    "peerRank": null,
     "peerCount": 12,
-    "percentile": 90.9
+    "percentile": null
   }
 }

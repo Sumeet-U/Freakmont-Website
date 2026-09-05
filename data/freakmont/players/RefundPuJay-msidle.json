@@ -2,26 +2,26 @@
   "character": {
     "name": "RefundPuJay",
     "class": "Marksman",
-    "level": 109,
-    "cpRaw": 917559083727007,
-    "cpDisplay": "917T 559B",
-    "fame": 40
+    "level": 110,
+    "cpRaw": 928017632331441,
+    "cpDisplay": "928T 17B",
+    "fame": 41
   },
   "ranks": {
     "global": {
-      "rank": 5134,
+      "rank": 5446,
       "percentile": 0.5
     },
     "server": {
-      "rank": 105,
+      "rank": 115,
       "percentile": 0.4
     },
     "world": {
-      "rank": 2354,
+      "rank": 2433,
       "percentile": 0.6
     },
     "job": {
-      "rank": 531,
+      "rank": 555,
       "percentile": 1.2
     }
   },
@@ -37,9 +37,9 @@
       "updated": "2026-07-17T05:55:00+00:00"
     },
     "guild_boss_battle": {
-      "score": 28357410039,
-      "percentile": 7.8,
-      "updated": "2026-08-21T20:35:49+00:00"
+      "score": 50125034652,
+      "percentile": 5.6,
+      "updated": "2026-09-04T16:39:40+00:00"
     },
     "guild_war": {
       "score": 65907122780,
@@ -61,20 +61,20 @@
     },
     "guild_conquest": {
       "score": "129991078195",
-      "vs_all_pct": 15.1,
-      "vs_class_pct": 13.5,
+      "vs_all_pct": 15.7,
+      "vs_class_pct": 14,
       "date": "2026-08-31T06:29:04+00:00"
     },
     "world_boss": {
       "score": "9154104410000000",
-      "vs_all_pct": 41.1,
-      "vs_class_pct": 19.9,
+      "vs_all_pct": 43,
+      "vs_class_pct": 21.4,
       "date": "2026-09-02T05:20:08+00:00"
     },
     "guild_war": {
       "score": "65907122780",
       "vs_all_pct": -6.7,
-      "vs_class_pct": -11.7,
+      "vs_class_pct": -11.5,
       "date": "2026-09-03T05:37:08+00:00"
     },
     "guild_training_ground": {
@@ -84,10 +84,10 @@
       "date": "2026-07-17T05:55:00+00:00"
     },
     "guild_boss": {
-      "score": "28357410039",
-      "vs_all_pct": -27.2,
-      "vs_class_pct": -30.5,
-      "date": "2026-08-21T20:35:49+00:00"
+      "score": "50125034652",
+      "vs_all_pct": 15.6,
+      "vs_class_pct": 10.4,
+      "date": "2026-09-04T16:39:40+00:00"
     }
   },
   "history": {
@@ -114,6 +114,10 @@
       {
         "date": "2026-08-21T20:35:49+00:00",
         "score": "28357410039"
+      },
+      {
+        "date": "2026-09-04T16:39:40+00:00",
+        "score": "50125034652"
       }
     ],
     "guild_war_history": [
@@ -178,12 +182,7 @@
     ],
     "cp_history": [
       {
-        "date": "2026-08-04T20:48:26+00:00",
-        "cpRaw": 212036817899586,
-        "cpDisplay": "212T 36B"
-      },
-      {
-        "date": "2026-08-05T14:01:51+00:00",
+        "date": "2026-08-06T17:56:38+00:00",
         "cpRaw": 224159725577087,
         "cpDisplay": "224T 159B"
       },
@@ -291,11 +290,16 @@
         "date": "2026-09-03T05:37:08+00:00",
         "cpRaw": 917559083727007,
         "cpDisplay": "917T 559B"
+      },
+      {
+        "date": "2026-09-04T09:00:27+00:00",
+        "cpRaw": 928017632331441,
+        "cpDisplay": "928T 17B"
       }
     ],
     "level_history": [
       {
-        "date": "2026-08-04T20:48:26+00:00",
+        "date": "2026-08-06T17:56:38+00:00",
         "level": 107
       },
       {
@@ -305,8 +309,12 @@
       {
         "date": "2026-08-25T06:06:52+00:00",
         "level": 109
+      },
+      {
+        "date": "2026-09-04T18:08:25+00:00",
+        "level": 110
       }
     ]
   },
-  "scraped_at": "2026-09-03T20:48:27.658713+00:00"
+  "scraped_at": "2026-09-05T17:56:39.344262+00:00"
 }

@@ -1,5 +1,5 @@
 {
-  "date": "2026-09-03",
+  "date": "2026-09-05",
   "entries": [
     {
       "name": "JaneGarden",
@@ -18,7 +18,7 @@
     {
       "name": "poljjak",
       "class": "Bishop",
-      "level": 115,
+      "level": 116,
       "score": 237245742643.171,
       "rank": 3
     },
@@ -32,14 +32,14 @@
     {
       "name": "kbaFM",
       "class": "Night Lord",
-      "level": 113,
+      "level": 114,
       "score": 195252559703.102,
       "rank": 5
     },
     {
       "name": "KenniTM",
       "class": "Paladin",
-      "level": 112,
+      "level": 113,
       "score": 175330126193.024,
       "rank": 6
     },
@@ -81,21 +81,21 @@
     {
       "name": "Xanite",
       "class": "Bowmaster",
-      "level": 112,
+      "level": 113,
       "score": 107966957071.158,
       "rank": 12
     },
     {
       "name": "Ravenz",
       "class": "Shadower",
-      "level": 111,
+      "level": 112,
       "score": 106503314129.416,
       "rank": 13
     },
     {
       "name": "Amascut",
       "class": "Bowmaster",
-      "level": 111,
+      "level": 112,
       "score": 104308035337.626,
       "rank": 14
     },
@@ -116,7 +116,7 @@
     {
       "name": "Caycidia",
       "class": "Ice/Lightning Mage",
-      "level": 111,
+      "level": 112,
       "score": 84183539441.3421,
       "rank": 17
     },
@@ -130,7 +130,7 @@
     {
       "name": "RefundPuJay",
       "class": "Marksman",
-      "level": 109,
+      "level": 110,
       "score": 65907122779.5602,
       "rank": 19
     },
@@ -165,7 +165,7 @@
     {
       "name": "Byro",
       "class": "Ice/Lightning Mage",
-      "level": 109,
+      "level": 110,
       "score": 33427726490.2572,
       "rank": 24
     },
@@ -179,7 +179,7 @@
     {
       "name": "KayaaToast",
       "class": "Marksman",
-      "level": 109,
+      "level": 110,
       "score": 26419923422.3581,
       "rank": 26
     },
@@ -200,7 +200,7 @@
     {
       "name": "Arlooooo",
       "class": "Hero",
-      "level": 109,
+      "level": 110,
       "score": 21270742301.3813,
       "rank": 29
     },

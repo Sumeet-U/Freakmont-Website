@@ -1,34 +1,34 @@
 {
   "character": {
     "name": "greenbanana",
-    "class": "Marksman",
+    "class": "Corsair",
     "level": 108,
-    "cpRaw": 305576926924506,
-    "cpDisplay": "305T 576B",
-    "fame": 129
+    "cpRaw": 365858449292890,
+    "cpDisplay": "365T 858B",
+    "fame": 132
   },
   "ranks": {
     "global": {
-      "rank": 10952,
+      "rank": 10410,
       "percentile": 1
     },
     "server": {
-      "rank": 244,
+      "rank": 226,
       "percentile": 0.9
     },
     "world": {
-      "rank": 4914,
-      "percentile": 1.2
+      "rank": 4527,
+      "percentile": 1.1
     },
     "job": {
-      "rank": 1193,
-      "percentile": 2.6
+      "rank": 482,
+      "percentile": 2.2
     }
   },
   "performance": {
     "conquest": {
       "score": 67330103724,
-      "percentile": 8.3,
+      "percentile": 8.4,
       "updated": "2026-08-27T05:16:07+00:00"
     },
     "training_ground": {
@@ -38,7 +38,7 @@
     },
     "guild_boss_battle": {
       "score": 2928291073,
-      "percentile": 23.9,
+      "percentile": 32,
       "updated": "2026-06-15T08:42:33+00:00"
     },
     "guild_war": {
@@ -48,7 +48,7 @@
     },
     "world_boss": {
       "score": 2460882620000000,
-      "percentile": 5,
+      "percentile": 5.1,
       "updated": "2026-09-02T05:20:23+00:00"
     }
   },
@@ -61,41 +61,37 @@
     },
     "guild_conquest": {
       "score": "67330103724",
-      "vs_all_pct": 8.5,
-      "vs_class_pct": 7.1,
+      "vs_all_pct": 9.1,
+      "vs_class_pct": 14,
       "date": "2026-08-27T05:16:07+00:00"
     },
     "world_boss": {
       "score": "2460882620000000",
-      "vs_all_pct": 19.8,
-      "vs_class_pct": 1.7,
+      "vs_all_pct": 21.2,
+      "vs_class_pct": 17.8,
       "date": "2026-09-02T05:20:23+00:00"
     },
     "guild_war": {
       "score": "30961397641",
       "vs_all_pct": -15.8,
-      "vs_class_pct": -20.3,
+      "vs_class_pct": -19.4,
       "date": "2026-08-28T00:00:56+00:00"
     },
     "guild_training_ground": {
       "score": "2726196",
-      "vs_all_pct": -25.9,
-      "vs_class_pct": -29.5,
+      "vs_all_pct": -25.8,
+      "vs_class_pct": -29.8,
       "date": "2026-07-17T05:55:27+00:00"
     },
     "guild_boss": {
       "score": "2928291073",
-      "vs_all_pct": 7.9,
-      "vs_class_pct": 3.1,
+      "vs_all_pct": 11.4,
+      "vs_class_pct": 10.6,
       "date": "2026-06-15T08:42:33+00:00"
     }
   },
   "history": {
     "conquest_history": [
-      {
-        "date": "2026-08-04T21:42:17+00:00",
-        "score": "39062244630"
-      },
       {
         "date": "2026-08-15T06:17:35+00:00",
         "score": "39873934676"
@@ -137,32 +133,7 @@
     ],
     "cp_history": [
       {
-        "date": "2026-08-04T20:49:52+00:00",
-        "cpRaw": 73229565539179,
-        "cpDisplay": "73T 229B"
-      },
-      {
-        "date": "2026-08-04T21:42:16+00:00",
-        "cpRaw": 73256253911771,
-        "cpDisplay": "73T 256B"
-      },
-      {
-        "date": "2026-08-05T06:36:50+00:00",
-        "cpRaw": 75839714550378,
-        "cpDisplay": "75T 839B"
-      },
-      {
-        "date": "2026-08-05T14:01:44+00:00",
-        "cpRaw": 75876358919639,
-        "cpDisplay": "75T 876B"
-      },
-      {
-        "date": "2026-08-06T04:20:49+00:00",
-        "cpRaw": 81496829950724,
-        "cpDisplay": "81T 496B"
-      },
-      {
-        "date": "2026-08-06T06:22:45+00:00",
+        "date": "2026-08-06T17:57:38+00:00",
         "cpRaw": 85204781355700,
         "cpDisplay": "85T 204B"
       },
@@ -195,15 +166,16 @@
         "date": "2026-09-01T23:15:00+00:00",
         "cpRaw": 305576926924506,
         "cpDisplay": "305T 576B"
+      },
+      {
+        "date": "2026-09-04T09:00:50+00:00",
+        "cpRaw": 365858449292890,
+        "cpDisplay": "365T 858B"
       }
     ],
     "level_history": [
       {
-        "date": "2026-08-04T20:49:52+00:00",
-        "level": 105
-      },
-      {
-        "date": "2026-08-05T14:01:44+00:00",
+        "date": "2026-08-06T17:57:38+00:00",
         "level": 106
       },
       {
@@ -216,5 +188,5 @@
       }
     ]
   },
-  "scraped_at": "2026-09-03T20:49:54.048359+00:00"
+  "scraped_at": "2026-09-05T17:57:39.689628+00:00"
 }

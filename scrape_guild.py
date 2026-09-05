@@ -103,9 +103,27 @@ def _fetch(url: str, extra_headers: dict = None) -> requests.Response:
     headers = {**HEADERS, **(extra_headers or {})}
 
     for attempt in range(MAX_RETRIES + 1):
-        resp = requests.get(
-            url, headers=headers, timeout=15, impersonate=IMPERSONATE_PROFILE
-        )
+        # Connection-level failures (timeouts, refused/reset connections)
+        # raise before we ever get a Response back, so they need their own
+        # try/except -- they can't be handled via resp.status_code like the
+        # 429 branch below. Treated the same as a 429: retry with backoff,
+        # then give up after MAX_RETRIES so a single bad connection can't
+        # hang a scheduled run indefinitely.
+        try:
+            resp = requests.get(
+                url, headers=headers, timeout=15, impersonate=IMPERSONATE_PROFILE
+            )
+        except (requests.exceptions.Timeout, requests.exceptions.ConnectionError) as e:
+            print(
+                f"Connection error on {url} (attempt {attempt + 1}/"
+                f"{MAX_RETRIES + 1}): {e}"
+            )
+            if attempt >= MAX_RETRIES:
+                raise
+            wait = min(RETRY_BACKOFF_BASE_SECONDS * (2 ** attempt), MAX_RETRY_WAIT_SECONDS)
+            print(f"  waiting {wait:.0f}s before retrying...")
+            time.sleep(wait)
+            continue
 
         if resp.status_code != 429:
             resp.raise_for_status()
@@ -774,9 +792,9 @@ MSIDLE_GAME_MODE_FILE_STEMS = {
 # real gap between them -- this is 30x the request volume of the guild page
 # alone in one run. A bit of random jitter is added on top so requests don't
 # land at a perfectly predictable interval.
-CHARACTER_FETCH_DELAY_SECONDS = 10
-CHARACTER_FETCH_JITTER_SECONDS = 2  # actual delay: base +/- this, randomized
-SCORE_ANALYSIS_FETCH_DELAY_SECONDS = 3  # gap between the page fetch and the
+CHARACTER_FETCH_DELAY_SECONDS = 1
+CHARACTER_FETCH_JITTER_SECONDS = 0.5  # actual delay: base +/- this, randomized
+SCORE_ANALYSIS_FETCH_DELAY_SECONDS = 0.5  # gap between the page fetch and the
                                           # score-analysis fetch for the same
                                           # character, separate from the
                                           # between-character delay above
@@ -1025,16 +1043,23 @@ def archive_departed_players() -> None:
 
 
 def main():
+    # HTTPError covers exhausted 429 retries; Timeout/ConnectionError cover
+    # exhausted connection-failure retries (see _fetch). Either way, one
+    # source failing shouldn't stop the other from running.
     try:
         run_mapleidle()
-    except requests.exceptions.HTTPError as e:
+    except (requests.exceptions.HTTPError,
+             requests.exceptions.Timeout,
+             requests.exceptions.ConnectionError) as e:
         print(f"mapleidle.gg run failed, skipping: {e}")
 
     print()
 
     try:
         run_msidle()
-    except requests.exceptions.HTTPError as e:
+    except (requests.exceptions.HTTPError,
+             requests.exceptions.Timeout,
+             requests.exceptions.ConnectionError) as e:
         print(f"msidle.gg run failed, skipping: {e}")
 
     print()

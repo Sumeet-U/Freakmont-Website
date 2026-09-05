@@ -1,20 +1,20 @@
 {
   "ranks": {
     "global_rank": {
-      "rank": 1332,
-      "total": 232362
+      "rank": 1086,
+      "total": 233634
     },
     "bera": {
-      "rank": 820,
-      "total": 102479
+      "rank": 671,
+      "total": 102711
     },
     "bera_5": {
-      "rank": 33,
+      "rank": 25,
       "total": 2000
     },
     "hero": {
-      "rank": 78,
-      "total": 14207
+      "rank": 60,
+      "total": 14256
     }
   },
   "performance": {
@@ -35,27 +35,11 @@
       "updated": "Sep 1"
     },
     "guild_boss_battle": {
-      "score": 121902860512.83936,
-      "updated": "Aug 27"
+      "score": 127967505144.70975,
+      "updated": "Sep 3"
     }
   },
   "history": [
-    {
-      "date": "8/4",
-      "cpRaw": 3228957107205006.5,
-      "cpDisplay": "3AA 228T",
-      "level": 113,
-      "globalRank": 1160,
-      "fame": 89
-    },
-    {
-      "date": "8/5",
-      "cpRaw": 3687514432474152,
-      "cpDisplay": "3AA 687T",
-      "level": 113,
-      "globalRank": 1091,
-      "fame": 89
-    },
     {
       "date": "8/6",
       "cpRaw": 4063013103347782.5,
@@ -279,7 +263,23 @@
       "level": 115,
       "globalRank": 1332,
       "fame": 92
+    },
+    {
+      "date": "9/4",
+      "cpRaw": 9975436672865634,
+      "cpDisplay": "9AA 975T",
+      "level": 115,
+      "globalRank": 1063,
+      "fame": 93
+    },
+    {
+      "date": "9/5",
+      "cpRaw": 9975436672865634,
+      "cpDisplay": "9AA 975T",
+      "level": 115,
+      "globalRank": 1086,
+      "fame": 93
     }
   ],
-  "scraped_at": "2026-09-03T20:39:22.531238+00:00"
+  "scraped_at": "2026-09-05T17:52:07.674074+00:00"
 }

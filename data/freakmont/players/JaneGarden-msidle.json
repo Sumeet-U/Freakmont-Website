@@ -3,25 +3,25 @@
     "name": "JaneGarden",
     "class": "Night Lord",
     "level": 117,
-    "cpRaw": 12985986258545024,
-    "cpDisplay": "12AA 985T",
-    "fame": 1388
+    "cpRaw": 20148969946919470,
+    "cpDisplay": "20AA 148T",
+    "fame": 1390
   },
   "ranks": {
     "global": {
-      "rank": 1100,
+      "rank": 968,
       "percentile": 0.1
     },
     "server": {
-      "rank": 19,
+      "rank": 16,
       "percentile": 0.1
     },
     "world": {
-      "rank": 546,
+      "rank": 447,
       "percentile": 0.1
     },
     "job": {
-      "rank": 160,
+      "rank": 134,
       "percentile": 0.1
     }
   },
@@ -61,32 +61,32 @@
     },
     "guild_conquest": {
       "score": "1101398924206",
-      "vs_all_pct": 123.8,
-      "vs_class_pct": 142.1,
+      "vs_all_pct": 125.4,
+      "vs_class_pct": 143.2,
       "date": "2026-08-30T06:24:55+00:00"
     },
     "world_boss": {
       "score": "518143081000000000",
-      "vs_all_pct": 355.5,
-      "vs_class_pct": 382.2,
+      "vs_all_pct": 362.7,
+      "vs_class_pct": 387.3,
       "date": "2026-09-02T05:19:56+00:00"
     },
     "guild_war": {
       "score": "329515591379",
-      "vs_all_pct": 17.3,
-      "vs_class_pct": 17.1,
+      "vs_all_pct": 17.2,
+      "vs_class_pct": 16.9,
       "date": "2026-08-28T00:00:56+00:00"
     },
     "guild_training_ground": {
       "score": "14982645",
-      "vs_all_pct": 11.4,
+      "vs_all_pct": 11.5,
       "vs_class_pct": 12.4,
       "date": "2026-07-03T01:50:24+00:00"
     },
     "guild_boss": {
       "score": "235474275167",
-      "vs_all_pct": 29.5,
-      "vs_class_pct": 32.7,
+      "vs_all_pct": 43.2,
+      "vs_class_pct": 46.2,
       "date": "2026-08-21T20:36:13+00:00"
     }
   },
@@ -182,7 +182,7 @@
     ],
     "cp_history": [
       {
-        "date": "2026-08-04T20:45:46+00:00",
+        "date": "2026-08-06T17:53:36+00:00",
         "cpRaw": 8574648974191787,
         "cpDisplay": "8AA 574T"
       },
@@ -290,11 +290,21 @@
         "date": "2026-09-03T05:39:10+00:00",
         "cpRaw": 12985986258545024,
         "cpDisplay": "12AA 985T"
+      },
+      {
+        "date": "2026-09-04T09:00:06+00:00",
+        "cpRaw": 20122629257468368,
+        "cpDisplay": "20AA 122T"
+      },
+      {
+        "date": "2026-09-04T18:08:05+00:00",
+        "cpRaw": 20148969946919472,
+        "cpDisplay": "20AA 148T"
       }
     ],
     "level_history": [
       {
-        "date": "2026-08-04T20:45:46+00:00",
+        "date": "2026-08-06T17:53:36+00:00",
         "level": 115
       },
       {
@@ -307,5 +317,5 @@
       }
     ]
   },
-  "scraped_at": "2026-09-03T20:45:47.772991+00:00"
+  "scraped_at": "2026-09-05T17:53:37.489952+00:00"
 }
