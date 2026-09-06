@@ -1,5 +1,5 @@
 {
-  "date": "2026-09-03",
+  "date": "2026-09-05",
   "entries": [
     {
       "name": "JaneGarden",
@@ -25,7 +25,7 @@
     {
       "name": "poljjak",
       "class": "Bishop",
-      "level": 115,
+      "level": 116,
       "score": 11330913,
       "rank": 4
     },
@@ -38,8 +38,8 @@
     },
     {
       "name": "SuuperCow",
-      "class": "Dark Knight",
-      "level": 112,
+      "class": "Paladin",
+      "level": 113,
       "score": 10167543,
       "rank": 6
     },
@@ -53,21 +53,21 @@
     {
       "name": "ImYolo",
       "class": "Bishop",
-      "level": 113,
+      "level": 114,
       "score": 8334144,
       "rank": 8
     },
     {
       "name": "YungSeaTurtl",
       "class": "Night Lord",
-      "level": 111,
+      "level": 112,
       "score": 8263503,
       "rank": 9
     },
     {
       "name": "KenniTM",
       "class": "Paladin",
-      "level": 112,
+      "level": 113,
       "score": 8254155,
       "rank": 10
     },
@@ -88,14 +88,14 @@
     {
       "name": "Caycidia",
       "class": "Arch Mage (Ice/Lightning)",
-      "level": 111,
+      "level": 112,
       "score": 6411192,
       "rank": 13
     },
     {
       "name": "Ravenz",
       "class": "Shadower",
-      "level": 111,
+      "level": 112,
       "score": 6269253,
       "rank": 14
     },
@@ -109,7 +109,7 @@
     {
       "name": "KayaaToast",
       "class": "Marksman",
-      "level": 109,
+      "level": 110,
       "score": 5883633,
       "rank": 16
     },
@@ -158,7 +158,7 @@
     {
       "name": "Ashweeb",
       "class": "Shadower",
-      "level": 109,
+      "level": 110,
       "score": 4032201,
       "rank": 23
     },
@@ -172,7 +172,7 @@
     {
       "name": "RefundPuJay",
       "class": "Marksman",
-      "level": 109,
+      "level": 110,
       "score": 3505833,
       "rank": 25
     },
@@ -192,7 +192,7 @@
     },
     {
       "name": "greenbanana",
-      "class": "Marksman",
+      "class": "Corsair",
       "level": 108,
       "score": 2726196,
       "rank": 28
@@ -200,7 +200,7 @@
     {
       "name": "Arlooooo",
       "class": "Hero",
-      "level": 109,
+      "level": 110,
       "score": 2671449,
       "rank": 29
     },

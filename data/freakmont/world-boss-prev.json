@@ -1,5 +1,5 @@
 {
-  "date": "2026-09-03",
+  "date": "2026-09-05",
   "entries": [
     {
       "name": "JaneGarden",
@@ -18,14 +18,14 @@
     {
       "name": "poljjak",
       "class": "Bishop",
-      "level": 115,
+      "level": 116,
       "score": 93734218100000000,
       "rank": 3
     },
     {
       "name": "kbaFM",
       "class": "Night Lord",
-      "level": 113,
+      "level": 114,
       "score": 83426445900000000,
       "rank": 4
     },
@@ -39,7 +39,7 @@
     {
       "name": "KenniTM",
       "class": "Paladin",
-      "level": 112,
+      "level": 113,
       "score": 60474575300000000,
       "rank": 6
     },
@@ -74,7 +74,7 @@
     {
       "name": "Xanite",
       "class": "Bowmaster",
-      "level": 112,
+      "level": 113,
       "score": 14145542400000000,
       "rank": 11
     },
@@ -102,7 +102,7 @@
     {
       "name": "Ravenz",
       "class": "Shadower",
-      "level": 111,
+      "level": 112,
       "score": 10145918800000000,
       "rank": 15
     },
@@ -116,21 +116,21 @@
     {
       "name": "Caycidia",
       "class": "Ice/Lightning Mage",
-      "level": 111,
+      "level": 112,
       "score": 8079603730000000,
       "rank": 17
     },
     {
       "name": "Amascut",
       "class": "Bowmaster",
-      "level": 111,
+      "level": 112,
       "score": 7354623210000000,
       "rank": 18
     },
     {
       "name": "RefundPuJay",
       "class": "Marksman",
-      "level": 109,
+      "level": 110,
       "score": 6044520320000000,
       "rank": 19
     },
@@ -158,14 +158,14 @@
     {
       "name": "Arlooooo",
       "class": "Hero",
-      "level": 109,
+      "level": 110,
       "score": 3089676090000000,
       "rank": 23
     },
     {
       "name": "KayaaToast",
       "class": "Marksman",
-      "level": 109,
+      "level": 110,
       "score": 2739890300000000,
       "rank": 24
     },
@@ -186,7 +186,7 @@
     {
       "name": "Byro",
       "class": "Ice/Lightning Mage",
-      "level": 109,
+      "level": 110,
       "score": 1686831510000000,
       "rank": 27
     },

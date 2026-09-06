@@ -2,33 +2,33 @@
   "character": {
     "name": "Byro",
     "class": "Arch Mage (Ice/Lightning)",
-    "level": 109,
-    "cpRaw": 411542623983461,
-    "cpDisplay": "411T 542B",
-    "fame": 266
+    "level": 110,
+    "cpRaw": 449511405567401,
+    "cpDisplay": "449T 511B",
+    "fame": 268
   },
   "ranks": {
     "global": {
-      "rank": 9597,
-      "percentile": 0.9
+      "rank": 13735,
+      "percentile": 1.2
     },
     "server": {
-      "rank": 206,
-      "percentile": 0.8
+      "rank": 196,
+      "percentile": 0.7
     },
     "world": {
-      "rank": 4171,
-      "percentile": 1
+      "rank": 3990,
+      "percentile": 0.9
     },
     "job": {
-      "rank": 472,
-      "percentile": 0.3
+      "rank": 635,
+      "percentile": 0.4
     }
   },
   "performance": {
     "conquest": {
       "score": 60781929236,
-      "percentile": 9,
+      "percentile": 10.9,
       "updated": "2026-09-05T09:01:57+00:00"
     },
     "training_ground": {
@@ -48,7 +48,7 @@
     },
     "world_boss": {
       "score": 2108034570000000,
-      "percentile": 5.5,
+      "percentile": 6.5,
       "updated": "2026-09-02T05:20:28+00:00"
     }
   },
@@ -61,14 +61,14 @@
     },
     "guild_conquest": {
       "score": "60781929236",
-      "vs_all_pct": -21.1,
-      "vs_class_pct": -6.3,
+      "vs_all_pct": -21.4,
+      "vs_class_pct": -6.7,
       "date": "2026-09-05T09:01:57+00:00"
     },
     "world_boss": {
       "score": "2108034570000000",
-      "vs_all_pct": -24.3,
-      "vs_class_pct": -5.9,
+      "vs_all_pct": -21.9,
+      "vs_class_pct": -2.8,
       "date": "2026-09-02T05:20:28+00:00"
     },
     "guild_war": {
@@ -127,10 +127,6 @@
     ],
     "world_boss_history": [
       {
-        "date": "2026-08-07T05:48:00+00:00",
-        "score": "808289637000000"
-      },
-      {
         "date": "2026-08-15T04:38:28+00:00",
         "score": "848127583000000"
       },
@@ -149,17 +145,7 @@
     ],
     "cp_history": [
       {
-        "date": "2026-08-06T17:57:18+00:00",
-        "cpRaw": 126930616254938,
-        "cpDisplay": "126T 930B"
-      },
-      {
-        "date": "2026-08-07T00:22:25+00:00",
-        "cpRaw": 128495071476188,
-        "cpDisplay": "128T 495B"
-      },
-      {
-        "date": "2026-08-07T05:48:00+00:00",
+        "date": "2026-08-07T18:32:54+00:00",
         "cpRaw": 130608289380289,
         "cpDisplay": "130T 608B"
       },
@@ -272,11 +258,16 @@
         "date": "2026-09-04T09:00:57+00:00",
         "cpRaw": 411542623983461,
         "cpDisplay": "411T 542B"
+      },
+      {
+        "date": "2026-09-06T06:16:35+00:00",
+        "cpRaw": 449511405567401,
+        "cpDisplay": "449T 511B"
       }
     ],
     "level_history": [
       {
-        "date": "2026-08-06T17:57:18+00:00",
+        "date": "2026-08-07T18:32:54+00:00",
         "level": 107
       },
       {
@@ -286,8 +277,12 @@
       {
         "date": "2026-08-23T00:36:17+00:00",
         "level": 109
+      },
+      {
+        "date": "2026-09-06T10:56:22+00:00",
+        "level": 110
       }
     ]
   },
-  "scraped_at": "2026-09-05T17:57:19.504249+00:00"
+  "scraped_at": "2026-09-06T18:32:55.751696+00:00"
 }

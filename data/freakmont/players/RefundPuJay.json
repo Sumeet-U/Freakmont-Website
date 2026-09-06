@@ -1,20 +1,20 @@
 {
   "ranks": {
     "global_rank": {
-      "rank": 4139,
-      "total": 233634
+      "rank": 4193,
+      "total": 234618
     },
     "bera": {
-      "rank": 2424,
-      "total": 102711
+      "rank": 2455,
+      "total": 103088
     },
     "bera_5": {
       "rank": 114,
       "total": 2000
     },
     "marksman": {
-      "rank": 432,
-      "total": 12579
+      "rank": 443,
+      "total": 12597
     }
   },
   "performance": {
@@ -23,8 +23,8 @@
       "updated": "Aug 30"
     },
     "world_boss": {
-      "score": 6044520320000000,
-      "updated": "Aug 25"
+      "score": 9154104410000000,
+      "updated": "Sep 6"
     },
     "training_ground": {
       "score": 3505833,
@@ -40,14 +40,6 @@
     }
   },
   "history": [
-    {
-      "date": "8/6",
-      "cpRaw": 224159725577087.1,
-      "cpDisplay": "224T 159B",
-      "level": 107,
-      "globalRank": 5720,
-      "fame": 30
-    },
     {
       "date": "8/7",
       "cpRaw": 224159725577087.1,
@@ -279,7 +271,15 @@
       "level": 110,
       "globalRank": 4139,
       "fame": 41
+    },
+    {
+      "date": "9/6",
+      "cpRaw": 932554863679786,
+      "cpDisplay": "932T 554B",
+      "level": 110,
+      "globalRank": 4193,
+      "fame": 42
     }
   ],
-  "scraped_at": "2026-09-05T17:52:48.602914+00:00"
+  "scraped_at": "2026-09-06T18:28:17.183597+00:00"
 }

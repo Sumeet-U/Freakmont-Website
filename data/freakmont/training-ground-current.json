@@ -1,5 +1,5 @@
 {
-  "date": "2026-09-05",
+  "date": "2026-09-06",
   "entries": [
     {
       "name": "JaneGarden",
@@ -123,7 +123,7 @@
     {
       "name": "yclzero",
       "class": "Bowmaster",
-      "level": 109,
+      "level": 110,
       "score": 5225106,
       "rank": 18
     },
@@ -165,7 +165,7 @@
     {
       "name": "Osubo",
       "class": "Marksman",
-      "level": 108,
+      "level": 109,
       "score": 3818724,
       "rank": 24
     },
@@ -186,7 +186,7 @@
     {
       "name": "Hayamachop",
       "class": "Hero",
-      "level": 108,
+      "level": 109,
       "score": 3014280,
       "rank": 27
     },

@@ -3,32 +3,32 @@
     "name": "SuuperCow",
     "class": "Paladin",
     "level": 113,
-    "cpRaw": 2965659796943917,
-    "cpDisplay": "2AA 965T",
+    "cpRaw": 3063558080543018,
+    "cpDisplay": "3AA 63T",
     "fame": 308
   },
   "ranks": {
     "global": {
-      "rank": 2747,
+      "rank": 3907,
       "percentile": 0.3
     },
     "server": {
-      "rank": 52,
+      "rank": 51,
       "percentile": 0.2
     },
     "world": {
-      "rank": 1248,
+      "rank": 1251,
       "percentile": 0.3
     },
     "job": {
-      "rank": 325,
-      "percentile": 1.7
+      "rank": 469,
+      "percentile": 2.2
     }
   },
   "performance": {
     "conquest": {
       "score": 239912972129,
-      "percentile": 2.3,
+      "percentile": 2.8,
       "updated": "2026-09-05T04:39:04+00:00"
     },
     "training_ground": {
@@ -47,23 +47,23 @@
       "updated": "2026-08-28T00:00:56+00:00"
     },
     "world_boss": {
-      "score": 22521734200000000,
-      "percentile": 1.6,
-      "updated": "2026-09-04T09:00:17+00:00"
+      "score": 24810218500000000,
+      "percentile": 1.9,
+      "updated": "2026-09-06T06:16:09+00:00"
     }
   },
   "scoreComparison": {
     "guild_conquest": {
       "score": "239912972129",
-      "vs_all_pct": 7.9,
-      "vs_class_pct": 4,
+      "vs_all_pct": 6.4,
+      "vs_class_pct": 1.1,
       "date": "2026-09-05T04:39:04+00:00"
     },
     "world_boss": {
-      "score": "22521734200000000",
-      "vs_all_pct": 0.3,
-      "vs_class_pct": -11.7,
-      "date": "2026-09-04T09:00:17+00:00"
+      "score": "24810218500000000",
+      "vs_all_pct": 10.1,
+      "vs_class_pct": -5.5,
+      "date": "2026-09-06T06:16:09+00:00"
     },
     "guild_war": {
       "score": "103861987062",
@@ -80,7 +80,7 @@
     "guild_boss": {
       "score": "85288607062",
       "vs_all_pct": 13.8,
-      "vs_class_pct": 9.8,
+      "vs_class_pct": 9.9,
       "date": "2026-09-04T16:39:34+00:00"
     }
   },
@@ -148,16 +148,15 @@
       {
         "date": "2026-09-04T09:00:17+00:00",
         "score": "22521734200000000"
+      },
+      {
+        "date": "2026-09-06T06:16:09+00:00",
+        "score": "24810218500000000"
       }
     ],
     "cp_history": [
       {
-        "date": "2026-08-06T17:55:07+00:00",
-        "cpRaw": 956332196700329,
-        "cpDisplay": "956T 332B"
-      },
-      {
-        "date": "2026-08-07T00:21:41+00:00",
+        "date": "2026-08-07T18:30:43+00:00",
         "cpRaw": 956830822825537,
         "cpDisplay": "956T 830B"
       },
@@ -260,11 +259,16 @@
         "date": "2026-09-04T18:08:12+00:00",
         "cpRaw": 2965659796943917,
         "cpDisplay": "2AA 965T"
+      },
+      {
+        "date": "2026-09-06T10:56:01+00:00",
+        "cpRaw": 3063558080543018,
+        "cpDisplay": "3AA 63T"
       }
     ],
     "level_history": [
       {
-        "date": "2026-08-06T17:55:07+00:00",
+        "date": "2026-08-07T18:30:43+00:00",
         "level": 111
       },
       {
@@ -277,5 +281,5 @@
       }
     ]
   },
-  "scraped_at": "2026-09-05T17:55:08.938230+00:00"
+  "scraped_at": "2026-09-06T18:30:45.284081+00:00"
 }

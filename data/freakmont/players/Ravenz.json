@@ -1,20 +1,20 @@
 {
   "ranks": {
     "global_rank": {
-      "rank": 2895,
-      "total": 233634
+      "rank": 2882,
+      "total": 234618
     },
     "bera": {
-      "rank": 1698,
-      "total": 102711
+      "rank": 1687,
+      "total": 103088
     },
     "bera_5": {
-      "rank": 71,
+      "rank": 70,
       "total": 2000
     },
     "shadower": {
-      "rank": 356,
-      "total": 20243
+      "rank": 351,
+      "total": 20269
     }
   },
   "performance": {
@@ -23,8 +23,8 @@
       "updated": "Aug 30"
     },
     "world_boss": {
-      "score": 10145918800000000,
-      "updated": "Aug 25"
+      "score": 12826896500000000,
+      "updated": "Sep 6"
     },
     "training_ground": {
       "score": 6269253,
@@ -40,14 +40,6 @@
     }
   },
   "history": [
-    {
-      "date": "8/6",
-      "cpRaw": 617961165113547.9,
-      "cpDisplay": "617T 961B",
-      "level": 110,
-      "globalRank": 2925,
-      "fame": 690
-    },
     {
       "date": "8/7",
       "cpRaw": 626603186303022.8,
@@ -279,7 +271,15 @@
       "level": 112,
       "globalRank": 2895,
       "fame": 939
+    },
+    {
+      "date": "9/6",
+      "cpRaw": 1800561090792029.8,
+      "cpDisplay": "1AA 800T",
+      "level": 112,
+      "globalRank": 2882,
+      "fame": 947
     }
   ],
-  "scraped_at": "2026-09-05T17:52:33.679665+00:00"
+  "scraped_at": "2026-09-06T18:27:56.578912+00:00"
 }

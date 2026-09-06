@@ -7,11 +7,11 @@
     "percentile": null
   },
   "world_boss": {
-    "score": 1803588740000000,
-    "snapshotDate": "2026-08-25",
-    "peerRank": null,
+    "score": 2460882620000000,
+    "snapshotDate": "2026-09-06",
+    "peerRank": 5,
     "peerCount": 12,
-    "percentile": null
+    "percentile": 63.6
   },
   "training_ground": {
     "score": 2726196,

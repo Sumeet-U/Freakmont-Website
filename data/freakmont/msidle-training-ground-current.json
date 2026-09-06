@@ -1,5 +1,5 @@
 {
-  "date": "2026-09-05",
+  "date": "2026-09-06",
   "entries": [
     {
       "name": "JaneGarden",
@@ -46,7 +46,7 @@
     {
       "name": "kbaFM",
       "class": "Night Lord",
-      "level": 113,
+      "level": 114,
       "score": 8492232,
       "rank": 7
     },
@@ -116,21 +116,21 @@
     {
       "name": "Xanite",
       "class": "Bowmaster",
-      "level": 112,
+      "level": 113,
       "score": 5601204,
       "rank": 17
     },
     {
       "name": "yclzero",
       "class": "Bowmaster",
-      "level": 109,
+      "level": 110,
       "score": 5225106,
       "rank": 18
     },
     {
       "name": "Amascut",
       "class": "Bowmaster",
-      "level": 111,
+      "level": 112,
       "score": 5216160,
       "rank": 19
     },
@@ -144,7 +144,7 @@
     {
       "name": "Byro",
       "class": "Arch Mage (Ice/Lightning)",
-      "level": 109,
+      "level": 110,
       "score": 4257657,
       "rank": 21
     },
@@ -165,7 +165,7 @@
     {
       "name": "Osubo",
       "class": "Marksman",
-      "level": 108,
+      "level": 109,
       "score": 3818724,
       "rank": 24
     },
@@ -186,7 +186,7 @@
     {
       "name": "Hayamachop",
       "class": "Hero",
-      "level": 108,
+      "level": 109,
       "score": 3014280,
       "rank": 27
     },

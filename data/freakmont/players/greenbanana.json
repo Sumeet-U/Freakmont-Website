@@ -1,20 +1,20 @@
 {
   "ranks": {
     "global_rank": {
-      "rank": 7830,
-      "total": 233634
+      "rank": 7928,
+      "total": 234618
     },
     "bera": {
-      "rank": 4502,
-      "total": 102711
+      "rank": 4555,
+      "total": 103088
     },
     "bera_5": {
-      "rank": 224,
+      "rank": 226,
       "total": 2000
     },
     "corsair": {
-      "rank": 304,
-      "total": 17728
+      "rank": 307,
+      "total": 17768
     }
   },
   "performance": {
@@ -23,8 +23,8 @@
       "updated": "Aug 30"
     },
     "world_boss": {
-      "score": 1803588740000000,
-      "updated": "Aug 25"
+      "score": 2460882620000000,
+      "updated": "Sep 6"
     },
     "training_ground": {
       "score": 2726196,
@@ -40,14 +40,6 @@
     }
   },
   "history": [
-    {
-      "date": "8/6",
-      "cpRaw": 116559043569098.89,
-      "cpDisplay": "116T 559B",
-      "level": 106,
-      "globalRank": 8671,
-      "fame": 126
-    },
     {
       "date": "8/7",
       "cpRaw": 116559043569098.89,
@@ -279,7 +271,15 @@
       "level": 108,
       "globalRank": 7830,
       "fame": 132
+    },
+    {
+      "date": "9/6",
+      "cpRaw": 365858449292890.9,
+      "cpDisplay": "365T 858B",
+      "level": 108,
+      "globalRank": 7928,
+      "fame": 132
     }
   ],
-  "scraped_at": "2026-09-05T17:53:04.918410+00:00"
+  "scraped_at": "2026-09-06T18:28:35.078841+00:00"
 }

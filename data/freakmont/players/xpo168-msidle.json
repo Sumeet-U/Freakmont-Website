@@ -3,32 +3,32 @@
     "name": "xpo168",
     "class": "Arch Mage (Fire/Poison)",
     "level": 112,
-    "cpRaw": 1059377962678959,
-    "cpDisplay": "1AA 59T",
+    "cpRaw": 1092328128499415,
+    "cpDisplay": "1AA 92T",
     "fame": 339
   },
   "ranks": {
     "global": {
-      "rank": 5043,
-      "percentile": 0.5
+      "rank": 7243,
+      "percentile": 0.6
     },
     "server": {
-      "rank": 102,
+      "rank": 99,
       "percentile": 0.4
     },
     "world": {
-      "rank": 2258,
+      "rank": 2244,
       "percentile": 0.5
     },
     "job": {
-      "rank": 86,
+      "rank": 132,
       "percentile": 0.1
     }
   },
   "performance": {
     "conquest": {
       "score": 164993077254,
-      "percentile": 3.4,
+      "percentile": 4.1,
       "updated": "2026-08-31T06:28:59+00:00"
     },
     "training_ground": {
@@ -47,9 +47,9 @@
       "updated": "2026-09-03T05:37:36+00:00"
     },
     "world_boss": {
-      "score": 15377890100000000,
-      "percentile": 1.9,
-      "updated": "2026-09-04T09:00:21+00:00"
+      "score": 16833729100000000,
+      "percentile": 2.3,
+      "updated": "2026-09-06T06:16:10+00:00"
     }
   },
   "scoreComparison": {
@@ -61,15 +61,15 @@
     },
     "guild_conquest": {
       "score": "164993077254",
-      "vs_all_pct": 52.1,
-      "vs_class_pct": 83.4,
+      "vs_all_pct": 51,
+      "vs_class_pct": 80.6,
       "date": "2026-08-31T06:28:59+00:00"
     },
     "world_boss": {
-      "score": "15377890100000000",
-      "vs_all_pct": 109.3,
-      "vs_class_pct": 164,
-      "date": "2026-09-04T09:00:21+00:00"
+      "score": "16833729100000000",
+      "vs_all_pct": 118.1,
+      "vs_class_pct": 170.7,
+      "date": "2026-09-06T06:16:10+00:00"
     },
     "guild_war": {
       "score": "83036575005",
@@ -86,7 +86,7 @@
     "guild_boss": {
       "score": "55429331517",
       "vs_all_pct": 42.6,
-      "vs_class_pct": 52.1,
+      "vs_class_pct": 52,
       "date": "2026-08-27T16:28:11+00:00"
     }
   },
@@ -127,10 +127,6 @@
       }
     ],
     "world_boss_history": [
-      {
-        "date": "2026-08-07T05:47:22+00:00",
-        "score": "7606442810000000"
-      },
       {
         "date": "2026-08-10T05:39:55+00:00",
         "score": "7771866610000000"
@@ -174,16 +170,15 @@
       {
         "date": "2026-09-04T09:00:21+00:00",
         "score": "15377890100000000"
+      },
+      {
+        "date": "2026-09-06T06:16:10+00:00",
+        "score": "16833729100000000"
       }
     ],
     "cp_history": [
       {
-        "date": "2026-08-06T17:56:18+00:00",
-        "cpRaw": 432525176797809,
-        "cpDisplay": "432T 525B"
-      },
-      {
-        "date": "2026-08-07T00:21:50+00:00",
+        "date": "2026-08-07T18:31:54+00:00",
         "cpRaw": 448391152884667,
         "cpDisplay": "448T 391B"
       },
@@ -316,11 +311,16 @@
         "date": "2026-09-05T09:02:09+00:00",
         "cpRaw": 1059377962678959,
         "cpDisplay": "1AA 59T"
+      },
+      {
+        "date": "2026-09-06T06:16:10+00:00",
+        "cpRaw": 1092328128499415,
+        "cpDisplay": "1AA 92T"
       }
     ],
     "level_history": [
       {
-        "date": "2026-08-06T17:56:18+00:00",
+        "date": "2026-08-07T18:31:54+00:00",
         "level": 110
       },
       {
@@ -333,5 +333,5 @@
       }
     ]
   },
-  "scraped_at": "2026-09-05T17:56:19.936140+00:00"
+  "scraped_at": "2026-09-06T18:31:55.255667+00:00"
 }

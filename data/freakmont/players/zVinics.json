@@ -1,20 +1,20 @@
 {
   "ranks": {
     "global_rank": {
-      "rank": 1476,
-      "total": 233634
+      "rank": 1301,
+      "total": 234618
     },
     "bera": {
-      "rank": 897,
-      "total": 102711
+      "rank": 796,
+      "total": 103088
     },
     "bera_5": {
-      "rank": 37,
+      "rank": 34,
       "total": 2000
     },
     "bishop": {
-      "rank": 250,
-      "total": 17386
+      "rank": 220,
+      "total": 17450
     }
   },
   "performance": {
@@ -23,8 +23,8 @@
       "updated": "Aug 30"
     },
     "world_boss": {
-      "score": 30873283400000000,
-      "updated": "Aug 25"
+      "score": 33297456800000000,
+      "updated": "Sep 6"
     },
     "training_ground": {
       "score": 11432469,
@@ -40,14 +40,6 @@
     }
   },
   "history": [
-    {
-      "date": "8/6",
-      "cpRaw": 3518883171317739,
-      "cpDisplay": "3AA 518T",
-      "level": 112,
-      "globalRank": 1133,
-      "fame": 1207
-    },
     {
       "date": "8/7",
       "cpRaw": 3518883171317739,
@@ -279,7 +271,15 @@
       "level": 113,
       "globalRank": 1476,
       "fame": 1221
+    },
+    {
+      "date": "9/6",
+      "cpRaw": 7087423103347896,
+      "cpDisplay": "7AA 87T",
+      "level": 113,
+      "globalRank": 1301,
+      "fame": 1221
     }
   ],
-  "scraped_at": "2026-09-05T17:52:19.858079+00:00"
+  "scraped_at": "2026-09-06T18:27:34.441257+00:00"
 }

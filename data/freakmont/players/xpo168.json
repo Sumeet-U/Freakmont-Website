@@ -1,20 +1,20 @@
 {
   "ranks": {
     "global_rank": {
-      "rank": 3840,
-      "total": 233634
+      "rank": 3818,
+      "total": 234618
     },
     "bera": {
-      "rank": 2247,
-      "total": 102711
+      "rank": 2231,
+      "total": 103088
     },
     "bera_5": {
-      "rank": 101,
+      "rank": 97,
       "total": 2000
     },
     "fire/poison_mage": {
-      "rank": 69,
-      "total": 11511
+      "rank": 67,
+      "total": 11551
     }
   },
   "performance": {
@@ -23,8 +23,8 @@
       "updated": "Aug 30"
     },
     "world_boss": {
-      "score": 12401789900000000,
-      "updated": "Aug 30"
+      "score": 16833729100000000,
+      "updated": "Sep 6"
     },
     "training_ground": {
       "score": 7430415,
@@ -40,14 +40,6 @@
     }
   },
   "history": [
-    {
-      "date": "8/6",
-      "cpRaw": 436930896217731.1,
-      "cpDisplay": "436T 930B",
-      "level": 110,
-      "globalRank": 3667,
-      "fame": 299
-    },
     {
       "date": "8/7",
       "cpRaw": 501912067644550.94,
@@ -279,7 +271,15 @@
       "level": 112,
       "globalRank": 3840,
       "fame": 339
+    },
+    {
+      "date": "9/6",
+      "cpRaw": 1092328128499415.4,
+      "cpDisplay": "1AA 92T",
+      "level": 112,
+      "globalRank": 3818,
+      "fame": 339
     }
   ],
-  "scraped_at": "2026-09-05T17:52:44.023101+00:00"
+  "scraped_at": "2026-09-06T18:28:09.867736+00:00"
 }

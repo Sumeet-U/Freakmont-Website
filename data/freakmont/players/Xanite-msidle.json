@@ -2,33 +2,33 @@
   "character": {
     "name": "Xanite",
     "class": "Bowmaster",
-    "level": 112,
-    "cpRaw": 1426584571591401,
-    "cpDisplay": "1AA 426T",
-    "fame": 145
+    "level": 113,
+    "cpRaw": 1437786856546806,
+    "cpDisplay": "1AA 437T",
+    "fame": 146
   },
   "ranks": {
     "global": {
-      "rank": 4204,
-      "percentile": 0.4
+      "rank": 6103,
+      "percentile": 0.5
     },
     "server": {
-      "rank": 80,
+      "rank": 83,
       "percentile": 0.3
     },
     "world": {
-      "rank": 1877,
-      "percentile": 0.4
+      "rank": 1898,
+      "percentile": 0.5
     },
     "job": {
-      "rank": 241,
-      "percentile": 0.3
+      "rank": 350,
+      "percentile": 0.4
     }
   },
   "performance": {
     "conquest": {
       "score": 164103178367,
-      "percentile": 3.4,
+      "percentile": 4.2,
       "updated": "2026-09-01T04:14:00+00:00"
     },
     "training_ground": {
@@ -48,7 +48,7 @@
     },
     "world_boss": {
       "score": 16543797700000000,
-      "percentile": 1.9,
+      "percentile": 2.3,
       "updated": "2026-09-04T09:00:20+00:00"
     }
   },
@@ -61,14 +61,14 @@
     },
     "guild_conquest": {
       "score": "164103178367",
-      "vs_all_pct": 20.8,
-      "vs_class_pct": 29.6,
+      "vs_all_pct": 19.7,
+      "vs_class_pct": 26.8,
       "date": "2026-09-01T04:14:00+00:00"
     },
     "world_boss": {
       "score": "16543797700000000",
-      "vs_all_pct": 57.4,
-      "vs_class_pct": 54.2,
+      "vs_all_pct": 62.3,
+      "vs_class_pct": 56.6,
       "date": "2026-09-04T09:00:20+00:00"
     },
     "guild_war": {
@@ -80,7 +80,7 @@
     "guild_training_ground": {
       "score": "5601204",
       "vs_all_pct": -2.4,
-      "vs_class_pct": -18.4,
+      "vs_class_pct": -18.5,
       "date": "2026-07-03T01:50:51+00:00"
     },
     "guild_boss": {
@@ -92,10 +92,6 @@
   },
   "history": {
     "conquest_history": [
-      {
-        "date": "2026-08-07T05:48:32+00:00",
-        "score": "114315826034"
-      },
       {
         "date": "2026-08-11T05:26:20+00:00",
         "score": "140653566900"
@@ -135,10 +131,6 @@
       }
     ],
     "world_boss_history": [
-      {
-        "date": "2026-08-07T05:47:23+00:00",
-        "score": "7312617710000000"
-      },
       {
         "date": "2026-08-08T04:02:49+00:00",
         "score": "7940942310000000"
@@ -194,17 +186,7 @@
     ],
     "cp_history": [
       {
-        "date": "2026-08-06T17:55:48+00:00",
-        "cpRaw": 749317421935235,
-        "cpDisplay": "749T 317B"
-      },
-      {
-        "date": "2026-08-07T00:21:42+00:00",
-        "cpRaw": 762134786317801,
-        "cpDisplay": "762T 134B"
-      },
-      {
-        "date": "2026-08-07T05:47:23+00:00",
+        "date": "2026-08-07T18:31:24+00:00",
         "cpRaw": 764446336974111,
         "cpDisplay": "764T 446B"
       },
@@ -357,11 +339,16 @@
         "date": "2026-09-05T04:38:55+00:00",
         "cpRaw": 1426584571591401,
         "cpDisplay": "1AA 426T"
+      },
+      {
+        "date": "2026-09-06T06:16:11+00:00",
+        "cpRaw": 1437786856546806,
+        "cpDisplay": "1AA 437T"
       }
     ],
     "level_history": [
       {
-        "date": "2026-08-06T17:55:48+00:00",
+        "date": "2026-08-07T18:31:24+00:00",
         "level": 110
       },
       {
@@ -371,8 +358,12 @@
       {
         "date": "2026-08-23T00:36:01+00:00",
         "level": 112
+      },
+      {
+        "date": "2026-09-06T10:56:06+00:00",
+        "level": 113
       }
     ]
   },
-  "scraped_at": "2026-09-05T17:55:49.894297+00:00"
+  "scraped_at": "2026-09-06T18:31:25.770837+00:00"
 }

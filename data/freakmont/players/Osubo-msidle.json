@@ -2,33 +2,33 @@
   "character": {
     "name": "Osubo",
     "class": "Marksman",
-    "level": 108,
-    "cpRaw": 414523391427768,
-    "cpDisplay": "414T 523B",
-    "fame": 78
+    "level": 109,
+    "cpRaw": 461684218323925,
+    "cpDisplay": "461T 684B",
+    "fame": 79
   },
   "ranks": {
     "global": {
-      "rank": 9551,
-      "percentile": 0.9
+      "rank": 13456,
+      "percentile": 1.2
     },
     "server": {
-      "rank": 204,
-      "percentile": 0.8
+      "rank": 188,
+      "percentile": 0.7
     },
     "world": {
-      "rank": 4151,
-      "percentile": 1
+      "rank": 3919,
+      "percentile": 0.9
     },
     "job": {
-      "rank": 1004,
+      "rank": 1108,
       "percentile": 2.1
     }
   },
   "performance": {
     "conquest": {
       "score": 62804737241,
-      "percentile": 8.8,
+      "percentile": 10.6,
       "updated": "2026-09-05T09:01:56+00:00"
     },
     "training_ground": {
@@ -48,27 +48,27 @@
     },
     "world_boss": {
       "score": 2629764330000000,
-      "percentile": 4.9,
+      "percentile": 5.9,
       "updated": "2026-09-02T05:20:22+00:00"
     }
   },
   "scoreComparison": {
     "chapter": {
       "score": "202",
-      "vs_all_pct": 3.1,
+      "vs_all_pct": 3.6,
       "vs_class_pct": null,
       "date": "2026-03-25T23:31:01+00:00"
     },
     "guild_conquest": {
       "score": "62804737241",
-      "vs_all_pct": -18.8,
-      "vs_class_pct": -20,
+      "vs_all_pct": -19.1,
+      "vs_class_pct": -20.5,
       "date": "2026-09-05T09:01:56+00:00"
     },
     "world_boss": {
       "score": "2629764330000000",
-      "vs_all_pct": 28.9,
-      "vs_class_pct": 9.5,
+      "vs_all_pct": 33,
+      "vs_class_pct": 11.8,
       "date": "2026-09-02T05:20:22+00:00"
     },
     "guild_war": {
@@ -93,10 +93,6 @@
   "history": {
     "conquest_history": [
       {
-        "date": "2026-08-07T05:48:51+00:00",
-        "score": "37579002240"
-      },
-      {
         "date": "2026-08-16T06:43:56+00:00",
         "score": "46438956398"
       },
@@ -118,10 +114,6 @@
       }
     ],
     "world_boss_history": [
-      {
-        "date": "2026-08-07T05:47:53+00:00",
-        "score": "970706189000000"
-      },
       {
         "date": "2026-08-08T04:03:04+00:00",
         "score": "1000907910000000"
@@ -169,17 +161,7 @@
     ],
     "cp_history": [
       {
-        "date": "2026-08-06T17:57:08+00:00",
-        "cpRaw": 140638510582504,
-        "cpDisplay": "140T 638B"
-      },
-      {
-        "date": "2026-08-07T00:22:19+00:00",
-        "cpRaw": 145896006972946,
-        "cpDisplay": "145T 896B"
-      },
-      {
-        "date": "2026-08-07T05:47:53+00:00",
+        "date": "2026-08-07T18:32:44+00:00",
         "cpRaw": 147990215469264,
         "cpDisplay": "147T 990B"
       },
@@ -262,11 +244,16 @@
         "date": "2026-09-04T09:00:49+00:00",
         "cpRaw": 414523391427768,
         "cpDisplay": "414T 523B"
+      },
+      {
+        "date": "2026-09-06T06:16:30+00:00",
+        "cpRaw": 461684218323925,
+        "cpDisplay": "461T 684B"
       }
     ],
     "level_history": [
       {
-        "date": "2026-08-06T17:57:08+00:00",
+        "date": "2026-08-07T18:32:44+00:00",
         "level": 106
       },
       {
@@ -276,8 +263,12 @@
       {
         "date": "2026-08-23T00:35:48+00:00",
         "level": 108
+      },
+      {
+        "date": "2026-09-06T10:56:21+00:00",
+        "level": 109
       }
     ]
   },
-  "scraped_at": "2026-09-05T17:57:09.534117+00:00"
+  "scraped_at": "2026-09-06T18:32:45.453146+00:00"
 }

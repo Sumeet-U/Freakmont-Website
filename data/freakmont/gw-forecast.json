@@ -1,5 +1,5 @@
 {
-  "date": "2026-09-05",
+  "date": "2026-09-06",
   "our_guild": "Freakmont",
   "guilds": [
     {
@@ -58,8 +58,8 @@
       "rank": 2,
       "name": "Asix",
       "guild": "Blackhawk",
-      "class": "Paladin",
-      "level": 118,
+      "class": "Dark Knight",
+      "level": 119,
       "score": 517783846398.721,
       "points": 900000,
       "isUs": false
@@ -249,7 +249,7 @@
       "name": "Uselessgrunt",
       "guild": "Ambush",
       "class": "Night Lord",
-      "level": 112,
+      "level": 113,
       "score": 167733059185.401,
       "points": 205000,
       "isUs": false
@@ -329,7 +329,7 @@
       "name": "Depeche",
       "guild": "Ambush",
       "class": "Dark Knight",
-      "level": 112,
+      "level": 113,
       "score": 132933075089.906,
       "points": 165000,
       "isUs": false
@@ -699,7 +699,7 @@
       "name": "KingChump",
       "guild": "Chaa",
       "class": "Paladin",
-      "level": 110,
+      "level": 111,
       "score": 83933626760.2899,
       "points": 94000,
       "isUs": false
@@ -749,7 +749,7 @@
       "name": "Prepdude",
       "guild": "Ambush",
       "class": "Bowmaster",
-      "level": 109,
+      "level": 110,
       "score": 76675938056.6517,
       "points": 89000,
       "isUs": false
@@ -779,7 +779,7 @@
       "name": "Neglect",
       "guild": "Chaa",
       "class": "Shadower",
-      "level": 109,
+      "level": 110,
       "score": 69580836630.3064,
       "points": 86000,
       "isUs": false
@@ -909,7 +909,7 @@
       "name": "Aluvia",
       "guild": "Ambush",
       "class": "Bowmaster",
-      "level": 109,
+      "level": 110,
       "score": 52489881869.3416,
       "points": 73000,
       "isUs": false
@@ -959,7 +959,7 @@
       "name": "alb3rt",
       "guild": "Chaa",
       "class": "Marksman",
-      "level": 110,
+      "level": 111,
       "score": 50188869935.8168,
       "points": 68000,
       "isUs": false
@@ -1089,7 +1089,7 @@
       "name": "AnderCas",
       "guild": "FinsMarket",
       "class": "Ice/Lightning Mage",
-      "level": 110,
+      "level": 111,
       "score": 39758158685.6237,
       "points": 56800,
       "isUs": false
@@ -1099,7 +1099,7 @@
       "name": "yclzero",
       "guild": "Freakmont",
       "class": "Bowmaster",
-      "level": 109,
+      "level": 110,
       "score": 37927178395.4956,
       "points": 56100,
       "isUs": true
@@ -1109,7 +1109,7 @@
       "name": "Osubo",
       "guild": "Freakmont",
       "class": "Marksman",
-      "level": 108,
+      "level": 109,
       "score": 37876111064.5305,
       "points": 55400,
       "isUs": true
@@ -1229,7 +1229,7 @@
       "name": "Hayamachop",
       "guild": "Freakmont",
       "class": "Hero",
-      "level": 108,
+      "level": 109,
       "score": 25624428141.2935,
       "points": 47000,
       "isUs": true
@@ -1279,7 +1279,7 @@
       "name": "Manaa",
       "guild": "FinsMarket",
       "class": "Buccaneer",
-      "level": 105,
+      "level": 106,
       "score": 16641090169.6331,
       "points": 43500,
       "isUs": false
@@ -1289,7 +1289,7 @@
       "name": "Dente",
       "guild": "Blackhawk",
       "class": "Ice/Lightning Mage",
-      "level": 106,
+      "level": 107,
       "score": 16457416947.0485,
       "points": 42800,
       "isUs": false
@@ -1409,7 +1409,7 @@
       "name": "NatickMall",
       "guild": "Blackhawk",
       "class": "Hero",
-      "level": 102,
+      "level": 103,
       "score": 7497037180.59217,
       "points": 34400,
       "isUs": false
@@ -1545,5 +1545,5 @@
       "isUs": false
     }
   ],
-  "generated_at": "2026-09-05T17:59:04.921469+00:00"
+  "generated_at": "2026-09-06T19:44:53.199661+00:00"
 }

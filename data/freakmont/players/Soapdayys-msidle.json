@@ -9,26 +9,26 @@
   },
   "ranks": {
     "global": {
-      "rank": 2682,
-      "percentile": 0.2
+      "rank": 3871,
+      "percentile": 0.3
     },
     "server": {
-      "rank": 49,
+      "rank": 50,
       "percentile": 0.2
     },
     "world": {
-      "rank": 1220,
+      "rank": 1240,
       "percentile": 0.3
     },
     "job": {
-      "rank": 162,
-      "percentile": 0.1
+      "rank": 199,
+      "percentile": 0.2
     }
   },
   "performance": {
     "conquest": {
       "score": 156638406696,
-      "percentile": 3.6,
+      "percentile": 4.4,
       "updated": "2026-08-31T06:29:00+00:00"
     },
     "training_ground": {
@@ -48,21 +48,21 @@
     },
     "world_boss": {
       "score": 11591575900000000,
-      "percentile": 2.3,
+      "percentile": 2.7,
       "updated": "2026-09-02T05:20:05+00:00"
     }
   },
   "scoreComparison": {
     "guild_conquest": {
       "score": "156638406696",
-      "vs_all_pct": -28.9,
-      "vs_class_pct": -19.2,
+      "vs_all_pct": -29.9,
+      "vs_class_pct": -21.4,
       "date": "2026-08-31T06:29:00+00:00"
     },
     "world_boss": {
       "score": "11591575900000000",
-      "vs_all_pct": -49.2,
-      "vs_class_pct": -46.9,
+      "vs_all_pct": -47.7,
+      "vs_class_pct": -46.6,
       "date": "2026-09-02T05:20:05+00:00"
     },
     "guild_war": {
@@ -122,10 +122,6 @@
     ],
     "world_boss_history": [
       {
-        "date": "2026-08-07T05:47:28+00:00",
-        "score": "3455157910000000"
-      },
-      {
         "date": "2026-08-09T04:28:59+00:00",
         "score": "3613798300000000"
       },
@@ -160,17 +156,7 @@
     ],
     "cp_history": [
       {
-        "date": "2026-08-06T17:54:57+00:00",
-        "cpRaw": 1190507811503543,
-        "cpDisplay": "1AA 190T"
-      },
-      {
-        "date": "2026-08-07T00:21:40+00:00",
-        "cpRaw": 1207322328613726,
-        "cpDisplay": "1AA 207T"
-      },
-      {
-        "date": "2026-08-07T05:47:28+00:00",
+        "date": "2026-08-07T18:30:34+00:00",
         "cpRaw": 1208642695691021,
         "cpDisplay": "1AA 208T"
       },
@@ -307,7 +293,7 @@
     ],
     "level_history": [
       {
-        "date": "2026-08-06T17:54:57+00:00",
+        "date": "2026-08-07T18:30:34+00:00",
         "level": 109
       },
       {
@@ -320,5 +306,5 @@
       }
     ]
   },
-  "scraped_at": "2026-09-05T17:54:58.827567+00:00"
+  "scraped_at": "2026-09-06T18:30:35.572026+00:00"
 }

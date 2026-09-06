@@ -3,32 +3,32 @@
     "name": "jbboaf0ng",
     "class": "Night Lord",
     "level": 104,
-    "cpRaw": 21190181462688,
-    "cpDisplay": "21T 190B",
+    "cpRaw": 21203272665927,
+    "cpDisplay": "21T 203B",
     "fame": 12
   },
   "ranks": {
     "global": {
-      "rank": 34433,
-      "percentile": 3.2
+      "rank": 51401,
+      "percentile": 4.4
     },
     "server": {
-      "rank": 777,
-      "percentile": 2.9
+      "rank": 783,
+      "percentile": 3
     },
     "world": {
-      "rank": 14362,
+      "rank": 14415,
       "percentile": 3.4
     },
     "job": {
-      "rank": 4871,
-      "percentile": 2.9
+      "rank": 6538,
+      "percentile": 3.6
     }
   },
   "performance": {
     "conquest": {
       "score": 14398771094,
-      "percentile": 22.8,
+      "percentile": 26.2,
       "updated": "2026-09-04T09:00:48+00:00"
     },
     "training_ground": {
@@ -48,21 +48,21 @@
     },
     "world_boss": {
       "score": 105643065000000,
-      "percentile": 16.8,
+      "percentile": 20,
       "updated": "2026-09-02T05:20:07+00:00"
     }
   },
   "scoreComparison": {
     "guild_conquest": {
       "score": "14398771094",
-      "vs_all_pct": -7.2,
-      "vs_class_pct": 0.1,
+      "vs_all_pct": -6,
+      "vs_class_pct": -0.4,
       "date": "2026-09-04T09:00:48+00:00"
     },
     "world_boss": {
       "score": "105643065000000",
-      "vs_all_pct": -2.1,
-      "vs_class_pct": 3.1,
+      "vs_all_pct": 1.3,
+      "vs_class_pct": 4.3,
       "date": "2026-09-02T05:20:07+00:00"
     },
     "guild_war": {
@@ -136,7 +136,7 @@
     ],
     "cp_history": [
       {
-        "date": "2026-08-06T17:58:18+00:00",
+        "date": "2026-08-07T18:33:55+00:00",
         "cpRaw": 6124693717989,
         "cpDisplay": "6T 124B"
       },
@@ -234,11 +234,16 @@
         "date": "2026-09-04T18:08:07+00:00",
         "cpRaw": 21190181462688,
         "cpDisplay": "21T 190B"
+      },
+      {
+        "date": "2026-09-06T06:16:23+00:00",
+        "cpRaw": 21203272665927,
+        "cpDisplay": "21T 203B"
       }
     ],
     "level_history": [
       {
-        "date": "2026-08-06T17:58:18+00:00",
+        "date": "2026-08-07T18:33:55+00:00",
         "level": 103
       },
       {
@@ -247,5 +252,5 @@
       }
     ]
   },
-  "scraped_at": "2026-09-05T17:58:19.816096+00:00"
+  "scraped_at": "2026-09-06T18:33:56.569139+00:00"
 }
