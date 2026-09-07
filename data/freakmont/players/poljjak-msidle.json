@@ -3,26 +3,26 @@
     "name": "poljjak",
     "class": "Bishop",
     "level": 116,
-    "cpRaw": 10000286160680918,
-    "cpDisplay": "10AA",
+    "cpRaw": 10208911443353152,
+    "cpDisplay": "10AA 208T",
     "fame": 44
   },
   "ranks": {
     "global": {
-      "rank": 1960,
-      "percentile": 0.2
+      "rank": 2003,
+      "percentile": 0.1
     },
     "server": {
-      "rank": 27,
+      "rank": 28,
       "percentile": 0.1
     },
     "world": {
-      "rank": 685,
+      "rank": 682,
       "percentile": 0.2
     },
     "job": {
-      "rank": 434,
-      "percentile": 1
+      "rank": 447,
+      "percentile": 0.9
     }
   },
   "performance": {
@@ -61,31 +61,31 @@
     },
     "guild_conquest": {
       "score": "793483277974",
-      "vs_all_pct": 91.3,
-      "vs_class_pct": 104.2,
+      "vs_all_pct": 91.2,
+      "vs_class_pct": 104.4,
       "date": "2026-09-05T04:39:01+00:00"
     },
     "world_boss": {
       "score": "184738598000000000",
-      "vs_all_pct": 148.6,
-      "vs_class_pct": 160.2,
+      "vs_all_pct": 150.7,
+      "vs_class_pct": 161.8,
       "date": "2026-09-04T09:00:08+00:00"
     },
     "guild_war": {
       "score": "233351315690",
       "vs_all_pct": 22.3,
-      "vs_class_pct": 23.4,
+      "vs_class_pct": 23.6,
       "date": "2026-08-28T00:00:56+00:00"
     },
     "guild_training_ground": {
       "score": "11330913",
-      "vs_all_pct": 15.2,
+      "vs_all_pct": 15.1,
       "vs_class_pct": 6.7,
       "date": "2026-07-03T01:50:17+00:00"
     },
     "guild_boss": {
       "score": "166514185274",
-      "vs_all_pct": 19.4,
+      "vs_all_pct": 19.3,
       "vs_class_pct": 21,
       "date": "2026-09-04T16:40:06+00:00"
     }
@@ -162,12 +162,7 @@
     ],
     "cp_history": [
       {
-        "date": "2026-08-07T18:29:44+00:00",
-        "cpRaw": 3780882042287089,
-        "cpDisplay": "3AA 780T"
-      },
-      {
-        "date": "2026-08-08T19:48:34+00:00",
+        "date": "2026-08-08T23:33:18+00:00",
         "cpRaw": 3812487573187169,
         "cpDisplay": "3AA 812T"
       },
@@ -250,15 +245,21 @@
         "date": "2026-09-06T06:16:02+00:00",
         "cpRaw": 10000286160680918,
         "cpDisplay": "10AA"
+      },
+      {
+        "date": "2026-09-07T04:23:23+00:00",
+        "cpRaw": 10192331293229016,
+        "cpDisplay": "10AA 192T"
+      },
+      {
+        "date": "2026-09-07T17:24:26+00:00",
+        "cpRaw": 10208911443353152,
+        "cpDisplay": "10AA 208T"
       }
     ],
     "level_history": [
       {
-        "date": "2026-08-07T18:29:44+00:00",
-        "level": 113
-      },
-      {
-        "date": "2026-08-08T19:48:34+00:00",
+        "date": "2026-08-08T23:33:18+00:00",
         "level": 114
       },
       {
@@ -271,5 +272,5 @@
       }
     ]
   },
-  "scraped_at": "2026-09-06T18:29:46.128346+00:00"
+  "scraped_at": "2026-09-07T23:33:19.768217+00:00"
 }

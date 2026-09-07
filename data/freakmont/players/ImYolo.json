@@ -1,26 +1,26 @@
 {
   "ranks": {
     "global_rank": {
-      "rank": 753,
-      "total": 234618
+      "rank": 764,
+      "total": 235560
     },
     "bera": {
-      "rank": 449,
-      "total": 103088
+      "rank": 456,
+      "total": 103536
     },
     "bera_5": {
-      "rank": 15,
+      "rank": 16,
       "total": 2000
     },
     "bishop": {
-      "rank": 122,
-      "total": 17450
+      "rank": 127,
+      "total": 17541
     }
   },
   "performance": {
     "guild_conquest": {
-      "score": 398199664356.1653,
-      "updated": "Aug 30"
+      "score": 498876276336.3841,
+      "updated": "Sep 6"
     },
     "world_boss": {
       "score": 84603489200000000,
@@ -40,14 +40,6 @@
     }
   },
   "history": [
-    {
-      "date": "8/7",
-      "cpRaw": 4356483897203919.5,
-      "cpDisplay": "4AA 356T",
-      "level": 111,
-      "globalRank": 1023,
-      "fame": 706
-    },
     {
       "date": "8/8",
       "cpRaw": 4553026880346818,
@@ -279,7 +271,15 @@
       "level": 114,
       "globalRank": 753,
       "fame": 817
+    },
+    {
+      "date": "9/7",
+      "cpRaw": 20273190870652804,
+      "cpDisplay": "20AA 273T",
+      "level": 114,
+      "globalRank": 764,
+      "fame": 817
     }
   ],
-  "scraped_at": "2026-09-06T18:27:09.122639+00:00"
+  "scraped_at": "2026-09-07T23:30:48.470052+00:00"
 }

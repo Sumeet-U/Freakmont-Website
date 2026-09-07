@@ -2,33 +2,33 @@
   "character": {
     "name": "greenbanana",
     "class": "Corsair",
-    "level": 108,
+    "level": 109,
     "cpRaw": 365858449292890,
     "cpDisplay": "365T 858B",
-    "fame": 132
+    "fame": 135
   },
   "ranks": {
     "global": {
-      "rank": 15958,
-      "percentile": 1.4
+      "rank": 16251,
+      "percentile": 1.2
     },
     "server": {
-      "rank": 228,
+      "rank": 237,
       "percentile": 0.9
     },
     "world": {
-      "rank": 4593,
+      "rank": 4663,
       "percentile": 1.1
     },
     "job": {
-      "rank": 768,
-      "percentile": 3.1
+      "rank": 782,
+      "percentile": 2.9
     }
   },
   "performance": {
     "conquest": {
       "score": 67330103724,
-      "percentile": 10.1,
+      "percentile": 10.4,
       "updated": "2026-08-27T05:16:07+00:00"
     },
     "training_ground": {
@@ -48,7 +48,7 @@
     },
     "world_boss": {
       "score": 2460882620000000,
-      "percentile": 6.1,
+      "percentile": 6.4,
       "updated": "2026-09-02T05:20:23+00:00"
     }
   },
@@ -61,14 +61,14 @@
     },
     "guild_conquest": {
       "score": "67330103724",
-      "vs_all_pct": 9,
-      "vs_class_pct": 11.4,
+      "vs_all_pct": 9.3,
+      "vs_class_pct": 10.9,
       "date": "2026-08-27T05:16:07+00:00"
     },
     "world_boss": {
       "score": "2460882620000000",
-      "vs_all_pct": 25,
-      "vs_class_pct": 21.3,
+      "vs_all_pct": 26.7,
+      "vs_class_pct": 21.1,
       "date": "2026-09-02T05:20:23+00:00"
     },
     "guild_war": {
@@ -85,8 +85,8 @@
     },
     "guild_boss": {
       "score": "2928291073",
-      "vs_all_pct": 11.4,
-      "vs_class_pct": 10.6,
+      "vs_all_pct": 11.5,
+      "vs_class_pct": 10.7,
       "date": "2026-06-15T08:42:33+00:00"
     }
   },
@@ -133,7 +133,7 @@
     ],
     "cp_history": [
       {
-        "date": "2026-08-07T18:33:15+00:00",
+        "date": "2026-08-08T23:36:53+00:00",
         "cpRaw": 116559043569098,
         "cpDisplay": "116T 559B"
       },
@@ -170,7 +170,7 @@
     ],
     "level_history": [
       {
-        "date": "2026-08-07T18:33:15+00:00",
+        "date": "2026-08-08T23:36:53+00:00",
         "level": 106
       },
       {
@@ -180,8 +180,12 @@
       {
         "date": "2026-08-25T06:07:07+00:00",
         "level": 108
+      },
+      {
+        "date": "2026-09-07T18:55:55+00:00",
+        "level": 109
       }
     ]
   },
-  "scraped_at": "2026-09-06T18:33:16.388549+00:00"
+  "scraped_at": "2026-09-07T23:36:54.598362+00:00"
 }

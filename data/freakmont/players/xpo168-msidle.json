@@ -3,32 +3,32 @@
     "name": "xpo168",
     "class": "Arch Mage (Fire/Poison)",
     "level": 112,
-    "cpRaw": 1092328128499415,
-    "cpDisplay": "1AA 92T",
-    "fame": 339
+    "cpRaw": 1414883411473678,
+    "cpDisplay": "1AA 414T",
+    "fame": 345
   },
   "ranks": {
     "global": {
-      "rank": 7243,
-      "percentile": 0.6
+      "rank": 6332,
+      "percentile": 0.5
     },
     "server": {
-      "rank": 99,
-      "percentile": 0.4
+      "rank": 86,
+      "percentile": 0.3
     },
     "world": {
-      "rank": 2244,
+      "rank": 1954,
       "percentile": 0.5
     },
     "job": {
-      "rank": 132,
+      "rank": 115,
       "percentile": 0.1
     }
   },
   "performance": {
     "conquest": {
       "score": 164993077254,
-      "percentile": 4.1,
+      "percentile": 4.3,
       "updated": "2026-08-31T06:28:59+00:00"
     },
     "training_ground": {
@@ -48,7 +48,7 @@
     },
     "world_boss": {
       "score": 16833729100000000,
-      "percentile": 2.3,
+      "percentile": 2.4,
       "updated": "2026-09-06T06:16:10+00:00"
     }
   },
@@ -61,14 +61,14 @@
     },
     "guild_conquest": {
       "score": "164993077254",
-      "vs_all_pct": 51,
-      "vs_class_pct": 80.6,
+      "vs_all_pct": 51.3,
+      "vs_class_pct": 80.5,
       "date": "2026-08-31T06:28:59+00:00"
     },
     "world_boss": {
       "score": "16833729100000000",
-      "vs_all_pct": 118.1,
-      "vs_class_pct": 170.7,
+      "vs_all_pct": 120.6,
+      "vs_class_pct": 170.2,
       "date": "2026-09-06T06:16:10+00:00"
     },
     "guild_war": {
@@ -80,13 +80,13 @@
     "guild_training_ground": {
       "score": "7430415",
       "vs_all_pct": 30.3,
-      "vs_class_pct": 13.1,
+      "vs_class_pct": 13,
       "date": "2026-07-03T01:50:05+00:00"
     },
     "guild_boss": {
       "score": "55429331517",
-      "vs_all_pct": 42.6,
-      "vs_class_pct": 52,
+      "vs_all_pct": 42.5,
+      "vs_class_pct": 51.9,
       "date": "2026-08-27T16:28:11+00:00"
     }
   },
@@ -178,17 +178,7 @@
     ],
     "cp_history": [
       {
-        "date": "2026-08-07T18:31:54+00:00",
-        "cpRaw": 448391152884667,
-        "cpDisplay": "448T 391B"
-      },
-      {
-        "date": "2026-08-08T00:31:33+00:00",
-        "cpRaw": 501912067644550,
-        "cpDisplay": "501T 912B"
-      },
-      {
-        "date": "2026-08-08T19:48:47+00:00",
+        "date": "2026-08-08T23:34:55+00:00",
         "cpRaw": 501958461863636,
         "cpDisplay": "501T 958B"
       },
@@ -316,15 +306,26 @@
         "date": "2026-09-06T06:16:10+00:00",
         "cpRaw": 1092328128499415,
         "cpDisplay": "1AA 92T"
+      },
+      {
+        "date": "2026-09-07T04:23:31+00:00",
+        "cpRaw": 1122107258631831,
+        "cpDisplay": "1AA 122T"
+      },
+      {
+        "date": "2026-09-07T17:24:46+00:00",
+        "cpRaw": 1385521925659032,
+        "cpDisplay": "1AA 385T"
+      },
+      {
+        "date": "2026-09-07T18:55:34+00:00",
+        "cpRaw": 1414883411473678,
+        "cpDisplay": "1AA 414T"
       }
     ],
     "level_history": [
       {
-        "date": "2026-08-07T18:31:54+00:00",
-        "level": 110
-      },
-      {
-        "date": "2026-08-08T00:31:33+00:00",
+        "date": "2026-08-08T23:34:55+00:00",
         "level": 111
       },
       {
@@ -333,5 +334,5 @@
       }
     ]
   },
-  "scraped_at": "2026-09-06T18:31:55.255667+00:00"
+  "scraped_at": "2026-09-07T23:34:56.927565+00:00"
 }

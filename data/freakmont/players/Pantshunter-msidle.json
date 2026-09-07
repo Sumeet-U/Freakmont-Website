@@ -3,25 +3,25 @@
     "name": "Pantshunter",
     "class": "Hero",
     "level": 115,
-    "cpRaw": 10573762764863342,
-    "cpDisplay": "10AA 573T",
-    "fame": 93
+    "cpRaw": 10588166295801660,
+    "cpDisplay": "10AA 588T",
+    "fame": 95
   },
   "ranks": {
     "global": {
-      "rank": 1897,
-      "percentile": 0.2
+      "rank": 1968,
+      "percentile": 0.1
     },
     "server": {
-      "rank": 26,
+      "rank": 27,
       "percentile": 0.1
     },
     "world": {
-      "rank": 654,
+      "rank": 666,
       "percentile": 0.2
     },
     "job": {
-      "rank": 104,
+      "rank": 106,
       "percentile": 0.1
     }
   },
@@ -61,14 +61,14 @@
     },
     "guild_conquest": {
       "score": "575332020473",
-      "vs_all_pct": 28.2,
-      "vs_class_pct": 34.5,
+      "vs_all_pct": 28.1,
+      "vs_class_pct": 34.2,
       "date": "2026-09-06T06:17:12+00:00"
     },
     "world_boss": {
       "score": "141122288000000000",
-      "vs_all_pct": 60.2,
-      "vs_class_pct": 57.5,
+      "vs_all_pct": 61.5,
+      "vs_class_pct": 57.2,
       "date": "2026-09-06T06:16:02+00:00"
     },
     "guild_war": {
@@ -80,13 +80,13 @@
     "guild_training_ground": {
       "score": "8035854",
       "vs_all_pct": -29.2,
-      "vs_class_pct": -22.8,
+      "vs_class_pct": -22.7,
       "date": "2026-07-17T05:53:57+00:00"
     },
     "guild_boss": {
       "score": "127967505145",
       "vs_all_pct": -13.8,
-      "vs_class_pct": -15.1,
+      "vs_class_pct": -15.2,
       "date": "2026-09-04T16:39:41+00:00"
     }
   },
@@ -154,12 +154,7 @@
     ],
     "cp_history": [
       {
-        "date": "2026-08-07T18:29:35+00:00",
-        "cpRaw": 4063013103347782,
-        "cpDisplay": "4AA 63T"
-      },
-      {
-        "date": "2026-08-08T04:02:46+00:00",
+        "date": "2026-08-08T23:33:08+00:00",
         "cpRaw": 4102227141774953,
         "cpDisplay": "4AA 102T"
       },
@@ -237,11 +232,16 @@
         "date": "2026-09-06T06:16:02+00:00",
         "cpRaw": 10573762764863342,
         "cpDisplay": "10AA 573T"
+      },
+      {
+        "date": "2026-09-07T17:24:27+00:00",
+        "cpRaw": 10588166295801660,
+        "cpDisplay": "10AA 588T"
       }
     ],
     "level_history": [
       {
-        "date": "2026-08-07T18:29:35+00:00",
+        "date": "2026-08-08T23:33:08+00:00",
         "level": 113
       },
       {
@@ -254,5 +254,5 @@
       }
     ]
   },
-  "scraped_at": "2026-09-06T18:29:36.420657+00:00"
+  "scraped_at": "2026-09-07T23:33:09.532373+00:00"
 }

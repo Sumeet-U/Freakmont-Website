@@ -1,5 +1,5 @@
 {
-  "date": "2026-09-06",
+  "date": "2026-09-07",
   "entries": [
     {
       "name": "JaneGarden",
@@ -11,7 +11,7 @@
     {
       "name": "RefundKobe",
       "class": "Marksman",
-      "level": 116,
+      "level": 117,
       "score": 413660983000000000,
       "rank": 2
     },
@@ -67,7 +67,7 @@
     {
       "name": "zVinics",
       "class": "Bishop",
-      "level": 113,
+      "level": 114,
       "score": 33297456800000000,
       "rank": 10
     },
@@ -177,24 +177,24 @@
       "rank": 25
     },
     {
+      "name": "Chinnychin",
+      "class": "Bowmaster",
+      "level": 109,
+      "score": 2626248930000000,
+      "rank": 26
+    },
+    {
       "name": "greenbanana",
       "class": "Corsair",
       "level": 108,
       "score": 2460882620000000,
-      "rank": 26
+      "rank": 27
     },
     {
       "name": "Byro",
       "class": "Ice/Lightning Mage",
       "level": 110,
       "score": 2108034570000000,
-      "rank": 27
-    },
-    {
-      "name": "Wolfram",
-      "class": "Shadower",
-      "level": 107,
-      "score": 1582061700000000,
       "rank": 28
     },
     {

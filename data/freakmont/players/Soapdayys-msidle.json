@@ -3,32 +3,32 @@
     "name": "Soapdayys",
     "class": "Dark Knight",
     "level": 111,
-    "cpRaw": 3112277031515378,
-    "cpDisplay": "3AA 112T",
+    "cpRaw": 3276968477080949,
+    "cpDisplay": "3AA 276T",
     "fame": 24
   },
   "ranks": {
     "global": {
-      "rank": 3871,
+      "rank": 3878,
       "percentile": 0.3
     },
     "server": {
-      "rank": 50,
+      "rank": 51,
       "percentile": 0.2
     },
     "world": {
-      "rank": 1240,
+      "rank": 1237,
       "percentile": 0.3
     },
     "job": {
       "rank": 199,
-      "percentile": 0.2
+      "percentile": 0.1
     }
   },
   "performance": {
     "conquest": {
       "score": 156638406696,
-      "percentile": 4.4,
+      "percentile": 4.5,
       "updated": "2026-08-31T06:29:00+00:00"
     },
     "training_ground": {
@@ -48,7 +48,7 @@
     },
     "world_boss": {
       "score": 11591575900000000,
-      "percentile": 2.7,
+      "percentile": 2.9,
       "updated": "2026-09-02T05:20:05+00:00"
     }
   },
@@ -56,13 +56,13 @@
     "guild_conquest": {
       "score": "156638406696",
       "vs_all_pct": -29.9,
-      "vs_class_pct": -21.4,
+      "vs_class_pct": -21.6,
       "date": "2026-08-31T06:29:00+00:00"
     },
     "world_boss": {
       "score": "11591575900000000",
-      "vs_all_pct": -47.7,
-      "vs_class_pct": -46.6,
+      "vs_all_pct": -47.1,
+      "vs_class_pct": -46.7,
       "date": "2026-09-02T05:20:05+00:00"
     },
     "guild_war": {
@@ -80,7 +80,7 @@
     "guild_boss": {
       "score": "50822356097",
       "vs_all_pct": -36.2,
-      "vs_class_pct": -34.5,
+      "vs_class_pct": -34.6,
       "date": "2026-09-04T16:39:29+00:00"
     }
   },
@@ -156,12 +156,7 @@
     ],
     "cp_history": [
       {
-        "date": "2026-08-07T18:30:34+00:00",
-        "cpRaw": 1208642695691021,
-        "cpDisplay": "1AA 208T"
-      },
-      {
-        "date": "2026-08-08T00:31:27+00:00",
+        "date": "2026-08-08T23:33:57+00:00",
         "cpRaw": 1210406740529127,
         "cpDisplay": "1AA 210T"
       },
@@ -289,11 +284,21 @@
         "date": "2026-09-04T09:00:23+00:00",
         "cpRaw": 3112277031515378,
         "cpDisplay": "3AA 112T"
+      },
+      {
+        "date": "2026-09-07T04:23:35+00:00",
+        "cpRaw": 3253921187114301,
+        "cpDisplay": "3AA 253T"
+      },
+      {
+        "date": "2026-09-07T17:24:41+00:00",
+        "cpRaw": 3276968477080949,
+        "cpDisplay": "3AA 276T"
       }
     ],
     "level_history": [
       {
-        "date": "2026-08-07T18:30:34+00:00",
+        "date": "2026-08-08T23:33:57+00:00",
         "level": 109
       },
       {
@@ -306,5 +311,5 @@
       }
     ]
   },
-  "scraped_at": "2026-09-06T18:30:35.572026+00:00"
+  "scraped_at": "2026-09-07T23:33:58.279444+00:00"
 }

@@ -3,32 +3,32 @@
     "name": "JaneGarden",
     "class": "Night Lord",
     "level": 117,
-    "cpRaw": 20148969946919470,
-    "cpDisplay": "20AA 148T",
-    "fame": 1390
+    "cpRaw": 20491461722258296,
+    "cpDisplay": "20AA 491T",
+    "fame": 1391
   },
   "ranks": {
     "global": {
-      "rank": 1355,
+      "rank": 1375,
       "percentile": 0.1
     },
     "server": {
-      "rank": 17,
+      "rank": 18,
       "percentile": 0.1
     },
     "world": {
-      "rank": 456,
+      "rank": 460,
       "percentile": 0.1
     },
     "job": {
-      "rank": 174,
+      "rank": 178,
       "percentile": 0.1
     }
   },
   "performance": {
     "conquest": {
       "score": 1101398924206,
-      "percentile": 0.8,
+      "percentile": 0.9,
       "updated": "2026-08-30T06:24:55+00:00"
     },
     "training_ground": {
@@ -61,32 +61,32 @@
     },
     "guild_conquest": {
       "score": "1101398924206",
-      "vs_all_pct": 120.5,
-      "vs_class_pct": 133.6,
+      "vs_all_pct": 120.3,
+      "vs_class_pct": 132.2,
       "date": "2026-08-30T06:24:55+00:00"
     },
     "world_boss": {
       "score": "518143081000000000",
-      "vs_all_pct": 376.2,
-      "vs_class_pct": 390.6,
+      "vs_all_pct": 379.8,
+      "vs_class_pct": 385,
       "date": "2026-09-02T05:19:56+00:00"
     },
     "guild_war": {
       "score": "329515591379",
-      "vs_all_pct": 17.2,
-      "vs_class_pct": 16.9,
+      "vs_all_pct": 17.1,
+      "vs_class_pct": 16.7,
       "date": "2026-08-28T00:00:56+00:00"
     },
     "guild_training_ground": {
       "score": "14982645",
-      "vs_all_pct": 11.5,
+      "vs_all_pct": 11.4,
       "vs_class_pct": 12.4,
       "date": "2026-07-03T01:50:24+00:00"
     },
     "guild_boss": {
       "score": "235474275167",
-      "vs_all_pct": 43.2,
-      "vs_class_pct": 46.1,
+      "vs_all_pct": 43.1,
+      "vs_class_pct": 45.9,
       "date": "2026-08-21T20:36:13+00:00"
     }
   },
@@ -178,12 +178,7 @@
     ],
     "cp_history": [
       {
-        "date": "2026-08-07T18:29:25+00:00",
-        "cpRaw": 8886235426419323,
-        "cpDisplay": "8AA 886T"
-      },
-      {
-        "date": "2026-08-08T19:48:32+00:00",
+        "date": "2026-08-08T23:32:48+00:00",
         "cpRaw": 8918734326613775,
         "cpDisplay": "8AA 918T"
       },
@@ -291,11 +286,16 @@
         "date": "2026-09-04T18:08:05+00:00",
         "cpRaw": 20148969946919472,
         "cpDisplay": "20AA 148T"
+      },
+      {
+        "date": "2026-09-07T17:24:25+00:00",
+        "cpRaw": 20491461722258296,
+        "cpDisplay": "20AA 491T"
       }
     ],
     "level_history": [
       {
-        "date": "2026-08-07T18:29:25+00:00",
+        "date": "2026-08-08T23:32:48+00:00",
         "level": 115
       },
       {
@@ -308,5 +308,5 @@
       }
     ]
   },
-  "scraped_at": "2026-09-06T18:29:26.745616+00:00"
+  "scraped_at": "2026-09-07T23:32:49.844976+00:00"
 }

@@ -3,32 +3,32 @@
     "name": "KayaaToast",
     "class": "Marksman",
     "level": 110,
-    "cpRaw": 239330032872508,
-    "cpDisplay": "239T 330B",
+    "cpRaw": 249415462207430,
+    "cpDisplay": "249T 415B",
     "fame": 188
   },
   "ranks": {
     "global": {
-      "rank": 21149,
-      "percentile": 1.8
+      "rank": 21081,
+      "percentile": 1.5
     },
     "server": {
-      "rank": 311,
+      "rank": 310,
       "percentile": 1.2
     },
     "world": {
-      "rank": 5930,
+      "rank": 5897,
       "percentile": 1.4
     },
     "job": {
-      "rank": 1743,
-      "percentile": 3.3
+      "rank": 1748,
+      "percentile": 2.7
     }
   },
   "performance": {
     "conquest": {
       "score": 70937208630,
-      "percentile": 9.7,
+      "percentile": 10,
       "updated": "2026-08-25T06:05:27+00:00"
     },
     "training_ground": {
@@ -48,7 +48,7 @@
     },
     "world_boss": {
       "score": 2739890300000000,
-      "percentile": 5.6,
+      "percentile": 5.9,
       "updated": "2026-08-27T05:15:50+00:00"
     }
   },
@@ -61,14 +61,14 @@
     },
     "guild_conquest": {
       "score": "70937208630",
-      "vs_all_pct": 51,
-      "vs_class_pct": 48.4,
+      "vs_all_pct": 51.5,
+      "vs_class_pct": 48.7,
       "date": "2026-08-25T06:05:27+00:00"
     },
     "world_boss": {
       "score": "2739890300000000",
-      "vs_all_pct": 157.1,
-      "vs_class_pct": 116,
+      "vs_all_pct": 160.9,
+      "vs_class_pct": 117.2,
       "date": "2026-08-27T05:15:50+00:00"
     },
     "guild_war": {
@@ -93,10 +93,6 @@
   "history": {
     "conquest_history": [
       {
-        "date": "2026-08-08T04:04:10+00:00",
-        "score": "69639866343"
-      },
-      {
         "date": "2026-08-10T05:41:41+00:00",
         "score": "70793753351"
       },
@@ -119,10 +115,6 @@
       }
     ],
     "world_boss_history": [
-      {
-        "date": "2026-08-08T04:02:57+00:00",
-        "score": "2275752660000000"
-      },
       {
         "date": "2026-08-11T05:25:40+00:00",
         "score": "2336914710000000"
@@ -150,12 +142,7 @@
     ],
     "cp_history": [
       {
-        "date": "2026-08-07T18:33:35+00:00",
-        "cpRaw": 138708894800466,
-        "cpDisplay": "138T 708B"
-      },
-      {
-        "date": "2026-08-08T00:31:59+00:00",
+        "date": "2026-08-08T23:37:03+00:00",
         "cpRaw": 142046090270319,
         "cpDisplay": "142T 46B"
       },
@@ -223,11 +210,21 @@
         "date": "2026-09-06T06:16:29+00:00",
         "cpRaw": 239330032872508,
         "cpDisplay": "239T 330B"
+      },
+      {
+        "date": "2026-09-07T04:23:53+00:00",
+        "cpRaw": 244015049612342,
+        "cpDisplay": "244T 15B"
+      },
+      {
+        "date": "2026-09-07T17:25:19+00:00",
+        "cpRaw": 249415462207430,
+        "cpDisplay": "249T 415B"
       }
     ],
     "level_history": [
       {
-        "date": "2026-08-07T18:33:35+00:00",
+        "date": "2026-08-08T23:37:03+00:00",
         "level": 108
       },
       {
@@ -240,5 +237,5 @@
       }
     ]
   },
-  "scraped_at": "2026-09-06T18:33:36.686945+00:00"
+  "scraped_at": "2026-09-07T23:37:04.595072+00:00"
 }

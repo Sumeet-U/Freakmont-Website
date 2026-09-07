@@ -2,9 +2,9 @@
   "conquest": {
     "score": 164993077254.3227,
     "snapshotDate": "2026-08-30",
-    "peerRank": 2,
+    "peerRank": null,
     "peerCount": 12,
-    "percentile": 90.9
+    "percentile": null
   },
   "world_boss": {
     "score": 16833729100000000,

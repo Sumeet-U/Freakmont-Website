@@ -3,33 +3,33 @@
     "name": "Came",
     "class": "Paladin",
     "level": 111,
-    "cpRaw": 1119974631434545,
-    "cpDisplay": "1AA 119T",
+    "cpRaw": 1243868099422384,
+    "cpDisplay": "1AA 243T",
     "fame": 201
   },
   "ranks": {
     "global": {
-      "rank": 7139,
-      "percentile": 0.6
+      "rank": 6835,
+      "percentile": 0.5
     },
     "server": {
-      "rank": 98,
+      "rank": 95,
       "percentile": 0.4
     },
     "world": {
-      "rank": 2215,
+      "rank": 2113,
       "percentile": 0.5
     },
     "job": {
-      "rank": 733,
-      "percentile": 3.4
+      "rank": 729,
+      "percentile": 3.1
     }
   },
   "performance": {
     "conquest": {
-      "score": 162006385866,
+      "score": 166300727333,
       "percentile": 4.2,
-      "updated": "2026-08-31T06:28:59+00:00"
+      "updated": "2026-09-07T17:24:40+00:00"
     },
     "training_ground": {
       "score": 6149094,
@@ -48,27 +48,27 @@
     },
     "world_boss": {
       "score": 13137921200000000,
-      "percentile": 2.6,
+      "percentile": 2.7,
       "updated": "2026-09-02T05:20:04+00:00"
     }
   },
   "scoreComparison": {
     "guild_conquest": {
-      "score": "162006385866",
-      "vs_all_pct": 27.8,
-      "vs_class_pct": 21.4,
-      "date": "2026-08-31T06:28:59+00:00"
+      "score": "166300727333",
+      "vs_all_pct": 18.3,
+      "vs_class_pct": 12.6,
+      "date": "2026-09-07T17:24:40+00:00"
     },
     "world_boss": {
       "score": "13137921200000000",
-      "vs_all_pct": 82.1,
-      "vs_class_pct": 56.3,
+      "vs_all_pct": 84.3,
+      "vs_class_pct": 56.5,
       "date": "2026-09-02T05:20:04+00:00"
     },
     "guild_war": {
       "score": "90697670569",
       "vs_all_pct": 15.4,
-      "vs_class_pct": 11.9,
+      "vs_class_pct": 11.8,
       "date": "2026-09-03T05:37:36+00:00"
     },
     "guild_training_ground": {
@@ -79,8 +79,8 @@
     },
     "guild_boss": {
       "score": "64202175011",
-      "vs_all_pct": 34.3,
-      "vs_class_pct": 29.7,
+      "vs_all_pct": 34.2,
+      "vs_class_pct": 29.6,
       "date": "2026-09-04T16:39:56+00:00"
     }
   },
@@ -97,6 +97,10 @@
       {
         "date": "2026-08-31T06:28:59+00:00",
         "score": "162006385866"
+      },
+      {
+        "date": "2026-09-07T17:24:40+00:00",
+        "score": "166300727333"
       }
     ],
     "training_ground_history": [],
@@ -160,12 +164,7 @@
     ],
     "cp_history": [
       {
-        "date": "2026-08-07T18:31:44+00:00",
-        "cpRaw": 467347431859045,
-        "cpDisplay": "467T 347B"
-      },
-      {
-        "date": "2026-08-08T19:48:47+00:00",
+        "date": "2026-08-08T23:35:15+00:00",
         "cpRaw": 503747711851527,
         "cpDisplay": "503T 747B"
       },
@@ -218,11 +217,21 @@
         "date": "2026-09-03T05:37:35+00:00",
         "cpRaw": 1119974631434545,
         "cpDisplay": "1AA 119T"
+      },
+      {
+        "date": "2026-09-07T04:23:33+00:00",
+        "cpRaw": 1182951308371557,
+        "cpDisplay": "1AA 182T"
+      },
+      {
+        "date": "2026-09-07T17:24:40+00:00",
+        "cpRaw": 1243868099422384,
+        "cpDisplay": "1AA 243T"
       }
     ],
     "level_history": [
       {
-        "date": "2026-08-07T18:31:44+00:00",
+        "date": "2026-08-08T23:35:15+00:00",
         "level": 109
       },
       {
@@ -235,5 +244,5 @@
       }
     ]
   },
-  "scraped_at": "2026-09-06T18:31:45.760909+00:00"
+  "scraped_at": "2026-09-07T23:35:16.355115+00:00"
 }

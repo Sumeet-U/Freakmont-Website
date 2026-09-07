@@ -1,5 +1,5 @@
 {
-  "date": "2026-09-06",
+  "date": "2026-09-07",
   "our_guild": "Freakmont",
   "guilds": [
     {
@@ -7,15 +7,15 @@
       "isUs": false,
       "memberCount": 30,
       "participantCount": 30,
-      "totalPoints": 4736500,
+      "totalPoints": 4737200,
       "projectedRank": 1
     },
     {
       "name": "Freakmont",
       "isUs": true,
       "memberCount": 30,
-      "participantCount": 30,
-      "totalPoints": 4590700,
+      "participantCount": 29,
+      "totalPoints": 4545800,
       "projectedRank": 2
     },
     {
@@ -23,7 +23,7 @@
       "isUs": false,
       "memberCount": 30,
       "participantCount": 30,
-      "totalPoints": 4437400,
+      "totalPoints": 4438100,
       "projectedRank": 3
     },
     {
@@ -31,15 +31,15 @@
       "isUs": false,
       "memberCount": 30,
       "participantCount": 30,
-      "totalPoints": 4396600,
+      "totalPoints": 4398000,
       "projectedRank": 4
     },
     {
       "name": "Blackhawk",
       "isUs": false,
-      "memberCount": 30,
-      "participantCount": 30,
-      "totalPoints": 2026600,
+      "memberCount": 27,
+      "participantCount": 27,
+      "totalPoints": 1963300,
       "projectedRank": 5
     }
   ],
@@ -58,7 +58,7 @@
       "rank": 2,
       "name": "Asix",
       "guild": "Blackhawk",
-      "class": "Dark Knight",
+      "class": "Paladin",
       "level": 119,
       "score": 517783846398.721,
       "points": 900000,
@@ -99,7 +99,7 @@
       "name": "RefundKobe",
       "guild": "Freakmont",
       "class": "Marksman",
-      "level": 116,
+      "level": 117,
       "score": 314867896773.793,
       "points": 610000,
       "isUs": true
@@ -159,7 +159,7 @@
       "name": "JohnBaptist",
       "guild": "FinsMarket",
       "class": "Bishop",
-      "level": 115,
+      "level": 116,
       "score": 238325094497.802,
       "points": 350000,
       "isUs": false
@@ -269,7 +269,7 @@
       "name": "wiick",
       "guild": "FinsMarket",
       "class": "Night Lord",
-      "level": 113,
+      "level": 114,
       "score": 164558432869.705,
       "points": 195000,
       "isUs": false
@@ -299,7 +299,7 @@
       "name": "zVinics",
       "guild": "Freakmont",
       "class": "Bishop",
-      "level": 113,
+      "level": 114,
       "score": 143921452553.923,
       "points": 180000,
       "isUs": true
@@ -369,7 +369,7 @@
       "name": "Jimboo",
       "guild": "Ambush",
       "class": "Night Lord",
-      "level": 111,
+      "level": 112,
       "score": 126481431102.139,
       "points": 151000,
       "isUs": false
@@ -599,7 +599,7 @@
       "name": "Pesky",
       "guild": "Chaa",
       "class": "Corsair",
-      "level": 110,
+      "level": 111,
       "score": 88733148910.6441,
       "points": 104000,
       "isUs": false
@@ -1029,7 +1029,7 @@
       "name": "Shynobi",
       "guild": "Ambush",
       "class": "Night Lord",
-      "level": 110,
+      "level": 111,
       "score": 45837872727.6964,
       "points": 61000,
       "isUs": false
@@ -1179,7 +1179,7 @@
       "name": "MyBackMyNeck",
       "guild": "Blackhawk",
       "class": "Buccaneer",
-      "level": 108,
+      "level": 109,
       "score": 30606080604.0466,
       "points": 50500,
       "isUs": false
@@ -1236,314 +1236,274 @@
     },
     {
       "rank": 120,
-      "name": "Wolfram",
-      "guild": "Freakmont",
-      "class": "Shadower",
-      "level": 107,
-      "score": 24649269979.1116,
-      "points": 46300,
-      "isUs": true
-    },
-    {
-      "rank": 121,
       "name": "smelly",
       "guild": "Chaa",
       "class": "Paladin",
       "level": 107,
       "score": 21292207169.532,
-      "points": 45600,
+      "points": 46300,
       "isUs": false
     },
     {
-      "rank": 122,
+      "rank": 121,
       "name": "Arlooooo",
       "guild": "Freakmont",
       "class": "Hero",
       "level": 110,
       "score": 21270742301.3813,
-      "points": 44900,
+      "points": 45600,
       "isUs": true
     },
     {
-      "rank": 123,
+      "rank": 122,
       "name": "Spruce",
       "guild": "Ambush",
       "class": "Dark Knight",
       "level": 106,
       "score": 20633800399.2948,
-      "points": 44200,
+      "points": 44900,
       "isUs": false
     },
     {
-      "rank": 124,
+      "rank": 123,
       "name": "Manaa",
       "guild": "FinsMarket",
       "class": "Buccaneer",
       "level": 106,
       "score": 16641090169.6331,
-      "points": 43500,
+      "points": 44200,
       "isUs": false
     },
     {
-      "rank": 125,
+      "rank": 124,
       "name": "Dente",
       "guild": "Blackhawk",
       "class": "Ice/Lightning Mage",
       "level": 107,
       "score": 16457416947.0485,
-      "points": 42800,
+      "points": 43500,
       "isUs": false
     },
     {
-      "rank": 126,
+      "rank": 125,
       "name": "HaYN",
       "guild": "FinsMarket",
       "class": "Ice/Lightning Mage",
       "level": 107,
       "score": 16160934159.6385,
-      "points": 42100,
+      "points": 42800,
       "isUs": false
     },
     {
-      "rank": 127,
+      "rank": 126,
       "name": "bjmike",
       "guild": "Blackhawk",
       "class": "Shadower",
       "level": 105,
       "score": 13066512268.4379,
-      "points": 41400,
+      "points": 42100,
       "isUs": false
     },
     {
-      "rank": 128,
+      "rank": 127,
       "name": "jbboaf0ng",
       "guild": "Freakmont",
       "class": "Night Lord",
       "level": 104,
       "score": 12076894499.627,
-      "points": 40700,
+      "points": 41400,
       "isUs": true
     },
     {
-      "rank": 129,
-      "name": "guavabush",
-      "guild": "Blackhawk",
-      "class": "Buccaneer",
-      "level": 104,
-      "score": 12072690751.2786,
-      "points": 40000,
-      "isUs": false
-    },
-    {
-      "rank": 130,
+      "rank": 128,
       "name": "SaintSky",
       "guild": "Blackhawk",
       "class": "Marksman",
       "level": 103,
       "score": 11934879513.987,
-      "points": 39300,
+      "points": 40700,
       "isUs": false
     },
     {
-      "rank": 131,
+      "rank": 129,
       "name": "Yaiba",
       "guild": "Blackhawk",
       "class": "Hero",
       "level": 105,
       "score": 11587400933.0369,
-      "points": 38600,
+      "points": 40000,
       "isUs": false
     },
     {
-      "rank": 132,
-      "name": "KyunWong",
-      "guild": "Blackhawk",
-      "class": "Buccaneer",
-      "level": 104,
-      "score": 11458111568.4488,
-      "points": 37900,
-      "isUs": false
-    },
-    {
-      "rank": 133,
+      "rank": 130,
       "name": "Zyrise",
       "guild": "Blackhawk",
       "class": "Paladin",
       "level": 104,
       "score": 10211042972.0744,
-      "points": 37200,
+      "points": 39300,
       "isUs": false
     },
     {
-      "rank": 134,
+      "rank": 131,
       "name": "FriendlyFire",
       "guild": "Blackhawk",
       "class": "Corsair",
       "level": 103,
       "score": 8226854686.65572,
-      "points": 36500,
+      "points": 38600,
       "isUs": false
     },
     {
-      "rank": 135,
+      "rank": 132,
       "name": "Gillrath",
       "guild": "Blackhawk",
       "class": "Fire/Poison Mage",
       "level": 106,
       "score": 8213744278.59244,
-      "points": 35800,
+      "points": 37900,
       "isUs": false
     },
     {
-      "rank": 136,
+      "rank": 133,
       "name": "Zegar",
       "guild": "Blackhawk",
       "class": "Buccaneer",
       "level": 103,
       "score": 8177589756.83568,
-      "points": 35100,
+      "points": 37200,
       "isUs": false
     },
     {
-      "rank": 137,
+      "rank": 134,
       "name": "NatickMall",
       "guild": "Blackhawk",
       "class": "Hero",
       "level": 103,
       "score": 7497037180.59217,
-      "points": 34400,
+      "points": 36500,
       "isUs": false
     },
     {
-      "rank": 138,
+      "rank": 135,
       "name": "Dandyroobles",
       "guild": "Blackhawk",
       "class": "Buccaneer",
       "level": 103,
       "score": 7268497669.46044,
-      "points": 33700,
+      "points": 35800,
       "isUs": false
     },
     {
-      "rank": 139,
+      "rank": 136,
       "name": "ILLINOIS",
       "guild": "Blackhawk",
       "class": "Bowmaster",
       "level": 104,
       "score": 7210526184.6816,
-      "points": 33000,
+      "points": 35100,
       "isUs": false
     },
     {
-      "rank": 140,
+      "rank": 137,
       "name": "CaptBarbossa",
       "guild": "Blackhawk",
       "class": "Bishop",
       "level": 103,
       "score": 6306664619.42044,
-      "points": 32300,
+      "points": 34400,
       "isUs": false
     },
     {
-      "rank": 141,
+      "rank": 138,
       "name": "CrunchyToast",
       "guild": "Blackhawk",
       "class": "Bishop",
       "level": 104,
       "score": 6266884389.19599,
-      "points": 31600,
+      "points": 33700,
       "isUs": false
     },
     {
-      "rank": 142,
+      "rank": 139,
       "name": "13igpanda",
       "guild": "Blackhawk",
       "class": "Night Lord",
       "level": 104,
       "score": 6231080770.89781,
-      "points": 30900,
+      "points": 33000,
       "isUs": false
     },
     {
-      "rank": 143,
+      "rank": 140,
       "name": "CaptPichael",
       "guild": "Blackhawk",
       "class": "Corsair",
       "level": 103,
       "score": 6149577980.89487,
-      "points": 30200,
+      "points": 32300,
       "isUs": false
     },
     {
-      "rank": 144,
+      "rank": 141,
       "name": "Wolfi",
       "guild": "Blackhawk",
       "class": "Corsair",
       "level": 103,
       "score": 6112995095.15323,
-      "points": 29500,
+      "points": 31600,
       "isUs": false
     },
     {
-      "rank": 145,
+      "rank": 142,
       "name": "Bellstar",
       "guild": "Blackhawk",
       "class": "Bowmaster",
       "level": 102,
       "score": 6017282878.26143,
-      "points": 28800,
+      "points": 30900,
       "isUs": false
     },
     {
-      "rank": 146,
+      "rank": 143,
       "name": "Gaineagers",
       "guild": "Blackhawk",
       "class": "Corsair",
       "level": 103,
       "score": 5639066616.87726,
-      "points": 28100,
+      "points": 30200,
       "isUs": false
     },
     {
-      "rank": 147,
+      "rank": 144,
       "name": "exDelita",
       "guild": "Blackhawk",
       "class": "Dark Knight",
       "level": 103,
       "score": 4968261252.8283,
-      "points": 27400,
+      "points": 29500,
       "isUs": false
     },
     {
-      "rank": 148,
+      "rank": 145,
       "name": "Blasting",
       "guild": "Blackhawk",
       "class": "Marksman",
       "level": 102,
       "score": 4385416571.47053,
-      "points": 26700,
+      "points": 28800,
       "isUs": false
     },
     {
-      "rank": 149,
-      "name": "ToxSiXXX",
-      "guild": "Blackhawk",
-      "class": "Hero",
-      "level": 104,
-      "score": 3434380948.68785,
-      "points": 26000,
-      "isUs": false
-    },
-    {
-      "rank": 150,
+      "rank": 146,
       "name": "Hayridden",
       "guild": "Blackhawk",
       "class": "Bowmaster",
       "level": 101,
       "score": 2653355897.60014,
-      "points": 25300,
+      "points": 28100,
       "isUs": false
     }
   ],
-  "generated_at": "2026-09-06T19:44:53.199661+00:00"
+  "generated_at": "2026-09-07T23:40:53.447928+00:00"
 }

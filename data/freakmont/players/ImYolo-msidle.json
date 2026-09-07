@@ -3,26 +3,26 @@
     "name": "ImYolo",
     "class": "Bishop",
     "level": 114,
-    "cpRaw": 20273190870652804,
-    "cpDisplay": "20AA 273T",
+    "cpRaw": 21790560164369370,
+    "cpDisplay": "21AA 790T",
     "fame": 817
   },
   "ranks": {
     "global": {
-      "rank": 1351,
+      "rank": 1338,
       "percentile": 0.1
     },
     "server": {
-      "rank": 16,
+      "rank": 15,
       "percentile": 0.1
     },
     "world": {
-      "rank": 454,
+      "rank": 445,
       "percentile": 0.1
     },
     "job": {
-      "rank": 298,
-      "percentile": 0.7
+      "rank": 297,
+      "percentile": 0.6
     }
   },
   "performance": {
@@ -61,31 +61,31 @@
     },
     "guild_conquest": {
       "score": "498876276336",
-      "vs_all_pct": -18.2,
-      "vs_class_pct": -12.7,
+      "vs_all_pct": -18.3,
+      "vs_class_pct": -12.6,
       "date": "2026-09-05T04:39:01+00:00"
     },
     "world_boss": {
       "score": "84603489200000000",
-      "vs_all_pct": -52.2,
-      "vs_class_pct": -50,
+      "vs_all_pct": -51.9,
+      "vs_class_pct": -49.8,
       "date": "2026-09-06T06:16:04+00:00"
     },
     "guild_war": {
       "score": "173537540105",
-      "vs_all_pct": -42.8,
-      "vs_class_pct": -42.3,
+      "vs_all_pct": -42.9,
+      "vs_class_pct": -42.2,
       "date": "2026-09-03T05:37:16+00:00"
     },
     "guild_training_ground": {
       "score": "8334144",
-      "vs_all_pct": -23.4,
+      "vs_all_pct": -23.5,
       "vs_class_pct": -29.1,
       "date": "2026-07-17T05:53:50+00:00"
     },
     "guild_boss": {
       "score": "122278060441",
-      "vs_all_pct": -32.2,
+      "vs_all_pct": -32.3,
       "vs_class_pct": -31.3,
       "date": "2026-09-04T16:39:54+00:00"
     }
@@ -202,17 +202,7 @@
     ],
     "cp_history": [
       {
-        "date": "2026-08-07T18:29:15+00:00",
-        "cpRaw": 4356483897203919,
-        "cpDisplay": "4AA 356T"
-      },
-      {
-        "date": "2026-08-08T00:31:20+00:00",
-        "cpRaw": 4553026880346818,
-        "cpDisplay": "4AA 553T"
-      },
-      {
-        "date": "2026-08-08T19:48:33+00:00",
+        "date": "2026-08-08T23:32:38+00:00",
         "cpRaw": 4731820737064133,
         "cpDisplay": "4AA 731T"
       },
@@ -310,11 +300,16 @@
         "date": "2026-09-06T06:16:04+00:00",
         "cpRaw": 20273190870652804,
         "cpDisplay": "20AA 273T"
+      },
+      {
+        "date": "2026-09-07T18:55:24+00:00",
+        "cpRaw": 21790560164369368,
+        "cpDisplay": "21AA 790T"
       }
     ],
     "level_history": [
       {
-        "date": "2026-08-07T18:29:15+00:00",
+        "date": "2026-08-08T23:32:38+00:00",
         "level": 111
       },
       {
@@ -331,5 +326,5 @@
       }
     ]
   },
-  "scraped_at": "2026-09-06T18:29:16.850275+00:00"
+  "scraped_at": "2026-09-07T23:32:40.142343+00:00"
 }

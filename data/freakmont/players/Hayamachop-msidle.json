@@ -3,33 +3,33 @@
     "name": "Hayamachop",
     "class": "Hero",
     "level": 109,
-    "cpRaw": 287615660920176,
-    "cpDisplay": "287T 615B",
+    "cpRaw": 397181555990224,
+    "cpDisplay": "397T 181B",
     "fame": 49
   },
   "ranks": {
     "global": {
-      "rank": 18825,
-      "percentile": 1.6
+      "rank": 15331,
+      "percentile": 1.1
     },
     "server": {
-      "rank": 274,
-      "percentile": 1
+      "rank": 222,
+      "percentile": 0.8
     },
     "world": {
-      "rank": 5311,
-      "percentile": 1.3
+      "rank": 4418,
+      "percentile": 1
     },
     "job": {
-      "rank": 985,
-      "percentile": 1.3
+      "rank": 800,
+      "percentile": 0.9
     }
   },
   "performance": {
     "conquest": {
-      "score": 54549601204,
-      "percentile": 11.8,
-      "updated": "2026-09-02T05:20:51+00:00"
+      "score": 69377264751,
+      "percentile": 10.2,
+      "updated": "2026-09-07T17:25:18+00:00"
     },
     "training_ground": {
       "score": 3014280,
@@ -47,9 +47,9 @@
       "updated": "2026-08-28T00:00:56+00:00"
     },
     "world_boss": {
-      "score": 1012178650000000,
-      "percentile": 9.4,
-      "updated": "2026-09-02T05:20:04+00:00"
+      "score": 1477073520000000,
+      "percentile": 8.4,
+      "updated": "2026-09-07T04:23:26+00:00"
     }
   },
   "scoreComparison": {
@@ -60,27 +60,27 @@
       "date": "2026-08-31T01:07:16+00:00"
     },
     "guild_conquest": {
-      "score": "54549601204",
-      "vs_all_pct": -5.1,
-      "vs_class_pct": -0.3,
-      "date": "2026-09-02T05:20:51+00:00"
+      "score": "69377264751",
+      "vs_all_pct": -8.3,
+      "vs_class_pct": -3.9,
+      "date": "2026-09-07T17:25:18+00:00"
     },
     "world_boss": {
-      "score": "1012178650000000",
-      "vs_all_pct": -32.8,
-      "vs_class_pct": -33.9,
-      "date": "2026-09-02T05:20:04+00:00"
+      "score": "1477073520000000",
+      "vs_all_pct": -35.9,
+      "vs_class_pct": -37.6,
+      "date": "2026-09-07T04:23:26+00:00"
     },
     "guild_war": {
       "score": "24022646946",
-      "vs_all_pct": -27.9,
-      "vs_class_pct": -24.6,
+      "vs_all_pct": -27.8,
+      "vs_class_pct": -24.5,
       "date": "2026-08-28T00:00:56+00:00"
     },
     "guild_training_ground": {
       "score": "3014280",
       "vs_all_pct": -3,
-      "vs_class_pct": 5.8,
+      "vs_class_pct": 6,
       "date": "2026-06-19T04:16:00+00:00"
     },
     "guild_boss": {
@@ -107,6 +107,10 @@
       {
         "date": "2026-09-02T05:20:51+00:00",
         "score": "54549601204"
+      },
+      {
+        "date": "2026-09-07T17:25:18+00:00",
+        "score": "69377264751"
       }
     ],
     "training_ground_history": [],
@@ -123,10 +127,6 @@
       }
     ],
     "world_boss_history": [
-      {
-        "date": "2026-08-08T04:02:53+00:00",
-        "score": "423916901000000"
-      },
       {
         "date": "2026-08-11T05:25:16+00:00",
         "score": "470869961000000"
@@ -146,11 +146,15 @@
       {
         "date": "2026-09-02T05:20:04+00:00",
         "score": "1012178650000000"
+      },
+      {
+        "date": "2026-09-07T04:23:26+00:00",
+        "score": "1477073520000000"
       }
     ],
     "cp_history": [
       {
-        "date": "2026-08-07T18:33:25+00:00",
+        "date": "2026-08-08T23:36:33+00:00",
         "cpRaw": 89187779788897,
         "cpDisplay": "89T 187B"
       },
@@ -228,11 +232,21 @@
         "date": "2026-09-03T05:39:19+00:00",
         "cpRaw": 287615660920176,
         "cpDisplay": "287T 615B"
+      },
+      {
+        "date": "2026-09-07T04:23:26+00:00",
+        "cpRaw": 358525408314674,
+        "cpDisplay": "358T 525B"
+      },
+      {
+        "date": "2026-09-07T17:25:17+00:00",
+        "cpRaw": 397181555990224,
+        "cpDisplay": "397T 181B"
       }
     ],
     "level_history": [
       {
-        "date": "2026-08-07T18:33:25+00:00",
+        "date": "2026-08-08T23:36:33+00:00",
         "level": 106
       },
       {
@@ -249,5 +263,5 @@
       }
     ]
   },
-  "scraped_at": "2026-09-06T18:33:26.591136+00:00"
+  "scraped_at": "2026-09-07T23:36:35.086245+00:00"
 }

@@ -1,26 +1,26 @@
 {
   "ranks": {
     "global_rank": {
-      "rank": 4193,
-      "total": 234618
+      "rank": 4271,
+      "total": 235560
     },
     "bera": {
-      "rank": 2455,
-      "total": 103088
+      "rank": 2483,
+      "total": 103536
     },
     "bera_5": {
-      "rank": 114,
+      "rank": 115,
       "total": 2000
     },
     "marksman": {
-      "rank": 443,
-      "total": 12597
+      "rank": 447,
+      "total": 12619
     }
   },
   "performance": {
     "guild_conquest": {
-      "score": 131327790623.18124,
-      "updated": "Aug 30"
+      "score": 144550429941.31845,
+      "updated": "Sep 6"
     },
     "world_boss": {
       "score": 9154104410000000,
@@ -40,14 +40,6 @@
     }
   },
   "history": [
-    {
-      "date": "8/7",
-      "cpRaw": 224159725577087.1,
-      "cpDisplay": "224T 159B",
-      "level": 107,
-      "globalRank": 5811,
-      "fame": 30
-    },
     {
       "date": "8/8",
       "cpRaw": 232596000511692.1,
@@ -279,7 +271,15 @@
       "level": 110,
       "globalRank": 4193,
       "fame": 42
+    },
+    {
+      "date": "9/7",
+      "cpRaw": 941516504763705.8,
+      "cpDisplay": "941T 516B",
+      "level": 110,
+      "globalRank": 4271,
+      "fame": 42
     }
   ],
-  "scraped_at": "2026-09-06T18:28:17.183597+00:00"
+  "scraped_at": "2026-09-07T23:31:48.665150+00:00"
 }
