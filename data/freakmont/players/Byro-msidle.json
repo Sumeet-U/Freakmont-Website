@@ -9,26 +9,26 @@
   },
   "ranks": {
     "global": {
-      "rank": 13659,
+      "rank": 14011,
       "percentile": 1
     },
     "server": {
-      "rank": 196,
-      "percentile": 0.7
+      "rank": 199,
+      "percentile": 0.8
     },
     "world": {
-      "rank": 3972,
-      "percentile": 0.9
+      "rank": 4074,
+      "percentile": 1
     },
     "job": {
-      "rank": 626,
+      "rank": 649,
       "percentile": 0.3
     }
   },
   "performance": {
     "conquest": {
       "score": 60781929236,
-      "percentile": 11.2,
+      "percentile": 11.4,
       "updated": "2026-09-05T09:01:57+00:00"
     },
     "training_ground": {
@@ -48,7 +48,7 @@
     },
     "world_boss": {
       "score": 2108034570000000,
-      "percentile": 6.9,
+      "percentile": 7.6,
       "updated": "2026-09-02T05:20:28+00:00"
     }
   },
@@ -61,14 +61,14 @@
     },
     "guild_conquest": {
       "score": "60781929236",
-      "vs_all_pct": -21.2,
-      "vs_class_pct": -6.5,
+      "vs_all_pct": -21.1,
+      "vs_class_pct": -6.1,
       "date": "2026-09-05T09:01:57+00:00"
     },
     "world_boss": {
       "score": "2108034570000000",
-      "vs_all_pct": -20.9,
-      "vs_class_pct": -1.5,
+      "vs_all_pct": -20.5,
+      "vs_class_pct": -1,
       "date": "2026-09-02T05:20:28+00:00"
     },
     "guild_war": {
@@ -79,7 +79,7 @@
     },
     "guild_training_ground": {
       "score": "4257657",
-      "vs_all_pct": -2.8,
+      "vs_all_pct": -2.9,
       "vs_class_pct": 5.9,
       "date": "2026-07-17T05:54:32+00:00"
     },
@@ -145,7 +145,7 @@
     ],
     "cp_history": [
       {
-        "date": "2026-08-08T23:36:04+00:00",
+        "date": "2026-08-09T22:08:10+00:00",
         "cpRaw": 140097137594436,
         "cpDisplay": "140T 97B"
       },
@@ -267,7 +267,7 @@
     ],
     "level_history": [
       {
-        "date": "2026-08-08T23:36:04+00:00",
+        "date": "2026-08-09T22:08:10+00:00",
         "level": 108
       },
       {
@@ -280,5 +280,5 @@
       }
     ]
   },
-  "scraped_at": "2026-09-07T23:36:05.821084+00:00"
+  "scraped_at": "2026-09-08T22:08:11.292381+00:00"
 }

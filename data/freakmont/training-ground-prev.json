@@ -1,5 +1,5 @@
 {
-  "date": "2026-09-06",
+  "date": "2026-09-07",
   "entries": [
     {
       "name": "JaneGarden",
@@ -11,14 +11,14 @@
     {
       "name": "RefundKobe",
       "class": "Marksman",
-      "level": 116,
+      "level": 117,
       "score": 11982144,
       "rank": 2
     },
     {
       "name": "zVinics",
       "class": "Bishop",
-      "level": 113,
+      "level": 114,
       "score": 11432469,
       "rank": 3
     },
@@ -135,52 +135,52 @@
       "rank": 19
     },
     {
+      "name": "Chinnychin",
+      "class": "Bowmaster",
+      "level": 109,
+      "score": 4790445,
+      "rank": 20
+    },
+    {
       "name": "Lighttt",
       "class": "Night Lord",
       "level": 109,
       "score": 4633215,
-      "rank": 20
+      "rank": 21
     },
     {
       "name": "Byro",
       "class": "Ice/Lightning Mage",
       "level": 110,
       "score": 4257657,
-      "rank": 21
+      "rank": 22
     },
     {
       "name": "Soapdayys",
       "class": "Dark Knight",
       "level": 111,
       "score": 4171341,
-      "rank": 22
+      "rank": 23
     },
     {
       "name": "Ashweeb",
       "class": "Shadower",
       "level": 110,
       "score": 4032201,
-      "rank": 23
+      "rank": 24
     },
     {
       "name": "Osubo",
       "class": "Marksman",
       "level": 109,
       "score": 3818724,
-      "rank": 24
+      "rank": 25
     },
     {
       "name": "RefundPuJay",
       "class": "Marksman",
       "level": 110,
       "score": 3505833,
-      "rank": 25
-    },
-    {
-      "name": "Wolfram",
-      "class": "Shadower",
-      "level": 107,
-      "score": 3078519,
       "rank": 26
     },
     {

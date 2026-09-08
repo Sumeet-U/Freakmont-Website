@@ -1,20 +1,20 @@
 {
   "ranks": {
     "global_rank": {
-      "rank": 7818,
-      "total": 235560
+      "rank": 7632,
+      "total": 236587
     },
     "bera": {
-      "rank": 4473,
-      "total": 103536
+      "rank": 4382,
+      "total": 104002
     },
     "bera_5": {
-      "rank": 223,
+      "rank": 214,
       "total": 2000
     },
     "bowmaster": {
-      "rank": 517,
-      "total": 12911
+      "rank": 502,
+      "total": 12932
     }
   },
   "performance": {
@@ -40,14 +40,6 @@
     }
   },
   "history": [
-    {
-      "date": "8/8",
-      "cpRaw": 83524030923617.08,
-      "cpDisplay": "83T 524B",
-      "level": 106,
-      "globalRank": 10727,
-      "fame": 31
-    },
     {
       "date": "8/10",
       "cpRaw": 88442462678399.47,
@@ -279,7 +271,15 @@
       "level": 109,
       "globalRank": 7818,
       "fame": 36
+    },
+    {
+      "date": "9/8",
+      "cpRaw": 411855476453541.5,
+      "cpDisplay": "411T 855B",
+      "level": 109,
+      "globalRank": 7632,
+      "fame": 36
     }
   ],
-  "scraped_at": "2026-09-07T23:32:08.774002+00:00"
+  "scraped_at": "2026-09-08T22:03:28.988505+00:00"
 }

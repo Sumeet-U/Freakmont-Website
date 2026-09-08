@@ -1,20 +1,20 @@
 {
   "ranks": {
     "global_rank": {
-      "rank": 3046,
-      "total": 235560
+      "rank": 3100,
+      "total": 236587
     },
     "bera": {
-      "rank": 1769,
-      "total": 103536
+      "rank": 1809,
+      "total": 104002
     },
     "bera_5": {
-      "rank": 75,
+      "rank": 79,
       "total": 2000
     },
     "bowmaster": {
-      "rank": 201,
-      "total": 12911
+      "rank": 205,
+      "total": 12932
     }
   },
   "performance": {
@@ -31,8 +31,8 @@
       "updated": "Jul 2"
     },
     "guild_war": {
-      "score": 107966957071.15761,
-      "updated": "Aug 25"
+      "score": 119536339373.00804,
+      "updated": "Sep 8"
     },
     "guild_boss_battle": {
       "score": 50210412069.739746,
@@ -40,14 +40,6 @@
     }
   },
   "history": [
-    {
-      "date": "8/8",
-      "cpRaw": 767780804791536.9,
-      "cpDisplay": "767T 780B",
-      "level": 110,
-      "globalRank": 2646,
-      "fame": 53
-    },
     {
       "date": "8/10",
       "cpRaw": 771787697838228,
@@ -279,7 +271,15 @@
       "level": 113,
       "globalRank": 3046,
       "fame": 146
+    },
+    {
+      "date": "9/8",
+      "cpRaw": 1745186698034768.5,
+      "cpDisplay": "1AA 745T",
+      "level": 113,
+      "globalRank": 3100,
+      "fame": 147
     }
   ],
-  "scraped_at": "2026-09-07T23:31:31.119037+00:00"
+  "scraped_at": "2026-09-08T22:02:51.495646+00:00"
 }

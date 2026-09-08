@@ -1,20 +1,20 @@
 {
   "ranks": {
     "global_rank": {
-      "rank": 4271,
-      "total": 235560
+      "rank": 4096,
+      "total": 236587
     },
     "bera": {
-      "rank": 2483,
-      "total": 103536
+      "rank": 2389,
+      "total": 104002
     },
     "bera_5": {
-      "rank": 115,
+      "rank": 107,
       "total": 2000
     },
     "marksman": {
-      "rank": 447,
-      "total": 12619
+      "rank": 435,
+      "total": 12631
     }
   },
   "performance": {
@@ -31,8 +31,8 @@
       "updated": "Jul 16"
     },
     "guild_war": {
-      "score": 65907122779.560234,
-      "updated": "Sep 1"
+      "score": 101784087599.17337,
+      "updated": "Sep 8"
     },
     "guild_boss_battle": {
       "score": 50125034651.7871,
@@ -40,14 +40,6 @@
     }
   },
   "history": [
-    {
-      "date": "8/8",
-      "cpRaw": 232596000511692.1,
-      "cpDisplay": "232T 596B",
-      "level": 107,
-      "globalRank": 5755,
-      "fame": 33
-    },
     {
       "date": "8/10",
       "cpRaw": 236298800133214.6,
@@ -279,7 +271,15 @@
       "level": 110,
       "globalRank": 4271,
       "fame": 42
+    },
+    {
+      "date": "9/8",
+      "cpRaw": 1054176583207619.1,
+      "cpDisplay": "1AA 54T",
+      "level": 110,
+      "globalRank": 4096,
+      "fame": 43
     }
   ],
-  "scraped_at": "2026-09-07T23:31:48.665150+00:00"
+  "scraped_at": "2026-09-08T22:03:05.524583+00:00"
 }

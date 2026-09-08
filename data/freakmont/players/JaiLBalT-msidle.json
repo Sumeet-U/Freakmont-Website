@@ -3,32 +3,32 @@
     "name": "JaiLBalT",
     "class": "Shadower",
     "level": 114,
-    "cpRaw": 9331326899953208,
-    "cpDisplay": "9AA 331T",
+    "cpRaw": 9754820157932456,
+    "cpDisplay": "9AA 754T",
     "fame": 1022
   },
   "ranks": {
     "global": {
-      "rank": 2116,
-      "percentile": 0.2
+      "rank": 2108,
+      "percentile": 0.1
     },
     "server": {
       "rank": 31,
       "percentile": 0.1
     },
     "world": {
-      "rank": 727,
+      "rank": 724,
       "percentile": 0.2
     },
     "job": {
-      "rank": 238,
+      "rank": 230,
       "percentile": 0.2
     }
   },
   "performance": {
     "conquest": {
       "score": 438633605641,
-      "percentile": 1.7,
+      "percentile": 1.8,
       "updated": "2026-09-05T04:39:02+00:00"
     },
     "training_ground": {
@@ -47,9 +47,9 @@
       "updated": "2026-09-03T05:37:38+00:00"
     },
     "world_boss": {
-      "score": 67574370400000000,
-      "percentile": 1.1,
-      "updated": "2026-09-03T05:39:13+00:00"
+      "score": 97049042000000000,
+      "percentile": 1,
+      "updated": "2026-09-08T04:33:49+00:00"
     }
   },
   "scoreComparison": {
@@ -61,15 +61,15 @@
     },
     "guild_conquest": {
       "score": "438633605641",
-      "vs_all_pct": 15.5,
-      "vs_class_pct": 20.1,
+      "vs_all_pct": 15.7,
+      "vs_class_pct": 20.4,
       "date": "2026-09-05T04:39:02+00:00"
     },
     "world_boss": {
-      "score": "67574370400000000",
-      "vs_all_pct": 21.8,
-      "vs_class_pct": 22.8,
-      "date": "2026-09-03T05:39:13+00:00"
+      "score": "97049042000000000",
+      "vs_all_pct": 21.2,
+      "vs_class_pct": 21.8,
+      "date": "2026-09-08T04:33:49+00:00"
     },
     "guild_war": {
       "score": "166804043170",
@@ -79,8 +79,8 @@
     },
     "guild_training_ground": {
       "score": "10757229",
-      "vs_all_pct": 5.4,
-      "vs_class_pct": 12.6,
+      "vs_all_pct": 5.3,
+      "vs_class_pct": 12.5,
       "date": "2026-07-17T05:53:47+00:00"
     },
     "guild_boss": {
@@ -170,11 +170,15 @@
       {
         "date": "2026-09-03T05:39:13+00:00",
         "score": "67574370400000000"
+      },
+      {
+        "date": "2026-09-08T04:33:49+00:00",
+        "score": "97049042000000000"
       }
     ],
     "cp_history": [
       {
-        "date": "2026-08-08T23:33:28+00:00",
+        "date": "2026-08-09T22:04:54+00:00",
         "cpRaw": 2992811589059690,
         "cpDisplay": "2AA 992T"
       },
@@ -327,11 +331,16 @@
         "date": "2026-09-07T17:24:29+00:00",
         "cpRaw": 9331326899953208,
         "cpDisplay": "9AA 331T"
+      },
+      {
+        "date": "2026-09-08T04:33:49+00:00",
+        "cpRaw": 9754820157932456,
+        "cpDisplay": "9AA 754T"
       }
     ],
     "level_history": [
       {
-        "date": "2026-08-08T23:33:28+00:00",
+        "date": "2026-08-09T22:04:54+00:00",
         "level": 112
       },
       {
@@ -344,5 +353,5 @@
       }
     ]
   },
-  "scraped_at": "2026-09-07T23:33:29.361223+00:00"
+  "scraped_at": "2026-09-08T22:04:55.258375+00:00"
 }

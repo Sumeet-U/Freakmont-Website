@@ -3,32 +3,32 @@
     "name": "poljjak",
     "class": "Bishop",
     "level": 116,
-    "cpRaw": 10208911443353152,
-    "cpDisplay": "10AA 208T",
+    "cpRaw": 10349930139228378,
+    "cpDisplay": "10AA 349T",
     "fame": 44
   },
   "ranks": {
     "global": {
-      "rank": 2003,
+      "rank": 2043,
       "percentile": 0.1
     },
     "server": {
-      "rank": 28,
+      "rank": 29,
       "percentile": 0.1
     },
     "world": {
-      "rank": 682,
+      "rank": 694,
       "percentile": 0.2
     },
     "job": {
-      "rank": 447,
+      "rank": 451,
       "percentile": 0.9
     }
   },
   "performance": {
     "conquest": {
       "score": 793483277974,
-      "percentile": 1.1,
+      "percentile": 1.2,
       "updated": "2026-09-05T04:39:01+00:00"
     },
     "training_ground": {
@@ -47,9 +47,9 @@
       "updated": "2026-08-28T00:00:56+00:00"
     },
     "world_boss": {
-      "score": 184738598000000000,
+      "score": 216078084000000000,
       "percentile": 0.7,
-      "updated": "2026-09-04T09:00:08+00:00"
+      "updated": "2026-09-08T04:33:47+00:00"
     }
   },
   "scoreComparison": {
@@ -61,15 +61,15 @@
     },
     "guild_conquest": {
       "score": "793483277974",
-      "vs_all_pct": 91.2,
-      "vs_class_pct": 104.4,
+      "vs_all_pct": 91.6,
+      "vs_class_pct": 104.7,
       "date": "2026-09-05T04:39:01+00:00"
     },
     "world_boss": {
-      "score": "184738598000000000",
-      "vs_all_pct": 150.7,
-      "vs_class_pct": 161.8,
-      "date": "2026-09-04T09:00:08+00:00"
+      "score": "216078084000000000",
+      "vs_all_pct": 153.3,
+      "vs_class_pct": 163.6,
+      "date": "2026-09-08T04:33:47+00:00"
     },
     "guild_war": {
       "score": "233351315690",
@@ -79,13 +79,13 @@
     },
     "guild_training_ground": {
       "score": "11330913",
-      "vs_all_pct": 15.1,
-      "vs_class_pct": 6.7,
+      "vs_all_pct": 15,
+      "vs_class_pct": 6.6,
       "date": "2026-07-03T01:50:17+00:00"
     },
     "guild_boss": {
       "score": "166514185274",
-      "vs_all_pct": 19.3,
+      "vs_all_pct": 19.2,
       "vs_class_pct": 21,
       "date": "2026-09-04T16:40:06+00:00"
     }
@@ -158,16 +158,15 @@
       {
         "date": "2026-09-04T09:00:08+00:00",
         "score": "184738598000000000"
+      },
+      {
+        "date": "2026-09-08T04:33:47+00:00",
+        "score": "216078084000000000"
       }
     ],
     "cp_history": [
       {
-        "date": "2026-08-08T23:33:18+00:00",
-        "cpRaw": 3812487573187169,
-        "cpDisplay": "3AA 812T"
-      },
-      {
-        "date": "2026-08-09T14:34:48+00:00",
+        "date": "2026-08-09T22:04:44+00:00",
         "cpRaw": 3964225870915590,
         "cpDisplay": "3AA 964T"
       },
@@ -255,11 +254,16 @@
         "date": "2026-09-07T17:24:26+00:00",
         "cpRaw": 10208911443353152,
         "cpDisplay": "10AA 208T"
+      },
+      {
+        "date": "2026-09-08T04:33:46+00:00",
+        "cpRaw": 10349930139228378,
+        "cpDisplay": "10AA 349T"
       }
     ],
     "level_history": [
       {
-        "date": "2026-08-08T23:33:18+00:00",
+        "date": "2026-08-09T22:04:44+00:00",
         "level": 114
       },
       {
@@ -272,5 +276,5 @@
       }
     ]
   },
-  "scraped_at": "2026-09-07T23:33:19.768217+00:00"
+  "scraped_at": "2026-09-08T22:04:45.020974+00:00"
 }

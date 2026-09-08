@@ -3,32 +3,32 @@
     "name": "Hayamachop",
     "class": "Hero",
     "level": 109,
-    "cpRaw": 397181555990224,
-    "cpDisplay": "397T 181B",
+    "cpRaw": 467830174205412,
+    "cpDisplay": "467T 830B",
     "fame": 49
   },
   "ranks": {
     "global": {
-      "rank": 15331,
-      "percentile": 1.1
+      "rank": 13964,
+      "percentile": 1
     },
     "server": {
-      "rank": 222,
-      "percentile": 0.8
+      "rank": 198,
+      "percentile": 0.7
     },
     "world": {
-      "rank": 4418,
+      "rank": 4068,
       "percentile": 1
     },
     "job": {
-      "rank": 800,
-      "percentile": 0.9
+      "rank": 723,
+      "percentile": 0.8
     }
   },
   "performance": {
     "conquest": {
       "score": 69377264751,
-      "percentile": 10.2,
+      "percentile": 10.4,
       "updated": "2026-09-07T17:25:18+00:00"
     },
     "training_ground": {
@@ -47,29 +47,29 @@
       "updated": "2026-08-28T00:00:56+00:00"
     },
     "world_boss": {
-      "score": 1477073520000000,
-      "percentile": 8.4,
-      "updated": "2026-09-07T04:23:26+00:00"
+      "score": 2229780290000000,
+      "percentile": 7.3,
+      "updated": "2026-09-08T04:34:21+00:00"
     }
   },
   "scoreComparison": {
     "chapter": {
-      "score": "274",
-      "vs_all_pct": -1.1,
+      "score": "287",
+      "vs_all_pct": -0.3,
       "vs_class_pct": null,
-      "date": "2026-08-31T01:07:16+00:00"
+      "date": "2026-09-08T14:46:30+00:00"
     },
     "guild_conquest": {
       "score": "69377264751",
-      "vs_all_pct": -8.3,
+      "vs_all_pct": -8.2,
       "vs_class_pct": -3.9,
       "date": "2026-09-07T17:25:18+00:00"
     },
     "world_boss": {
-      "score": "1477073520000000",
-      "vs_all_pct": -35.9,
-      "vs_class_pct": -37.6,
-      "date": "2026-09-07T04:23:26+00:00"
+      "score": "2229780290000000",
+      "vs_all_pct": -27,
+      "vs_class_pct": -29.6,
+      "date": "2026-09-08T04:34:21+00:00"
     },
     "guild_war": {
       "score": "24022646946",
@@ -80,12 +80,12 @@
     "guild_training_ground": {
       "score": "3014280",
       "vs_all_pct": -3,
-      "vs_class_pct": 6,
+      "vs_class_pct": 5.9,
       "date": "2026-06-19T04:16:00+00:00"
     },
     "guild_boss": {
       "score": "18360521182",
-      "vs_all_pct": -22,
+      "vs_all_pct": -22.1,
       "vs_class_pct": -23.3,
       "date": "2026-09-04T16:40:42+00:00"
     }
@@ -150,11 +150,15 @@
       {
         "date": "2026-09-07T04:23:26+00:00",
         "score": "1477073520000000"
+      },
+      {
+        "date": "2026-09-08T04:34:21+00:00",
+        "score": "2229780290000000"
       }
     ],
     "cp_history": [
       {
-        "date": "2026-08-08T23:36:33+00:00",
+        "date": "2026-08-09T22:08:00+00:00",
         "cpRaw": 89187779788897,
         "cpDisplay": "89T 187B"
       },
@@ -242,11 +246,16 @@
         "date": "2026-09-07T17:25:17+00:00",
         "cpRaw": 397181555990224,
         "cpDisplay": "397T 181B"
+      },
+      {
+        "date": "2026-09-08T04:34:21+00:00",
+        "cpRaw": 467830174205412,
+        "cpDisplay": "467T 830B"
       }
     ],
     "level_history": [
       {
-        "date": "2026-08-08T23:36:33+00:00",
+        "date": "2026-08-09T22:08:00+00:00",
         "level": 106
       },
       {
@@ -263,5 +272,5 @@
       }
     ]
   },
-  "scraped_at": "2026-09-07T23:36:35.086245+00:00"
+  "scraped_at": "2026-09-08T22:08:00.980983+00:00"
 }

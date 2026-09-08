@@ -3,26 +3,26 @@
     "name": "RefundPuJay",
     "class": "Marksman",
     "level": 110,
-    "cpRaw": 1011829708075697,
-    "cpDisplay": "1AA 11T",
+    "cpRaw": 1054176583207619,
+    "cpDisplay": "1AA 54T",
     "fame": 42
   },
   "ranks": {
     "global": {
-      "rank": 7813,
-      "percentile": 0.6
+      "rank": 7816,
+      "percentile": 0.5
     },
     "server": {
-      "rank": 111,
+      "rank": 109,
       "percentile": 0.4
     },
     "world": {
-      "rank": 2400,
+      "rank": 2408,
       "percentile": 0.6
     },
     "job": {
-      "rank": 629,
-      "percentile": 1
+      "rank": 626,
+      "percentile": 0.9
     }
   },
   "performance": {
@@ -48,7 +48,7 @@
     },
     "world_boss": {
       "score": 9154104410000000,
-      "percentile": 3.3,
+      "percentile": 3.5,
       "updated": "2026-09-02T05:20:08+00:00"
     }
   },
@@ -61,14 +61,14 @@
     },
     "guild_conquest": {
       "score": "144550429941",
-      "vs_all_pct": 15,
-      "vs_class_pct": 12.9,
+      "vs_all_pct": 15.2,
+      "vs_class_pct": 13.3,
       "date": "2026-09-07T17:24:45+00:00"
     },
     "world_boss": {
       "score": "9154104410000000",
-      "vs_all_pct": 49.2,
-      "vs_class_pct": 24.2,
+      "vs_all_pct": 49.8,
+      "vs_class_pct": 24.3,
       "date": "2026-09-02T05:20:08+00:00"
     },
     "guild_war": {
@@ -186,12 +186,7 @@
     ],
     "cp_history": [
       {
-        "date": "2026-08-08T23:35:34+00:00",
-        "cpRaw": 232596000511692,
-        "cpDisplay": "232T 596B"
-      },
-      {
-        "date": "2026-08-09T14:35:12+00:00",
+        "date": "2026-08-09T22:07:17+00:00",
         "cpRaw": 236298800133214,
         "cpDisplay": "236T 298B"
       },
@@ -309,11 +304,16 @@
         "date": "2026-09-07T17:24:45+00:00",
         "cpRaw": 1011829708075697,
         "cpDisplay": "1AA 11T"
+      },
+      {
+        "date": "2026-09-08T04:34:02+00:00",
+        "cpRaw": 1054176583207619,
+        "cpDisplay": "1AA 54T"
       }
     ],
     "level_history": [
       {
-        "date": "2026-08-08T23:35:35+00:00",
+        "date": "2026-08-09T22:07:17+00:00",
         "level": 107
       },
       {
@@ -330,5 +330,5 @@
       }
     ]
   },
-  "scraped_at": "2026-09-07T23:35:36.262166+00:00"
+  "scraped_at": "2026-09-08T22:07:18.095197+00:00"
 }

@@ -3,13 +3,13 @@
     "name": "Pantshunter",
     "class": "Hero",
     "level": 115,
-    "cpRaw": 10588166295801660,
-    "cpDisplay": "10AA 588T",
+    "cpRaw": 10735225534750020,
+    "cpDisplay": "10AA 735T",
     "fame": 95
   },
   "ranks": {
     "global": {
-      "rank": 1968,
+      "rank": 1995,
       "percentile": 0.1
     },
     "server": {
@@ -17,18 +17,18 @@
       "percentile": 0.1
     },
     "world": {
-      "rank": 666,
+      "rank": 673,
       "percentile": 0.2
     },
     "job": {
-      "rank": 106,
+      "rank": 105,
       "percentile": 0.1
     }
   },
   "performance": {
     "conquest": {
       "score": 575332020473,
-      "percentile": 1.4,
+      "percentile": 1.5,
       "updated": "2026-09-06T06:17:12+00:00"
     },
     "training_ground": {
@@ -47,9 +47,9 @@
       "updated": "2026-08-28T00:00:56+00:00"
     },
     "world_boss": {
-      "score": 141122288000000000,
+      "score": 150264279000000000,
       "percentile": 0.8,
-      "updated": "2026-09-06T06:16:02+00:00"
+      "updated": "2026-09-08T04:33:48+00:00"
     }
   },
   "scoreComparison": {
@@ -61,15 +61,15 @@
     },
     "guild_conquest": {
       "score": "575332020473",
-      "vs_all_pct": 28.1,
-      "vs_class_pct": 34.2,
+      "vs_all_pct": 28.4,
+      "vs_class_pct": 34.3,
       "date": "2026-09-06T06:17:12+00:00"
     },
     "world_boss": {
-      "score": "141122288000000000",
-      "vs_all_pct": 61.5,
-      "vs_class_pct": 57.2,
-      "date": "2026-09-06T06:16:02+00:00"
+      "score": "150264279000000000",
+      "vs_all_pct": 69.3,
+      "vs_class_pct": 63.4,
+      "date": "2026-09-08T04:33:48+00:00"
     },
     "guild_war": {
       "score": "207361196570",
@@ -79,14 +79,14 @@
     },
     "guild_training_ground": {
       "score": "8035854",
-      "vs_all_pct": -29.2,
-      "vs_class_pct": -22.7,
+      "vs_all_pct": -29.3,
+      "vs_class_pct": -22.8,
       "date": "2026-07-17T05:53:57+00:00"
     },
     "guild_boss": {
       "score": "127967505145",
-      "vs_all_pct": -13.8,
-      "vs_class_pct": -15.2,
+      "vs_all_pct": -13.9,
+      "vs_class_pct": -15.3,
       "date": "2026-09-04T16:39:41+00:00"
     }
   },
@@ -150,16 +150,15 @@
       {
         "date": "2026-09-06T06:16:02+00:00",
         "score": "141122288000000000"
+      },
+      {
+        "date": "2026-09-08T04:33:48+00:00",
+        "score": "150264279000000000"
       }
     ],
     "cp_history": [
       {
-        "date": "2026-08-08T23:33:08+00:00",
-        "cpRaw": 4102227141774953,
-        "cpDisplay": "4AA 102T"
-      },
-      {
-        "date": "2026-08-09T14:34:48+00:00",
+        "date": "2026-08-09T22:04:33+00:00",
         "cpRaw": 4127789779009398,
         "cpDisplay": "4AA 127T"
       },
@@ -237,11 +236,16 @@
         "date": "2026-09-07T17:24:27+00:00",
         "cpRaw": 10588166295801660,
         "cpDisplay": "10AA 588T"
+      },
+      {
+        "date": "2026-09-08T04:33:48+00:00",
+        "cpRaw": 10735225534750020,
+        "cpDisplay": "10AA 735T"
       }
     ],
     "level_history": [
       {
-        "date": "2026-08-08T23:33:08+00:00",
+        "date": "2026-08-09T22:04:33+00:00",
         "level": 113
       },
       {
@@ -254,5 +258,5 @@
       }
     ]
   },
-  "scraped_at": "2026-09-07T23:33:09.532373+00:00"
+  "scraped_at": "2026-09-08T22:04:34.353787+00:00"
 }

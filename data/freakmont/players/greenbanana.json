@@ -1,20 +1,20 @@
 {
   "ranks": {
     "global_rank": {
-      "rank": 8074,
-      "total": 235560
+      "rank": 8252,
+      "total": 236587
     },
     "bera": {
-      "rank": 4617,
-      "total": 103536
+      "rank": 4738,
+      "total": 104002
     },
     "bera_5": {
-      "rank": 234,
+      "rank": 239,
       "total": 2000
     },
     "corsair": {
-      "rank": 309,
-      "total": 17803
+      "rank": 316,
+      "total": 17841
     }
   },
   "performance": {
@@ -31,8 +31,8 @@
       "updated": "Jul 16"
     },
     "guild_war": {
-      "score": 32149381528.708755,
-      "updated": "Sep 1"
+      "score": 33547218354.610676,
+      "updated": "Sep 8"
     },
     "guild_boss_battle": {
       "score": 24544993857.781815,
@@ -40,14 +40,6 @@
     }
   },
   "history": [
-    {
-      "date": "8/8",
-      "cpRaw": 116559043569098.89,
-      "cpDisplay": "116T 559B",
-      "level": 106,
-      "globalRank": 8937,
-      "fame": 128
-    },
     {
       "date": "8/10",
       "cpRaw": 116559043569098.89,
@@ -279,7 +271,15 @@
       "level": 108,
       "globalRank": 8074,
       "fame": 134
+    },
+    {
+      "date": "9/8",
+      "cpRaw": 365858449292890.9,
+      "cpDisplay": "365T 858B",
+      "level": 109,
+      "globalRank": 8252,
+      "fame": 135
     }
   ],
-  "scraped_at": "2026-09-07T23:32:11.140716+00:00"
+  "scraped_at": "2026-09-08T22:03:31.707151+00:00"
 }

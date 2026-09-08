@@ -21,11 +21,11 @@
     "percentile": null
   },
   "guild_war": {
-    "score": 25624428141.293495,
-    "snapshotDate": "2026-09-01",
-    "peerRank": 6,
+    "score": 30345343011.008854,
+    "snapshotDate": "2026-09-08",
+    "peerRank": 11,
     "peerCount": 12,
-    "percentile": 54.5
+    "percentile": 9.1
   },
   "guild_boss_battle": {
     "score": 18360521181.546646,

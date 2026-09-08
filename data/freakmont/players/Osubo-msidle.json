@@ -3,32 +3,32 @@
     "name": "Osubo",
     "class": "Marksman",
     "level": 109,
-    "cpRaw": 461684218323925,
-    "cpDisplay": "461T 684B",
+    "cpRaw": 476516215683900,
+    "cpDisplay": "476T 516B",
     "fame": 80
   },
   "ranks": {
     "global": {
-      "rank": 13750,
-      "percentile": 1
+      "rank": 13769,
+      "percentile": 0.9
     },
     "server": {
-      "rank": 197,
+      "rank": 195,
       "percentile": 0.7
     },
     "world": {
-      "rank": 3997,
-      "percentile": 0.9
+      "rank": 4009,
+      "percentile": 1
     },
     "job": {
-      "rank": 1143,
-      "percentile": 1.8
+      "rank": 1134,
+      "percentile": 1.7
     }
   },
   "performance": {
     "conquest": {
       "score": 62804737241,
-      "percentile": 10.9,
+      "percentile": 11.1,
       "updated": "2026-09-05T09:01:56+00:00"
     },
     "training_ground": {
@@ -48,7 +48,7 @@
     },
     "world_boss": {
       "score": 3843180870000000,
-      "percentile": 5.1,
+      "percentile": 5.5,
       "updated": "2026-09-07T04:23:48+00:00"
     }
   },
@@ -61,14 +61,14 @@
     },
     "guild_conquest": {
       "score": "62804737241",
-      "vs_all_pct": -18.9,
-      "vs_class_pct": -20.4,
+      "vs_all_pct": -18.8,
+      "vs_class_pct": -20.1,
       "date": "2026-09-05T09:01:56+00:00"
     },
     "world_boss": {
       "score": "3843180870000000",
-      "vs_all_pct": 27,
-      "vs_class_pct": 5.8,
+      "vs_all_pct": 27.7,
+      "vs_class_pct": 6,
       "date": "2026-09-07T04:23:48+00:00"
     },
     "guild_war": {
@@ -161,7 +161,7 @@
     ],
     "cp_history": [
       {
-        "date": "2026-08-08T23:36:14+00:00",
+        "date": "2026-08-09T22:07:49+00:00",
         "cpRaw": 170565898935722,
         "cpDisplay": "170T 565B"
       },
@@ -244,11 +244,16 @@
         "date": "2026-09-06T06:16:30+00:00",
         "cpRaw": 461684218323925,
         "cpDisplay": "461T 684B"
+      },
+      {
+        "date": "2026-09-08T04:34:12+00:00",
+        "cpRaw": 476516215683900,
+        "cpDisplay": "476T 516B"
       }
     ],
     "level_history": [
       {
-        "date": "2026-08-08T23:36:14+00:00",
+        "date": "2026-08-09T22:07:49+00:00",
         "level": 106
       },
       {
@@ -265,5 +270,5 @@
       }
     ]
   },
-  "scraped_at": "2026-09-07T23:36:15.645654+00:00"
+  "scraped_at": "2026-09-08T22:07:50.478020+00:00"
 }

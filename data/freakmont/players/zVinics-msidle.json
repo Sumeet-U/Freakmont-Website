@@ -9,19 +9,19 @@
   },
   "ranks": {
     "global": {
-      "rank": 2354,
+      "rank": 2407,
       "percentile": 0.2
     },
     "server": {
-      "rank": 35,
+      "rank": 36,
       "percentile": 0.1
     },
     "world": {
-      "rank": 793,
+      "rank": 805,
       "percentile": 0.2
     },
     "job": {
-      "rank": 526,
+      "rank": 546,
       "percentile": 1
     }
   },
@@ -48,7 +48,7 @@
     },
     "world_boss": {
       "score": 33297456800000000,
-      "percentile": 1.7,
+      "percentile": 1.8,
       "updated": "2026-09-02T05:19:59+00:00"
     }
   },
@@ -61,14 +61,14 @@
     },
     "guild_conquest": {
       "score": "376862082705",
-      "vs_all_pct": 4.2,
-      "vs_class_pct": 11.5,
+      "vs_all_pct": 4.5,
+      "vs_class_pct": 11.6,
       "date": "2026-09-06T06:17:13+00:00"
     },
     "world_boss": {
       "score": "33297456800000000",
-      "vs_all_pct": -23.8,
-      "vs_class_pct": -20.4,
+      "vs_all_pct": -23.6,
+      "vs_class_pct": -20.5,
       "date": "2026-09-02T05:19:59+00:00"
     },
     "guild_war": {
@@ -79,13 +79,13 @@
     },
     "guild_training_ground": {
       "score": "11432469",
-      "vs_all_pct": -0.2,
-      "vs_class_pct": -7.5,
+      "vs_all_pct": -0.3,
+      "vs_class_pct": -7.6,
       "date": "2026-07-17T05:53:43+00:00"
     },
     "guild_boss": {
       "score": "102572098587",
-      "vs_all_pct": -7.6,
+      "vs_all_pct": -7.7,
       "vs_class_pct": -6.3,
       "date": "2026-09-04T16:39:48+00:00"
     }
@@ -146,7 +146,7 @@
     ],
     "cp_history": [
       {
-        "date": "2026-08-08T23:33:37+00:00",
+        "date": "2026-08-09T22:05:05+00:00",
         "cpRaw": 3518883171317739,
         "cpDisplay": "3AA 518T"
       },
@@ -273,7 +273,7 @@
     ],
     "level_history": [
       {
-        "date": "2026-08-08T23:33:37+00:00",
+        "date": "2026-08-09T22:05:05+00:00",
         "level": 112
       },
       {
@@ -286,5 +286,5 @@
       }
     ]
   },
-  "scraped_at": "2026-09-07T23:33:39.041957+00:00"
+  "scraped_at": "2026-09-08T22:05:06.746325+00:00"
 }

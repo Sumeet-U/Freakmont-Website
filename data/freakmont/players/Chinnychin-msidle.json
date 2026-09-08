@@ -3,33 +3,33 @@
     "name": "Chinnychin",
     "class": "Bowmaster",
     "level": 109,
-    "cpRaw": 383865024012454,
-    "cpDisplay": "383T 865B",
+    "cpRaw": 411855476453541,
+    "cpDisplay": "411T 855B",
     "fame": 36
   },
   "ranks": {
     "global": {
-      "rank": 15695,
+      "rank": 15320,
       "percentile": 1.1
     },
     "server": {
-      "rank": 228,
-      "percentile": 0.9
+      "rank": 214,
+      "percentile": 0.8
     },
     "world": {
-      "rank": 4519,
-      "percentile": 1.1
+      "rank": 4418,
+      "percentile": 1
     },
     "job": {
-      "rank": 940,
-      "percentile": 0.9
+      "rank": 917,
+      "percentile": 0.8
     }
   },
   "performance": {
     "conquest": {
-      "score": 92456493510,
-      "percentile": 8.5,
-      "updated": "2026-09-07T17:25:06+00:00"
+      "score": 111899786921,
+      "percentile": 7,
+      "updated": "2026-09-08T04:34:34+00:00"
     },
     "training_ground": {
       "score": 4790445,
@@ -43,21 +43,21 @@
     },
     "world_boss": {
       "score": 2626248930000000,
-      "percentile": 6.2,
+      "percentile": 6.8,
       "updated": "2026-08-30T06:24:10+00:00"
     }
   },
   "scoreComparison": {
     "guild_conquest": {
-      "score": "92456493510",
-      "vs_all_pct": 24.5,
-      "vs_class_pct": 31.5,
-      "date": "2026-09-07T17:25:06+00:00"
+      "score": "111899786921",
+      "vs_all_pct": 45.2,
+      "vs_class_pct": 53.3,
+      "date": "2026-09-08T04:34:34+00:00"
     },
     "world_boss": {
       "score": "2626248930000000",
-      "vs_all_pct": 12.8,
-      "vs_class_pct": 7.2,
+      "vs_all_pct": 13.4,
+      "vs_class_pct": 7.8,
       "date": "2026-08-30T06:24:10+00:00"
     },
     "guild_training_ground": {
@@ -69,7 +69,7 @@
     "guild_boss": {
       "score": "3960092528",
       "vs_all_pct": 37,
-      "vs_class_pct": 33.1,
+      "vs_class_pct": 33.2,
       "date": "2026-06-15T08:42:14+00:00"
     }
   },
@@ -106,6 +106,10 @@
       {
         "date": "2026-09-07T17:25:06+00:00",
         "score": "92456493510"
+      },
+      {
+        "date": "2026-09-08T04:34:34+00:00",
+        "score": "111899786921"
       }
     ],
     "training_ground_history": [],
@@ -151,12 +155,7 @@
     ],
     "cp_history": [
       {
-        "date": "2026-08-08T23:36:43+00:00",
-        "cpRaw": 83524030923617,
-        "cpDisplay": "83T 524B"
-      },
-      {
-        "date": "2026-08-09T04:28:50+00:00",
+        "date": "2026-08-09T22:08:30+00:00",
         "cpRaw": 87746997488543,
         "cpDisplay": "87T 746B"
       },
@@ -284,11 +283,16 @@
         "date": "2026-09-05T04:38:49+00:00",
         "cpRaw": 383865024012454,
         "cpDisplay": "383T 865B"
+      },
+      {
+        "date": "2026-09-08T04:34:22+00:00",
+        "cpRaw": 411855476453541,
+        "cpDisplay": "411T 855B"
       }
     ],
     "level_history": [
       {
-        "date": "2026-08-08T23:36:43+00:00",
+        "date": "2026-08-09T22:08:30+00:00",
         "level": 106
       },
       {
@@ -305,5 +309,5 @@
       }
     ]
   },
-  "scraped_at": "2026-09-07T23:36:44.736008+00:00"
+  "scraped_at": "2026-09-08T22:08:31.708347+00:00"
 }

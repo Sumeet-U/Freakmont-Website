@@ -3,141 +3,141 @@
     "name": "RefundKobe",
     "class": "Marksman",
     "level": 117,
-    "cpRaw": 27741788527970320,
-    "cpDisplay": "27AA 741T"
-  },
-  {
-    "name": "ImYolo",
-    "class": "Bishop",
-    "level": 114,
-    "cpRaw": 20273190870652804,
-    "cpDisplay": "20AA 273T"
+    "cpRaw": 27896998736760350,
+    "cpDisplay": "27AA 896T"
   },
   {
     "name": "JaneGarden",
     "class": "Night Lord",
     "level": 117,
-    "cpRaw": 20148969946919470,
-    "cpDisplay": "20AA 148T"
+    "cpRaw": 22336974120164104,
+    "cpDisplay": "22AA 336T"
+  },
+  {
+    "name": "ImYolo",
+    "class": "Bishop",
+    "level": 114,
+    "cpRaw": 21790560164369370,
+    "cpDisplay": "21AA 790T"
   },
   {
     "name": "kbaFM",
     "class": "Night Lord",
     "level": 114,
-    "cpRaw": 10837490827242736,
-    "cpDisplay": "10AA 837T"
+    "cpRaw": 11953401080843616,
+    "cpDisplay": "11AA 953T"
   },
   {
     "name": "Pantshunter",
     "class": "Hero",
     "level": 115,
-    "cpRaw": 10573762764863342,
-    "cpDisplay": "10AA 573T"
+    "cpRaw": 10735225534750020,
+    "cpDisplay": "10AA 735T"
   },
   {
     "name": "poljjak",
     "class": "Bishop",
     "level": 116,
-    "cpRaw": 10192331293229016,
-    "cpDisplay": "10AA 192T"
+    "cpRaw": 10351608366096104,
+    "cpDisplay": "10AA 351T"
   },
   {
     "name": "JaiLBalT",
     "class": "Shadower",
     "level": 114,
-    "cpRaw": 8139263687825475,
-    "cpDisplay": "8AA 139T"
+    "cpRaw": 9754820157932456,
+    "cpDisplay": "9AA 754T"
   },
   {
     "name": "zVinics",
     "class": "Bishop",
     "level": 114,
-    "cpRaw": 7409313264443573,
-    "cpDisplay": "7AA 409T"
+    "cpRaw": 8274734803845637,
+    "cpDisplay": "8AA 274T"
   },
   {
     "name": "KenniTM",
     "class": "Paladin",
     "level": 113,
-    "cpRaw": 6239377718526346,
-    "cpDisplay": "6AA 239T"
+    "cpRaw": 6281514853512812,
+    "cpDisplay": "6AA 281T"
   },
   {
     "name": "Soapdayys",
     "class": "Dark Knight",
     "level": 111,
-    "cpRaw": 3253921187114301,
-    "cpDisplay": "3AA 253T"
+    "cpRaw": 3391821123352369.5,
+    "cpDisplay": "3AA 391T"
   },
   {
     "name": "SuuperCow",
     "class": "Paladin",
     "level": 113,
-    "cpRaw": 3067511000157821.5,
-    "cpDisplay": "3AA 67T"
+    "cpRaw": 3099082301416992,
+    "cpDisplay": "3AA 99T"
   },
   {
     "name": "YungSeaTurtl",
     "class": "Night Lord",
     "level": 112,
-    "cpRaw": 2146038775762399.8,
-    "cpDisplay": "2AA 146T"
-  },
-  {
-    "name": "Amascut",
-    "class": "Bowmaster",
-    "level": 112,
-    "cpRaw": 1886861036693015.2,
-    "cpDisplay": "1AA 886T"
-  },
-  {
-    "name": "Ravenz",
-    "class": "Shadower",
-    "level": 112,
-    "cpRaw": 1886760401183906.8,
-    "cpDisplay": "1AA 886T"
-  },
-  {
-    "name": "Xanite",
-    "class": "Bowmaster",
-    "level": 113,
-    "cpRaw": 1710308310671868,
-    "cpDisplay": "1AA 710T"
+    "cpRaw": 2253912994297271.5,
+    "cpDisplay": "2AA 253T"
   },
   {
     "name": "Caycidia",
     "class": "Ice/Lightning Mage",
     "level": 112,
-    "cpRaw": 1384059799944020.2,
-    "cpDisplay": "1AA 384T"
+    "cpRaw": 1989258513280554,
+    "cpDisplay": "1AA 989T"
   },
   {
-    "name": "Came",
-    "class": "Paladin",
-    "level": 111,
-    "cpRaw": 1182951308371557.5,
-    "cpDisplay": "1AA 182T"
+    "name": "Amascut",
+    "class": "Bowmaster",
+    "level": 112,
+    "cpRaw": 1984397292862563.5,
+    "cpDisplay": "1AA 984T"
+  },
+  {
+    "name": "Ravenz",
+    "class": "Shadower",
+    "level": 112,
+    "cpRaw": 1912289813991759.8,
+    "cpDisplay": "1AA 912T"
+  },
+  {
+    "name": "Xanite",
+    "class": "Bowmaster",
+    "level": 113,
+    "cpRaw": 1745186698034768.5,
+    "cpDisplay": "1AA 745T"
   },
   {
     "name": "xpo168",
     "class": "Fire/Poison Mage",
     "level": 112,
-    "cpRaw": 1122107258631831.4,
-    "cpDisplay": "1AA 122T"
+    "cpRaw": 1443540720038409.2,
+    "cpDisplay": "1AA 443T"
+  },
+  {
+    "name": "Came",
+    "class": "Paladin",
+    "level": 111,
+    "cpRaw": 1243868099422384.5,
+    "cpDisplay": "1AA 243T"
   },
   {
     "name": "Lighttt",
     "class": "Night Lord",
-    "level": 109,
-    "cpRaw": 1084105946347488.5,
-    "cpDisplay": "1AA 84T"
+    "level": 110,
+    "cpRaw": 1181215975084722.2,
+    "cpDisplay": "1AA 181T"
   },
   {
     "name": "RefundPuJay",
     "class": "Marksman",
     "level": 110,
-    "cpRaw": 941516504763705.8,
-    "cpDisplay": "941T 516B"
+    "cpRaw": 1054176583207619.1,
+    "cpDisplay": "1AA 54T"
   },
   {
     "name": "Ashweeb",
@@ -157,41 +157,41 @@
     "name": "Osubo",
     "class": "Marksman",
     "level": 109,
-    "cpRaw": 461684218323925.44,
-    "cpDisplay": "461T 684B"
-  },
-  {
-    "name": "Byro",
-    "class": "Ice/Lightning Mage",
-    "level": 110,
-    "cpRaw": 461048190448188.06,
-    "cpDisplay": "461T 48B"
-  },
-  {
-    "name": "yclzero",
-    "class": "Bowmaster",
-    "level": 110,
-    "cpRaw": 422678066928581.25,
-    "cpDisplay": "422T 678B"
+    "cpRaw": 476516215683900.4,
+    "cpDisplay": "476T 516B"
   },
   {
     "name": "Hayamachop",
     "class": "Hero",
     "level": 109,
-    "cpRaw": 395346442967839.06,
-    "cpDisplay": "395T 346B"
+    "cpRaw": 467830174205412.25,
+    "cpDisplay": "467T 830B"
+  },
+  {
+    "name": "Byro",
+    "class": "Ice/Lightning Mage",
+    "level": 110,
+    "cpRaw": 465951527950511.25,
+    "cpDisplay": "465T 951B"
+  },
+  {
+    "name": "yclzero",
+    "class": "Bowmaster",
+    "level": 110,
+    "cpRaw": 439733035776310.4,
+    "cpDisplay": "439T 733B"
   },
   {
     "name": "Chinnychin",
     "class": "Bowmaster",
     "level": 109,
-    "cpRaw": 383865024012454.25,
-    "cpDisplay": "383T 865B"
+    "cpRaw": 411855476453541.5,
+    "cpDisplay": "411T 855B"
   },
   {
     "name": "greenbanana",
     "class": "Corsair",
-    "level": 108,
+    "level": 109,
     "cpRaw": 365858449292890.9,
     "cpDisplay": "365T 858B"
   },
@@ -199,14 +199,14 @@
     "name": "KayaaToast",
     "class": "Marksman",
     "level": 110,
-    "cpRaw": 244015049612342.22,
-    "cpDisplay": "244T 15B"
+    "cpRaw": 249415462207430.38,
+    "cpDisplay": "249T 415B"
   },
   {
     "name": "jbboaf0ng",
     "class": "Night Lord",
     "level": 104,
-    "cpRaw": 21216365842246.934,
-    "cpDisplay": "21T 216B"
+    "cpRaw": 21959275935971.65,
+    "cpDisplay": "21T 959B"
   }
 ]

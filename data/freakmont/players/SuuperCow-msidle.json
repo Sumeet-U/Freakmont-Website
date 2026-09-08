@@ -9,7 +9,7 @@
   },
   "ranks": {
     "global": {
-      "rank": 4027,
+      "rank": 4146,
       "percentile": 0.3
     },
     "server": {
@@ -17,18 +17,18 @@
       "percentile": 0.2
     },
     "world": {
-      "rank": 1269,
+      "rank": 1299,
       "percentile": 0.3
     },
     "job": {
-      "rank": 491,
+      "rank": 497,
       "percentile": 2.1
     }
   },
   "performance": {
     "conquest": {
       "score": 239912972129,
-      "percentile": 2.9,
+      "percentile": 3,
       "updated": "2026-09-05T04:39:04+00:00"
     },
     "training_ground": {
@@ -48,32 +48,32 @@
     },
     "world_boss": {
       "score": 24810218500000000,
-      "percentile": 2,
+      "percentile": 2.1,
       "updated": "2026-09-06T06:16:09+00:00"
     }
   },
   "scoreComparison": {
     "guild_conquest": {
       "score": "239912972129",
-      "vs_all_pct": 6.5,
+      "vs_all_pct": 6.7,
       "vs_class_pct": 1.4,
       "date": "2026-09-05T04:39:04+00:00"
     },
     "world_boss": {
       "score": "24810218500000000",
-      "vs_all_pct": 11.2,
-      "vs_class_pct": -5.5,
+      "vs_all_pct": 11.5,
+      "vs_class_pct": -4.7,
       "date": "2026-09-06T06:16:09+00:00"
     },
     "guild_war": {
       "score": "103861987062",
       "vs_all_pct": 1.5,
-      "vs_class_pct": -1.6,
+      "vs_class_pct": -1.7,
       "date": "2026-08-28T00:00:56+00:00"
     },
     "guild_training_ground": {
       "score": "10167543",
-      "vs_all_pct": 30.2,
+      "vs_all_pct": 30.1,
       "vs_class_pct": 34.5,
       "date": "2026-07-17T05:53:53+00:00"
     },
@@ -156,7 +156,7 @@
     ],
     "cp_history": [
       {
-        "date": "2026-08-08T23:34:06+00:00",
+        "date": "2026-08-09T22:05:36+00:00",
         "cpRaw": 957542787005142,
         "cpDisplay": "957T 542B"
       },
@@ -268,7 +268,7 @@
     ],
     "level_history": [
       {
-        "date": "2026-08-08T23:34:06+00:00",
+        "date": "2026-08-09T22:05:36+00:00",
         "level": 111
       },
       {
@@ -281,5 +281,5 @@
       }
     ]
   },
-  "scraped_at": "2026-09-07T23:34:07.856350+00:00"
+  "scraped_at": "2026-09-08T22:05:37.743059+00:00"
 }
