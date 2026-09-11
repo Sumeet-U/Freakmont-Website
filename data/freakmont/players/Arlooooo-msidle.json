@@ -3,38 +3,38 @@
     "name": "Arlooooo",
     "class": "Hero",
     "level": 110,
-    "cpRaw": 488990384062267,
+    "cpRaw": "488990384062268",
     "cpDisplay": "488T 990B",
-    "fame": 326
+    "fame": 329
   },
   "ranks": {
     "global": {
-      "rank": 13517,
-      "percentile": 0.9
+      "rank": 17111,
+      "percentile": 1.2
     },
     "server": {
-      "rank": 189,
-      "percentile": 0.7
+      "rank": 202,
+      "percentile": 0.8
     },
     "world": {
-      "rank": 3946,
-      "percentile": 0.9
+      "rank": 4130,
+      "percentile": 1
     },
     "job": {
-      "rank": 706,
-      "percentile": 0.7
+      "rank": 889,
+      "percentile": 0.9
     }
   },
   "performance": {
     "conquest": {
       "score": 90335967314,
-      "percentile": 8.7,
+      "percentile": 9.3,
       "updated": "2026-09-07T17:25:07+00:00"
     },
     "training_ground": {
-      "score": 2671449,
-      "percentile": 24.9,
-      "updated": "2026-06-19T04:16:02+00:00"
+      "score": 4605495,
+      "percentile": 14.9,
+      "updated": "2026-09-11T02:47:47+00:00"
     },
     "guild_boss_battle": {
       "score": 5973832528,
@@ -43,12 +43,12 @@
     },
     "guild_war": {
       "score": 17214506136,
-      "percentile": 69.1,
+      "percentile": 44.6,
       "updated": "2026-08-28T00:00:56+00:00"
     },
     "world_boss": {
       "score": 7019981370000000,
-      "percentile": 4.1,
+      "percentile": 4.3,
       "updated": "2026-09-08T04:34:04+00:00"
     }
   },
@@ -62,26 +62,26 @@
     "guild_conquest": {
       "score": "90335967314",
       "vs_all_pct": 6.8,
-      "vs_class_pct": 11.7,
+      "vs_class_pct": 11.2,
       "date": "2026-09-07T17:25:07+00:00"
     },
     "world_boss": {
       "score": "7019981370000000",
-      "vs_all_pct": 119.2,
-      "vs_class_pct": 111.5,
+      "vs_all_pct": 120.9,
+      "vs_class_pct": 113.8,
       "date": "2026-09-08T04:34:04+00:00"
     },
     "guild_war": {
       "score": "17214506136",
-      "vs_all_pct": -52,
-      "vs_class_pct": -49.8,
+      "vs_all_pct": -48.4,
+      "vs_class_pct": -46.5,
       "date": "2026-08-28T00:00:56+00:00"
     },
     "guild_training_ground": {
-      "score": "2671449",
-      "vs_all_pct": -15.2,
-      "vs_class_pct": -7.4,
-      "date": "2026-06-19T04:16:02+00:00"
+      "score": "4605495",
+      "vs_all_pct": -38.2,
+      "vs_class_pct": -32.4,
+      "date": "2026-09-11T02:47:47+00:00"
     },
     "guild_boss": {
       "score": "5973832528",
@@ -92,10 +92,6 @@
   },
   "history": {
     "conquest_history": [
-      {
-        "date": "2026-08-10T05:41:51+00:00",
-        "score": "49910402473"
-      },
       {
         "date": "2026-08-15T06:17:24+00:00",
         "score": "56095842363"
@@ -113,7 +109,12 @@
         "score": "90335967314"
       }
     ],
-    "training_ground_history": [],
+    "training_ground_history": [
+      {
+        "date": "2026-09-11T02:47:47+00:00",
+        "score": "4605495"
+      }
+    ],
     "guild_boss_battle_history": [],
     "guild_war_history": [
       {
@@ -157,7 +158,7 @@
     ],
     "cp_history": [
       {
-        "date": "2026-08-09T22:07:38+00:00",
+        "date": "2026-08-12T08:04:30+00:00",
         "cpRaw": 178470557559458,
         "cpDisplay": "178T 470B"
       },
@@ -220,15 +221,16 @@
         "date": "2026-09-04T18:08:35+00:00",
         "cpRaw": 488990384062267,
         "cpDisplay": "488T 990B"
+      },
+      {
+        "date": "2026-09-11T02:47:47+00:00",
+        "cpRaw": 488990384062268,
+        "cpDisplay": "488T 990B"
       }
     ],
     "level_history": [
       {
-        "date": "2026-08-09T22:07:38+00:00",
-        "level": 107
-      },
-      {
-        "date": "2026-08-10T13:51:29+00:00",
+        "date": "2026-08-12T08:04:30+00:00",
         "level": 108
       },
       {
@@ -241,5 +243,5 @@
       }
     ]
   },
-  "scraped_at": "2026-09-08T22:07:39.791653+00:00"
+  "scraped_at": "2026-09-11T08:04:32.220673+00:00"
 }

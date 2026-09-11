@@ -14,11 +14,11 @@
     "percentile": 81.8
   },
   "training_ground": {
-    "score": 8492232,
-    "snapshotDate": "2026-07-16",
-    "peerRank": null,
+    "score": 11686614,
+    "snapshotDate": "2026-09-10",
+    "peerRank": 4,
     "peerCount": 12,
-    "percentile": null
+    "percentile": 72.7
   },
   "guild_war": {
     "score": 248262706054.04166,

@@ -1,20 +1,20 @@
 {
   "ranks": {
     "global_rank": {
-      "rank": 2892,
-      "total": 236587
+      "rank": 2979,
+      "total": 238221
     },
     "bera": {
-      "rank": 1693,
-      "total": 104002
+      "rank": 1739,
+      "total": 104559
     },
     "bera_5": {
-      "rank": 70,
+      "rank": 72,
       "total": 2000
     },
     "ice/lightning_mage": {
-      "rank": 122,
-      "total": 26539
+      "rank": 125,
+      "total": 26670
     }
   },
   "performance": {
@@ -27,8 +27,8 @@
       "updated": "Sep 6"
     },
     "training_ground": {
-      "score": 6411192,
-      "updated": "Jul 16"
+      "score": 7336932,
+      "updated": "Sep 10"
     },
     "guild_war": {
       "score": 116338427065.22963,
@@ -40,22 +40,6 @@
     }
   },
   "history": [
-    {
-      "date": "8/10",
-      "cpRaw": 570733395917496.4,
-      "cpDisplay": "570T 733B",
-      "level": 110,
-      "globalRank": 3248,
-      "fame": 1287
-    },
-    {
-      "date": "8/11",
-      "cpRaw": 618390796399506.5,
-      "cpDisplay": "618T 390B",
-      "level": 110,
-      "globalRank": 3149,
-      "fame": 1291
-    },
     {
       "date": "8/12",
       "cpRaw": 621345573718671.6,
@@ -279,7 +263,23 @@
       "level": 112,
       "globalRank": 2892,
       "fame": 1314
+    },
+    {
+      "date": "9/9",
+      "cpRaw": 1997398406741541.8,
+      "cpDisplay": "1AA 997T",
+      "level": 112,
+      "globalRank": 2944,
+      "fame": 1314
+    },
+    {
+      "date": "9/10",
+      "cpRaw": 2000882917078860,
+      "cpDisplay": "2AA",
+      "level": 112,
+      "globalRank": 2979,
+      "fame": 1314
     }
   ],
-  "scraped_at": "2026-09-08T22:02:42.512008+00:00"
+  "scraped_at": "2026-09-11T07:58:58.941070+00:00"
 }

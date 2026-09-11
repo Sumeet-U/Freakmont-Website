@@ -1,20 +1,20 @@
 {
   "ranks": {
     "global_rank": {
-      "rank": 3713,
-      "total": 236587
+      "rank": 3820,
+      "total": 238221
     },
     "bera": {
-      "rank": 2170,
-      "total": 104002
+      "rank": 2230,
+      "total": 104559
     },
     "bera_5": {
-      "rank": 95,
+      "rank": 97,
       "total": 2000
     },
     "paladin": {
-      "rank": 344,
-      "total": 8676
+      "rank": 352,
+      "total": 8718
     }
   },
   "performance": {
@@ -27,8 +27,8 @@
       "updated": "Sep 6"
     },
     "training_ground": {
-      "score": 6149094,
-      "updated": "Jul 16"
+      "score": 7031325,
+      "updated": "Sep 10"
     },
     "guild_war": {
       "score": 90697670568.91388,
@@ -40,22 +40,6 @@
     }
   },
   "history": [
-    {
-      "date": "8/10",
-      "cpRaw": 531570984369114.25,
-      "cpDisplay": "531T 570B",
-      "level": 110,
-      "globalRank": 3403,
-      "fame": 189
-    },
-    {
-      "date": "8/11",
-      "cpRaw": 573976033331760.8,
-      "cpDisplay": "573T 976B",
-      "level": 110,
-      "globalRank": 3308,
-      "fame": 189
-    },
     {
       "date": "8/12",
       "cpRaw": 577331809625694.2,
@@ -279,7 +263,23 @@
       "level": 111,
       "globalRank": 3713,
       "fame": 201
+    },
+    {
+      "date": "9/9",
+      "cpRaw": 1243868099422384.5,
+      "cpDisplay": "1AA 243T",
+      "level": 111,
+      "globalRank": 3768,
+      "fame": 202
+    },
+    {
+      "date": "9/10",
+      "cpRaw": 1243868099422384.5,
+      "cpDisplay": "1AA 243T",
+      "level": 112,
+      "globalRank": 3820,
+      "fame": 202
     }
   ],
-  "scraped_at": "2026-09-08T22:02:57.893933+00:00"
+  "scraped_at": "2026-09-11T07:59:13.152424+00:00"
 }

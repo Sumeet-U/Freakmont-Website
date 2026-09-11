@@ -1,20 +1,20 @@
 {
   "ranks": {
     "global_rank": {
-      "rank": 3403,
-      "total": 236587
+      "rank": 3327,
+      "total": 238221
     },
     "bera": {
-      "rank": 1979,
-      "total": 104002
+      "rank": 1931,
+      "total": 104559
     },
     "bera_5": {
-      "rank": 84,
+      "rank": 81,
       "total": 2000
     },
     "fire/poison_mage": {
-      "rank": 57,
-      "total": 11634
+      "rank": 55,
+      "total": 11693
     }
   },
   "performance": {
@@ -27,8 +27,8 @@
       "updated": "Sep 6"
     },
     "training_ground": {
-      "score": 7430415,
-      "updated": "Jul 2"
+      "score": 8648664,
+      "updated": "Sep 10"
     },
     "guild_war": {
       "score": 107816609422.16458,
@@ -40,22 +40,6 @@
     }
   },
   "history": [
-    {
-      "date": "8/10",
-      "cpRaw": 538419612999261.44,
-      "cpDisplay": "538T 419B",
-      "level": 111,
-      "globalRank": 3362,
-      "fame": 300
-    },
-    {
-      "date": "8/11",
-      "cpRaw": 563977450816748.2,
-      "cpDisplay": "563T 977B",
-      "level": 111,
-      "globalRank": 3339,
-      "fame": 301
-    },
     {
       "date": "8/12",
       "cpRaw": 565850093154822.6,
@@ -279,7 +263,23 @@
       "level": 112,
       "globalRank": 3403,
       "fame": 347
+    },
+    {
+      "date": "9/9",
+      "cpRaw": 1590847134513435,
+      "cpDisplay": "1AA 590T",
+      "level": 112,
+      "globalRank": 3274,
+      "fame": 348
+    },
+    {
+      "date": "9/10",
+      "cpRaw": 1592652392426148.8,
+      "cpDisplay": "1AA 592T",
+      "level": 112,
+      "globalRank": 3327,
+      "fame": 348
     }
   ],
-  "scraped_at": "2026-09-08T22:02:54.839357+00:00"
+  "scraped_at": "2026-09-11T07:59:08.532315+00:00"
 }

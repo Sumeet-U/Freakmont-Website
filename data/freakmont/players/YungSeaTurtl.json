@@ -1,20 +1,20 @@
 {
   "ranks": {
     "global_rank": {
-      "rank": 2698,
-      "total": 236587
+      "rank": 2764,
+      "total": 238221
     },
     "bera": {
-      "rank": 1585,
-      "total": 104002
+      "rank": 1618,
+      "total": 104559
     },
     "bera_5": {
-      "rank": 65,
+      "rank": 68,
       "total": 2000
     },
     "night_lord": {
-      "rank": 412,
-      "total": 29446
+      "rank": 422,
+      "total": 29500
     }
   },
   "performance": {
@@ -27,8 +27,8 @@
       "updated": "Sep 6"
     },
     "training_ground": {
-      "score": 8263503,
-      "updated": "Jul 16"
+      "score": 10993206,
+      "updated": "Sep 10"
     },
     "guild_war": {
       "score": 160605021953.06284,
@@ -40,22 +40,6 @@
     }
   },
   "history": [
-    {
-      "date": "8/10",
-      "cpRaw": 472000257870820.7,
-      "cpDisplay": "472T",
-      "level": 110,
-      "globalRank": 3660,
-      "fame": 710
-    },
-    {
-      "date": "8/11",
-      "cpRaw": 517040015973890.8,
-      "cpDisplay": "517T 40B",
-      "level": 110,
-      "globalRank": 3521,
-      "fame": 712
-    },
     {
       "date": "8/12",
       "cpRaw": 522606175258019.2,
@@ -279,7 +263,23 @@
       "level": 112,
       "globalRank": 2698,
       "fame": 754
+    },
+    {
+      "date": "9/9",
+      "cpRaw": 2254053817266599,
+      "cpDisplay": "2AA 254T",
+      "level": 112,
+      "globalRank": 2749,
+      "fame": 754
+    },
+    {
+      "date": "9/10",
+      "cpRaw": 2286661440875658.5,
+      "cpDisplay": "2AA 286T",
+      "level": 112,
+      "globalRank": 2764,
+      "fame": 758
     }
   ],
-  "scraped_at": "2026-09-08T22:02:39.830151+00:00"
+  "scraped_at": "2026-09-11T07:58:51.321404+00:00"
 }

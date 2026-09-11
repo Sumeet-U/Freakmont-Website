@@ -3,38 +3,38 @@
     "name": "Xanite",
     "class": "Bowmaster",
     "level": 113,
-    "cpRaw": 1745186698034768,
+    "cpRaw": "1745186698034768",
     "cpDisplay": "1AA 745T",
     "fame": 147
   },
   "ranks": {
     "global": {
-      "rank": 5798,
-      "percentile": 0.4
+      "rank": 8507,
+      "percentile": 0.6
     },
     "server": {
       "rank": 80,
       "percentile": 0.3
     },
     "world": {
-      "rank": 1811,
-      "percentile": 0.4
+      "rank": 1900,
+      "percentile": 0.5
     },
     "job": {
-      "rank": 332,
-      "percentile": 0.3
+      "rank": 490,
+      "percentile": 0.4
     }
   },
   "performance": {
     "conquest": {
       "score": 180293633780,
-      "percentile": 3.9,
+      "percentile": 4.2,
       "updated": "2026-09-08T04:34:28+00:00"
     },
     "training_ground": {
-      "score": 5601204,
-      "percentile": 6.7,
-      "updated": "2026-07-03T01:50:51+00:00"
+      "score": 11366172,
+      "percentile": 3.4,
+      "updated": "2026-09-11T02:47:03+00:00"
     },
     "guild_boss_battle": {
       "score": 50210412070,
@@ -42,13 +42,13 @@
       "updated": "2026-09-04T16:39:38+00:00"
     },
     "guild_war": {
-      "score": 107966957071,
-      "percentile": 19.9,
-      "updated": "2026-08-28T00:00:56+00:00"
+      "score": 119536339373,
+      "percentile": 15.1,
+      "updated": "2026-09-10T03:16:40+00:00"
     },
     "world_boss": {
       "score": 19622055200000000,
-      "percentile": 2.3,
+      "percentile": 2.5,
       "updated": "2026-09-08T04:33:53+00:00"
     }
   },
@@ -61,41 +61,37 @@
     },
     "guild_conquest": {
       "score": "180293633780",
-      "vs_all_pct": 6.9,
-      "vs_class_pct": 12.8,
+      "vs_all_pct": 6.8,
+      "vs_class_pct": 12.6,
       "date": "2026-09-08T04:34:28+00:00"
     },
     "world_boss": {
       "score": "19622055200000000",
-      "vs_all_pct": 56,
-      "vs_class_pct": 48.3,
+      "vs_all_pct": 57.4,
+      "vs_class_pct": 49.7,
       "date": "2026-09-08T04:33:53+00:00"
     },
     "guild_war": {
-      "score": "107966957071",
-      "vs_all_pct": 43.1,
-      "vs_class_pct": 28.3,
-      "date": "2026-08-28T00:00:56+00:00"
+      "score": "119536339373",
+      "vs_all_pct": 27.7,
+      "vs_class_pct": 11.2,
+      "date": "2026-09-10T03:16:40+00:00"
     },
     "guild_training_ground": {
-      "score": "5601204",
-      "vs_all_pct": -2.5,
-      "vs_class_pct": -18.5,
-      "date": "2026-07-03T01:50:51+00:00"
+      "score": "11366172",
+      "vs_all_pct": 7.8,
+      "vs_class_pct": -10.4,
+      "date": "2026-09-11T02:47:03+00:00"
     },
     "guild_boss": {
       "score": "50210412070",
-      "vs_all_pct": -6.5,
-      "vs_class_pct": -9.2,
+      "vs_all_pct": -6.6,
+      "vs_class_pct": -9.3,
       "date": "2026-09-04T16:39:38+00:00"
     }
   },
   "history": {
     "conquest_history": [
-      {
-        "date": "2026-08-11T05:26:20+00:00",
-        "score": "140653566900"
-      },
       {
         "date": "2026-08-18T04:24:07+00:00",
         "score": "156486778876"
@@ -113,7 +109,12 @@
         "score": "180293633780"
       }
     ],
-    "training_ground_history": [],
+    "training_ground_history": [
+      {
+        "date": "2026-09-11T02:47:03+00:00",
+        "score": "11366172"
+      }
+    ],
     "guild_boss_battle_history": [
       {
         "date": "2026-08-21T20:36:20+00:00",
@@ -132,17 +133,13 @@
       {
         "date": "2026-08-28T00:00:56+00:00",
         "score": "107966957071"
+      },
+      {
+        "date": "2026-09-10T03:16:40+00:00",
+        "score": "119536339373"
       }
     ],
     "world_boss_history": [
-      {
-        "date": "2026-08-10T05:39:55+00:00",
-        "score": "8846297940000000"
-      },
-      {
-        "date": "2026-08-11T05:25:25+00:00",
-        "score": "9584223860000000"
-      },
       {
         "date": "2026-08-14T05:45:10+00:00",
         "score": "11850969000000000"
@@ -186,17 +183,7 @@
     ],
     "cp_history": [
       {
-        "date": "2026-08-09T22:06:34+00:00",
-        "cpRaw": 769245796963477,
-        "cpDisplay": "769T 245B"
-      },
-      {
-        "date": "2026-08-10T05:39:54+00:00",
-        "cpRaw": 771787697838228,
-        "cpDisplay": "771T 787B"
-      },
-      {
-        "date": "2026-08-11T05:25:25+00:00",
+        "date": "2026-08-12T08:03:07+00:00",
         "cpRaw": 796949077585503,
         "cpDisplay": "796T 949B"
       },
@@ -343,11 +330,7 @@
     ],
     "level_history": [
       {
-        "date": "2026-08-09T22:06:34+00:00",
-        "level": 110
-      },
-      {
-        "date": "2026-08-11T07:50:34+00:00",
+        "date": "2026-08-12T08:03:08+00:00",
         "level": 111
       },
       {
@@ -360,5 +343,5 @@
       }
     ]
   },
-  "scraped_at": "2026-09-08T22:06:35.498980+00:00"
+  "scraped_at": "2026-09-11T08:03:09.469612+00:00"
 }

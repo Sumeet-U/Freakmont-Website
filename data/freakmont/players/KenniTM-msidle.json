@@ -3,37 +3,37 @@
     "name": "KenniTM",
     "class": "Paladin",
     "level": 113,
-    "cpRaw": 6239377718526346,
-    "cpDisplay": "6AA 239T",
+    "cpRaw": "6496714801253452",
+    "cpDisplay": "6AA 496T",
     "fame": 169
   },
   "ranks": {
     "global": {
-      "rank": 2717,
-      "percentile": 0.2
+      "rank": 4033,
+      "percentile": 0.3
     },
     "server": {
       "rank": 37,
       "percentile": 0.1
     },
     "world": {
-      "rank": 904,
+      "rank": 941,
       "percentile": 0.2
     },
     "job": {
-      "rank": 361,
-      "percentile": 1.5
+      "rank": 565,
+      "percentile": 2.3
     }
   },
   "performance": {
     "conquest": {
-      "score": 474675794544,
+      "score": 495733163641,
       "percentile": 1.7,
-      "updated": "2026-09-06T06:17:12+00:00"
+      "updated": "2026-09-09T04:34:21+00:00"
     },
     "training_ground": {
       "score": 8254155,
-      "percentile": 2.9,
+      "percentile": 6,
       "updated": "2026-07-17T05:53:52+00:00"
     },
     "guild_boss_battle": {
@@ -42,13 +42,13 @@
       "updated": "2026-08-27T16:27:27+00:00"
     },
     "guild_war": {
-      "score": 175330126193,
-      "percentile": 6.7,
-      "updated": "2026-09-03T05:37:09+00:00"
+      "score": 199672441267,
+      "percentile": 6.5,
+      "updated": "2026-09-10T03:17:03+00:00"
     },
     "world_boss": {
       "score": 78278541100000000,
-      "percentile": 1.1,
+      "percentile": 1.2,
       "updated": "2026-09-08T04:33:49+00:00"
     }
   },
@@ -60,27 +60,27 @@
       "date": "2026-07-29T11:32:33+00:00"
     },
     "guild_conquest": {
-      "score": "474675794544",
-      "vs_all_pct": 48.7,
-      "vs_class_pct": 41.3,
-      "date": "2026-09-06T06:17:12+00:00"
+      "score": "495733163641",
+      "vs_all_pct": 43.8,
+      "vs_class_pct": 36.4,
+      "date": "2026-09-09T04:34:21+00:00"
     },
     "world_boss": {
       "score": "78278541100000000",
-      "vs_all_pct": 58.1,
-      "vs_class_pct": 35.1,
+      "vs_all_pct": 59.7,
+      "vs_class_pct": 36.4,
       "date": "2026-09-08T04:33:49+00:00"
     },
     "guild_war": {
-      "score": "175330126193",
-      "vs_all_pct": -5,
-      "vs_class_pct": -8,
-      "date": "2026-09-03T05:37:09+00:00"
+      "score": "199672441267",
+      "vs_all_pct": 4.5,
+      "vs_class_pct": 0.8,
+      "date": "2026-09-10T03:17:03+00:00"
     },
     "guild_training_ground": {
       "score": "8254155",
-      "vs_all_pct": 4.3,
-      "vs_class_pct": 7.9,
+      "vs_all_pct": 5.9,
+      "vs_class_pct": 9.7,
       "date": "2026-07-17T05:53:52+00:00"
     },
     "guild_boss": {
@@ -127,6 +127,10 @@
       {
         "date": "2026-09-06T06:17:12+00:00",
         "score": "474675794544"
+      },
+      {
+        "date": "2026-09-09T04:34:21+00:00",
+        "score": "495733163641"
       }
     ],
     "training_ground_history": [],
@@ -148,6 +152,10 @@
       {
         "date": "2026-09-03T05:37:09+00:00",
         "score": "175330126193"
+      },
+      {
+        "date": "2026-09-10T03:17:03+00:00",
+        "score": "199672441267"
       }
     ],
     "world_boss_history": [
@@ -194,17 +202,7 @@
     ],
     "cp_history": [
       {
-        "date": "2026-08-09T22:05:16+00:00",
-        "cpRaw": 1712516419173983,
-        "cpDisplay": "1AA 712T"
-      },
-      {
-        "date": "2026-08-10T05:39:50+00:00",
-        "cpRaw": 1749339199942699,
-        "cpDisplay": "1AA 749T"
-      },
-      {
-        "date": "2026-08-10T11:52:36+00:00",
+        "date": "2026-08-12T08:01:46+00:00",
         "cpRaw": 1896851755204097,
         "cpDisplay": "1AA 896T"
       },
@@ -332,11 +330,16 @@
         "date": "2026-09-07T17:24:28+00:00",
         "cpRaw": 6239377718526346,
         "cpDisplay": "6AA 239T"
+      },
+      {
+        "date": "2026-09-09T04:33:30+00:00",
+        "cpRaw": 6496714801253452,
+        "cpDisplay": "6AA 496T"
       }
     ],
     "level_history": [
       {
-        "date": "2026-08-09T22:05:16+00:00",
+        "date": "2026-08-12T08:01:46+00:00",
         "level": 111
       },
       {
@@ -349,5 +352,5 @@
       }
     ]
   },
-  "scraped_at": "2026-09-08T22:05:17.384663+00:00"
+  "scraped_at": "2026-09-11T08:01:47.608775+00:00"
 }
