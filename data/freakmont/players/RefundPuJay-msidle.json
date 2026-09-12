@@ -3,32 +3,32 @@
     "name": "RefundPuJay",
     "class": "Marksman",
     "level": 110,
-    "cpRaw": "1068236801185492",
-    "cpDisplay": "1AA 68T",
+    "cpRaw": "1126508103986150",
+    "cpDisplay": "1AA 126T",
     "fame": 43
   },
   "ranks": {
     "global": {
-      "rank": 10819,
+      "rank": 10690,
       "percentile": 0.7
     },
     "server": {
-      "rank": 111,
+      "rank": 109,
       "percentile": 0.4
     },
     "world": {
-      "rank": 2510,
+      "rank": 2476,
       "percentile": 0.6
     },
     "job": {
-      "rank": 739,
+      "rank": 727,
       "percentile": 1.1
     }
   },
   "performance": {
     "conquest": {
       "score": 144550429941,
-      "percentile": 5.3,
+      "percentile": 5.4,
       "updated": "2026-09-07T17:24:45+00:00"
     },
     "training_ground": {
@@ -61,32 +61,32 @@
     },
     "guild_conquest": {
       "score": "144550429941",
-      "vs_all_pct": 15.1,
-      "vs_class_pct": 13.5,
+      "vs_all_pct": 15.3,
+      "vs_class_pct": 13.8,
       "date": "2026-09-07T17:24:45+00:00"
     },
     "world_boss": {
       "score": "9154104410000000",
-      "vs_all_pct": 51,
-      "vs_class_pct": 25.5,
+      "vs_all_pct": 51.8,
+      "vs_class_pct": 27,
       "date": "2026-09-02T05:20:08+00:00"
     },
     "guild_war": {
       "score": "101784087599",
       "vs_all_pct": 42.9,
-      "vs_class_pct": 40.4,
+      "vs_class_pct": 40.5,
       "date": "2026-09-10T03:16:33+00:00"
     },
     "guild_training_ground": {
       "score": "7165968",
-      "vs_all_pct": -22.3,
-      "vs_class_pct": -26,
+      "vs_all_pct": -14.5,
+      "vs_class_pct": -19.4,
       "date": "2026-09-11T02:46:38+00:00"
     },
     "guild_boss": {
       "score": "50125034652",
       "vs_all_pct": 15.5,
-      "vs_class_pct": 10.3,
+      "vs_class_pct": 10.2,
       "date": "2026-09-04T16:39:40+00:00"
     }
   },
@@ -187,7 +187,7 @@
     ],
     "cp_history": [
       {
-        "date": "2026-08-12T08:03:54+00:00",
+        "date": "2026-08-13T22:08:12+00:00",
         "cpRaw": 285962474464961,
         "cpDisplay": "285T 962B"
       },
@@ -315,11 +315,16 @@
         "date": "2026-09-11T02:46:38+00:00",
         "cpRaw": 1068236801185492,
         "cpDisplay": "1AA 68T"
+      },
+      {
+        "date": "2026-09-11T17:36:41+00:00",
+        "cpRaw": 1126508103986150,
+        "cpDisplay": "1AA 126T"
       }
     ],
     "level_history": [
       {
-        "date": "2026-08-12T08:03:54+00:00",
+        "date": "2026-08-13T22:08:12+00:00",
         "level": 107
       },
       {
@@ -336,5 +341,5 @@
       }
     ]
   },
-  "scraped_at": "2026-09-11T08:03:56.133425+00:00"
+  "scraped_at": "2026-09-12T22:08:14.013563+00:00"
 }

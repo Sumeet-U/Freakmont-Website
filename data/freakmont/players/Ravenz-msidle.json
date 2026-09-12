@@ -3,13 +3,13 @@
     "name": "Ravenz",
     "class": "Shadower",
     "level": 112,
-    "cpRaw": "2113297147495531",
-    "cpDisplay": "2AA 113T",
+    "cpRaw": "2170420515402790",
+    "cpDisplay": "2AA 170T",
     "fame": 1007
   },
   "ranks": {
     "global": {
-      "rank": 7737,
+      "rank": 7747,
       "percentile": 0.5
     },
     "server": {
@@ -17,18 +17,18 @@
       "percentile": 0.3
     },
     "world": {
-      "rank": 1737,
+      "rank": 1746,
       "percentile": 0.4
     },
     "job": {
-      "rank": 760,
+      "rank": 754,
       "percentile": 0.5
     }
   },
   "performance": {
     "conquest": {
       "score": 195322042488,
-      "percentile": 3.8,
+      "percentile": 3.9,
       "updated": "2026-09-08T04:34:27+00:00"
     },
     "training_ground": {
@@ -61,32 +61,32 @@
     },
     "guild_conquest": {
       "score": "195322042488",
-      "vs_all_pct": 10.1,
-      "vs_class_pct": 14.1,
+      "vs_all_pct": 10.3,
+      "vs_class_pct": 14.2,
       "date": "2026-09-08T04:34:27+00:00"
     },
     "world_boss": {
       "score": "18032111000000000",
-      "vs_all_pct": 31.1,
-      "vs_class_pct": 31.7,
+      "vs_all_pct": 31.8,
+      "vs_class_pct": 32.7,
       "date": "2026-09-08T04:33:54+00:00"
     },
     "guild_war": {
       "score": "119442559885",
       "vs_all_pct": 16.6,
-      "vs_class_pct": 16,
+      "vs_class_pct": 16.1,
       "date": "2026-09-10T03:16:41+00:00"
     },
     "guild_training_ground": {
       "score": "6269253",
-      "vs_all_pct": -0.5,
-      "vs_class_pct": 6.2,
+      "vs_all_pct": 7.4,
+      "vs_class_pct": 15.4,
       "date": "2026-07-17T05:54:02+00:00"
     },
     "guild_boss": {
       "score": "64162860993",
       "vs_all_pct": 9.3,
-      "vs_class_pct": 7.6,
+      "vs_class_pct": 7.5,
       "date": "2026-09-04T16:39:56+00:00"
     }
   },
@@ -170,7 +170,7 @@
     ],
     "cp_history": [
       {
-        "date": "2026-08-12T08:02:33+00:00",
+        "date": "2026-08-13T22:06:47+00:00",
         "cpRaw": 649273031628778,
         "cpDisplay": "649T 273B"
       },
@@ -318,11 +318,21 @@
         "date": "2026-09-11T06:05:11+00:00",
         "cpRaw": 2113297147495531,
         "cpDisplay": "2AA 113T"
+      },
+      {
+        "date": "2026-09-11T17:36:34+00:00",
+        "cpRaw": 2113707523887672,
+        "cpDisplay": "2AA 113T"
+      },
+      {
+        "date": "2026-09-12T04:55:57+00:00",
+        "cpRaw": 2170420515402790,
+        "cpDisplay": "2AA 170T"
       }
     ],
     "level_history": [
       {
-        "date": "2026-08-12T08:02:33+00:00",
+        "date": "2026-08-13T22:06:48+00:00",
         "level": 110
       },
       {
@@ -335,5 +345,5 @@
       }
     ]
   },
-  "scraped_at": "2026-09-11T08:02:34.597083+00:00"
+  "scraped_at": "2026-09-12T22:06:49.286298+00:00"
 }

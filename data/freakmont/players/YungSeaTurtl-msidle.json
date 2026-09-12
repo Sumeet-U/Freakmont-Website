@@ -3,13 +3,13 @@
     "name": "YungSeaTurtl",
     "class": "Night Lord",
     "level": 112,
-    "cpRaw": "2290427606475518",
-    "cpDisplay": "2AA 290T",
+    "cpRaw": "2294325896319286",
+    "cpDisplay": "2AA 294T",
     "fame": 758
   },
   "ranks": {
     "global": {
-      "rank": 7401,
+      "rank": 7518,
       "percentile": 0.5
     },
     "server": {
@@ -17,18 +17,18 @@
       "percentile": 0.3
     },
     "world": {
-      "rank": 1654,
+      "rank": 1683,
       "percentile": 0.4
     },
     "job": {
-      "rank": 1031,
+      "rank": 1064,
       "percentile": 0.5
     }
   },
   "performance": {
     "conquest": {
       "score": 272635273690,
-      "percentile": 2.8,
+      "percentile": 2.9,
       "updated": "2026-09-09T04:34:22+00:00"
     },
     "training_ground": {
@@ -61,14 +61,14 @@
     },
     "guild_conquest": {
       "score": "272635273690",
-      "vs_all_pct": 40.5,
+      "vs_all_pct": 40.7,
       "vs_class_pct": 47.8,
       "date": "2026-09-09T04:34:22+00:00"
     },
     "world_boss": {
       "score": "40780960000000000",
-      "vs_all_pct": 144.7,
-      "vs_class_pct": 146.4,
+      "vs_all_pct": 146,
+      "vs_class_pct": 147.1,
       "date": "2026-09-10T04:37:21+00:00"
     },
     "guild_war": {
@@ -79,14 +79,14 @@
     },
     "guild_training_ground": {
       "score": "8263503",
-      "vs_all_pct": 39,
-      "vs_class_pct": 40.1,
+      "vs_all_pct": 49.7,
+      "vs_class_pct": 49,
       "date": "2026-07-17T05:53:52+00:00"
     },
     "guild_boss": {
       "score": "92917130578",
       "vs_all_pct": 45.7,
-      "vs_class_pct": 48.6,
+      "vs_class_pct": 48.5,
       "date": "2026-09-04T16:40:22+00:00"
     }
   },
@@ -206,7 +206,7 @@
     ],
     "cp_history": [
       {
-        "date": "2026-08-12T08:02:21+00:00",
+        "date": "2026-08-13T22:06:35+00:00",
         "cpRaw": 517040015973890,
         "cpDisplay": "517T 40B"
       },
@@ -354,11 +354,16 @@
         "date": "2026-09-11T06:05:06+00:00",
         "cpRaw": 2290427606475518,
         "cpDisplay": "2AA 290T"
+      },
+      {
+        "date": "2026-09-11T17:36:33+00:00",
+        "cpRaw": 2294325896319286,
+        "cpDisplay": "2AA 294T"
       }
     ],
     "level_history": [
       {
-        "date": "2026-08-12T08:02:21+00:00",
+        "date": "2026-08-13T22:06:35+00:00",
         "level": 110
       },
       {
@@ -371,5 +376,5 @@
       }
     ]
   },
-  "scraped_at": "2026-09-11T08:02:22.686244+00:00"
+  "scraped_at": "2026-09-12T22:06:37.524153+00:00"
 }

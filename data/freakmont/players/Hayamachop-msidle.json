@@ -3,32 +3,32 @@
     "name": "Hayamachop",
     "class": "Hero",
     "level": 109,
-    "cpRaw": "494113230587645",
-    "cpDisplay": "494T 113B",
+    "cpRaw": "507826969972618",
+    "cpDisplay": "507T 826B",
     "fame": 50
   },
   "ranks": {
     "global": {
-      "rank": 17006,
+      "rank": 17000,
       "percentile": 1.2
     },
     "server": {
-      "rank": 200,
-      "percentile": 0.8
+      "rank": 198,
+      "percentile": 0.7
     },
     "world": {
-      "rank": 4103,
+      "rank": 4100,
       "percentile": 1
     },
     "job": {
-      "rank": 880,
+      "rank": 874,
       "percentile": 0.9
     }
   },
   "performance": {
     "conquest": {
       "score": 69377264751,
-      "percentile": 11,
+      "percentile": 11.1,
       "updated": "2026-09-07T17:25:18+00:00"
     },
     "training_ground": {
@@ -61,26 +61,26 @@
     },
     "guild_conquest": {
       "score": "69377264751",
-      "vs_all_pct": -8.2,
-      "vs_class_pct": -4.4,
+      "vs_all_pct": -8.1,
+      "vs_class_pct": -4.5,
       "date": "2026-09-07T17:25:18+00:00"
     },
     "world_boss": {
       "score": "2229780290000000",
-      "vs_all_pct": -26.4,
-      "vs_class_pct": -28.8,
+      "vs_all_pct": -26.1,
+      "vs_class_pct": -28.7,
       "date": "2026-09-08T04:34:21+00:00"
     },
     "guild_war": {
       "score": "30345343011",
       "vs_all_pct": -35.2,
-      "vs_class_pct": -32.9,
+      "vs_class_pct": -32.8,
       "date": "2026-09-10T03:18:12+00:00"
     },
     "guild_training_ground": {
       "score": "3014280",
-      "vs_all_pct": -2.3,
-      "vs_class_pct": 6.7,
+      "vs_all_pct": 1.6,
+      "vs_class_pct": 13.9,
       "date": "2026-06-19T04:16:00+00:00"
     },
     "guild_boss": {
@@ -154,7 +154,7 @@
     ],
     "cp_history": [
       {
-        "date": "2026-08-12T08:04:18+00:00",
+        "date": "2026-08-13T22:08:49+00:00",
         "cpRaw": 122167752154065,
         "cpDisplay": "122T 167B"
       },
@@ -247,11 +247,16 @@
         "date": "2026-09-11T06:05:43+00:00",
         "cpRaw": 494113230587645,
         "cpDisplay": "494T 113B"
+      },
+      {
+        "date": "2026-09-12T04:56:16+00:00",
+        "cpRaw": 507826969972618,
+        "cpDisplay": "507T 826B"
       }
     ],
     "level_history": [
       {
-        "date": "2026-08-12T08:04:18+00:00",
+        "date": "2026-08-13T22:08:49+00:00",
         "level": 106
       },
       {
@@ -268,5 +273,5 @@
       }
     ]
   },
-  "scraped_at": "2026-09-11T08:04:20.278430+00:00"
+  "scraped_at": "2026-09-12T22:08:50.802632+00:00"
 }

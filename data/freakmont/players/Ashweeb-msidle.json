@@ -3,32 +3,32 @@
     "name": "Ashweeb",
     "class": "Shadower",
     "level": 110,
-    "cpRaw": "654127377810610",
-    "cpDisplay": "654T 127B",
+    "cpRaw": "655595346296447",
+    "cpDisplay": "655T 595B",
     "fame": 1260
   },
   "ranks": {
     "global": {
-      "rank": 14318,
+      "rank": 14543,
       "percentile": 1
     },
     "server": {
-      "rank": 156,
+      "rank": 157,
       "percentile": 0.6
     },
     "world": {
-      "rank": 3400,
+      "rank": 3465,
       "percentile": 0.8
     },
     "job": {
-      "rank": 1636,
+      "rank": 1657,
       "percentile": 1.1
     }
   },
   "performance": {
     "conquest": {
       "score": 121339748830,
-      "percentile": 6.6,
+      "percentile": 6.7,
       "updated": "2026-09-10T04:38:21+00:00"
     },
     "training_ground": {
@@ -48,39 +48,39 @@
     },
     "world_boss": {
       "score": 6749679580000000,
-      "percentile": 4.3,
+      "percentile": 4.4,
       "updated": "2026-09-11T06:05:22+00:00"
     }
   },
   "scoreComparison": {
     "guild_conquest": {
       "score": "121339748830",
-      "vs_all_pct": 40.9,
+      "vs_all_pct": 41,
       "vs_class_pct": 46,
       "date": "2026-09-10T04:38:21+00:00"
     },
     "world_boss": {
       "score": "6749679580000000",
-      "vs_all_pct": 55.3,
-      "vs_class_pct": 56,
+      "vs_all_pct": 56.2,
+      "vs_class_pct": 57.2,
       "date": "2026-09-11T06:05:22+00:00"
     },
     "guild_war": {
       "score": "52461426272",
       "vs_all_pct": 9.8,
-      "vs_class_pct": 9.1,
+      "vs_class_pct": 9.3,
       "date": "2026-09-10T03:17:12+00:00"
     },
     "guild_training_ground": {
       "score": "4032201",
-      "vs_all_pct": -10.9,
-      "vs_class_pct": -5,
+      "vs_all_pct": -5.5,
+      "vs_class_pct": 1.6,
       "date": "2026-07-17T05:54:47+00:00"
     },
     "guild_boss": {
       "score": "30120899098",
       "vs_all_pct": 15.6,
-      "vs_class_pct": 13.8,
+      "vs_class_pct": 13.7,
       "date": "2026-08-21T20:36:13+00:00"
     }
   },
@@ -172,7 +172,7 @@
     ],
     "cp_history": [
       {
-        "date": "2026-08-12T08:04:06+00:00",
+        "date": "2026-08-13T22:08:24+00:00",
         "cpRaw": 186482824335613,
         "cpDisplay": "186T 482B"
       },
@@ -280,11 +280,16 @@
         "date": "2026-09-11T06:05:22+00:00",
         "cpRaw": 654127377810610,
         "cpDisplay": "654T 127B"
+      },
+      {
+        "date": "2026-09-12T04:56:04+00:00",
+        "cpRaw": 655595346296447,
+        "cpDisplay": "655T 595B"
       }
     ],
     "level_history": [
       {
-        "date": "2026-08-12T08:04:06+00:00",
+        "date": "2026-08-13T22:08:24+00:00",
         "level": 108
       },
       {
@@ -297,5 +302,5 @@
       }
     ]
   },
-  "scraped_at": "2026-09-11T08:04:08.094193+00:00"
+  "scraped_at": "2026-09-12T22:08:26.107944+00:00"
 }

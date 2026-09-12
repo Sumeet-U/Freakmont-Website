@@ -3,13 +3,13 @@
     "name": "zVinics",
     "class": "Bishop",
     "level": 114,
-    "cpRaw": "9281083064686302",
-    "cpDisplay": "9AA 281T",
+    "cpRaw": "9698843535680590",
+    "cpDisplay": "9AA 698T",
     "fame": 1224
   },
   "ranks": {
     "global": {
-      "rank": 3275,
+      "rank": 3242,
       "percentile": 0.2
     },
     "server": {
@@ -17,18 +17,18 @@
       "percentile": 0.1
     },
     "world": {
-      "rank": 784,
+      "rank": 781,
       "percentile": 0.2
     },
     "job": {
-      "rank": 858,
-      "percentile": 1.6
+      "rank": 846,
+      "percentile": 1.5
     }
   },
   "performance": {
     "conquest": {
       "score": 376862082705,
-      "percentile": 2.1,
+      "percentile": 2.2,
       "updated": "2026-09-06T06:17:13+00:00"
     },
     "training_ground": {
@@ -61,14 +61,14 @@
     },
     "guild_conquest": {
       "score": "376862082705",
-      "vs_all_pct": 4.3,
-      "vs_class_pct": 11.2,
+      "vs_all_pct": 4.4,
+      "vs_class_pct": 11.1,
       "date": "2026-09-06T06:17:13+00:00"
     },
     "world_boss": {
       "score": "50024460700000000",
-      "vs_all_pct": -33.3,
-      "vs_class_pct": -30.9,
+      "vs_all_pct": -32.9,
+      "vs_class_pct": -30.4,
       "date": "2026-09-10T04:37:20+00:00"
     },
     "guild_war": {
@@ -79,14 +79,14 @@
     },
     "guild_training_ground": {
       "score": "11432469",
-      "vs_all_pct": 1.6,
-      "vs_class_pct": -5.7,
+      "vs_all_pct": 13,
+      "vs_class_pct": 5.8,
       "date": "2026-07-17T05:53:43+00:00"
     },
     "guild_boss": {
       "score": "102572098587",
-      "vs_all_pct": -7.7,
-      "vs_class_pct": -6.3,
+      "vs_all_pct": -7.8,
+      "vs_class_pct": -6.4,
       "date": "2026-09-04T16:39:48+00:00"
     }
   },
@@ -146,7 +146,7 @@
     ],
     "cp_history": [
       {
-        "date": "2026-08-12T08:01:34+00:00",
+        "date": "2026-08-13T22:05:47+00:00",
         "cpRaw": 3641913696211259,
         "cpDisplay": "3AA 641T"
       },
@@ -274,11 +274,16 @@
         "date": "2026-09-11T06:05:05+00:00",
         "cpRaw": 9281083064686302,
         "cpDisplay": "9AA 281T"
+      },
+      {
+        "date": "2026-09-12T04:55:53+00:00",
+        "cpRaw": 9698843535680590,
+        "cpDisplay": "9AA 698T"
       }
     ],
     "level_history": [
       {
-        "date": "2026-08-12T08:01:34+00:00",
+        "date": "2026-08-13T22:05:47+00:00",
         "level": 112
       },
       {
@@ -291,5 +296,5 @@
       }
     ]
   },
-  "scraped_at": "2026-09-11T08:01:35.581954+00:00"
+  "scraped_at": "2026-09-12T22:05:48.796404+00:00"
 }

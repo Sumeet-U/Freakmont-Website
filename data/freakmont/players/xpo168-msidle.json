@@ -3,25 +3,25 @@
     "name": "xpo168",
     "class": "Arch Mage (Fire/Poison)",
     "level": 112,
-    "cpRaw": "1604481777717570",
-    "cpDisplay": "1AA 604T",
-    "fame": 348
+    "cpRaw": "1605845796893209",
+    "cpDisplay": "1AA 605T",
+    "fame": 349
   },
   "ranks": {
     "global": {
-      "rank": 8830,
+      "rank": 8959,
       "percentile": 0.6
     },
     "server": {
-      "rank": 85,
+      "rank": 87,
       "percentile": 0.3
     },
     "world": {
-      "rank": 1983,
+      "rank": 2019,
       "percentile": 0.5
     },
     "job": {
-      "rank": 157,
+      "rank": 159,
       "percentile": 0.1
     }
   },
@@ -61,32 +61,32 @@
     },
     "guild_conquest": {
       "score": "179546057423",
-      "vs_all_pct": 17.9,
-      "vs_class_pct": 40,
+      "vs_all_pct": 18.1,
+      "vs_class_pct": 40.2,
       "date": "2026-09-08T04:34:29+00:00"
     },
     "world_boss": {
       "score": "20773992200000000",
-      "vs_all_pct": 84,
-      "vs_class_pct": 122.8,
+      "vs_all_pct": 85,
+      "vs_class_pct": 124.9,
       "date": "2026-09-10T04:37:26+00:00"
     },
     "guild_war": {
       "score": "107816609422",
       "vs_all_pct": 21.1,
-      "vs_class_pct": 31.9,
+      "vs_class_pct": 31.8,
       "date": "2026-09-10T03:16:25+00:00"
     },
     "guild_training_ground": {
       "score": "7430415",
-      "vs_all_pct": 31.8,
-      "vs_class_pct": 14.5,
+      "vs_all_pct": 41.5,
+      "vs_class_pct": 25.4,
       "date": "2026-07-03T01:50:05+00:00"
     },
     "guild_boss": {
       "score": "55429331517",
-      "vs_all_pct": 42.5,
-      "vs_class_pct": 51.8,
+      "vs_all_pct": 42.4,
+      "vs_class_pct": 51.7,
       "date": "2026-08-27T16:28:11+00:00"
     }
   },
@@ -186,7 +186,7 @@
     ],
     "cp_history": [
       {
-        "date": "2026-08-12T08:03:19+00:00",
+        "date": "2026-08-13T22:07:36+00:00",
         "cpRaw": 563977450816748,
         "cpDisplay": "563T 977B"
       },
@@ -334,11 +334,16 @@
         "date": "2026-09-11T06:05:10+00:00",
         "cpRaw": 1604481777717570,
         "cpDisplay": "1AA 604T"
+      },
+      {
+        "date": "2026-09-11T17:36:37+00:00",
+        "cpRaw": 1605845796893209,
+        "cpDisplay": "1AA 605T"
       }
     ],
     "level_history": [
       {
-        "date": "2026-08-12T08:03:19+00:00",
+        "date": "2026-08-13T22:07:36+00:00",
         "level": 111
       },
       {
@@ -347,5 +352,5 @@
       }
     ]
   },
-  "scraped_at": "2026-09-11T08:03:20.820850+00:00"
+  "scraped_at": "2026-09-12T22:07:37.965657+00:00"
 }

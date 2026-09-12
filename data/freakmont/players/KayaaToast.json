@@ -1,20 +1,20 @@
 {
   "ranks": {
     "global_rank": {
-      "rank": 10719,
-      "total": 238221
+      "rank": 10965,
+      "total": 239541
     },
     "bera": {
-      "rank": 6099,
-      "total": 104559
+      "rank": 6232,
+      "total": 104891
     },
     "bera_5": {
-      "rank": 324,
+      "rank": 331,
       "total": 2000
     },
     "marksman": {
-      "rank": 1184,
-      "total": 12669
+      "rank": 1202,
+      "total": 12690
     }
   },
   "performance": {
@@ -40,22 +40,6 @@
     }
   },
   "history": [
-    {
-      "date": "8/12",
-      "cpRaw": 148410430163546.7,
-      "cpDisplay": "148T 410B",
-      "level": 108,
-      "globalRank": 8241,
-      "fame": 178
-    },
-    {
-      "date": "8/13",
-      "cpRaw": 148869475446490.4,
-      "cpDisplay": "148T 869B",
-      "level": 108,
-      "globalRank": 8499,
-      "fame": 179
-    },
     {
       "date": "8/14",
       "cpRaw": 151517987111519.2,
@@ -279,7 +263,23 @@
       "level": 110,
       "globalRank": 10719,
       "fame": 188
+    },
+    {
+      "date": "9/11",
+      "cpRaw": 252019907706555.44,
+      "cpDisplay": "252T 19B",
+      "level": 110,
+      "globalRank": 10842,
+      "fame": 188
+    },
+    {
+      "date": "9/12",
+      "cpRaw": 252419732682723.66,
+      "cpDisplay": "252T 419B",
+      "level": 110,
+      "globalRank": 10965,
+      "fame": 188
     }
   ],
-  "scraped_at": "2026-09-11T07:59:51.223674+00:00"
+  "scraped_at": "2026-09-12T22:04:06.879791+00:00"
 }

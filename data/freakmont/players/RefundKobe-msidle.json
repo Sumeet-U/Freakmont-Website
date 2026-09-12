@@ -3,13 +3,13 @@
     "name": "RefundKobe",
     "class": "Marksman",
     "level": 117,
-    "cpRaw": "30612964689995080",
-    "cpDisplay": "30AA 612T",
-    "fame": 1664
+    "cpRaw": "30900009127237440",
+    "cpDisplay": "30AA 900T",
+    "fame": 1666
   },
   "ranks": {
     "global": {
-      "rank": 1669,
+      "rank": 1681,
       "percentile": 0.1
     },
     "server": {
@@ -17,7 +17,7 @@
       "percentile": 0
     },
     "world": {
-      "rank": 394,
+      "rank": 398,
       "percentile": 0.1
     },
     "job": {
@@ -55,32 +55,32 @@
   "scoreComparison": {
     "guild_conquest": {
       "score": "1202577037773",
-      "vs_all_pct": 58.5,
-      "vs_class_pct": 56.3,
+      "vs_all_pct": 58.8,
+      "vs_class_pct": 56.8,
       "date": "2026-09-08T04:34:25+00:00"
     },
     "world_boss": {
       "score": "507069453000000000",
-      "vs_all_pct": 108.2,
-      "vs_class_pct": 73.1,
+      "vs_all_pct": 109.6,
+      "vs_class_pct": 75.3,
       "date": "2026-09-08T04:33:46+00:00"
     },
     "guild_war": {
       "score": "461962708335",
-      "vs_all_pct": 9,
+      "vs_all_pct": 8.9,
       "vs_class_pct": 7.1,
       "date": "2026-09-10T03:16:22+00:00"
     },
     "guild_training_ground": {
       "score": "11982144",
-      "vs_all_pct": -13.5,
-      "vs_class_pct": -17.6,
+      "vs_all_pct": -2.7,
+      "vs_class_pct": -8.3,
       "date": "2026-07-17T05:53:54+00:00"
     },
     "guild_boss": {
       "score": "205212103738",
       "vs_all_pct": 25.9,
-      "vs_class_pct": 20.3,
+      "vs_class_pct": 20.2,
       "date": "2026-08-21T20:36:21+00:00"
     }
   },
@@ -168,7 +168,7 @@
     ],
     "cp_history": [
       {
-        "date": "2026-08-12T08:00:08+00:00",
+        "date": "2026-08-13T22:04:19+00:00",
         "cpRaw": 7568805488195778,
         "cpDisplay": "7AA 568T"
       },
@@ -311,11 +311,16 @@
         "date": "2026-09-10T04:37:15+00:00",
         "cpRaw": 30612964689995080,
         "cpDisplay": "30AA 612T"
+      },
+      {
+        "date": "2026-09-11T17:36:23+00:00",
+        "cpRaw": 30900009127237440,
+        "cpDisplay": "30AA 900T"
       }
     ],
     "level_history": [
       {
-        "date": "2026-08-12T08:00:09+00:00",
+        "date": "2026-08-13T22:04:19+00:00",
         "level": 114
       },
       {
@@ -332,5 +337,5 @@
       }
     ]
   },
-  "scraped_at": "2026-09-11T08:00:10.491247+00:00"
+  "scraped_at": "2026-09-12T22:04:21.279188+00:00"
 }

@@ -3,25 +3,25 @@
     "name": "yclzero",
     "class": "Bowmaster",
     "level": 110,
-    "cpRaw": "482815662634276",
-    "cpDisplay": "482T 815B",
+    "cpRaw": "483274584096227",
+    "cpDisplay": "483T 274B",
     "fame": 191
   },
   "ranks": {
     "global": {
-      "rank": 17268,
+      "rank": 17548,
       "percentile": 1.2
     },
     "server": {
-      "rank": 204,
+      "rank": 207,
       "percentile": 0.8
     },
     "world": {
-      "rank": 4170,
+      "rank": 4237,
       "percentile": 1
     },
     "job": {
-      "rank": 1074,
+      "rank": 1088,
       "percentile": 1
     }
   },
@@ -61,14 +61,14 @@
     },
     "guild_conquest": {
       "score": "116496376179",
-      "vs_all_pct": 45.9,
+      "vs_all_pct": 46.1,
       "vs_class_pct": 53.9,
       "date": "2026-09-09T04:34:28+00:00"
     },
     "world_boss": {
       "score": "5794925150000000",
-      "vs_all_pct": 84.8,
-      "vs_class_pct": 75.8,
+      "vs_all_pct": 85.8,
+      "vs_class_pct": 76,
       "date": "2026-09-11T06:05:25+00:00"
     },
     "guild_war": {
@@ -79,8 +79,8 @@
     },
     "guild_training_ground": {
       "score": "5225106",
-      "vs_all_pct": 14.4,
-      "vs_class_pct": -4.9,
+      "vs_all_pct": 21.5,
+      "vs_class_pct": -5.4,
       "date": "2026-07-17T05:54:13+00:00"
     },
     "guild_boss": {
@@ -201,7 +201,7 @@
     ],
     "cp_history": [
       {
-        "date": "2026-08-12T08:04:43+00:00",
+        "date": "2026-08-13T22:09:00+00:00",
         "cpRaw": 147245707636694,
         "cpDisplay": "147T 245B"
       },
@@ -329,11 +329,16 @@
         "date": "2026-09-11T06:05:25+00:00",
         "cpRaw": 482815662634276,
         "cpDisplay": "482T 815B"
+      },
+      {
+        "date": "2026-09-12T04:56:06+00:00",
+        "cpRaw": 483274584096227,
+        "cpDisplay": "483T 274B"
       }
     ],
     "level_history": [
       {
-        "date": "2026-08-12T08:04:43+00:00",
+        "date": "2026-08-13T22:09:01+00:00",
         "level": 108
       },
       {
@@ -346,5 +351,5 @@
       }
     ]
   },
-  "scraped_at": "2026-09-11T08:04:44.529844+00:00"
+  "scraped_at": "2026-09-12T22:09:02.607553+00:00"
 }

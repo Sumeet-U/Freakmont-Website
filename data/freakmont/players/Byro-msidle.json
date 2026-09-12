@@ -3,32 +3,32 @@
     "name": "Byro",
     "class": "Arch Mage (Ice/Lightning)",
     "level": 110,
-    "cpRaw": "482066999016890",
-    "cpDisplay": "482T 66B",
+    "cpRaw": "482848355280185",
+    "cpDisplay": "482T 848B",
     "fame": 272
   },
   "ranks": {
     "global": {
-      "rank": 17290,
+      "rank": 17564,
       "percentile": 1.2
     },
     "server": {
-      "rank": 206,
+      "rank": 209,
       "percentile": 0.8
     },
     "world": {
-      "rank": 4176,
+      "rank": 4241,
       "percentile": 1
     },
     "job": {
-      "rank": 758,
+      "rank": 769,
       "percentile": 0.3
     }
   },
   "performance": {
     "conquest": {
       "score": 60781929236,
-      "percentile": 12,
+      "percentile": 12.2,
       "updated": "2026-09-05T09:01:57+00:00"
     },
     "training_ground": {
@@ -61,26 +61,26 @@
     },
     "guild_conquest": {
       "score": "60781929236",
-      "vs_all_pct": -21.1,
-      "vs_class_pct": -5.9,
+      "vs_all_pct": -21,
+      "vs_class_pct": -5.6,
       "date": "2026-09-05T09:01:57+00:00"
     },
     "world_boss": {
       "score": "2404820660000000",
-      "vs_all_pct": -22.5,
-      "vs_class_pct": -2.9,
+      "vs_all_pct": -22.1,
+      "vs_class_pct": -2.5,
       "date": "2026-09-09T04:34:06+00:00"
     },
     "guild_war": {
       "score": "32113162923",
-      "vs_all_pct": -16.3,
+      "vs_all_pct": -16.2,
       "vs_class_pct": -8.1,
       "date": "2026-08-28T00:00:56+00:00"
     },
     "guild_training_ground": {
       "score": "4257657",
-      "vs_all_pct": -1.9,
-      "vs_class_pct": 7.1,
+      "vs_all_pct": 3.9,
+      "vs_class_pct": 15.3,
       "date": "2026-07-17T05:54:32+00:00"
     },
     "guild_boss": {
@@ -145,7 +145,7 @@
     ],
     "cp_history": [
       {
-        "date": "2026-08-12T08:05:07+00:00",
+        "date": "2026-08-13T22:09:13+00:00",
         "cpRaw": 157997470017243,
         "cpDisplay": "157T 997B"
       },
@@ -268,11 +268,21 @@
         "date": "2026-09-11T06:05:41+00:00",
         "cpRaw": 482066999016890,
         "cpDisplay": "482T 66B"
+      },
+      {
+        "date": "2026-09-11T17:36:57+00:00",
+        "cpRaw": 482785466614120,
+        "cpDisplay": "482T 785B"
+      },
+      {
+        "date": "2026-09-12T04:56:15+00:00",
+        "cpRaw": 482848355280185,
+        "cpDisplay": "482T 848B"
       }
     ],
     "level_history": [
       {
-        "date": "2026-08-12T08:05:07+00:00",
+        "date": "2026-08-13T22:09:13+00:00",
         "level": 108
       },
       {
@@ -285,5 +295,5 @@
       }
     ]
   },
-  "scraped_at": "2026-09-11T08:05:09.009366+00:00"
+  "scraped_at": "2026-09-12T22:09:15.063442+00:00"
 }

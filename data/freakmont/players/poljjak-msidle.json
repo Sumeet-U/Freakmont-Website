@@ -3,13 +3,13 @@
     "name": "poljjak",
     "class": "Bishop",
     "level": 116,
-    "cpRaw": "10505459586534284",
-    "cpDisplay": "10AA 505T",
+    "cpRaw": "10812771631237114",
+    "cpDisplay": "10AA 812T",
     "fame": 44
   },
   "ranks": {
     "global": {
-      "rank": 3056,
+      "rank": 3033,
       "percentile": 0.2
     },
     "server": {
@@ -17,12 +17,12 @@
       "percentile": 0.1
     },
     "world": {
-      "rank": 729,
+      "rank": 732,
       "percentile": 0.2
     },
     "job": {
-      "rank": 796,
-      "percentile": 1.5
+      "rank": 789,
+      "percentile": 1.4
     }
   },
   "performance": {
@@ -61,32 +61,32 @@
     },
     "guild_conquest": {
       "score": "976613483046",
-      "vs_all_pct": 120,
-      "vs_class_pct": 134.5,
+      "vs_all_pct": 120.3,
+      "vs_class_pct": 134.3,
       "date": "2026-09-09T04:34:20+00:00"
     },
     "world_boss": {
       "score": "216078084000000000",
-      "vs_all_pct": 156,
-      "vs_class_pct": 165.4,
+      "vs_all_pct": 157.6,
+      "vs_class_pct": 167.3,
       "date": "2026-09-08T04:33:47+00:00"
     },
     "guild_war": {
       "score": "233351315690",
-      "vs_all_pct": 29.5,
-      "vs_class_pct": 26.9,
+      "vs_all_pct": 29.4,
+      "vs_class_pct": 26.8,
       "date": "2026-08-28T00:00:56+00:00"
     },
     "guild_training_ground": {
       "score": "16598847",
-      "vs_all_pct": -3.5,
-      "vs_class_pct": -10.5,
+      "vs_all_pct": 9.7,
+      "vs_class_pct": 2.6,
       "date": "2026-09-11T02:47:10+00:00"
     },
     "guild_boss": {
       "score": "166514185274",
-      "vs_all_pct": 19.2,
-      "vs_class_pct": 20.9,
+      "vs_all_pct": 19.1,
+      "vs_class_pct": 20.8,
       "date": "2026-09-04T16:40:06+00:00"
     }
   },
@@ -171,7 +171,7 @@
     ],
     "cp_history": [
       {
-        "date": "2026-08-12T08:01:22+00:00",
+        "date": "2026-08-13T22:05:35+00:00",
         "cpRaw": 4047153177923828,
         "cpDisplay": "4AA 47T"
       },
@@ -274,11 +274,16 @@
         "date": "2026-09-11T06:05:02+00:00",
         "cpRaw": 10505459586534284,
         "cpDisplay": "10AA 505T"
+      },
+      {
+        "date": "2026-09-11T17:36:27+00:00",
+        "cpRaw": 10812771631237114,
+        "cpDisplay": "10AA 812T"
       }
     ],
     "level_history": [
       {
-        "date": "2026-08-12T08:01:22+00:00",
+        "date": "2026-08-13T22:05:35+00:00",
         "level": 114
       },
       {
@@ -291,5 +296,5 @@
       }
     ]
   },
-  "scraped_at": "2026-09-11T08:01:23.781578+00:00"
+  "scraped_at": "2026-09-12T22:05:36.728547+00:00"
 }

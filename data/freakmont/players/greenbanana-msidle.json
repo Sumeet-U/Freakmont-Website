@@ -9,26 +9,26 @@
   },
   "ranks": {
     "global": {
-      "rank": 18267,
-      "percentile": 1.2
+      "rank": 18600,
+      "percentile": 1.3
     },
     "server": {
-      "rank": 220,
+      "rank": 224,
       "percentile": 0.8
     },
     "world": {
-      "rank": 4435,
+      "rank": 4516,
       "percentile": 1.1
     },
     "job": {
-      "rank": 897,
-      "percentile": 3.2
+      "rank": 921,
+      "percentile": 3.3
     }
   },
   "performance": {
     "conquest": {
       "score": 77574467921,
-      "percentile": 10.2,
+      "percentile": 10.3,
       "updated": "2026-09-08T04:34:39+00:00"
     },
     "training_ground": {
@@ -61,32 +61,32 @@
     },
     "guild_conquest": {
       "score": "77574467921",
-      "vs_all_pct": 7.4,
+      "vs_all_pct": 7.5,
       "vs_class_pct": 8.8,
       "date": "2026-09-08T04:34:39+00:00"
     },
     "world_boss": {
       "score": "3038267110000000",
-      "vs_all_pct": 30.5,
-      "vs_class_pct": 22.4,
+      "vs_all_pct": 31.2,
+      "vs_class_pct": 23.2,
       "date": "2026-09-09T04:33:58+00:00"
     },
     "guild_war": {
       "score": "33547218355",
       "vs_all_pct": -21.6,
-      "vs_class_pct": -23.3,
+      "vs_class_pct": -23.4,
       "date": "2026-09-10T03:18:07+00:00"
     },
     "guild_training_ground": {
       "score": "6907539",
-      "vs_all_pct": -4.5,
-      "vs_class_pct": -10.1,
+      "vs_all_pct": 3.9,
+      "vs_class_pct": -8.6,
       "date": "2026-09-11T02:46:37+00:00"
     },
     "guild_boss": {
       "score": "2928291073",
-      "vs_all_pct": 11.5,
-      "vs_class_pct": 10.7,
+      "vs_all_pct": 11.6,
+      "vs_class_pct": 10.8,
       "date": "2026-06-15T08:42:33+00:00"
     }
   },
@@ -150,7 +150,7 @@
     ],
     "cp_history": [
       {
-        "date": "2026-08-12T08:05:19+00:00",
+        "date": "2026-08-13T22:09:38+00:00",
         "cpRaw": 116559043569098,
         "cpDisplay": "116T 559B"
       },
@@ -197,7 +197,7 @@
     ],
     "level_history": [
       {
-        "date": "2026-08-12T08:05:19+00:00",
+        "date": "2026-08-13T22:09:38+00:00",
         "level": 106
       },
       {
@@ -214,5 +214,5 @@
       }
     ]
   },
-  "scraped_at": "2026-09-11T08:05:21.011145+00:00"
+  "scraped_at": "2026-09-12T22:09:39.678075+00:00"
 }

@@ -3,13 +3,13 @@
     "name": "JaiLBalT",
     "class": "Shadower",
     "level": 114,
-    "cpRaw": "11344270189169056",
-    "cpDisplay": "11AA 344T",
+    "cpRaw": "11534223307181604",
+    "cpDisplay": "11AA 534T",
     "fame": 1024
   },
   "ranks": {
     "global": {
-      "rank": 2898,
+      "rank": 2908,
       "percentile": 0.2
     },
     "server": {
@@ -17,11 +17,11 @@
       "percentile": 0.1
     },
     "world": {
-      "rank": 696,
+      "rank": 703,
       "percentile": 0.2
     },
     "job": {
-      "rank": 263,
+      "rank": 260,
       "percentile": 0.2
     }
   },
@@ -61,26 +61,26 @@
     },
     "guild_conquest": {
       "score": "660384853550",
-      "vs_all_pct": 41.5,
-      "vs_class_pct": 46.7,
+      "vs_all_pct": 41.8,
+      "vs_class_pct": 46.8,
       "date": "2026-09-11T06:06:03+00:00"
     },
     "world_boss": {
       "score": "97049042000000000",
-      "vs_all_pct": 22.5,
-      "vs_class_pct": 23.1,
+      "vs_all_pct": 23.3,
+      "vs_class_pct": 24.1,
       "date": "2026-09-08T04:33:49+00:00"
     },
     "guild_war": {
       "score": "207415093609",
       "vs_all_pct": -13,
-      "vs_class_pct": -13.5,
+      "vs_class_pct": -13.4,
       "date": "2026-09-10T03:16:53+00:00"
     },
     "guild_training_ground": {
       "score": "10757229",
-      "vs_all_pct": 7.2,
-      "vs_class_pct": 14.4,
+      "vs_all_pct": 18.5,
+      "vs_class_pct": 27.3,
       "date": "2026-07-17T05:53:47+00:00"
     },
     "guild_boss": {
@@ -186,7 +186,7 @@
     ],
     "cp_history": [
       {
-        "date": "2026-08-12T08:01:09+00:00",
+        "date": "2026-08-13T22:05:10+00:00",
         "cpRaw": 2992811589059690,
         "cpDisplay": "2AA 992T"
       },
@@ -359,11 +359,16 @@
         "date": "2026-09-11T06:05:04+00:00",
         "cpRaw": 11344270189169056,
         "cpDisplay": "11AA 344T"
+      },
+      {
+        "date": "2026-09-11T17:36:26+00:00",
+        "cpRaw": 11534223307181604,
+        "cpDisplay": "11AA 534T"
       }
     ],
     "level_history": [
       {
-        "date": "2026-08-12T08:01:09+00:00",
+        "date": "2026-08-13T22:05:10+00:00",
         "level": 112
       },
       {
@@ -376,5 +381,5 @@
       }
     ]
   },
-  "scraped_at": "2026-09-11T08:01:11.338210+00:00"
+  "scraped_at": "2026-09-12T22:05:12.044351+00:00"
 }
