@@ -1,17 +1,17 @@
 {
   "conquest": {
-    "score": 166300727332.96695,
-    "snapshotDate": "2026-09-06",
+    "score": 172316310334.79523,
+    "snapshotDate": "2026-09-13",
+    "peerRank": 6,
+    "peerCount": 12,
+    "percentile": 54.5
+  },
+  "world_boss": {
+    "score": 14419733800000000,
+    "snapshotDate": "2026-09-13",
     "peerRank": 5,
     "peerCount": 12,
     "percentile": 63.6
-  },
-  "world_boss": {
-    "score": 13137921200000000,
-    "snapshotDate": "2026-09-06",
-    "peerRank": 3,
-    "peerCount": 12,
-    "percentile": 81.8
   },
   "training_ground": {
     "score": 7031325,

@@ -1,10 +1,10 @@
 {
-  "date": "2026-09-12",
+  "date": "2026-09-15",
   "entries": [
     {
       "name": "JaneGarden",
       "class": "Night Lord",
-      "level": 117,
+      "level": 118,
       "score": 235474275167,
       "rank": 1
     },
@@ -46,7 +46,7 @@
     {
       "name": "JaiLBalT",
       "class": "Shadower",
-      "level": 114,
+      "level": 115,
       "score": 116837254462,
       "rank": 7
     },
@@ -163,53 +163,46 @@
       "rank": 23
     },
     {
-      "name": "jbboaf0ng",
-      "class": "Night Lord",
-      "level": 105,
-      "score": 6045244226,
-      "rank": 24
-    },
-    {
       "name": "Arlooooo",
       "class": "Hero",
       "level": 110,
       "score": 5973832528,
-      "rank": 25
+      "rank": 24
     },
     {
       "name": "yclzero",
       "class": "Bowmaster",
       "level": 110,
       "score": 5826300687,
-      "rank": 26
+      "rank": 25
     },
     {
       "name": "Byro",
       "class": "Arch Mage (Ice/Lightning)",
       "level": 110,
       "score": 5704273952,
-      "rank": 27
+      "rank": 26
     },
     {
       "name": "Osubo",
       "class": "Marksman",
       "level": 109,
       "score": 4846913389,
-      "rank": 28
+      "rank": 27
     },
     {
       "name": "Chinnychin",
       "class": "Bowmaster",
       "level": 109,
       "score": 3960092528,
-      "rank": 29
+      "rank": 28
     },
     {
       "name": "greenbanana",
       "class": "Corsair",
       "level": 109,
       "score": 2928291073,
-      "rank": 30
+      "rank": 29
     }
   ]
 }

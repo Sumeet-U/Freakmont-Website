@@ -1,30 +1,30 @@
 {
   "ranks": {
     "global_rank": {
-      "rank": 3278,
-      "total": 239541
+      "rank": 3375,
+      "total": 241210
     },
     "bera": {
-      "rank": 1906,
-      "total": 104891
+      "rank": 1950,
+      "total": 105516
     },
     "bera_5": {
-      "rank": 81,
+      "rank": 84,
       "total": 2000
     },
     "bowmaster": {
-      "rank": 212,
-      "total": 12994
+      "rank": 223,
+      "total": 13044
     }
   },
   "performance": {
     "guild_conquest": {
-      "score": 164103178367.43964,
-      "updated": "Sep 6"
+      "score": 180293633780.48746,
+      "updated": "Sep 13"
     },
     "world_boss": {
-      "score": 16543797700000000,
-      "updated": "Sep 6"
+      "score": 19622055200000000,
+      "updated": "Sep 13"
     },
     "training_ground": {
       "score": 11366172,
@@ -40,22 +40,6 @@
     }
   },
   "history": [
-    {
-      "date": "8/14",
-      "cpRaw": 913846533704201.4,
-      "cpDisplay": "913T 846B",
-      "level": 111,
-      "globalRank": 2711,
-      "fame": 106
-    },
-    {
-      "date": "8/15",
-      "cpRaw": 913963399800179.8,
-      "cpDisplay": "913T 963B",
-      "level": 111,
-      "globalRank": 2781,
-      "fame": 106
-    },
     {
       "date": "8/16",
       "cpRaw": 921650027872943.5,
@@ -279,7 +263,23 @@
       "level": 113,
       "globalRank": 3278,
       "fame": 149
+    },
+    {
+      "date": "9/13",
+      "cpRaw": 1745186698034768.5,
+      "cpDisplay": "1AA 745T",
+      "level": 113,
+      "globalRank": 3318,
+      "fame": 149
+    },
+    {
+      "date": "9/14",
+      "cpRaw": 1762870395907898.5,
+      "cpDisplay": "1AA 762T",
+      "level": 113,
+      "globalRank": 3375,
+      "fame": 149
     }
   ],
-  "scraped_at": "2026-09-12T22:03:22.852219+00:00"
+  "scraped_at": "2026-09-15T08:10:51.828253+00:00"
 }

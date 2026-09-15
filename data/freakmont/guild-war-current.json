@@ -1,10 +1,10 @@
 {
-  "date": "2026-09-12",
+  "date": "2026-09-15",
   "entries": [
     {
       "name": "JaneGarden",
       "class": "Night Lord",
-      "level": 117,
+      "level": 118,
       "score": 484342751437.621,
       "rank": 1
     },
@@ -44,165 +44,172 @@
       "rank": 6
     },
     {
+      "name": "Debonair",
+      "class": "Bowmaster",
+      "level": 116,
+      "score": 236642772699.573,
+      "rank": 7
+    },
+    {
       "name": "JaiLBalT",
       "class": "Shadower",
-      "level": 114,
+      "level": 115,
       "score": 207415093609.186,
-      "rank": 7
+      "rank": 8
     },
     {
       "name": "KenniTM",
       "class": "Paladin",
       "level": 113,
       "score": 199672441266.928,
-      "rank": 8
+      "rank": 9
     },
     {
       "name": "YungSeaTurtl",
       "class": "Night Lord",
       "level": 112,
       "score": 160605021953.063,
-      "rank": 9
+      "rank": 10
     },
     {
       "name": "zVinics",
       "class": "Bishop",
       "level": 114,
       "score": 144708118696.344,
-      "rank": 10
+      "rank": 11
     },
     {
       "name": "SuuperCow",
       "class": "Paladin",
       "level": 113,
       "score": 137416701130.102,
-      "rank": 11
+      "rank": 12
     },
     {
       "name": "Xanite",
       "class": "Bowmaster",
       "level": 113,
       "score": 119536339373.008,
-      "rank": 12
+      "rank": 13
     },
     {
       "name": "Ravenz",
       "class": "Shadower",
       "level": 112,
       "score": 119442559885.338,
-      "rank": 13
+      "rank": 14
     },
     {
       "name": "Amascut",
       "class": "Bowmaster",
       "level": 112,
       "score": 116346718770.259,
-      "rank": 14
+      "rank": 15
     },
     {
       "name": "Caycidia",
       "class": "Ice/Lightning Mage",
       "level": 112,
       "score": 116338427065.23,
-      "rank": 15
+      "rank": 16
     },
     {
       "name": "Soapdayys",
       "class": "Dark Knight",
-      "level": 111,
+      "level": 112,
       "score": 112627586693.143,
-      "rank": 16
+      "rank": 17
     },
     {
       "name": "xpo168",
       "class": "Fire/Poison Mage",
       "level": 112,
       "score": 107816609422.165,
-      "rank": 17
+      "rank": 18
     },
     {
       "name": "RefundPuJay",
       "class": "Marksman",
       "level": 110,
       "score": 101784087599.173,
-      "rank": 18
+      "rank": 19
     },
     {
       "name": "Came",
       "class": "Paladin",
       "level": 112,
       "score": 90697670568.9139,
-      "rank": 19
+      "rank": 20
     },
     {
       "name": "Chinnychin",
       "class": "Bowmaster",
       "level": 109,
       "score": 62856247430.2783,
-      "rank": 20
+      "rank": 21
     },
     {
       "name": "Lighttt",
       "class": "Night Lord",
       "level": 110,
       "score": 54313241544.6646,
-      "rank": 21
+      "rank": 22
     },
     {
       "name": "Ashweeb",
       "class": "Shadower",
       "level": 110,
       "score": 52461426271.5227,
-      "rank": 22
+      "rank": 23
     },
     {
       "name": "yclzero",
       "class": "Bowmaster",
       "level": 110,
       "score": 49484606404.7389,
-      "rank": 23
+      "rank": 24
     },
     {
       "name": "Osubo",
       "class": "Marksman",
       "level": 109,
       "score": 42137017283.8674,
-      "rank": 24
+      "rank": 25
     },
     {
       "name": "Byro",
       "class": "Ice/Lightning Mage",
       "level": 110,
       "score": 37548719078.5103,
-      "rank": 25
+      "rank": 26
     },
     {
       "name": "greenbanana",
       "class": "Corsair",
       "level": 109,
       "score": 33547218354.6107,
-      "rank": 26
+      "rank": 27
     },
     {
       "name": "Arlooooo",
       "class": "Hero",
       "level": 110,
       "score": 31960775839.0356,
-      "rank": 27
+      "rank": 28
     },
     {
       "name": "Hayamachop",
       "class": "Hero",
       "level": 109,
       "score": 30345343011.0089,
-      "rank": 28
+      "rank": 29
     },
     {
       "name": "KayaaToast",
       "class": "Marksman",
       "level": 110,
       "score": 26643237819.4297,
-      "rank": 29
+      "rank": 30
     }
   ]
 }

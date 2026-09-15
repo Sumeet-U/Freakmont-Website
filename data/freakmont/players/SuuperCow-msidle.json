@@ -3,32 +3,32 @@
     "name": "SuuperCow",
     "class": "Paladin",
     "level": 113,
-    "cpRaw": "3488419387094746",
-    "cpDisplay": "3AA 488T",
-    "fame": 308
+    "cpRaw": "3612232235069159",
+    "cpDisplay": "3AA 612T",
+    "fame": 311
   },
   "ranks": {
     "global": {
-      "rank": 5909,
+      "rank": 6035,
       "percentile": 0.4
     },
     "server": {
-      "rank": 54,
+      "rank": 59,
       "percentile": 0.2
     },
     "world": {
-      "rank": 1325,
+      "rank": 1367,
       "percentile": 0.3
     },
     "job": {
-      "rank": 744,
-      "percentile": 3
+      "rank": 760,
+      "percentile": 3.1
     }
   },
   "performance": {
     "conquest": {
       "score": 239912972129,
-      "percentile": 3.2,
+      "percentile": 3.4,
       "updated": "2026-09-05T04:39:04+00:00"
     },
     "training_ground": {
@@ -48,21 +48,21 @@
     },
     "world_boss": {
       "score": 24810218500000000,
-      "percentile": 2.2,
+      "percentile": 2.4,
       "updated": "2026-09-06T06:16:09+00:00"
     }
   },
   "scoreComparison": {
     "guild_conquest": {
       "score": "239912972129",
-      "vs_all_pct": 6.7,
-      "vs_class_pct": 1.2,
+      "vs_all_pct": 6.3,
+      "vs_class_pct": 0.8,
       "date": "2026-09-05T04:39:04+00:00"
     },
     "world_boss": {
       "score": "24810218500000000",
-      "vs_all_pct": 13.2,
-      "vs_class_pct": -2.8,
+      "vs_all_pct": 12.7,
+      "vs_class_pct": -3.5,
       "date": "2026-09-06T06:16:09+00:00"
     },
     "guild_war": {
@@ -74,12 +74,12 @@
     "guild_training_ground": {
       "score": "11386236",
       "vs_all_pct": 2.7,
-      "vs_class_pct": 12.3,
+      "vs_class_pct": 12.2,
       "date": "2026-09-11T02:47:00+00:00"
     },
     "guild_boss": {
       "score": "85288607062",
-      "vs_all_pct": 13.6,
+      "vs_all_pct": 13.5,
       "vs_class_pct": 9.7,
       "date": "2026-09-04T16:39:34+00:00"
     }
@@ -157,17 +157,7 @@
     ],
     "cp_history": [
       {
-        "date": "2026-08-13T22:06:23+00:00",
-        "cpRaw": 1251214658922865,
-        "cpDisplay": "1AA 251T"
-      },
-      {
-        "date": "2026-08-14T05:45:12+00:00",
-        "cpRaw": 1283971531529649,
-        "cpDisplay": "1AA 283T"
-      },
-      {
-        "date": "2026-08-15T01:15:04+00:00",
+        "date": "2026-08-16T08:13:39+00:00",
         "cpRaw": 1413710982366997,
         "cpDisplay": "1AA 413T"
       },
@@ -290,15 +280,21 @@
         "date": "2026-09-12T04:55:56+00:00",
         "cpRaw": 3488419387094746,
         "cpDisplay": "3AA 488T"
+      },
+      {
+        "date": "2026-09-13T01:05:30+00:00",
+        "cpRaw": 3490499793105422,
+        "cpDisplay": "3AA 490T"
+      },
+      {
+        "date": "2026-09-15T04:20:46+00:00",
+        "cpRaw": 3612232235069159,
+        "cpDisplay": "3AA 612T"
       }
     ],
     "level_history": [
       {
-        "date": "2026-08-13T22:06:23+00:00",
-        "level": 111
-      },
-      {
-        "date": "2026-08-15T01:15:04+00:00",
+        "date": "2026-08-16T08:13:39+00:00",
         "level": 112
       },
       {
@@ -307,5 +303,5 @@
       }
     ]
   },
-  "scraped_at": "2026-09-12T22:06:25.049228+00:00"
+  "scraped_at": "2026-09-15T08:13:40.530261+00:00"
 }

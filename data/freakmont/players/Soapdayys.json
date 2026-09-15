@@ -1,30 +1,30 @@
 {
   "ranks": {
     "global_rank": {
-      "rank": 2210,
-      "total": 239541
+      "rank": 2197,
+      "total": 241210
     },
     "bera": {
-      "rank": 1295,
-      "total": 104891
+      "rank": 1277,
+      "total": 105516
     },
     "bera_5": {
       "rank": 52,
       "total": 2000
     },
     "dark_knight": {
-      "rank": 135,
-      "total": 23137
+      "rank": 134,
+      "total": 23220
     }
   },
   "performance": {
     "guild_conquest": {
-      "score": 156638406696.06766,
-      "updated": "Aug 30"
+      "score": 173760833610.0442,
+      "updated": "Sep 13"
     },
     "world_boss": {
-      "score": 11591575900000000,
-      "updated": "Sep 6"
+      "score": 13151385000000000,
+      "updated": "Sep 13"
     },
     "training_ground": {
       "score": 5943774,
@@ -40,22 +40,6 @@
     }
   },
   "history": [
-    {
-      "date": "8/14",
-      "cpRaw": 1608469890408037,
-      "cpDisplay": "1AA 608T",
-      "level": 110,
-      "globalRank": 1956,
-      "fame": 21
-    },
-    {
-      "date": "8/15",
-      "cpRaw": 1609096038763731.2,
-      "cpDisplay": "1AA 609T",
-      "level": 110,
-      "globalRank": 1996,
-      "fame": 21
-    },
     {
       "date": "8/16",
       "cpRaw": 1698101080754146.8,
@@ -279,7 +263,23 @@
       "level": 111,
       "globalRank": 2210,
       "fame": 25
+    },
+    {
+      "date": "9/13",
+      "cpRaw": 3707679125170676.5,
+      "cpDisplay": "3AA 707T",
+      "level": 111,
+      "globalRank": 2169,
+      "fame": 25
+    },
+    {
+      "date": "9/14",
+      "cpRaw": 3767456824306018,
+      "cpDisplay": "3AA 767T",
+      "level": 112,
+      "globalRank": 2197,
+      "fame": 25
     }
   ],
-  "scraped_at": "2026-09-12T22:03:04.576004+00:00"
+  "scraped_at": "2026-09-15T08:10:24.998070+00:00"
 }
