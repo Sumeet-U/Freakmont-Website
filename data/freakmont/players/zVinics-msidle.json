@@ -3,13 +3,13 @@
     "name": "zVinics",
     "class": "Bishop",
     "level": 114,
-    "cpRaw": "9699682367714096",
-    "cpDisplay": "9AA 699T",
-    "fame": 1224
+    "cpRaw": "10021717133737236",
+    "cpDisplay": "10AA 21T",
+    "fame": 1225
   },
   "ranks": {
     "global": {
-      "rank": 3372,
+      "rank": 3326,
       "percentile": 0.2
     },
     "server": {
@@ -17,11 +17,11 @@
       "percentile": 0.1
     },
     "world": {
-      "rank": 807,
+      "rank": 797,
       "percentile": 0.2
     },
     "job": {
-      "rank": 880,
+      "rank": 871,
       "percentile": 1.6
     }
   },
@@ -43,7 +43,7 @@
     },
     "guild_war": {
       "score": 141749631659,
-      "percentile": 11,
+      "percentile": 12.2,
       "updated": "2026-08-28T00:00:56+00:00"
     },
     "world_boss": {
@@ -55,26 +55,26 @@
   "scoreComparison": {
     "chapter": {
       "score": "329",
-      "vs_all_pct": -0.3,
+      "vs_all_pct": 0,
       "vs_class_pct": null,
       "date": "2026-08-30T00:08:16+00:00"
     },
     "guild_conquest": {
       "score": "376862082705",
-      "vs_all_pct": 4,
-      "vs_class_pct": 10.5,
+      "vs_all_pct": 4.3,
+      "vs_class_pct": 10.8,
       "date": "2026-09-06T06:17:13+00:00"
     },
     "world_boss": {
       "score": "50024460700000000",
-      "vs_all_pct": -33.3,
-      "vs_class_pct": -30.7,
+      "vs_all_pct": -33.2,
+      "vs_class_pct": -30.5,
       "date": "2026-09-10T04:37:20+00:00"
     },
     "guild_war": {
       "score": "141749631659",
-      "vs_all_pct": -17.9,
-      "vs_class_pct": -19.5,
+      "vs_all_pct": -18,
+      "vs_class_pct": -19.6,
       "date": "2026-08-28T00:00:56+00:00"
     },
     "guild_training_ground": {
@@ -85,17 +85,13 @@
     },
     "guild_boss": {
       "score": "102572098587",
-      "vs_all_pct": -7.8,
-      "vs_class_pct": -6.4,
+      "vs_all_pct": -7.9,
+      "vs_class_pct": -6.5,
       "date": "2026-09-04T16:39:48+00:00"
     }
   },
   "history": {
     "conquest_history": [
-      {
-        "date": "2026-08-17T04:31:56+00:00",
-        "score": "298636760605"
-      },
       {
         "date": "2026-08-30T06:24:56+00:00",
         "score": "374686543506"
@@ -146,17 +142,7 @@
     ],
     "cp_history": [
       {
-        "date": "2026-08-16T08:13:06+00:00",
-        "cpRaw": 4108263391728413,
-        "cpDisplay": "4AA 108T"
-      },
-      {
-        "date": "2026-08-16T21:55:04+00:00",
-        "cpRaw": 4109139198121381,
-        "cpDisplay": "4AA 109T"
-      },
-      {
-        "date": "2026-08-17T04:31:55+00:00",
+        "date": "2026-08-17T21:54:59+00:00",
         "cpRaw": 4197979675365040,
         "cpDisplay": "4AA 197T"
       },
@@ -279,11 +265,16 @@
         "date": "2026-09-13T01:05:26+00:00",
         "cpRaw": 9699682367714096,
         "cpDisplay": "9AA 699T"
+      },
+      {
+        "date": "2026-09-15T12:44:42+00:00",
+        "cpRaw": 10021717133737236,
+        "cpDisplay": "10AA 21T"
       }
     ],
     "level_history": [
       {
-        "date": "2026-08-16T08:13:06+00:00",
+        "date": "2026-08-17T21:54:59+00:00",
         "level": 112
       },
       {
@@ -296,5 +287,5 @@
       }
     ]
   },
-  "scraped_at": "2026-09-15T08:13:08.050342+00:00"
+  "scraped_at": "2026-09-16T21:55:01.068915+00:00"
 }

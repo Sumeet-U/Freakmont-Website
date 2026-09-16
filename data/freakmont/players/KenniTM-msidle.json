@@ -3,26 +3,26 @@
     "name": "KenniTM",
     "class": "Paladin",
     "level": 113,
-    "cpRaw": "7812385798411319",
-    "cpDisplay": "7AA 812T",
-    "fame": 169
+    "cpRaw": "8737977244881365",
+    "cpDisplay": "8AA 737T",
+    "fame": 170
   },
   "ranks": {
     "global": {
-      "rank": 3802,
-      "percentile": 0.3
+      "rank": 3590,
+      "percentile": 0.2
     },
     "server": {
       "rank": 37,
       "percentile": 0.1
     },
     "world": {
-      "rank": 901,
+      "rank": 857,
       "percentile": 0.2
     },
     "job": {
-      "rank": 544,
-      "percentile": 2.2
+      "rank": 522,
+      "percentile": 2.1
     }
   },
   "performance": {
@@ -43,7 +43,7 @@
     },
     "guild_war": {
       "score": 199672441267,
-      "percentile": 6.5,
+      "percentile": 7.4,
       "updated": "2026-09-10T03:17:03+00:00"
     },
     "world_boss": {
@@ -61,20 +61,20 @@
     },
     "guild_conquest": {
       "score": "528398146010",
-      "vs_all_pct": 43.8,
-      "vs_class_pct": 36.3,
+      "vs_all_pct": 44.2,
+      "vs_class_pct": 36.4,
       "date": "2026-09-12T04:56:49+00:00"
     },
     "world_boss": {
       "score": "89013713100000000",
-      "vs_all_pct": 42.7,
-      "vs_class_pct": 22.2,
+      "vs_all_pct": 42.9,
+      "vs_class_pct": 22.7,
       "date": "2026-09-13T05:41:46+00:00"
     },
     "guild_war": {
       "score": "199672441267",
       "vs_all_pct": 4.4,
-      "vs_class_pct": 0.8,
+      "vs_class_pct": 1.1,
       "date": "2026-09-10T03:17:03+00:00"
     },
     "guild_training_ground": {
@@ -85,7 +85,7 @@
     },
     "guild_boss": {
       "score": "100926204622",
-      "vs_all_pct": 10.6,
+      "vs_all_pct": 10.5,
       "vs_class_pct": 6.8,
       "date": "2026-08-27T16:27:27+00:00"
     }
@@ -202,12 +202,7 @@
     ],
     "cp_history": [
       {
-        "date": "2026-08-16T08:13:17+00:00",
-        "cpRaw": 2194252255495206,
-        "cpDisplay": "2AA 194T"
-      },
-      {
-        "date": "2026-08-16T21:55:07+00:00",
+        "date": "2026-08-17T21:55:11+00:00",
         "cpRaw": 2195885568750576,
         "cpDisplay": "2AA 195T"
       },
@@ -330,11 +325,16 @@
         "date": "2026-09-13T01:05:26+00:00",
         "cpRaw": 7812385798411319,
         "cpDisplay": "7AA 812T"
+      },
+      {
+        "date": "2026-09-15T12:44:42+00:00",
+        "cpRaw": 8737977244881365,
+        "cpDisplay": "8AA 737T"
       }
     ],
     "level_history": [
       {
-        "date": "2026-08-16T08:13:17+00:00",
+        "date": "2026-08-17T21:55:11+00:00",
         "level": 111
       },
       {
@@ -347,5 +347,5 @@
       }
     ]
   },
-  "scraped_at": "2026-09-15T08:13:18.668769+00:00"
+  "scraped_at": "2026-09-16T21:55:12.521440+00:00"
 }

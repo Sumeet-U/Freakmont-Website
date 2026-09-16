@@ -1,5 +1,5 @@
 {
-  "date": "2026-09-12",
+  "date": "2026-09-15",
   "entries": [
     {
       "name": "poljjak",
@@ -11,7 +11,7 @@
     {
       "name": "JaneGarden",
       "class": "Night Lord",
-      "level": 117,
+      "level": 118,
       "score": 14982645,
       "rank": 2
     },
@@ -46,7 +46,7 @@
     {
       "name": "JaiLBalT",
       "class": "Shadower",
-      "level": 114,
+      "level": 115,
       "score": 10757229,
       "rank": 7
     },
@@ -203,13 +203,6 @@
       "level": 109,
       "score": 3014280,
       "rank": 29
-    },
-    {
-      "name": "jbboaf0ng",
-      "class": "Night Lord",
-      "level": 105,
-      "score": 2860110,
-      "rank": 30
     }
   ]
 }

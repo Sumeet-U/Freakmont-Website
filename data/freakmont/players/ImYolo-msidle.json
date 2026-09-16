@@ -2,26 +2,26 @@
   "character": {
     "name": "ImYolo",
     "class": "Bishop",
-    "level": 114,
-    "cpRaw": "24056409308523632",
-    "cpDisplay": "24AA 56T",
-    "fame": 850
+    "level": 115,
+    "cpRaw": "25201921265398224",
+    "cpDisplay": "25AA 201T",
+    "fame": 882
   },
   "ranks": {
     "global": {
-      "rank": 1983,
+      "rank": 1948,
       "percentile": 0.1
     },
     "server": {
-      "rank": 20,
+      "rank": 19,
       "percentile": 0.1
     },
     "world": {
-      "rank": 481,
+      "rank": 474,
       "percentile": 0.1
     },
     "job": {
-      "rank": 497,
+      "rank": 486,
       "percentile": 0.9
     }
   },
@@ -42,9 +42,9 @@
       "updated": "2026-09-04T16:39:54+00:00"
     },
     "guild_war": {
-      "score": 237484182251,
-      "percentile": 5.4,
-      "updated": "2026-09-10T03:16:26+00:00"
+      "score": 247112517228,
+      "percentile": 5.2,
+      "updated": "2026-09-16T21:53:26+00:00"
     },
     "world_boss": {
       "score": 92291930300000016,
@@ -61,25 +61,25 @@
     },
     "guild_conquest": {
       "score": "599908629223",
-      "vs_all_pct": -14.8,
-      "vs_class_pct": -9.5,
+      "vs_all_pct": -14.5,
+      "vs_class_pct": -9.2,
       "date": "2026-09-15T00:54:12+00:00"
     },
     "world_boss": {
       "score": "92291930300000016",
       "vs_all_pct": -55.8,
-      "vs_class_pct": -54.1,
+      "vs_class_pct": -54,
       "date": "2026-09-15T00:53:45+00:00"
     },
     "guild_war": {
-      "score": "237484182251",
-      "vs_all_pct": -36.3,
-      "vs_class_pct": -37.6,
-      "date": "2026-09-10T03:16:26+00:00"
+      "score": "247112517228",
+      "vs_all_pct": -38.2,
+      "vs_class_pct": -39.4,
+      "date": "2026-09-16T21:53:26+00:00"
     },
     "guild_training_ground": {
       "score": "8334144",
-      "vs_all_pct": -13.6,
+      "vs_all_pct": -13.7,
       "vs_class_pct": -19.2,
       "date": "2026-07-17T05:53:50+00:00"
     },
@@ -156,6 +156,10 @@
       {
         "date": "2026-09-10T03:16:26+00:00",
         "score": "237484182251"
+      },
+      {
+        "date": "2026-09-16T21:53:26+00:00",
+        "score": "247112517228"
       }
     ],
     "world_boss_history": [
@@ -198,7 +202,7 @@
     ],
     "cp_history": [
       {
-        "date": "2026-08-16T08:12:11+00:00",
+        "date": "2026-08-17T21:54:02+00:00",
         "cpRaw": 6298846541098221,
         "cpDisplay": "6AA 298T"
       },
@@ -306,11 +310,16 @@
         "date": "2026-09-15T00:53:45+00:00",
         "cpRaw": 24056409308523632,
         "cpDisplay": "24AA 56T"
+      },
+      {
+        "date": "2026-09-16T21:53:26+00:00",
+        "cpRaw": 25201921265398224,
+        "cpDisplay": "25AA 201T"
       }
     ],
     "level_history": [
       {
-        "date": "2026-08-16T08:12:11+00:00",
+        "date": "2026-08-17T21:54:02+00:00",
         "level": 112
       },
       {
@@ -320,8 +329,12 @@
       {
         "date": "2026-09-04T18:08:05+00:00",
         "level": 114
+      },
+      {
+        "date": "2026-09-15T12:44:39+00:00",
+        "level": 115
       }
     ]
   },
-  "scraped_at": "2026-09-15T08:12:13.205299+00:00"
+  "scraped_at": "2026-09-16T21:54:03.499142+00:00"
 }

@@ -5,23 +5,23 @@
     "level": 112,
     "cpRaw": "2437158056327526",
     "cpDisplay": "2AA 437T",
-    "fame": 1314
+    "fame": 1315
   },
   "ranks": {
     "global": {
-      "rank": 7582,
+      "rank": 7621,
       "percentile": 0.5
     },
     "server": {
-      "rank": 74,
+      "rank": 76,
       "percentile": 0.3
     },
     "world": {
-      "rank": 1718,
+      "rank": 1744,
       "percentile": 0.4
     },
     "job": {
-      "rank": 254,
+      "rank": 256,
       "percentile": 0.1
     }
   },
@@ -43,7 +43,7 @@
     },
     "guild_war": {
       "score": 116338427065,
-      "percentile": 16,
+      "percentile": 17.4,
       "updated": "2026-09-10T03:17:11+00:00"
     },
     "world_boss": {
@@ -55,14 +55,14 @@
   "scoreComparison": {
     "guild_conquest": {
       "score": "256497713792",
-      "vs_all_pct": 26.5,
-      "vs_class_pct": 50.8,
+      "vs_all_pct": 26.8,
+      "vs_class_pct": 51.6,
       "date": "2026-09-15T04:21:21+00:00"
     },
     "world_boss": {
       "score": "19053961000000000",
-      "vs_all_pct": 7.5,
-      "vs_class_pct": 34.6,
+      "vs_all_pct": 7.7,
+      "vs_class_pct": 35.2,
       "date": "2026-09-15T00:53:54+00:00"
     },
     "guild_war": {
@@ -79,7 +79,7 @@
     },
     "guild_boss": {
       "score": "65245556656",
-      "vs_all_pct": 26.7,
+      "vs_all_pct": 26.6,
       "vs_class_pct": 35.3,
       "date": "2026-09-04T16:39:49+00:00"
     }
@@ -142,10 +142,6 @@
     ],
     "world_boss_history": [
       {
-        "date": "2026-08-17T04:31:55+00:00",
-        "score": "6771374440000000"
-      },
-      {
         "date": "2026-08-18T04:23:44+00:00",
         "score": "7249518370000000"
       },
@@ -180,12 +176,7 @@
     ],
     "cp_history": [
       {
-        "date": "2026-08-16T08:14:23+00:00",
-        "cpRaw": 727558367821510,
-        "cpDisplay": "727T 558B"
-      },
-      {
-        "date": "2026-08-16T21:55:15+00:00",
+        "date": "2026-08-17T21:56:20+00:00",
         "cpRaw": 728097846644953,
         "cpDisplay": "728T 97B"
       },
@@ -317,7 +308,7 @@
     ],
     "level_history": [
       {
-        "date": "2026-08-16T08:14:23+00:00",
+        "date": "2026-08-17T21:56:20+00:00",
         "level": 110
       },
       {
@@ -330,5 +321,5 @@
       }
     ]
   },
-  "scraped_at": "2026-09-15T08:14:24.694869+00:00"
+  "scraped_at": "2026-09-16T21:56:21.627662+00:00"
 }

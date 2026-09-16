@@ -1,5 +1,5 @@
 {
-  "date": "2026-09-15",
+  "date": "2026-09-16",
   "entries": [
     {
       "name": "RefundKobe",
@@ -39,14 +39,14 @@
     {
       "name": "Pantshunter",
       "class": "Hero",
-      "level": 115,
+      "level": 116,
       "score": 127967505144.71,
       "rank": 6
     },
     {
       "name": "ImYolo",
       "class": "Bishop",
-      "level": 114,
+      "level": 115,
       "score": 122278060441.213,
       "rank": 7
     },
@@ -74,7 +74,7 @@
     {
       "name": "YungSeaTurtl",
       "class": "Night Lord",
-      "level": 112,
+      "level": 113,
       "score": 92917130577.6108,
       "rank": 11
     },
@@ -109,7 +109,7 @@
     {
       "name": "xpo168",
       "class": "Fire/Poison Mage",
-      "level": 112,
+      "level": 113,
       "score": 55429331516.9322,
       "rank": 16
     },
@@ -165,7 +165,7 @@
     {
       "name": "Chinnychin",
       "class": "Bowmaster",
-      "level": 109,
+      "level": 110,
       "score": 26125866722.3563,
       "rank": 24
     },
@@ -207,7 +207,7 @@
     {
       "name": "Hayamachop",
       "class": "Hero",
-      "level": 109,
+      "level": 110,
       "score": 18360521181.5466,
       "rank": 30
     }
