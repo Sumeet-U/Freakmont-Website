@@ -1,5 +1,5 @@
 {
-  "date": "2026-09-15",
+  "date": "2026-09-16",
   "entries": [
     {
       "name": "JaneGarden",
@@ -32,7 +32,7 @@
     {
       "name": "Pantshunter",
       "class": "Hero",
-      "level": 115,
+      "level": 116,
       "score": 150264279000000000,
       "rank": 5
     },
@@ -60,7 +60,7 @@
     {
       "name": "ImYolo",
       "class": "Bishop",
-      "level": 114,
+      "level": 115,
       "score": 84603489200000000,
       "rank": 9
     },
@@ -74,7 +74,7 @@
     {
       "name": "YungSeaTurtl",
       "class": "Night Lord",
-      "level": 112,
+      "level": 113,
       "score": 40780960000000000,
       "rank": 11
     },
@@ -88,7 +88,7 @@
     {
       "name": "xpo168",
       "class": "Fire/Poison Mage",
-      "level": 112,
+      "level": 113,
       "score": 20773992200000000,
       "rank": 13
     },
@@ -193,7 +193,7 @@
     {
       "name": "Chinnychin",
       "class": "Bowmaster",
-      "level": 109,
+      "level": 110,
       "score": 2626248930000000,
       "rank": 28
     },
@@ -207,7 +207,7 @@
     {
       "name": "Hayamachop",
       "class": "Hero",
-      "level": 109,
+      "level": 110,
       "score": 2229780290000000,
       "rank": 30
     }

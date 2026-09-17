@@ -1,12 +1,12 @@
 {
   "ranks": {
     "global_rank": {
-      "rank": 3538,
-      "total": 242649
+      "rank": 3573,
+      "total": 243279
     },
     "bera": {
-      "rank": 2057,
-      "total": 106034
+      "rank": 2076,
+      "total": 106304
     },
     "bera_5": {
       "rank": 89,
@@ -14,7 +14,7 @@
     },
     "fire/poison_mage": {
       "rank": 64,
-      "total": 11834
+      "total": 11847
     }
   },
   "performance": {
@@ -40,14 +40,6 @@
     }
   },
   "history": [
-    {
-      "date": "8/18",
-      "cpRaw": 655955224507956.2,
-      "cpDisplay": "655T 955B",
-      "level": 111,
-      "globalRank": 3676,
-      "fame": 314
-    },
     {
       "date": "8/19",
       "cpRaw": 655955224507956.2,
@@ -279,7 +271,15 @@
       "level": 113,
       "globalRank": 3538,
       "fame": 356
+    },
+    {
+      "date": "9/17",
+      "cpRaw": 1753000521663445.2,
+      "cpDisplay": "1AA 753T",
+      "level": 113,
+      "globalRank": 3573,
+      "fame": 357
     }
   ],
-  "scraped_at": "2026-09-16T21:52:25.840254+00:00"
+  "scraped_at": "2026-09-17T21:45:50.336514+00:00"
 }

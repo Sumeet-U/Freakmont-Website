@@ -3,32 +3,32 @@
     "name": "Caycidia",
     "class": "Arch Mage (Ice/Lightning)",
     "level": 112,
-    "cpRaw": "2437158056327526",
-    "cpDisplay": "2AA 437T",
-    "fame": 1315
+    "cpRaw": "2446463834770942",
+    "cpDisplay": "2AA 446T",
+    "fame": 1316
   },
   "ranks": {
     "global": {
-      "rank": 7621,
-      "percentile": 0.5
+      "rank": 9254,
+      "percentile": 0.6
     },
     "server": {
-      "rank": 76,
+      "rank": 77,
       "percentile": 0.3
     },
     "world": {
-      "rank": 1744,
+      "rank": 1793,
       "percentile": 0.4
     },
     "job": {
-      "rank": 256,
+      "rank": 294,
       "percentile": 0.1
     }
   },
   "performance": {
     "conquest": {
       "score": 256497713792,
-      "percentile": 3.2,
+      "percentile": 3.3,
       "updated": "2026-09-15T04:21:21+00:00"
     },
     "training_ground": {
@@ -43,44 +43,44 @@
     },
     "guild_war": {
       "score": 116338427065,
-      "percentile": 17.4,
+      "percentile": 11,
       "updated": "2026-09-10T03:17:11+00:00"
     },
     "world_boss": {
       "score": 19053961000000000,
-      "percentile": 2.7,
+      "percentile": 2.8,
       "updated": "2026-09-15T00:53:54+00:00"
     }
   },
   "scoreComparison": {
     "guild_conquest": {
       "score": "256497713792",
-      "vs_all_pct": 26.8,
-      "vs_class_pct": 51.6,
+      "vs_all_pct": 27.1,
+      "vs_class_pct": 52.2,
       "date": "2026-09-15T04:21:21+00:00"
     },
     "world_boss": {
       "score": "19053961000000000",
-      "vs_all_pct": 7.7,
-      "vs_class_pct": 35.2,
+      "vs_all_pct": 7.9,
+      "vs_class_pct": 35.7,
       "date": "2026-09-15T00:53:54+00:00"
     },
     "guild_war": {
       "score": "116338427065",
-      "vs_all_pct": 15.4,
-      "vs_class_pct": 26.5,
+      "vs_all_pct": 18.5,
+      "vs_class_pct": 31.2,
       "date": "2026-09-10T03:17:11+00:00"
     },
     "guild_training_ground": {
       "score": "6411192",
-      "vs_all_pct": 18.1,
+      "vs_all_pct": 18.2,
       "vs_class_pct": 31.2,
       "date": "2026-07-17T05:54:11+00:00"
     },
     "guild_boss": {
       "score": "65245556656",
       "vs_all_pct": 26.6,
-      "vs_class_pct": 35.3,
+      "vs_class_pct": 35.2,
       "date": "2026-09-04T16:39:49+00:00"
     }
   },
@@ -176,12 +176,7 @@
     ],
     "cp_history": [
       {
-        "date": "2026-08-17T21:56:20+00:00",
-        "cpRaw": 728097846644953,
-        "cpDisplay": "728T 97B"
-      },
-      {
-        "date": "2026-08-18T04:23:44+00:00",
+        "date": "2026-08-18T21:49:26+00:00",
         "cpRaw": 735008470131627,
         "cpDisplay": "735T 8B"
       },
@@ -304,11 +299,16 @@
         "date": "2026-09-15T04:20:46+00:00",
         "cpRaw": 2437158056327526,
         "cpDisplay": "2AA 437T"
+      },
+      {
+        "date": "2026-09-16T22:55:10+00:00",
+        "cpRaw": 2446463834770942,
+        "cpDisplay": "2AA 446T"
       }
     ],
     "level_history": [
       {
-        "date": "2026-08-17T21:56:20+00:00",
+        "date": "2026-08-18T21:49:26+00:00",
         "level": 110
       },
       {
@@ -321,5 +321,5 @@
       }
     ]
   },
-  "scraped_at": "2026-09-16T21:56:21.627662+00:00"
+  "scraped_at": "2026-09-17T21:49:26.785129+00:00"
 }

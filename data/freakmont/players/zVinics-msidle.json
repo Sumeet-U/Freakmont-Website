@@ -3,32 +3,32 @@
     "name": "zVinics",
     "class": "Bishop",
     "level": 114,
-    "cpRaw": "10021717133737236",
-    "cpDisplay": "10AA 21T",
+    "cpRaw": "10384957217531986",
+    "cpDisplay": "10AA 384T",
     "fame": 1225
   },
   "ranks": {
     "global": {
-      "rank": 3326,
-      "percentile": 0.2
+      "rank": 4021,
+      "percentile": 0.3
     },
     "server": {
       "rank": 36,
       "percentile": 0.1
     },
     "world": {
-      "rank": 797,
+      "rank": 800,
       "percentile": 0.2
     },
     "job": {
-      "rank": 871,
-      "percentile": 1.6
+      "rank": 1110,
+      "percentile": 1.8
     }
   },
   "performance": {
     "conquest": {
       "score": 376862082705,
-      "percentile": 2.3,
+      "percentile": 2.4,
       "updated": "2026-09-06T06:17:13+00:00"
     },
     "training_ground": {
@@ -43,12 +43,12 @@
     },
     "guild_war": {
       "score": 141749631659,
-      "percentile": 12.2,
+      "percentile": 7.9,
       "updated": "2026-08-28T00:00:56+00:00"
     },
     "world_boss": {
       "score": 50024460700000000,
-      "percentile": 1.6,
+      "percentile": 1.7,
       "updated": "2026-09-10T04:37:20+00:00"
     }
   },
@@ -61,32 +61,32 @@
     },
     "guild_conquest": {
       "score": "376862082705",
-      "vs_all_pct": 4.3,
-      "vs_class_pct": 10.8,
+      "vs_all_pct": 4.6,
+      "vs_class_pct": 11,
       "date": "2026-09-06T06:17:13+00:00"
     },
     "world_boss": {
       "score": "50024460700000000",
-      "vs_all_pct": -33.2,
-      "vs_class_pct": -30.5,
+      "vs_all_pct": -33.1,
+      "vs_class_pct": -30.3,
       "date": "2026-09-10T04:37:20+00:00"
     },
     "guild_war": {
       "score": "141749631659",
-      "vs_all_pct": -18,
-      "vs_class_pct": -19.6,
+      "vs_all_pct": -15.4,
+      "vs_class_pct": -14.8,
       "date": "2026-08-28T00:00:56+00:00"
     },
     "guild_training_ground": {
       "score": "11432469",
-      "vs_all_pct": 13,
+      "vs_all_pct": 12.9,
       "vs_class_pct": 5.7,
       "date": "2026-07-17T05:53:43+00:00"
     },
     "guild_boss": {
       "score": "102572098587",
       "vs_all_pct": -7.9,
-      "vs_class_pct": -6.5,
+      "vs_class_pct": -6.6,
       "date": "2026-09-04T16:39:48+00:00"
     }
   },
@@ -142,12 +142,7 @@
     ],
     "cp_history": [
       {
-        "date": "2026-08-17T21:54:59+00:00",
-        "cpRaw": 4197979675365040,
-        "cpDisplay": "4AA 197T"
-      },
-      {
-        "date": "2026-08-18T04:23:34+00:00",
+        "date": "2026-08-18T21:48:11+00:00",
         "cpRaw": 4502975171517749,
         "cpDisplay": "4AA 502T"
       },
@@ -270,11 +265,16 @@
         "date": "2026-09-15T12:44:42+00:00",
         "cpRaw": 10021717133737236,
         "cpDisplay": "10AA 21T"
+      },
+      {
+        "date": "2026-09-17T06:18:39+00:00",
+        "cpRaw": 10384957217531986,
+        "cpDisplay": "10AA 384T"
       }
     ],
     "level_history": [
       {
-        "date": "2026-08-17T21:54:59+00:00",
+        "date": "2026-08-18T21:48:11+00:00",
         "level": 112
       },
       {
@@ -287,5 +287,5 @@
       }
     ]
   },
-  "scraped_at": "2026-09-16T21:55:01.068915+00:00"
+  "scraped_at": "2026-09-17T21:48:12.424333+00:00"
 }

@@ -3,13 +3,13 @@
     "name": "Pantshunter",
     "class": "Hero",
     "level": 116,
-    "cpRaw": "12803684901618428",
-    "cpDisplay": "12AA 803T",
-    "fame": 96
+    "cpRaw": "13242604061160600",
+    "cpDisplay": "13AA 242T",
+    "fame": 98
   },
   "ranks": {
     "global": {
-      "rank": 2856,
+      "rank": 3448,
       "percentile": 0.2
     },
     "server": {
@@ -17,11 +17,11 @@
       "percentile": 0.1
     },
     "world": {
-      "rank": 704,
+      "rank": 708,
       "percentile": 0.2
     },
     "job": {
-      "rank": 171,
+      "rank": 203,
       "percentile": 0.2
     }
   },
@@ -43,7 +43,7 @@
     },
     "guild_war": {
       "score": 207361196570,
-      "percentile": 7.1,
+      "percentile": 4.7,
       "updated": "2026-08-28T00:00:56+00:00"
     },
     "world_boss": {
@@ -61,32 +61,32 @@
     },
     "guild_conquest": {
       "score": "636331242134",
-      "vs_all_pct": 31.3,
-      "vs_class_pct": 36.2,
+      "vs_all_pct": 31.6,
+      "vs_class_pct": 36.5,
       "date": "2026-09-13T05:42:01+00:00"
     },
     "world_boss": {
       "score": "156005431000000000",
-      "vs_all_pct": 47.2,
-      "vs_class_pct": 41.3,
+      "vs_all_pct": 47.4,
+      "vs_class_pct": 41.7,
       "date": "2026-09-15T04:20:43+00:00"
     },
     "guild_war": {
       "score": "207361196570",
-      "vs_all_pct": 18.4,
-      "vs_class_pct": 22.7,
+      "vs_all_pct": 22.1,
+      "vs_class_pct": 26.2,
       "date": "2026-08-28T00:00:56+00:00"
     },
     "guild_training_ground": {
       "score": "8035854",
       "vs_all_pct": -20,
-      "vs_class_pct": -10.3,
+      "vs_class_pct": -10.4,
       "date": "2026-07-17T05:53:57+00:00"
     },
     "guild_boss": {
       "score": "127967505145",
-      "vs_all_pct": -14.1,
-      "vs_class_pct": -15.6,
+      "vs_all_pct": -14.2,
+      "vs_class_pct": -15.7,
       "date": "2026-09-04T16:39:41+00:00"
     }
   },
@@ -154,12 +154,7 @@
     ],
     "cp_history": [
       {
-        "date": "2026-08-17T21:54:25+00:00",
-        "cpRaw": 4768684690442311,
-        "cpDisplay": "4AA 768T"
-      },
-      {
-        "date": "2026-08-18T04:23:31+00:00",
+        "date": "2026-08-18T21:47:39+00:00",
         "cpRaw": 5052648886150118,
         "cpDisplay": "5AA 52T"
       },
@@ -237,11 +232,21 @@
         "date": "2026-09-15T04:20:43+00:00",
         "cpRaw": 12803684901618428,
         "cpDisplay": "12AA 803T"
+      },
+      {
+        "date": "2026-09-16T22:54:59+00:00",
+        "cpRaw": 12933043033555232,
+        "cpDisplay": "12AA 933T"
+      },
+      {
+        "date": "2026-09-17T05:48:49+00:00",
+        "cpRaw": 13242604061160600,
+        "cpDisplay": "13AA 242T"
       }
     ],
     "level_history": [
       {
-        "date": "2026-08-17T21:54:25+00:00",
+        "date": "2026-08-18T21:47:39+00:00",
         "level": 114
       },
       {
@@ -254,5 +259,5 @@
       }
     ]
   },
-  "scraped_at": "2026-09-16T21:54:26.742324+00:00"
+  "scraped_at": "2026-09-17T21:47:40.433094+00:00"
 }

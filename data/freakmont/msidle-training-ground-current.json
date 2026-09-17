@@ -1,5 +1,5 @@
 {
-  "date": "2026-09-16",
+  "date": "2026-09-17",
   "entries": [
     {
       "name": "poljjak",
@@ -81,7 +81,7 @@
     {
       "name": "YungSeaTurtl",
       "class": "Night Lord",
-      "level": 112,
+      "level": 113,
       "score": 8263503,
       "rank": 12
     },
@@ -109,7 +109,7 @@
     {
       "name": "xpo168",
       "class": "Arch Mage (Fire/Poison)",
-      "level": 112,
+      "level": 113,
       "score": 7430415,
       "rank": 16
     },
@@ -172,7 +172,7 @@
     {
       "name": "Chinnychin",
       "class": "Bowmaster",
-      "level": 109,
+      "level": 110,
       "score": 4790445,
       "rank": 25
     },
@@ -207,7 +207,7 @@
     {
       "name": "Hayamachop",
       "class": "Hero",
-      "level": 109,
+      "level": 110,
       "score": 3014280,
       "rank": 30
     }

@@ -5,30 +5,30 @@
     "level": 109,
     "cpRaw": "487888214336223",
     "cpDisplay": "487T 888B",
-    "fame": 135
+    "fame": 137
   },
   "ranks": {
     "global": {
-      "rank": 18203,
-      "percentile": 1.2
+      "rank": 22865,
+      "percentile": 1.5
     },
     "server": {
-      "rank": 220,
-      "percentile": 0.8
+      "rank": 230,
+      "percentile": 0.9
     },
     "world": {
-      "rank": 4392,
-      "percentile": 1
+      "rank": 4584,
+      "percentile": 1.1
     },
     "job": {
-      "rank": 882,
-      "percentile": 3.1
+      "rank": 1137,
+      "percentile": 3.8
     }
   },
   "performance": {
     "conquest": {
       "score": 106844745206,
-      "percentile": 8.4,
+      "percentile": 8.6,
       "updated": "2026-09-15T00:54:24+00:00"
     },
     "training_ground": {
@@ -43,12 +43,12 @@
     },
     "guild_war": {
       "score": 33547218355,
-      "percentile": 32.7,
+      "percentile": 27.5,
       "updated": "2026-09-10T03:18:07+00:00"
     },
     "world_boss": {
       "score": 3755983330000000,
-      "percentile": 6.2,
+      "percentile": 6.3,
       "updated": "2026-09-15T00:54:18+00:00"
     }
   },
@@ -61,32 +61,32 @@
     },
     "guild_conquest": {
       "score": "106844745206",
-      "vs_all_pct": 26.3,
-      "vs_class_pct": 27.4,
+      "vs_all_pct": 26.8,
+      "vs_class_pct": 27.5,
       "date": "2026-09-15T00:54:24+00:00"
     },
     "world_boss": {
       "score": "3755983330000000",
-      "vs_all_pct": 18.9,
-      "vs_class_pct": 11.2,
+      "vs_all_pct": 19.4,
+      "vs_class_pct": 11.8,
       "date": "2026-09-15T00:54:18+00:00"
     },
     "guild_war": {
       "score": "33547218355",
-      "vs_all_pct": -21.6,
-      "vs_class_pct": -23.5,
+      "vs_all_pct": -20,
+      "vs_class_pct": -20.7,
       "date": "2026-09-10T03:18:07+00:00"
     },
     "guild_training_ground": {
       "score": "6907539",
-      "vs_all_pct": 3.9,
+      "vs_all_pct": 3.8,
       "vs_class_pct": -8.6,
       "date": "2026-09-11T02:46:37+00:00"
     },
     "guild_boss": {
       "score": "2928291073",
-      "vs_all_pct": 11.6,
-      "vs_class_pct": 10.8,
+      "vs_all_pct": 11.7,
+      "vs_class_pct": 11.1,
       "date": "2026-06-15T08:42:33+00:00"
     }
   },
@@ -128,10 +128,6 @@
     ],
     "world_boss_history": [
       {
-        "date": "2026-08-18T04:24:17+00:00",
-        "score": "1420506360000000"
-      },
-      {
         "date": "2026-08-25T04:37:42+00:00",
         "score": "1803588740000000"
       },
@@ -150,12 +146,7 @@
     ],
     "cp_history": [
       {
-        "date": "2026-08-16T08:16:13+00:00",
-        "cpRaw": 116559043569098,
-        "cpDisplay": "116T 559B"
-      },
-      {
-        "date": "2026-08-17T07:59:43+00:00",
+        "date": "2026-08-18T21:51:27+00:00",
         "cpRaw": 165187527908978,
         "cpDisplay": "165T 187B"
       },
@@ -202,7 +193,7 @@
     ],
     "level_history": [
       {
-        "date": "2026-08-16T08:16:13+00:00",
+        "date": "2026-08-18T21:51:27+00:00",
         "level": 107
       },
       {
@@ -215,5 +206,5 @@
       }
     ]
   },
-  "scraped_at": "2026-09-15T08:16:14.658761+00:00"
+  "scraped_at": "2026-09-17T21:51:28.744465+00:00"
 }

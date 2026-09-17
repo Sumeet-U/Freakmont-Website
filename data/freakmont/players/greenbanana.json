@@ -1,20 +1,20 @@
 {
   "ranks": {
     "global_rank": {
-      "rank": 7763,
-      "total": 242649
+      "rank": 7895,
+      "total": 243279
     },
     "bera": {
-      "rank": 4441,
-      "total": 106034
+      "rank": 4524,
+      "total": 106304
     },
     "bera_5": {
-      "rank": 223,
+      "rank": 229,
       "total": 2000
     },
     "corsair": {
-      "rank": 296,
-      "total": 18061
+      "rank": 300,
+      "total": 18089
     }
   },
   "performance": {
@@ -40,14 +40,6 @@
     }
   },
   "history": [
-    {
-      "date": "8/18",
-      "cpRaw": 165187527908978,
-      "cpDisplay": "165T 187B",
-      "level": 107,
-      "globalRank": 9145,
-      "fame": 128
-    },
     {
       "date": "8/19",
       "cpRaw": 213445231622108.2,
@@ -279,7 +271,15 @@
       "level": 109,
       "globalRank": 7763,
       "fame": 137
+    },
+    {
+      "date": "9/17",
+      "cpRaw": 487888214336223.3,
+      "cpDisplay": "487T 888B",
+      "level": 109,
+      "globalRank": 7895,
+      "fame": 137
     }
   ],
-  "scraped_at": "2026-09-16T21:53:05.729073+00:00"
+  "scraped_at": "2026-09-17T21:46:20.060752+00:00"
 }

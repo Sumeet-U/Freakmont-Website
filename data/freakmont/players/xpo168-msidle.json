@@ -2,33 +2,33 @@
   "character": {
     "name": "xpo168",
     "class": "Arch Mage (Fire/Poison)",
-    "level": 112,
-    "cpRaw": "1696825324607998",
-    "cpDisplay": "1AA 696T",
-    "fame": 354
+    "level": 113,
+    "cpRaw": "1737738679131682",
+    "cpDisplay": "1AA 737T",
+    "fame": 357
   },
   "ranks": {
     "global": {
-      "rank": 9171,
-      "percentile": 0.6
+      "rank": 11032,
+      "percentile": 0.7
     },
     "server": {
-      "rank": 92,
+      "rank": 90,
       "percentile": 0.3
     },
     "world": {
-      "rank": 2095,
+      "rank": 2118,
       "percentile": 0.5
     },
     "job": {
-      "rank": 166,
-      "percentile": 0.1
+      "rank": 198,
+      "percentile": 0.2
     }
   },
   "performance": {
     "conquest": {
       "score": 179546057423,
-      "percentile": 4.5,
+      "percentile": 4.6,
       "updated": "2026-09-08T04:34:29+00:00"
     },
     "training_ground": {
@@ -43,7 +43,7 @@
     },
     "guild_war": {
       "score": 116820819205,
-      "percentile": 17.2,
+      "percentile": 10.9,
       "updated": "2026-09-16T21:53:34+00:00"
     },
     "world_boss": {
@@ -61,32 +61,32 @@
     },
     "guild_conquest": {
       "score": "179546057423",
-      "vs_all_pct": 18,
-      "vs_class_pct": 40.7,
+      "vs_all_pct": 18.2,
+      "vs_class_pct": 41,
       "date": "2026-09-08T04:34:29+00:00"
     },
     "world_boss": {
       "score": "23039481400000000",
-      "vs_all_pct": 91.7,
-      "vs_class_pct": 132.3,
+      "vs_all_pct": 92.1,
+      "vs_class_pct": 133.6,
       "date": "2026-09-15T04:20:46+00:00"
     },
     "guild_war": {
       "score": "116820819205",
-      "vs_all_pct": 26.6,
-      "vs_class_pct": 37.2,
+      "vs_all_pct": 30,
+      "vs_class_pct": 40.1,
       "date": "2026-09-16T21:53:34+00:00"
     },
     "guild_training_ground": {
       "score": "7430415",
       "vs_all_pct": 41.5,
-      "vs_class_pct": 25.4,
+      "vs_class_pct": 25.5,
       "date": "2026-07-03T01:50:05+00:00"
     },
     "guild_boss": {
       "score": "55429331517",
       "vs_all_pct": 42.3,
-      "vs_class_pct": 51.6,
+      "vs_class_pct": 51.5,
       "date": "2026-08-27T16:28:11+00:00"
     }
   },
@@ -186,12 +186,7 @@
     ],
     "cp_history": [
       {
-        "date": "2026-08-17T21:56:43+00:00",
-        "cpRaw": 643714933559945,
-        "cpDisplay": "643T 714B"
-      },
-      {
-        "date": "2026-08-18T04:23:41+00:00",
+        "date": "2026-08-18T21:49:47+00:00",
         "cpRaw": 655955224507956,
         "cpDisplay": "655T 955B"
       },
@@ -344,18 +339,27 @@
         "date": "2026-09-16T21:53:34+00:00",
         "cpRaw": 1696825324607998,
         "cpDisplay": "1AA 696T"
+      },
+      {
+        "date": "2026-09-16T22:55:08+00:00",
+        "cpRaw": 1737738679131682,
+        "cpDisplay": "1AA 737T"
       }
     ],
     "level_history": [
       {
-        "date": "2026-08-17T21:56:43+00:00",
+        "date": "2026-08-18T21:49:47+00:00",
         "level": 111
       },
       {
         "date": "2026-08-26T22:16:14+00:00",
         "level": 112
+      },
+      {
+        "date": "2026-09-17T06:18:48+00:00",
+        "level": 113
       }
     ]
   },
-  "scraped_at": "2026-09-16T21:56:45.375839+00:00"
+  "scraped_at": "2026-09-17T21:49:47.869250+00:00"
 }
