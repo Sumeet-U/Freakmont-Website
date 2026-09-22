@@ -1,5 +1,5 @@
 """
-Daily guild-data puller for Freakmont (Bera 5). We created a lightweight website to track our guild, inspired by https://gocelest.com/
+Daily guild-data puller for Freakmont (Bera 3). We created a lightweight website to track our guild, inspired by https://gocelest.com/
 
 Key discovery (via HAR inspection of the real page): mapleidle.gg is a Next.js
 App Router site. The guild page is server-rendered, and the full member roster
@@ -35,7 +35,7 @@ from curl_cffi import requests
 
 MAPLEIDLE_BASE_URL = "https://mapleidle.gg"
 MAPLEIDLE_REGION = "bera"
-MAPLEIDLE_WORLD = 5  # Bera 5 -- matches MAPLEIDLE_REGION, needed as a
+MAPLEIDLE_WORLD = 3  # Bera 3 -- matches MAPLEIDLE_REGION, needed as a
                      # separate query param for the score-analysis API
 MSIDLE_BASE_URL = "https://www.msidle.gg"
 

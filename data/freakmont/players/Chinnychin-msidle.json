@@ -3,37 +3,37 @@
     "name": "Chinnychin",
     "class": "Bowmaster",
     "level": 110,
-    "cpRaw": "466472808556626",
-    "cpDisplay": "466T 472B",
-    "fame": 37
+    "cpRaw": "484863863541115",
+    "cpDisplay": "484T 863B",
+    "fame": 39
   },
   "ranks": {
     "global": {
-      "rank": 23502,
-      "percentile": 1.6
+      "rank": 26149,
+      "percentile": 1.7
     },
     "server": {
-      "rank": 242,
-      "percentile": 0.9
+      "rank": 595,
+      "percentile": 1.3
     },
     "world": {
-      "rank": 4730,
+      "rank": 4819,
       "percentile": 1.1
     },
     "job": {
-      "rank": 1455,
-      "percentile": 1.3
+      "rank": 1640,
+      "percentile": 1.4
     }
   },
   "performance": {
     "conquest": {
       "score": 113048981787,
-      "percentile": 7.9,
+      "percentile": 8.3,
       "updated": "2026-09-15T04:21:25+00:00"
     },
     "training_ground": {
       "score": 4790445,
-      "percentile": 14.1,
+      "percentile": 24.2,
       "updated": "2026-06-19T04:15:05+00:00"
     },
     "guild_boss_battle": {
@@ -43,7 +43,7 @@
     },
     "world_boss": {
       "score": 3498419220000000,
-      "percentile": 6.5,
+      "percentile": 6.6,
       "updated": "2026-09-15T04:20:59+00:00"
     }
   },
@@ -51,25 +51,25 @@
     "guild_conquest": {
       "score": "113048981787",
       "vs_all_pct": 39.9,
-      "vs_class_pct": 46.7,
+      "vs_class_pct": 46.3,
       "date": "2026-09-15T04:21:25+00:00"
     },
     "world_boss": {
       "score": "3498419220000000",
-      "vs_all_pct": 20.8,
+      "vs_all_pct": 20.3,
       "vs_class_pct": 14.7,
       "date": "2026-09-15T04:20:59+00:00"
     },
     "guild_training_ground": {
       "score": "4790445",
-      "vs_all_pct": 97.9,
-      "vs_class_pct": 54.3,
+      "vs_all_pct": 95.6,
+      "vs_class_pct": 44.4,
       "date": "2026-06-19T04:15:05+00:00"
     },
     "guild_boss": {
       "score": "3960092528",
-      "vs_all_pct": 37.2,
-      "vs_class_pct": 33.2,
+      "vs_all_pct": 37.3,
+      "vs_class_pct": 33.3,
       "date": "2026-06-15T08:42:14+00:00"
     }
   },
@@ -105,10 +105,6 @@
     "guild_war_history": [],
     "world_boss_history": [
       {
-        "date": "2026-08-21T17:28:16+00:00",
-        "score": "1617275270000000"
-      },
-      {
         "date": "2026-08-25T04:37:41+00:00",
         "score": "1859441820000000"
       },
@@ -131,37 +127,7 @@
     ],
     "cp_history": [
       {
-        "date": "2026-08-18T21:51:50+00:00",
-        "cpRaw": 189536225542335,
-        "cpDisplay": "189T 536B"
-      },
-      {
-        "date": "2026-08-19T00:26:40+00:00",
-        "cpRaw": 194715224211220,
-        "cpDisplay": "194T 715B"
-      },
-      {
-        "date": "2026-08-19T06:07:18+00:00",
-        "cpRaw": 199267928425517,
-        "cpDisplay": "199T 267B"
-      },
-      {
-        "date": "2026-08-20T13:45:16+00:00",
-        "cpRaw": 208741193411013,
-        "cpDisplay": "208T 741B"
-      },
-      {
-        "date": "2026-08-21T17:28:16+00:00",
-        "cpRaw": 216084006513165,
-        "cpDisplay": "216T 84B"
-      },
-      {
-        "date": "2026-08-22T04:17:46+00:00",
-        "cpRaw": 219106059096778,
-        "cpDisplay": "219T 106B"
-      },
-      {
-        "date": "2026-08-23T00:36:31+00:00",
+        "date": "2026-08-23T22:03:37+00:00",
         "cpRaw": 219277580279252,
         "cpDisplay": "219T 277B"
       },
@@ -259,15 +225,21 @@
         "date": "2026-09-16T22:55:26+00:00",
         "cpRaw": 466472808556626,
         "cpDisplay": "466T 472B"
+      },
+      {
+        "date": "2026-09-18T02:21:16+00:00",
+        "cpRaw": 483709689464478,
+        "cpDisplay": "483T 709B"
+      },
+      {
+        "date": "2026-09-21T06:25:48+00:00",
+        "cpRaw": 484863863541115,
+        "cpDisplay": "484T 863B"
       }
     ],
     "level_history": [
       {
-        "date": "2026-08-18T21:51:50+00:00",
-        "level": 107
-      },
-      {
-        "date": "2026-08-23T00:36:31+00:00",
+        "date": "2026-08-23T22:03:37+00:00",
         "level": 108
       },
       {
@@ -280,5 +252,5 @@
       }
     ]
   },
-  "scraped_at": "2026-09-17T21:51:51.220992+00:00"
+  "scraped_at": "2026-09-22T22:03:37.455627+00:00"
 }

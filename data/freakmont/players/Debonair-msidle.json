@@ -2,38 +2,38 @@
   "character": {
     "name": "Debonair",
     "class": "Bowmaster",
-    "level": 116,
+    "level": 117,
     "cpRaw": "27938800483394232",
     "cpDisplay": "27AA 938T",
     "fame": 1227
   },
   "ranks": {
     "global": {
-      "rank": 2274,
+      "rank": 2585,
       "percentile": 0.2
     },
     "server": {
-      "rank": 17,
+      "rank": 51,
       "percentile": 0.1
     },
     "world": {
-      "rank": 458,
+      "rank": 477,
       "percentile": 0.1
     },
     "job": {
-      "rank": 106,
+      "rank": 124,
       "percentile": 0.1
     }
   },
   "performance": {
     "conquest": {
-      "score": 587427823521,
+      "score": 640209643168,
       "percentile": 1.7,
-      "updated": "2026-09-17T05:49:40+00:00"
+      "updated": "2026-09-21T06:25:28+00:00"
     },
     "training_ground": {
       "score": 9830238,
-      "percentile": 4.7,
+      "percentile": 8,
       "updated": "2026-06-19T04:14:37+00:00"
     },
     "guild_boss_battle": {
@@ -48,48 +48,44 @@
     },
     "world_boss": {
       "score": 191709463000000032,
-      "percentile": 0.8,
+      "percentile": 0.9,
       "updated": "2026-09-15T00:53:43+00:00"
     }
   },
   "scoreComparison": {
     "guild_conquest": {
-      "score": "587427823521",
-      "vs_all_pct": -22.6,
-      "vs_class_pct": -18.8,
-      "date": "2026-09-17T05:49:40+00:00"
+      "score": "640209643168",
+      "vs_all_pct": -15.9,
+      "vs_class_pct": -12,
+      "date": "2026-09-21T06:25:28+00:00"
     },
     "world_boss": {
       "score": "191709463000000032",
-      "vs_all_pct": -9.9,
-      "vs_class_pct": -14.5,
+      "vs_all_pct": -10.6,
+      "vs_class_pct": -14.8,
       "date": "2026-09-15T00:53:43+00:00"
     },
     "guild_war": {
       "score": "125670469441",
-      "vs_all_pct": -1.5,
-      "vs_class_pct": -15,
+      "vs_all_pct": -1.6,
+      "vs_class_pct": -15.1,
       "date": "2026-07-15T17:38:12+00:00"
     },
     "guild_training_ground": {
       "score": "9830238",
-      "vs_all_pct": 5.6,
-      "vs_class_pct": -17.7,
+      "vs_all_pct": 9.3,
+      "vs_class_pct": -19.3,
       "date": "2026-06-19T04:14:37+00:00"
     },
     "guild_boss": {
       "score": "153912720509",
-      "vs_all_pct": -7.1,
-      "vs_class_pct": -9.8,
+      "vs_all_pct": -7.2,
+      "vs_class_pct": -10,
       "date": "2026-09-04T16:40:17+00:00"
     }
   },
   "history": {
     "conquest_history": [
-      {
-        "date": "2026-08-21T17:27:41+00:00",
-        "score": "354946980212"
-      },
       {
         "date": "2026-08-26T04:14:05+00:00",
         "score": "419718391683"
@@ -101,6 +97,10 @@
       {
         "date": "2026-09-17T05:49:40+00:00",
         "score": "587427823521"
+      },
+      {
+        "date": "2026-09-21T06:25:28+00:00",
+        "score": "640209643168"
       }
     ],
     "training_ground_history": [],
@@ -117,14 +117,6 @@
     "guild_war_history": [],
     "world_boss_history": [
       {
-        "date": "2026-08-18T04:23:30+00:00",
-        "score": "65675489000000000"
-      },
-      {
-        "date": "2026-08-19T06:06:49+00:00",
-        "score": "87991766000000000"
-      },
-      {
         "date": "2026-09-02T05:19:57+00:00",
         "score": "105354114000000000"
       },
@@ -139,32 +131,7 @@
     ],
     "cp_history": [
       {
-        "date": "2026-08-18T21:47:06+00:00",
-        "cpRaw": 8662632004125720,
-        "cpDisplay": "8AA 662T"
-      },
-      {
-        "date": "2026-08-19T00:25:54+00:00",
-        "cpRaw": 8859943514539579,
-        "cpDisplay": "8AA 859T"
-      },
-      {
-        "date": "2026-08-19T06:06:49+00:00",
-        "cpRaw": 8866046356637543,
-        "cpDisplay": "8AA 866T"
-      },
-      {
-        "date": "2026-08-20T13:44:32+00:00",
-        "cpRaw": 9471138276898676,
-        "cpDisplay": "9AA 471T"
-      },
-      {
-        "date": "2026-08-21T17:27:34+00:00",
-        "cpRaw": 9488645519471536,
-        "cpDisplay": "9AA 488T"
-      },
-      {
-        "date": "2026-08-23T00:35:50+00:00",
+        "date": "2026-08-23T21:58:38+00:00",
         "cpRaw": 9517039002421288,
         "cpDisplay": "9AA 517T"
       },
@@ -266,14 +233,18 @@
     ],
     "level_history": [
       {
-        "date": "2026-08-18T21:47:06+00:00",
+        "date": "2026-08-23T21:58:38+00:00",
         "level": 115
       },
       {
         "date": "2026-09-04T18:08:06+00:00",
         "level": 116
+      },
+      {
+        "date": "2026-09-18T02:20:40+00:00",
+        "level": 117
       }
     ]
   },
-  "scraped_at": "2026-09-17T21:47:07.646494+00:00"
+  "scraped_at": "2026-09-22T21:58:39.223250+00:00"
 }

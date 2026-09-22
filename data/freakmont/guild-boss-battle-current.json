@@ -1,5 +1,5 @@
 {
-  "date": "2026-09-17",
+  "date": "2026-09-22",
   "entries": [
     {
       "name": "RefundKobe",
@@ -18,21 +18,21 @@
     {
       "name": "poljjak",
       "class": "Bishop",
-      "level": 116,
+      "level": 117,
       "score": 166514185273.567,
       "rank": 3
     },
     {
       "name": "Debonair",
       "class": "Bowmaster",
-      "level": 116,
+      "level": 117,
       "score": 153912720509.266,
       "rank": 4
     },
     {
       "name": "kbaFM",
       "class": "Night Lord",
-      "level": 114,
+      "level": 115,
       "score": 149877060017.702,
       "rank": 5
     },
@@ -60,7 +60,7 @@
     {
       "name": "KenniTM",
       "class": "Paladin",
-      "level": 113,
+      "level": 114,
       "score": 108374736304.2,
       "rank": 9
     },
@@ -81,14 +81,14 @@
     {
       "name": "SuuperCow",
       "class": "Paladin",
-      "level": 113,
+      "level": 114,
       "score": 85288607061.6713,
       "rank": 12
     },
     {
       "name": "Caycidia",
       "class": "Ice/Lightning Mage",
-      "level": 112,
+      "level": 113,
       "score": 65245556655.5139,
       "rank": 13
     },
@@ -137,14 +137,14 @@
     {
       "name": "RefundPuJay",
       "class": "Marksman",
-      "level": 110,
+      "level": 111,
       "score": 50125034651.7871,
       "rank": 20
     },
     {
       "name": "Lighttt",
       "class": "Night Lord",
-      "level": 110,
+      "level": 111,
       "score": 37887126697.1851,
       "rank": 21
     },

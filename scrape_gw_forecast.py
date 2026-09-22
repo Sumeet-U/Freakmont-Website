@@ -1,5 +1,5 @@
 """
-Guild War forecast builder for Freakmont (Bera 5).
+Guild War forecast builder for Freakmont (Bera 3).
 
 Guild War pools 5 guilds with similar CP into one 150-seat ranking: every
 participant's real Guild War damage earns them a position (1-150), and that
