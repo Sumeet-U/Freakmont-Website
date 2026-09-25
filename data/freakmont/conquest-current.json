@@ -1,5 +1,5 @@
 {
-  "date": "2026-09-22",
+  "date": "2026-09-24",
   "entries": [
     {
       "name": "JaneGarden",
@@ -11,7 +11,7 @@
     {
       "name": "RefundKobe",
       "class": "Marksman",
-      "level": 117,
+      "level": 118,
       "score": 1252808855824.42,
       "rank": 2
     },
@@ -37,38 +37,38 @@
       "rank": 5
     },
     {
-      "name": "ImYolo",
-      "class": "Bishop",
-      "level": 115,
-      "score": 660845017490.651,
-      "rank": 6
-    },
-    {
       "name": "Pantshunter",
       "class": "Hero",
       "level": 116,
       "score": 659277644518.231,
-      "rank": 7
+      "rank": 6
     },
     {
       "name": "Debonair",
       "class": "Bowmaster",
       "level": 117,
       "score": 640209643168.266,
-      "rank": 8
+      "rank": 7
     },
     {
       "name": "KenniTM",
       "class": "Paladin",
       "level": 114,
       "score": 631780680051.623,
-      "rank": 9
+      "rank": 8
     },
     {
       "name": "zVinics",
       "class": "Bishop",
       "level": 114,
       "score": 490187566919.329,
+      "rank": 9
+    },
+    {
+      "name": "iamJinniiez",
+      "class": "Ice/Lightning Mage",
+      "level": 115,
+      "score": 482509267891.609,
       "rank": 10
     },
     {
@@ -95,7 +95,7 @@
     {
       "name": "Ravenz",
       "class": "Shadower",
-      "level": 112,
+      "level": 113,
       "score": 242517149061.8,
       "rank": 14
     },
@@ -130,7 +130,7 @@
     {
       "name": "Amascut",
       "class": "Bowmaster",
-      "level": 112,
+      "level": 113,
       "score": 177342754613.178,
       "rank": 19
     },
@@ -149,10 +149,10 @@
       "rank": 21
     },
     {
-      "name": "Ashweeb",
-      "class": "Shadower",
-      "level": 110,
-      "score": 136996518252.828,
+      "name": "TimelessIce",
+      "class": "Bowmaster",
+      "level": 112,
+      "score": 142870412048.267,
       "rank": 22
     },
     {
@@ -172,7 +172,7 @@
     {
       "name": "greenbanana",
       "class": "Corsair",
-      "level": 109,
+      "level": 110,
       "score": 106844745206.329,
       "rank": 25
     },

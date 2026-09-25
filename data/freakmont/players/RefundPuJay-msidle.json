@@ -2,33 +2,33 @@
   "character": {
     "name": "RefundPuJay",
     "class": "Marksman",
-    "level": 110,
-    "cpRaw": "1223859563232895",
-    "cpDisplay": "1AA 223T",
+    "level": 111,
+    "cpRaw": "1378521374964009",
+    "cpDisplay": "1AA 378T",
     "fame": 44
   },
   "ranks": {
     "global": {
-      "rank": 14819,
+      "rank": 15270,
       "percentile": 1
     },
     "server": {
-      "rank": 283,
+      "rank": 276,
       "percentile": 0.6
     },
     "world": {
-      "rank": 2707,
+      "rank": 2674,
       "percentile": 0.6
     },
     "job": {
-      "rank": 904,
+      "rank": 907,
       "percentile": 1.3
     }
   },
   "performance": {
     "conquest": {
       "score": 148529526019,
-      "percentile": 5.9,
+      "percentile": 6,
       "updated": "2026-09-21T06:25:40+00:00"
     },
     "training_ground": {
@@ -42,51 +42,51 @@
       "updated": "2026-09-04T16:39:40+00:00"
     },
     "guild_war": {
-      "score": 101784087599,
-      "percentile": 13.1,
-      "updated": "2026-09-10T03:16:33+00:00"
+      "score": 102805379462,
+      "percentile": 14,
+      "updated": "2026-09-23T00:58:39+00:00"
     },
     "world_boss": {
       "score": 10440843600000000,
-      "percentile": 3.8,
+      "percentile": 4,
       "updated": "2026-09-16T22:55:17+00:00"
     }
   },
   "scoreComparison": {
     "chapter": {
       "score": "257",
-      "vs_all_pct": -2.3,
+      "vs_all_pct": -1.9,
       "vs_class_pct": null,
       "date": "2026-07-15T02:50:14+00:00"
     },
     "guild_conquest": {
       "score": "148529526019",
-      "vs_all_pct": 6.9,
-      "vs_class_pct": 5.9,
+      "vs_all_pct": 7.6,
+      "vs_class_pct": 6.5,
       "date": "2026-09-21T06:25:40+00:00"
     },
     "world_boss": {
       "score": "10440843600000000",
-      "vs_all_pct": 23.2,
-      "vs_class_pct": 3.9,
+      "vs_all_pct": 25.2,
+      "vs_class_pct": 6.1,
       "date": "2026-09-16T22:55:17+00:00"
     },
     "guild_war": {
-      "score": "101784087599",
-      "vs_all_pct": 46.4,
-      "vs_class_pct": 43.5,
-      "date": "2026-09-10T03:16:33+00:00"
+      "score": "102805379462",
+      "vs_all_pct": 30.9,
+      "vs_class_pct": 28.8,
+      "date": "2026-09-23T00:58:39+00:00"
     },
     "guild_training_ground": {
       "score": "8765436",
       "vs_all_pct": 4.3,
-      "vs_class_pct": -0.3,
+      "vs_class_pct": -0.4,
       "date": "2026-09-18T01:13:06+00:00"
     },
     "guild_boss": {
       "score": "50125034652",
       "vs_all_pct": 15.2,
-      "vs_class_pct": 9.9,
+      "vs_class_pct": 9.8,
       "date": "2026-09-04T16:39:40+00:00"
     }
   },
@@ -137,6 +137,10 @@
       {
         "date": "2026-09-10T03:16:33+00:00",
         "score": "101784087599"
+      },
+      {
+        "date": "2026-09-23T00:58:39+00:00",
+        "score": "102805379462"
       }
     ],
     "world_boss_history": [
@@ -159,12 +163,7 @@
     ],
     "cp_history": [
       {
-        "date": "2026-08-23T22:02:00+00:00",
-        "cpRaw": 700304933110663,
-        "cpDisplay": "700T 304B"
-      },
-      {
-        "date": "2026-08-25T04:37:19+00:00",
+        "date": "2026-08-26T04:11:03+00:00",
         "cpRaw": 770493934238804,
         "cpDisplay": "770T 493B"
       },
@@ -252,22 +251,32 @@
         "date": "2026-09-21T06:25:40+00:00",
         "cpRaw": 1223859563232895,
         "cpDisplay": "1AA 223T"
+      },
+      {
+        "date": "2026-09-23T00:58:38+00:00",
+        "cpRaw": 1305029869862855,
+        "cpDisplay": "1AA 305T"
+      },
+      {
+        "date": "2026-09-23T04:02:54+00:00",
+        "cpRaw": 1378521374964009,
+        "cpDisplay": "1AA 378T"
       }
     ],
     "level_history": [
       {
-        "date": "2026-08-23T22:02:00+00:00",
-        "level": 108
-      },
-      {
-        "date": "2026-08-25T06:06:52+00:00",
+        "date": "2026-08-26T04:11:03+00:00",
         "level": 109
       },
       {
         "date": "2026-09-04T18:08:25+00:00",
         "level": 110
+      },
+      {
+        "date": "2026-09-23T04:02:54+00:00",
+        "level": 111
       }
     ]
   },
-  "scraped_at": "2026-09-22T22:02:00.855175+00:00"
+  "scraped_at": "2026-09-25T04:11:05.600323+00:00"
 }

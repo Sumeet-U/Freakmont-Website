@@ -1,20 +1,20 @@
 {
   "ranks": {
     "global_rank": {
-      "rank": 8507,
-      "total": 96224
+      "rank": 8506,
+      "total": 98356
     },
     "bera": {
       "rank": 4856,
-      "total": 48781
+      "total": 50008
     },
     "bera_3": {
-      "rank": 603,
+      "rank": 594,
       "total": 4600
     },
     "bowmaster": {
-      "rank": 574,
-      "total": 5748
+      "rank": 567,
+      "total": 5846
     }
   },
   "performance": {
@@ -27,8 +27,8 @@
       "updated": "Sep 20"
     },
     "training_ground": {
-      "score": 4790445,
-      "updated": "Jun 19"
+      "score": 10401672,
+      "updated": "Sep 24"
     },
     "guild_war": {
       "score": 68150947448.615135,
@@ -40,22 +40,6 @@
     }
   },
   "history": [
-    {
-      "date": "8/24",
-      "cpRaw": 227817355551600.94,
-      "cpDisplay": "227T 817B",
-      "level": 108,
-      "globalRank": 8518,
-      "fame": 34
-    },
-    {
-      "date": "8/25",
-      "cpRaw": 228637612706022.62,
-      "cpDisplay": "228T 637B",
-      "level": 108,
-      "globalRank": 8697,
-      "fame": 34
-    },
     {
       "date": "8/26",
       "cpRaw": 277660823957803.75,
@@ -279,7 +263,23 @@
       "level": 110,
       "globalRank": 8507,
       "fame": 39
+    },
+    {
+      "date": "9/23",
+      "cpRaw": 515745212472098.3,
+      "cpDisplay": "515T 745B",
+      "level": 110,
+      "globalRank": 8388,
+      "fame": 39
+    },
+    {
+      "date": "9/24",
+      "cpRaw": 515745212472098.3,
+      "cpDisplay": "515T 745B",
+      "level": 110,
+      "globalRank": 8506,
+      "fame": 40
     }
   ],
-  "scraped_at": "2026-09-22T21:57:44.191626+00:00"
+  "scraped_at": "2026-09-25T04:07:13.535460+00:00"
 }

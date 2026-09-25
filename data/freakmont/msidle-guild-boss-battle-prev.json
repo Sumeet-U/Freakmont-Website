@@ -1,5 +1,5 @@
 {
-  "date": "2026-09-17",
+  "date": "2026-09-22",
   "entries": [
     {
       "name": "JaneGarden",
@@ -18,14 +18,14 @@
     {
       "name": "poljjak",
       "class": "Bishop",
-      "level": 116,
+      "level": 117,
       "score": 166514185274,
       "rank": 3
     },
     {
       "name": "Debonair",
       "class": "Bowmaster",
-      "level": 116,
+      "level": 117,
       "score": 153912720509,
       "rank": 4
     },
@@ -67,7 +67,7 @@
     {
       "name": "KenniTM",
       "class": "Paladin",
-      "level": 113,
+      "level": 114,
       "score": 100926204622,
       "rank": 10
     },
@@ -88,7 +88,7 @@
     {
       "name": "Caycidia",
       "class": "Arch Mage (Ice/Lightning)",
-      "level": 112,
+      "level": 113,
       "score": 65245556656,
       "rank": 13
     },

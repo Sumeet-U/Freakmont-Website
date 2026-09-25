@@ -16,9 +16,9 @@
   "training_ground": {
     "score": 5943774,
     "snapshotDate": "2026-09-10",
-    "peerRank": 12,
+    "peerRank": null,
     "peerCount": 12,
-    "percentile": 0.0
+    "percentile": null
   },
   "guild_war": {
     "score": 119926506539.3216,

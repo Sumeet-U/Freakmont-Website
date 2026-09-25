@@ -1,20 +1,20 @@
 {
   "ranks": {
     "global_rank": {
-      "rank": 7050,
-      "total": 96224
+      "rank": 7113,
+      "total": 98356
     },
     "bera": {
-      "rank": 4047,
-      "total": 48781
+      "rank": 4078,
+      "total": 50008
     },
     "bera_3": {
-      "rank": 489,
+      "rank": 498,
       "total": 4600
     },
     "hero": {
-      "rank": 429,
-      "total": 6344
+      "rank": 435,
+      "total": 6456
     }
   },
   "performance": {
@@ -27,8 +27,8 @@
       "updated": "Sep 20"
     },
     "training_ground": {
-      "score": 4605495,
-      "updated": "Sep 10"
+      "score": 6543771,
+      "updated": "Sep 24"
     },
     "guild_war": {
       "score": 35086443813.07261,
@@ -40,22 +40,6 @@
     }
   },
   "history": [
-    {
-      "date": "8/24",
-      "cpRaw": 253812520598110.94,
-      "cpDisplay": "253T 812B",
-      "level": 109,
-      "globalRank": 7953,
-      "fame": 315
-    },
-    {
-      "date": "8/25",
-      "cpRaw": 253812520598110.94,
-      "cpDisplay": "253T 812B",
-      "level": 109,
-      "globalRank": 8127,
-      "fame": 315
-    },
     {
       "date": "8/26",
       "cpRaw": 260346651561984.94,
@@ -279,7 +263,23 @@
       "level": 110,
       "globalRank": 7050,
       "fame": 338
+    },
+    {
+      "date": "9/23",
+      "cpRaw": 651633922573110,
+      "cpDisplay": "651T 633B",
+      "level": 110,
+      "globalRank": 7196,
+      "fame": 341
+    },
+    {
+      "date": "9/24",
+      "cpRaw": 679033797864159.5,
+      "cpDisplay": "679T 33B",
+      "level": 110,
+      "globalRank": 7113,
+      "fame": 341
     }
   ],
-  "scraped_at": "2026-09-22T21:57:37.134968+00:00"
+  "scraped_at": "2026-09-25T04:07:04.789638+00:00"
 }

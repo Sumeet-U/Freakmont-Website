@@ -3,25 +3,25 @@
     "name": "Debonair",
     "class": "Bowmaster",
     "level": 117,
-    "cpRaw": "27938800483394232",
-    "cpDisplay": "27AA 938T",
-    "fame": 1227
+    "cpRaw": "29434520938268824",
+    "cpDisplay": "29AA 434T",
+    "fame": 1228
   },
   "ranks": {
     "global": {
-      "rank": 2585,
+      "rank": 2792,
       "percentile": 0.2
     },
     "server": {
-      "rank": 51,
+      "rank": 53,
       "percentile": 0.1
     },
     "world": {
-      "rank": 477,
+      "rank": 501,
       "percentile": 0.1
     },
     "job": {
-      "rank": 124,
+      "rank": 133,
       "percentile": 0.1
     }
   },
@@ -43,44 +43,44 @@
     },
     "guild_war": {
       "score": 125670469441,
-      "percentile": 9.3,
+      "percentile": 10.1,
       "updated": "2026-07-15T17:38:12+00:00"
     },
     "world_boss": {
-      "score": 191709463000000032,
-      "percentile": 0.9,
-      "updated": "2026-09-15T00:53:43+00:00"
+      "score": 234847896000000000,
+      "percentile": 0.8,
+      "updated": "2026-09-23T01:18:55+00:00"
     }
   },
   "scoreComparison": {
     "guild_conquest": {
       "score": "640209643168",
-      "vs_all_pct": -15.9,
-      "vs_class_pct": -12,
+      "vs_all_pct": -15.1,
+      "vs_class_pct": -11.3,
       "date": "2026-09-21T06:25:28+00:00"
     },
     "world_boss": {
-      "score": "191709463000000032",
-      "vs_all_pct": -10.6,
-      "vs_class_pct": -14.8,
-      "date": "2026-09-15T00:53:43+00:00"
+      "score": "234847896000000000",
+      "vs_all_pct": -8.2,
+      "vs_class_pct": -12.5,
+      "date": "2026-09-23T01:18:55+00:00"
     },
     "guild_war": {
       "score": "125670469441",
-      "vs_all_pct": -1.6,
-      "vs_class_pct": -15.1,
+      "vs_all_pct": -2.2,
+      "vs_class_pct": -15.5,
       "date": "2026-07-15T17:38:12+00:00"
     },
     "guild_training_ground": {
       "score": "9830238",
       "vs_all_pct": 9.3,
-      "vs_class_pct": -19.3,
+      "vs_class_pct": -19.4,
       "date": "2026-06-19T04:14:37+00:00"
     },
     "guild_boss": {
       "score": "153912720509",
-      "vs_all_pct": -7.2,
-      "vs_class_pct": -10,
+      "vs_all_pct": -7.3,
+      "vs_class_pct": -10.2,
       "date": "2026-09-04T16:40:17+00:00"
     }
   },
@@ -127,16 +127,15 @@
       {
         "date": "2026-09-15T00:53:43+00:00",
         "score": "191709463000000032"
+      },
+      {
+        "date": "2026-09-23T01:18:55+00:00",
+        "score": "234847896000000000"
       }
     ],
     "cp_history": [
       {
-        "date": "2026-08-23T21:58:38+00:00",
-        "cpRaw": 9517039002421288,
-        "cpDisplay": "9AA 517T"
-      },
-      {
-        "date": "2026-08-25T04:37:01+00:00",
+        "date": "2026-08-26T04:08:01+00:00",
         "cpRaw": 9787372280588378,
         "cpDisplay": "9AA 787T"
       },
@@ -229,11 +228,16 @@
         "date": "2026-09-16T22:54:58+00:00",
         "cpRaw": 27938800483394232,
         "cpDisplay": "27AA 938T"
+      },
+      {
+        "date": "2026-09-23T01:18:55+00:00",
+        "cpRaw": 29434520938268824,
+        "cpDisplay": "29AA 434T"
       }
     ],
     "level_history": [
       {
-        "date": "2026-08-23T21:58:38+00:00",
+        "date": "2026-08-26T04:08:01+00:00",
         "level": 115
       },
       {
@@ -246,5 +250,5 @@
       }
     ]
   },
-  "scraped_at": "2026-09-22T21:58:39.223250+00:00"
+  "scraped_at": "2026-09-25T04:08:04.118705+00:00"
 }

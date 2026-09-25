@@ -3,32 +3,32 @@
     "name": "Byro",
     "class": "Arch Mage (Ice/Lightning)",
     "level": 110,
-    "cpRaw": "700177998286404",
-    "cpDisplay": "700T 177B",
-    "fame": 280
+    "cpRaw": "713556623230254",
+    "cpDisplay": "713T 556B",
+    "fame": 284
   },
   "ranks": {
     "global": {
-      "rank": 20728,
-      "percentile": 1.4
+      "rank": 22530,
+      "percentile": 1.5
     },
     "server": {
-      "rank": 445,
+      "rank": 472,
       "percentile": 1
     },
     "world": {
-      "rank": 3783,
+      "rank": 3951,
       "percentile": 0.9
     },
     "job": {
-      "rank": 826,
+      "rank": 913,
       "percentile": 0.4
     }
   },
   "performance": {
     "conquest": {
       "score": 89746547900,
-      "percentile": 10.6,
+      "percentile": 10.7,
       "updated": "2026-09-19T04:58:08+00:00"
     },
     "training_ground": {
@@ -43,59 +43,55 @@
     },
     "guild_war": {
       "score": 40757924213,
-      "percentile": 24.4,
+      "percentile": 27.1,
       "updated": "2026-09-16T21:54:27+00:00"
     },
     "world_boss": {
-      "score": 2752130950000000,
-      "percentile": 7.3,
-      "updated": "2026-09-17T05:49:11+00:00"
+      "score": 3429416280000000,
+      "percentile": 6.9,
+      "updated": "2026-09-23T01:18:48+00:00"
     }
   },
   "scoreComparison": {
     "chapter": {
       "score": "280",
-      "vs_all_pct": -1.1,
+      "vs_all_pct": -0.7,
       "vs_class_pct": null,
       "date": "2026-08-27T13:09:28+00:00"
     },
     "guild_conquest": {
       "score": "89746547900",
-      "vs_all_pct": -12,
-      "vs_class_pct": 5.5,
+      "vs_all_pct": -11.5,
+      "vs_class_pct": 6.2,
       "date": "2026-09-19T04:58:08+00:00"
     },
     "world_boss": {
-      "score": "2752130950000000",
-      "vs_all_pct": -19.5,
-      "vs_class_pct": 1.8,
-      "date": "2026-09-17T05:49:11+00:00"
+      "score": "3429416280000000",
+      "vs_all_pct": -26.8,
+      "vs_class_pct": -6.8,
+      "date": "2026-09-23T01:18:48+00:00"
     },
     "guild_war": {
       "score": "40757924213",
-      "vs_all_pct": -14.3,
-      "vs_class_pct": -5.2,
+      "vs_all_pct": -14.7,
+      "vs_class_pct": -5.6,
       "date": "2026-09-16T21:54:27+00:00"
     },
     "guild_training_ground": {
       "score": "7514508",
-      "vs_all_pct": 10.5,
-      "vs_class_pct": 27.3,
+      "vs_all_pct": 10.4,
+      "vs_class_pct": 27.2,
       "date": "2026-09-18T01:13:42+00:00"
     },
     "guild_boss": {
       "score": "5704273952",
-      "vs_all_pct": 37.8,
+      "vs_all_pct": 37.9,
       "vs_class_pct": 47.4,
       "date": "2026-06-15T08:41:59+00:00"
     }
   },
   "history": {
     "conquest_history": [
-      {
-        "date": "2026-08-25T06:05:31+00:00",
-        "score": "57062109409"
-      },
       {
         "date": "2026-08-30T06:25:10+00:00",
         "score": "58295250376"
@@ -132,10 +128,6 @@
     ],
     "world_boss_history": [
       {
-        "date": "2026-08-25T04:37:45+00:00",
-        "score": "1686831510000000"
-      },
-      {
         "date": "2026-09-02T05:20:28+00:00",
         "score": "2108034570000000"
       },
@@ -150,11 +142,15 @@
       {
         "date": "2026-09-17T05:49:11+00:00",
         "score": "2752130950000000"
+      },
+      {
+        "date": "2026-09-23T01:18:48+00:00",
+        "score": "3429416280000000"
       }
     ],
     "cp_history": [
       {
-        "date": "2026-08-23T22:02:36+00:00",
+        "date": "2026-08-26T04:11:48+00:00",
         "cpRaw": 336840533823742,
         "cpDisplay": "336T 840B"
       },
@@ -287,11 +283,16 @@
         "date": "2026-09-21T06:25:26+00:00",
         "cpRaw": 700177998286404,
         "cpDisplay": "700T 177B"
+      },
+      {
+        "date": "2026-09-23T01:18:48+00:00",
+        "cpRaw": 713556623230254,
+        "cpDisplay": "713T 556B"
       }
     ],
     "level_history": [
       {
-        "date": "2026-08-23T22:02:36+00:00",
+        "date": "2026-08-26T04:11:48+00:00",
         "level": 109
       },
       {
@@ -300,5 +301,5 @@
       }
     ]
   },
-  "scraped_at": "2026-09-22T22:02:36.465522+00:00"
+  "scraped_at": "2026-09-25T04:11:50.508309+00:00"
 }

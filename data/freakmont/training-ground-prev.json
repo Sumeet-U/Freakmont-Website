@@ -1,5 +1,5 @@
 {
-  "date": "2026-09-17",
+  "date": "2026-09-22",
   "entries": [
     {
       "name": "JaneGarden",
@@ -18,14 +18,14 @@
     {
       "name": "poljjak",
       "class": "Bishop",
-      "level": 116,
+      "level": 117,
       "score": 16598847,
       "rank": 3
     },
     {
       "name": "kbaFM",
       "class": "Night Lord",
-      "level": 114,
+      "level": 115,
       "score": 11686614,
       "rank": 4
     },
@@ -39,7 +39,7 @@
     {
       "name": "SuuperCow",
       "class": "Paladin",
-      "level": 113,
+      "level": 114,
       "score": 11386236,
       "rank": 6
     },
@@ -74,7 +74,7 @@
     {
       "name": "Debonair",
       "class": "Bowmaster",
-      "level": 116,
+      "level": 117,
       "score": 9830238,
       "rank": 11
     },
@@ -109,7 +109,7 @@
     {
       "name": "KenniTM",
       "class": "Paladin",
-      "level": 113,
+      "level": 114,
       "score": 8254155,
       "rank": 16
     },
@@ -137,21 +137,21 @@
     {
       "name": "Lighttt",
       "class": "Night Lord",
-      "level": 110,
+      "level": 111,
       "score": 7379760,
       "rank": 20
     },
     {
       "name": "Caycidia",
       "class": "Ice/Lightning Mage",
-      "level": 112,
+      "level": 113,
       "score": 7336932,
       "rank": 21
     },
     {
       "name": "RefundPuJay",
       "class": "Marksman",
-      "level": 110,
+      "level": 111,
       "score": 7165968,
       "rank": 22
     },

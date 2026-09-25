@@ -1,5 +1,5 @@
 {
-  "date": "2026-09-22",
+  "date": "2026-09-24",
   "entries": [
     {
       "name": "JaneGarden",
@@ -25,7 +25,7 @@
     {
       "name": "SuuperCow",
       "class": "Paladin",
-      "level": 113,
+      "level": 114,
       "score": 11931558,
       "rank": 4
     },
@@ -88,7 +88,7 @@
     {
       "name": "RefundPuJay",
       "class": "Marksman",
-      "level": 110,
+      "level": 111,
       "score": 8765436,
       "rank": 13
     },
@@ -102,7 +102,7 @@
     {
       "name": "kbaFM",
       "class": "Night Lord",
-      "level": 114,
+      "level": 115,
       "score": 8492232,
       "rank": 15
     },
@@ -137,7 +137,7 @@
     {
       "name": "greenbanana",
       "class": "Corsair",
-      "level": 109,
+      "level": 110,
       "score": 7635654,
       "rank": 20
     },
@@ -151,7 +151,7 @@
     {
       "name": "Lighttt",
       "class": "Night Lord",
-      "level": 110,
+      "level": 111,
       "score": 7379760,
       "rank": 22
     },
