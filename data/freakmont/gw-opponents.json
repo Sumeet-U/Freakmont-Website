@@ -1,6 +1,6 @@
 {
   "_note": "Hand-maintained: this week's Guild War matchup. The scraper (scrape_gw_forecast.py) never writes to this file, only reads it -- edit it by hand whenever Guild War re-matches guilds (usually weekly). Copy this file to gw-opponents.json (drop the '.template') to activate it; gw-opponents.json is what the scraper actually reads.",
-  "week_of": "2026-09-14",
+  "week_of": "2026-09-21",
   "active": true,
   "opponents": [
     "Elation",

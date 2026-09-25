@@ -1,6 +1,6 @@
 # Freakmont
 
-A stats dashboard for **Freakmont**, a MapleStory Idle guild on Bera 5.
+A stats dashboard for **Freakmont**, a MapleStory Idle guild on Bera 3.
 Guild-wide rankings, CP distribution, category leaderboards, and
 per-player pages with rank/CP history — built the same way
 [gocelest.com](https://gocelest.com) is: flat JSON files + a static
@@ -59,7 +59,7 @@ or demoted; the daily scrape never writes to it.
 `gw-forecast.html` pools every participant across our current Guild War
 bracket (Freakmont + 4 opponents) into one ranking by real Guild War
 score, and projects each guild's total using Guild War's own fixed
-rank-points table (1st = 1,000,000 pts, 2nd = 900,000 pts, … down to
+rank-points table (1st = 1,500,000 pts, 2nd = 1,200,000 pts, … down to
 25,300 pts at rank 150).
 
 - **`data/freakmont/gw-opponents.json`** — hand-maintained, just like

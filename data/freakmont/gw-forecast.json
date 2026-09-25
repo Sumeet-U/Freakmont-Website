@@ -7,7 +7,7 @@
       "isUs": false,
       "memberCount": 29,
       "participantCount": 29,
-      "totalPoints": 5034900,
+      "totalPoints": 6029900,
       "projectedRank": 1
     },
     {
@@ -15,7 +15,7 @@
       "isUs": true,
       "memberCount": 30,
       "participantCount": 30,
-      "totalPoints": 4370100,
+      "totalPoints": 5065100,
       "projectedRank": 2
     },
     {
@@ -23,7 +23,7 @@
       "isUs": false,
       "memberCount": 25,
       "participantCount": 25,
-      "totalPoints": 4202000,
+      "totalPoints": 4822000,
       "projectedRank": 3
     },
     {
@@ -31,7 +31,7 @@
       "isUs": false,
       "memberCount": 25,
       "participantCount": 25,
-      "totalPoints": 4016500,
+      "totalPoints": 4441500,
       "projectedRank": 4
     },
     {
@@ -39,7 +39,7 @@
       "isUs": false,
       "memberCount": 17,
       "participantCount": 14,
-      "totalPoints": 1635500,
+      "totalPoints": 2135500,
       "projectedRank": 5
     }
   ],
@@ -51,7 +51,7 @@
       "class": "Corsair",
       "level": 120,
       "score": 1374023888677.32,
-      "points": 1000000,
+      "points": 1500000,
       "isUs": false
     },
     {
@@ -61,7 +61,7 @@
       "class": "Dark Knight",
       "level": 119,
       "score": 1013028013799.86,
-      "points": 900000,
+      "points": 1200000,
       "isUs": false
     },
     {
@@ -71,7 +71,7 @@
       "class": "Night Lord",
       "level": 118,
       "score": 676480720309.725,
-      "points": 800000,
+      "points": 950000,
       "isUs": true
     },
     {
@@ -81,7 +81,7 @@
       "class": "Fire/Poison Mage",
       "level": 119,
       "score": 565393353404.056,
-      "points": 730000,
+      "points": 850000,
       "isUs": false
     },
     {
@@ -91,7 +91,7 @@
       "class": "Shadower",
       "level": 117,
       "score": 511121693912.803,
-      "points": 660000,
+      "points": 780000,
       "isUs": false
     },
     {
@@ -101,7 +101,7 @@
       "class": "Bishop",
       "level": 117,
       "score": 502378606282.771,
-      "points": 610000,
+      "points": 720000,
       "isUs": false
     },
     {
@@ -111,7 +111,7 @@
       "class": "Bishop",
       "level": 117,
       "score": 499805899875.823,
-      "points": 560000,
+      "points": 670000,
       "isUs": false
     },
     {
@@ -121,7 +121,7 @@
       "class": "Marksman",
       "level": 118,
       "score": 491011934004.003,
-      "points": 510000,
+      "points": 630000,
       "isUs": true
     },
     {
@@ -131,7 +131,7 @@
       "class": "Night Lord",
       "level": 117,
       "score": 470657765514.67,
-      "points": 460000,
+      "points": 590000,
       "isUs": false
     },
     {
@@ -141,7 +141,7 @@
       "class": "Marksman",
       "level": 117,
       "score": 401093376633.745,
-      "points": 410000,
+      "points": 560000,
       "isUs": false
     },
     {
@@ -151,7 +151,7 @@
       "class": "Dark Knight",
       "level": 116,
       "score": 388299535545.964,
-      "points": 380000,
+      "points": 530000,
       "isUs": false
     },
     {
@@ -161,7 +161,7 @@
       "class": "Paladin",
       "level": 117,
       "score": 381675794849.612,
-      "points": 350000,
+      "points": 500000,
       "isUs": false
     },
     {
@@ -171,7 +171,7 @@
       "class": "Buccaneer",
       "level": 117,
       "score": 376769739019.8,
-      "points": 320000,
+      "points": 470000,
       "isUs": false
     },
     {
@@ -181,7 +181,7 @@
       "class": "Bishop",
       "level": 116,
       "score": 368640897334.195,
-      "points": 290000,
+      "points": 440000,
       "isUs": false
     },
     {
@@ -191,7 +191,7 @@
       "class": "Bishop",
       "level": 117,
       "score": 361328184685.756,
-      "points": 260000,
+      "points": 410000,
       "isUs": true
     },
     {
@@ -201,7 +201,7 @@
       "class": "Hero",
       "level": 116,
       "score": 313558093780.137,
-      "points": 250000,
+      "points": 380000,
       "isUs": true
     },
     {
@@ -211,7 +211,7 @@
       "class": "Night Lord",
       "level": 115,
       "score": 311531447012.567,
-      "points": 240000,
+      "points": 350000,
       "isUs": false
     },
     {
@@ -221,7 +221,7 @@
       "class": "Fire/Poison Mage",
       "level": 116,
       "score": 310694367901.742,
-      "points": 230000,
+      "points": 320000,
       "isUs": false
     },
     {
@@ -231,7 +231,7 @@
       "class": "Bowmaster",
       "level": 117,
       "score": 299732380631.64,
-      "points": 220000,
+      "points": 290000,
       "isUs": true
     },
     {
@@ -241,7 +241,7 @@
       "class": "Dark Knight",
       "level": 116,
       "score": 296093018794.049,
-      "points": 210000,
+      "points": 260000,
       "isUs": false
     },
     {
@@ -251,7 +251,7 @@
       "class": "Night Lord",
       "level": 114,
       "score": 293702303961.299,
-      "points": 205000,
+      "points": 250000,
       "isUs": false
     },
     {
@@ -261,7 +261,7 @@
       "class": "Night Lord",
       "level": 115,
       "score": 289252262402.259,
-      "points": 200000,
+      "points": 240000,
       "isUs": true
     },
     {
@@ -271,7 +271,7 @@
       "class": "Night Lord",
       "level": 116,
       "score": 288711050254.22,
-      "points": 195000,
+      "points": 230000,
       "isUs": false
     },
     {
@@ -281,7 +281,7 @@
       "class": "Shadower",
       "level": 115,
       "score": 288434241059.224,
-      "points": 190000,
+      "points": 220000,
       "isUs": true
     },
     {
@@ -291,7 +291,7 @@
       "class": "Marksman",
       "level": 115,
       "score": 266379833303.489,
-      "points": 185000,
+      "points": 210000,
       "isUs": false
     },
     {
@@ -301,7 +301,7 @@
       "class": "Paladin",
       "level": 116,
       "score": 258077726358.846,
-      "points": 180000,
+      "points": 200000,
       "isUs": false
     },
     {
@@ -311,7 +311,7 @@
       "class": "Ice/Lightning Mage",
       "level": 116,
       "score": 255246288845.514,
-      "points": 175000,
+      "points": 190000,
       "isUs": false
     },
     {
@@ -321,7 +321,7 @@
       "class": "Bishop",
       "level": 116,
       "score": 253682456991.699,
-      "points": 170000,
+      "points": 180000,
       "isUs": false
     },
     {
@@ -331,7 +331,7 @@
       "class": "Ice/Lightning Mage",
       "level": 115,
       "score": 248820256563.938,
-      "points": 165000,
+      "points": 170000,
       "isUs": true
     },
     {
@@ -1275,5 +1275,5 @@
       "isUs": false
     }
   ],
-  "generated_at": "2026-09-25T04:14:51.861642+00:00"
+  "generated_at": "2026-09-25T04:47:11.778979+00:00"
 }

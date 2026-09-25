@@ -66,15 +66,16 @@ OPPONENT_FETCH_JITTER_SECONDS = 2
 # Every seat (1-150) in a Guild War bracket (5 guilds x up to 30 members)
 # pays a fixed number of Guild Points for that rank, regardless of the raw
 # damage gap between ranks -- this is the full official table, rank 1-150.
-# Source: in-game Guild War scoring guide (guild_war_scoring_guide.md),
-# as of 2026-08-31. Nexon has changed this table before across balance
+# Source: mapleidle.gg Guild Matchup placement points, updated for the
+# September 3, 2026 patch (ranks 1-29 raised; 30-150 unchanged).
+# Nexon has changed this table before across balance
 # patches -- if payouts on mapleidle.gg's own Guild War Ranking screen
 # stop matching this list, re-transcribe it from the current in-game
 # "Guild Point Information" panel and update here.
 GUILD_WAR_SCORE_TABLE = [
-    1000000, 900000, 800000, 730000, 660000, 610000, 560000, 510000, 460000, 410000,
-    380000, 350000, 320000, 290000, 260000, 250000, 240000, 230000, 220000, 210000,
-    205000, 200000, 195000, 190000, 185000, 180000, 175000, 170000, 165000, 160000,
+    1500000, 1200000, 950000, 850000, 780000, 720000, 670000, 630000, 590000, 560000,
+    530000, 500000, 470000, 440000, 410000, 380000, 350000, 320000, 290000, 260000,
+    250000, 240000, 230000, 220000, 210000, 200000, 190000, 180000, 170000, 160000,
     157000, 154000, 151000, 148000, 145000, 142000, 139000, 136000, 133000, 130000,
     128000, 126000, 124000, 122000, 120000, 118000, 116000, 114000, 112000, 110000,
     109000, 108000, 107000, 106000, 105000, 104000, 103000, 102000, 101000, 100000,
