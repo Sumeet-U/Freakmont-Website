@@ -1,20 +1,20 @@
 {
   "ranks": {
     "global_rank": {
-      "rank": 7809,
-      "total": 98356
+      "rank": 7919,
+      "total": 102164
     },
     "bera": {
-      "rank": 4480,
-      "total": 50008
+      "rank": 4530,
+      "total": 51390
     },
     "bera_3": {
-      "rank": 542,
-      "total": 4600
+      "rank": 552,
+      "total": 4640
     },
     "marksman": {
-      "rank": 853,
-      "total": 7073
+      "rank": 871,
+      "total": 7157
     }
   },
   "performance": {
@@ -40,46 +40,6 @@
     }
   },
   "history": [
-    {
-      "date": "8/26",
-      "cpRaw": 229312298282823.22,
-      "cpDisplay": "229T 312B",
-      "level": 108,
-      "globalRank": 8801,
-      "fame": 74
-    },
-    {
-      "date": "8/27",
-      "cpRaw": 229312298282823.22,
-      "cpDisplay": "229T 312B",
-      "level": 108,
-      "globalRank": 8940,
-      "fame": 74
-    },
-    {
-      "date": "8/28",
-      "cpRaw": 232494760172386.75,
-      "cpDisplay": "232T 494B",
-      "level": 108,
-      "globalRank": 9023,
-      "fame": 74
-    },
-    {
-      "date": "8/29",
-      "cpRaw": 232494760172386.75,
-      "cpDisplay": "232T 494B",
-      "level": 108,
-      "globalRank": 9117,
-      "fame": 74
-    },
-    {
-      "date": "8/30",
-      "cpRaw": 242275160158244.66,
-      "cpDisplay": "242T 275B",
-      "level": 108,
-      "globalRank": 8995,
-      "fame": 74
-    },
     {
       "date": "8/31",
       "cpRaw": 258396089361754.12,
@@ -279,7 +239,47 @@
       "level": 109,
       "globalRank": 7809,
       "fame": 90
+    },
+    {
+      "date": "9/25",
+      "cpRaw": 590549263732380.4,
+      "cpDisplay": "590T 549B",
+      "level": 109,
+      "globalRank": 7954,
+      "fame": 90
+    },
+    {
+      "date": "9/26",
+      "cpRaw": 621268739286996.5,
+      "cpDisplay": "621T 268B",
+      "level": 109,
+      "globalRank": 7813,
+      "fame": 91
+    },
+    {
+      "date": "9/27",
+      "cpRaw": 621813369343908.8,
+      "cpDisplay": "621T 813B",
+      "level": 109,
+      "globalRank": 7949,
+      "fame": 91
+    },
+    {
+      "date": "9/28",
+      "cpRaw": 624486083610764.2,
+      "cpDisplay": "624T 486B",
+      "level": 109,
+      "globalRank": 8100,
+      "fame": 91
+    },
+    {
+      "date": "9/29",
+      "cpRaw": 672808950651261,
+      "cpDisplay": "672T 808B",
+      "level": 110,
+      "globalRank": 7919,
+      "fame": 91
     }
   ],
-  "scraped_at": "2026-09-25T04:07:08.281734+00:00"
+  "scraped_at": "2026-09-29T10:56:00.569253+00:00"
 }

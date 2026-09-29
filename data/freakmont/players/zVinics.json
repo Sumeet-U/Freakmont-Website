@@ -1,20 +1,20 @@
 {
   "ranks": {
     "global_rank": {
-      "rank": 1259,
-      "total": 98356
+      "rank": 1189,
+      "total": 102164
     },
     "bera": {
-      "rank": 763,
-      "total": 50008
+      "rank": 721,
+      "total": 51390
     },
     "bera_3": {
-      "rank": 81,
-      "total": 4600
+      "rank": 74,
+      "total": 4640
     },
     "bishop": {
-      "rank": 217,
-      "total": 9607
+      "rank": 196,
+      "total": 9884
     }
   },
   "performance": {
@@ -40,46 +40,6 @@
     }
   },
   "history": [
-    {
-      "date": "8/26",
-      "cpRaw": 5381419919067158,
-      "cpDisplay": "5AA 381T",
-      "level": 113,
-      "globalRank": 1178,
-      "fame": 1220
-    },
-    {
-      "date": "8/27",
-      "cpRaw": 5382273260124537,
-      "cpDisplay": "5AA 382T",
-      "level": 113,
-      "globalRank": 1190,
-      "fame": 1220
-    },
-    {
-      "date": "8/28",
-      "cpRaw": 5448025502252621,
-      "cpDisplay": "5AA 448T",
-      "level": 113,
-      "globalRank": 1199,
-      "fame": 1220
-    },
-    {
-      "date": "8/29",
-      "cpRaw": 5456055253880582,
-      "cpDisplay": "5AA 456T",
-      "level": 113,
-      "globalRank": 1204,
-      "fame": 1220
-    },
-    {
-      "date": "8/30",
-      "cpRaw": 5456919279990032,
-      "cpDisplay": "5AA 456T",
-      "level": 113,
-      "globalRank": 1212,
-      "fame": 1220
-    },
     {
       "date": "8/31",
       "cpRaw": 5474697560933107,
@@ -279,7 +239,47 @@
       "level": 114,
       "globalRank": 1259,
       "fame": 1226
+    },
+    {
+      "date": "9/25",
+      "cpRaw": 13365244368276246,
+      "cpDisplay": "13AA 365T",
+      "level": 114,
+      "globalRank": 1270,
+      "fame": 1226
+    },
+    {
+      "date": "9/26",
+      "cpRaw": 13611475993334186,
+      "cpDisplay": "13AA 611T",
+      "level": 114,
+      "globalRank": 1271,
+      "fame": 1226
+    },
+    {
+      "date": "9/27",
+      "cpRaw": 17181069477348168,
+      "cpDisplay": "17AA 181T",
+      "level": 115,
+      "globalRank": 1138,
+      "fame": 1226
+    },
+    {
+      "date": "9/28",
+      "cpRaw": 17219034269121470,
+      "cpDisplay": "17AA 219T",
+      "level": 115,
+      "globalRank": 1164,
+      "fame": 1226
+    },
+    {
+      "date": "9/29",
+      "cpRaw": 17220999184314764,
+      "cpDisplay": "17AA 220T",
+      "level": 115,
+      "globalRank": 1189,
+      "fame": 1226
     }
   ],
-  "scraped_at": "2026-09-25T04:06:03.860581+00:00"
+  "scraped_at": "2026-09-29T10:54:40.857750+00:00"
 }

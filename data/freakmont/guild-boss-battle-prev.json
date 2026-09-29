@@ -1,10 +1,10 @@
 {
-  "date": "2026-09-22",
+  "date": "2026-09-24",
   "entries": [
     {
       "name": "RefundKobe",
       "class": "Marksman",
-      "level": 117,
+      "level": 118,
       "score": 287798966036.701,
       "rank": 1
     },
@@ -44,10 +44,10 @@
       "rank": 6
     },
     {
-      "name": "ImYolo",
-      "class": "Bishop",
+      "name": "iamJinniiez",
+      "class": "Ice/Lightning Mage",
       "level": 115,
-      "score": 122278060441.213,
+      "score": 126826710982.824,
       "rank": 7
     },
     {
@@ -102,57 +102,57 @@
     {
       "name": "Ravenz",
       "class": "Shadower",
-      "level": 112,
+      "level": 113,
       "score": 64162860993.1401,
       "rank": 15
+    },
+    {
+      "name": "TimelessIce",
+      "class": "Bowmaster",
+      "level": 112,
+      "score": 55746571963.7208,
+      "rank": 16
     },
     {
       "name": "xpo168",
       "class": "Fire/Poison Mage",
       "level": 113,
       "score": 55429331516.9322,
-      "rank": 16
+      "rank": 17
     },
     {
       "name": "Amascut",
       "class": "Bowmaster",
-      "level": 112,
+      "level": 113,
       "score": 50994804272.7243,
-      "rank": 17
+      "rank": 18
     },
     {
       "name": "Soapdayys",
       "class": "Dark Knight",
       "level": 112,
       "score": 50822356097.0633,
-      "rank": 18
+      "rank": 19
     },
     {
       "name": "Xanite",
       "class": "Bowmaster",
       "level": 113,
       "score": 50210412069.7397,
-      "rank": 19
+      "rank": 20
     },
     {
       "name": "RefundPuJay",
       "class": "Marksman",
       "level": 111,
       "score": 50125034651.7871,
-      "rank": 20
+      "rank": 21
     },
     {
       "name": "Lighttt",
       "class": "Night Lord",
       "level": 111,
       "score": 37887126697.1851,
-      "rank": 21
-    },
-    {
-      "name": "Ashweeb",
-      "class": "Shadower",
-      "level": 110,
-      "score": 30315235093.9214,
       "rank": 22
     },
     {
@@ -172,7 +172,7 @@
     {
       "name": "greenbanana",
       "class": "Corsair",
-      "level": 109,
+      "level": 110,
       "score": 24544993857.7818,
       "rank": 25
     },

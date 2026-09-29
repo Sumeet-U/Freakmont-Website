@@ -1,20 +1,20 @@
 {
   "ranks": {
     "global_rank": {
-      "rank": 6995,
-      "total": 98356
+      "rank": 7121,
+      "total": 102164
     },
     "bera": {
-      "rank": 4009,
-      "total": 50008
+      "rank": 4084,
+      "total": 51390
     },
     "bera_3": {
-      "rank": 485,
-      "total": 4600
+      "rank": 503,
+      "total": 4640
     },
     "corsair": {
-      "rank": 272,
-      "total": 4132
+      "rank": 275,
+      "total": 4270
     }
   },
   "performance": {
@@ -40,46 +40,6 @@
     }
   },
   "history": [
-    {
-      "date": "8/26",
-      "cpRaw": 272225298393912.22,
-      "cpDisplay": "272T 225B",
-      "level": 108,
-      "globalRank": 7883,
-      "fame": 128
-    },
-    {
-      "date": "8/27",
-      "cpRaw": 272225298393912.22,
-      "cpDisplay": "272T 225B",
-      "level": 108,
-      "globalRank": 8007,
-      "fame": 128
-    },
-    {
-      "date": "8/28",
-      "cpRaw": 272225298393912.22,
-      "cpDisplay": "272T 225B",
-      "level": 108,
-      "globalRank": 8177,
-      "fame": 128
-    },
-    {
-      "date": "8/29",
-      "cpRaw": 272225298393912.22,
-      "cpDisplay": "272T 225B",
-      "level": 108,
-      "globalRank": 8260,
-      "fame": 128
-    },
-    {
-      "date": "8/30",
-      "cpRaw": 272225298393912.22,
-      "cpDisplay": "272T 225B",
-      "level": 108,
-      "globalRank": 8352,
-      "fame": 128
-    },
     {
       "date": "8/31",
       "cpRaw": 272225298393912.22,
@@ -279,7 +239,47 @@
       "level": 110,
       "globalRank": 6995,
       "fame": 138
+    },
+    {
+      "date": "9/25",
+      "cpRaw": 696165080588834,
+      "cpDisplay": "696T 165B",
+      "level": 110,
+      "globalRank": 7123,
+      "fame": 139
+    },
+    {
+      "date": "9/26",
+      "cpRaw": 696165080588834,
+      "cpDisplay": "696T 165B",
+      "level": 110,
+      "globalRank": 7243,
+      "fame": 139
+    },
+    {
+      "date": "9/27",
+      "cpRaw": 790800286606164.6,
+      "cpDisplay": "790T 800B",
+      "level": 110,
+      "globalRank": 6752,
+      "fame": 143
+    },
+    {
+      "date": "9/28",
+      "cpRaw": 790800286606164.6,
+      "cpDisplay": "790T 800B",
+      "level": 110,
+      "globalRank": 6936,
+      "fame": 144
+    },
+    {
+      "date": "9/29",
+      "cpRaw": 790800286606164.6,
+      "cpDisplay": "790T 800B",
+      "level": 110,
+      "globalRank": 7121,
+      "fame": 145
     }
   ],
-  "scraped_at": "2026-09-25T04:07:01.925531+00:00"
+  "scraped_at": "2026-09-29T10:55:57.148069+00:00"
 }

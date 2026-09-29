@@ -1,5 +1,5 @@
 {
-  "date": "2026-09-22",
+  "date": "2026-09-24",
   "entries": [
     {
       "name": "JaneGarden",
@@ -11,7 +11,7 @@
     {
       "name": "RefundKobe",
       "class": "Marksman",
-      "level": 117,
+      "level": 118,
       "score": 664708777000000000,
       "rank": 2
     },
@@ -58,10 +58,10 @@
       "rank": 8
     },
     {
-      "name": "ImYolo",
-      "class": "Bishop",
+      "name": "iamJinniiez",
+      "class": "Ice/Lightning Mage",
       "level": 115,
-      "score": 115646311000000000,
+      "score": 100429202000000000,
       "rank": 9
     },
     {
@@ -95,7 +95,7 @@
     {
       "name": "Ravenz",
       "class": "Shadower",
-      "level": 112,
+      "level": 113,
       "score": 20048676100000000,
       "rank": 14
     },
@@ -135,38 +135,38 @@
       "rank": 19
     },
     {
-      "name": "Amascut",
+      "name": "TimelessIce",
       "class": "Bowmaster",
       "level": 112,
-      "score": 13136354300000000,
+      "score": 13142194700000000,
       "rank": 20
+    },
+    {
+      "name": "Amascut",
+      "class": "Bowmaster",
+      "level": 113,
+      "score": 13136354300000000,
+      "rank": 21
     },
     {
       "name": "RefundPuJay",
       "class": "Marksman",
       "level": 111,
       "score": 10440843600000000,
-      "rank": 21
+      "rank": 22
     },
     {
       "name": "yclzero",
       "class": "Bowmaster",
       "level": 110,
       "score": 8204196060000000,
-      "rank": 22
+      "rank": 23
     },
     {
       "name": "Arlooooo",
       "class": "Hero",
       "level": 110,
       "score": 7797672110000000,
-      "rank": 23
-    },
-    {
-      "name": "Ashweeb",
-      "class": "Shadower",
-      "level": 110,
-      "score": 7167544540000000,
       "rank": 24
     },
     {
@@ -186,7 +186,7 @@
     {
       "name": "greenbanana",
       "class": "Corsair",
-      "level": 109,
+      "level": 110,
       "score": 3755983330000000,
       "rank": 27
     },

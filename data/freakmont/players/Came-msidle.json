@@ -3,37 +3,37 @@
     "name": "Came",
     "class": "Paladin",
     "level": 112,
-    "cpRaw": "2027793313923804",
-    "cpDisplay": "2AA 27T",
+    "cpRaw": "2386066650122090",
+    "cpDisplay": "2AA 386T",
     "fame": 206
   },
   "ranks": {
     "global": {
-      "rank": 12576,
+      "rank": 12552,
       "percentile": 0.8
     },
     "server": {
-      "rank": 225,
+      "rank": 226,
       "percentile": 0.5
     },
     "world": {
-      "rank": 2169,
+      "rank": 2149,
       "percentile": 0.5
     },
     "job": {
-      "rank": 1352,
-      "percentile": 5
+      "rank": 1372,
+      "percentile": 5.1
     }
   },
   "performance": {
     "conquest": {
       "score": 172316310335,
-      "percentile": 5.2,
+      "percentile": 5.4,
       "updated": "2026-09-21T06:25:37+00:00"
     },
     "training_ground": {
       "score": 7004109,
-      "percentile": 13.8,
+      "percentile": 16.5,
       "updated": "2026-09-18T01:13:15+00:00"
     },
     "guild_boss_battle": {
@@ -48,39 +48,39 @@
     },
     "world_boss": {
       "score": 23528231000000000,
-      "percentile": 2.7,
+      "percentile": 2.9,
       "updated": "2026-09-23T01:19:35+00:00"
     }
   },
   "scoreComparison": {
     "guild_conquest": {
       "score": "172316310335",
-      "vs_all_pct": 1.3,
-      "vs_class_pct": -4.7,
+      "vs_all_pct": 1.8,
+      "vs_class_pct": -4.2,
       "date": "2026-09-21T06:25:37+00:00"
     },
     "world_boss": {
       "score": "23528231000000000",
-      "vs_all_pct": 63.4,
-      "vs_class_pct": 40.4,
+      "vs_all_pct": 65.3,
+      "vs_class_pct": 42.9,
       "date": "2026-09-23T01:19:35+00:00"
     },
     "guild_war": {
       "score": "102850864131",
       "vs_all_pct": 3.2,
-      "vs_class_pct": 0.5,
+      "vs_class_pct": 0.3,
       "date": "2026-09-23T00:58:36+00:00"
     },
     "guild_training_ground": {
       "score": "7004109",
-      "vs_all_pct": -23,
-      "vs_class_pct": -10.6,
+      "vs_all_pct": -23.7,
+      "vs_class_pct": -10.8,
       "date": "2026-09-18T01:13:15+00:00"
     },
     "guild_boss": {
       "score": "64202175011",
-      "vs_all_pct": 33.7,
-      "vs_class_pct": 29.4,
+      "vs_all_pct": 33.6,
+      "vs_class_pct": 29.2,
       "date": "2026-09-04T16:39:56+00:00"
     }
   },
@@ -107,19 +107,11 @@
     ],
     "guild_boss_battle_history": [
       {
-        "date": "2026-08-27T16:27:54+00:00",
-        "score": "57803609108"
-      },
-      {
         "date": "2026-09-04T16:39:56+00:00",
         "score": "64202175011"
       }
     ],
     "guild_war_history": [
-      {
-        "date": "2026-08-28T00:00:56+00:00",
-        "score": "84993167020"
-      },
       {
         "date": "2026-09-03T05:37:36+00:00",
         "score": "90697670569"
@@ -130,10 +122,6 @@
       }
     ],
     "world_boss_history": [
-      {
-        "date": "2026-08-27T05:15:36+00:00",
-        "score": "11926124400000000"
-      },
       {
         "date": "2026-08-31T04:40:03+00:00",
         "score": "12963952300000000"
@@ -157,17 +145,7 @@
     ],
     "cp_history": [
       {
-        "date": "2026-08-26T04:10:41+00:00",
-        "cpRaw": 978413353073412,
-        "cpDisplay": "978T 413B"
-      },
-      {
-        "date": "2026-08-26T22:16:11+00:00",
-        "cpRaw": 1004305221215680,
-        "cpDisplay": "1AA 4T"
-      },
-      {
-        "date": "2026-08-30T06:23:54+00:00",
+        "date": "2026-08-30T10:59:16+00:00",
         "cpRaw": 1025560685804904,
         "cpDisplay": "1AA 25T"
       },
@@ -215,11 +193,21 @@
         "date": "2026-09-21T10:54:38+00:00",
         "cpRaw": 2027793313923804,
         "cpDisplay": "2AA 27T"
+      },
+      {
+        "date": "2026-09-27T04:51:38+00:00",
+        "cpRaw": 2215157608843562,
+        "cpDisplay": "2AA 215T"
+      },
+      {
+        "date": "2026-09-29T04:24:28+00:00",
+        "cpRaw": 2386066650122090,
+        "cpDisplay": "2AA 386T"
       }
     ],
     "level_history": [
       {
-        "date": "2026-08-26T04:10:41+00:00",
+        "date": "2026-08-30T10:59:16+00:00",
         "level": 111
       },
       {
@@ -228,5 +216,5 @@
       }
     ]
   },
-  "scraped_at": "2026-09-25T04:10:43.668420+00:00"
+  "scraped_at": "2026-09-29T10:59:17.176668+00:00"
 }

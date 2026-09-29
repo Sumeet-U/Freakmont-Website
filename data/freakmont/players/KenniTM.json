@@ -1,20 +1,20 @@
 {
   "ranks": {
     "global_rank": {
-      "rank": 1321,
-      "total": 98356
+      "rank": 1274,
+      "total": 102164
     },
     "bera": {
-      "rank": 802,
-      "total": 50008
+      "rank": 767,
+      "total": 51390
     },
     "bera_3": {
-      "rank": 85,
-      "total": 4600
+      "rank": 81,
+      "total": 4640
     },
     "paladin": {
-      "rank": 149,
-      "total": 3354
+      "rank": 152,
+      "total": 3472
     }
   },
   "performance": {
@@ -40,46 +40,6 @@
     }
   },
   "history": [
-    {
-      "date": "8/26",
-      "cpRaw": 3769912494597533,
-      "cpDisplay": "3AA 769T",
-      "level": 112,
-      "globalRank": 1451,
-      "fame": 167
-    },
-    {
-      "date": "8/27",
-      "cpRaw": 3772427511841078,
-      "cpDisplay": "3AA 772T",
-      "level": 112,
-      "globalRank": 1472,
-      "fame": 167
-    },
-    {
-      "date": "8/28",
-      "cpRaw": 3926050179575941.5,
-      "cpDisplay": "3AA 926T",
-      "level": 112,
-      "globalRank": 1458,
-      "fame": 167
-    },
-    {
-      "date": "8/29",
-      "cpRaw": 3932245216559814.5,
-      "cpDisplay": "3AA 932T",
-      "level": 112,
-      "globalRank": 1472,
-      "fame": 167
-    },
-    {
-      "date": "8/30",
-      "cpRaw": 4054331002599579,
-      "cpDisplay": "4AA 54T",
-      "level": 112,
-      "globalRank": 1450,
-      "fame": 167
-    },
     {
       "date": "8/31",
       "cpRaw": 4369234365179100,
@@ -279,7 +239,47 @@
       "level": 114,
       "globalRank": 1321,
       "fame": 171
+    },
+    {
+      "date": "9/25",
+      "cpRaw": 12306224598545330,
+      "cpDisplay": "12AA 306T",
+      "level": 114,
+      "globalRank": 1331,
+      "fame": 172
+    },
+    {
+      "date": "9/26",
+      "cpRaw": 12362917237622208,
+      "cpDisplay": "12AA 362T",
+      "level": 114,
+      "globalRank": 1347,
+      "fame": 172
+    },
+    {
+      "date": "9/27",
+      "cpRaw": 13615295217124456,
+      "cpDisplay": "13AA 615T",
+      "level": 114,
+      "globalRank": 1293,
+      "fame": 172
+    },
+    {
+      "date": "9/28",
+      "cpRaw": 14890249948312314,
+      "cpDisplay": "14AA 890T",
+      "level": 114,
+      "globalRank": 1259,
+      "fame": 172
+    },
+    {
+      "date": "9/29",
+      "cpRaw": 15290852674095904,
+      "cpDisplay": "15AA 290T",
+      "level": 115,
+      "globalRank": 1274,
+      "fame": 174
     }
   ],
-  "scraped_at": "2026-09-25T04:06:07.794820+00:00"
+  "scraped_at": "2026-09-29T10:54:47.918606+00:00"
 }

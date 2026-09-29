@@ -1,5 +1,5 @@
 {
-  "date": "2026-09-22",
+  "date": "2026-09-24",
   "entries": [
     {
       "name": "JaneGarden",
@@ -11,7 +11,7 @@
     {
       "name": "RefundKobe",
       "class": "Marksman",
-      "level": 117,
+      "level": 118,
       "score": 491011934004.003,
       "rank": 2
     },
@@ -51,10 +51,10 @@
       "rank": 7
     },
     {
-      "name": "ImYolo",
-      "class": "Bishop",
+      "name": "iamJinniiez",
+      "class": "Ice/Lightning Mage",
       "level": 115,
-      "score": 258090854973.648,
+      "score": 248820256563.938,
       "rank": 8
     },
     {
@@ -88,14 +88,14 @@
     {
       "name": "Ravenz",
       "class": "Shadower",
-      "level": 112,
+      "level": 113,
       "score": 137392046023.292,
       "rank": 13
     },
     {
       "name": "Amascut",
       "class": "Bowmaster",
-      "level": 112,
+      "level": 113,
       "score": 131688310706.713,
       "rank": 14
     },
@@ -128,38 +128,38 @@
       "rank": 18
     },
     {
+      "name": "TimelessIce",
+      "class": "Bowmaster",
+      "level": 112,
+      "score": 106295318677.971,
+      "rank": 19
+    },
+    {
       "name": "Came",
       "class": "Paladin",
       "level": 112,
       "score": 102850864131.142,
-      "rank": 19
+      "rank": 20
     },
     {
       "name": "RefundPuJay",
       "class": "Marksman",
       "level": 111,
       "score": 102805379462.387,
-      "rank": 20
+      "rank": 21
     },
     {
       "name": "Lighttt",
       "class": "Night Lord",
       "level": 111,
       "score": 71192174270.3556,
-      "rank": 21
+      "rank": 22
     },
     {
       "name": "Chinnychin",
       "class": "Bowmaster",
       "level": 110,
       "score": 68150947448.6151,
-      "rank": 22
-    },
-    {
-      "name": "Ashweeb",
-      "class": "Shadower",
-      "level": 110,
-      "score": 64867020249.6318,
       "rank": 23
     },
     {
@@ -186,7 +186,7 @@
     {
       "name": "greenbanana",
       "class": "Corsair",
-      "level": 109,
+      "level": 110,
       "score": 48227042194.439,
       "rank": 27
     },
