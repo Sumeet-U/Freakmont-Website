@@ -3,32 +3,32 @@
     "name": "zVinics",
     "class": "Bishop",
     "level": 115,
-    "cpRaw": "17220999184314764",
-    "cpDisplay": "17AA 220T",
+    "cpRaw": "17684882248332406",
+    "cpDisplay": "17AA 684T",
     "fame": 1226
   },
   "ranks": {
     "global": {
-      "rank": 4092,
+      "rank": 4228,
       "percentile": 0.3
     },
     "server": {
-      "rank": 78,
+      "rank": 86,
       "percentile": 0.2
     },
     "world": {
-      "rank": 738,
+      "rank": 782,
       "percentile": 0.2
     },
     "job": {
-      "rank": 1135,
+      "rank": 1159,
       "percentile": 1.7
     }
   },
   "performance": {
     "conquest": {
       "score": 543800942327,
-      "percentile": 2.1,
+      "percentile": 2.2,
       "updated": "2026-09-26T04:50:45+00:00"
     },
     "training_ground": {
@@ -47,46 +47,46 @@
       "updated": "2026-08-28T00:00:56+00:00"
     },
     "world_boss": {
-      "score": 65862197600000000,
+      "score": 77464555600000000,
       "percentile": 1.6,
-      "updated": "2026-09-27T04:51:42+00:00"
+      "updated": "2026-10-04T05:18:35+00:00"
     }
   },
   "scoreComparison": {
     "chapter": {
       "score": "329",
-      "vs_all_pct": 0,
+      "vs_all_pct": -0.3,
       "vs_class_pct": null,
       "date": "2026-08-30T00:08:16+00:00"
     },
     "guild_conquest": {
       "score": "543800942327",
-      "vs_all_pct": 7,
-      "vs_class_pct": 13,
+      "vs_all_pct": 8.5,
+      "vs_class_pct": 14.6,
       "date": "2026-09-26T04:50:45+00:00"
     },
     "world_boss": {
-      "score": "65862197600000000",
-      "vs_all_pct": -53.5,
-      "vs_class_pct": -51,
-      "date": "2026-09-27T04:51:42+00:00"
+      "score": "77464555600000000",
+      "vs_all_pct": -44.7,
+      "vs_class_pct": -41.4,
+      "date": "2026-10-04T05:18:35+00:00"
     },
     "guild_war": {
       "score": "141749631659",
-      "vs_all_pct": -16.1,
+      "vs_all_pct": -16.2,
       "vs_class_pct": -16.2,
       "date": "2026-08-28T00:00:56+00:00"
     },
     "guild_training_ground": {
       "score": "11432469",
-      "vs_all_pct": 16.2,
+      "vs_all_pct": 16.1,
       "vs_class_pct": 9.1,
       "date": "2026-07-17T05:53:43+00:00"
     },
     "guild_boss": {
       "score": "102572098587",
-      "vs_all_pct": -8.3,
-      "vs_class_pct": -6.9,
+      "vs_all_pct": -8.4,
+      "vs_class_pct": -7,
       "date": "2026-09-04T16:39:48+00:00"
     }
   },
@@ -106,18 +106,9 @@
       }
     ],
     "training_ground_history": [],
-    "guild_boss_battle_history": [
-      {
-        "date": "2026-09-04T16:39:48+00:00",
-        "score": "102572098587"
-      }
-    ],
+    "guild_boss_battle_history": [],
     "guild_war_history": [],
     "world_boss_history": [
-      {
-        "date": "2026-09-02T05:19:59+00:00",
-        "score": "33297456800000000"
-      },
       {
         "date": "2026-09-10T04:37:20+00:00",
         "score": "50024460700000000"
@@ -133,36 +124,15 @@
       {
         "date": "2026-09-27T04:51:42+00:00",
         "score": "65862197600000000"
+      },
+      {
+        "date": "2026-10-04T05:18:35+00:00",
+        "score": "77464555600000000"
       }
     ],
     "cp_history": [
       {
-        "date": "2026-08-30T10:57:18+00:00",
-        "cpRaw": 5456919279990032,
-        "cpDisplay": "5AA 456T"
-      },
-      {
-        "date": "2026-08-31T01:37:07+00:00",
-        "cpRaw": 5457783286937231,
-        "cpDisplay": "5AA 457T"
-      },
-      {
-        "date": "2026-09-01T23:14:25+00:00",
-        "cpRaw": 5542994024535601,
-        "cpDisplay": "5AA 542T"
-      },
-      {
-        "date": "2026-09-03T05:39:14+00:00",
-        "cpRaw": 5632309481184009,
-        "cpDisplay": "5AA 632T"
-      },
-      {
-        "date": "2026-09-04T09:00:14+00:00",
-        "cpRaw": 5636199586613972,
-        "cpDisplay": "5AA 636T"
-      },
-      {
-        "date": "2026-09-04T18:08:10+00:00",
+        "date": "2026-09-05T11:00:53+00:00",
         "cpRaw": 5640091450405503,
         "cpDisplay": "5AA 640T"
       },
@@ -265,11 +235,21 @@
         "date": "2026-09-29T05:55:27+00:00",
         "cpRaw": 17220999184314764,
         "cpDisplay": "17AA 220T"
+      },
+      {
+        "date": "2026-10-04T00:57:36+00:00",
+        "cpRaw": 17510591234231722,
+        "cpDisplay": "17AA 510T"
+      },
+      {
+        "date": "2026-10-05T05:07:07+00:00",
+        "cpRaw": 17684882248332406,
+        "cpDisplay": "17AA 684T"
       }
     ],
     "level_history": [
       {
-        "date": "2026-08-30T10:57:18+00:00",
+        "date": "2026-09-05T11:00:53+00:00",
         "level": 113
       },
       {
@@ -282,5 +262,5 @@
       }
     ]
   },
-  "scraped_at": "2026-09-29T10:57:19.346581+00:00"
+  "scraped_at": "2026-10-05T11:00:53.790662+00:00"
 }
