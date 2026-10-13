@@ -1,14 +1,14 @@
 {
   "conquest": {
-    "score": 89746547899.748,
-    "snapshotDate": "2026-09-20",
-    "peerRank": null,
+    "score": 109185934291.36237,
+    "snapshotDate": "2026-10-11",
+    "peerRank": 10,
     "peerCount": 12,
-    "percentile": null
+    "percentile": 18.2
   },
   "world_boss": {
-    "score": 3166376770000000,
-    "snapshotDate": "2026-09-29",
+    "score": 3691424980000000,
+    "snapshotDate": "2026-10-07",
     "peerRank": null,
     "peerCount": 12,
     "percentile": null
@@ -21,11 +21,11 @@
     "percentile": 90.9
   },
   "guild_war": {
-    "score": 42386100907.58853,
-    "snapshotDate": "2026-09-22",
-    "peerRank": null,
+    "score": 52081058919.03611,
+    "snapshotDate": "2026-10-06",
+    "peerRank": 11,
     "peerCount": 12,
-    "percentile": null
+    "percentile": 9.1
   },
   "guild_boss_battle": {
     "score": 21144588579.30363,

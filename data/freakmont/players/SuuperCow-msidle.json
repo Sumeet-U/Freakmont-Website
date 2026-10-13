@@ -3,33 +3,33 @@
     "name": "SuuperCow",
     "class": "Paladin",
     "level": 114,
-    "cpRaw": "4584798315722918",
-    "cpDisplay": "4AA 584T",
-    "fame": 339
+    "cpRaw": "4760567750657990",
+    "cpDisplay": "4AA 760T",
+    "fame": 355
   },
   "ranks": {
     "global": {
-      "rank": 9044,
-      "percentile": 0.6
+      "rank": 10894,
+      "percentile": 0.7
     },
     "server": {
-      "rank": 170,
+      "rank": 178,
       "percentile": 0.4
     },
     "world": {
-      "rank": 1613,
+      "rank": 1742,
       "percentile": 0.4
     },
     "job": {
-      "rank": 1090,
-      "percentile": 4
+      "rank": 1269,
+      "percentile": 4.6
     }
   },
   "performance": {
     "conquest": {
-      "score": 239912972129,
-      "percentile": 4.3,
-      "updated": "2026-09-05T04:39:04+00:00"
+      "score": 307648070744,
+      "percentile": 3.8,
+      "updated": "2026-10-10T05:52:23+00:00"
     },
     "training_ground": {
       "score": 11931558,
@@ -42,55 +42,56 @@
       "updated": "2026-09-04T16:39:34+00:00"
     },
     "guild_war": {
-      "score": 137416701130,
-      "percentile": 9.3,
-      "updated": "2026-09-10T03:16:52+00:00"
+      "score": 143349468715,
+      "percentile": 10.6,
+      "updated": "2026-10-11T14:20:15+00:00"
     },
     "world_boss": {
-      "score": 27416866600000000,
-      "percentile": 2.8,
-      "updated": "2026-09-29T04:24:36+00:00"
+      "score": 38599945600000000,
+      "percentile": 2.6,
+      "updated": "2026-10-07T04:37:53+00:00"
     }
   },
   "scoreComparison": {
     "guild_conquest": {
-      "score": "239912972129",
-      "vs_all_pct": 9.3,
-      "vs_class_pct": 2.4,
-      "date": "2026-09-05T04:39:04+00:00"
+      "score": "307648070744",
+      "vs_all_pct": 10.3,
+      "vs_class_pct": 3.2,
+      "date": "2026-10-10T05:52:23+00:00"
     },
     "world_boss": {
-      "score": "27416866600000000",
-      "vs_all_pct": -2.5,
-      "vs_class_pct": -15.2,
-      "date": "2026-09-29T04:24:36+00:00"
+      "score": "38599945600000000",
+      "vs_all_pct": 17.2,
+      "vs_class_pct": 2,
+      "date": "2026-10-07T04:37:53+00:00"
     },
     "guild_war": {
-      "score": "137416701130",
-      "vs_all_pct": 9.5,
-      "vs_class_pct": 6.5,
-      "date": "2026-09-10T03:16:52+00:00"
+      "score": "143349468715",
+      "vs_all_pct": -7.5,
+      "vs_class_pct": -10,
+      "date": "2026-10-11T14:20:15+00:00"
     },
     "guild_training_ground": {
       "score": "11931558",
-      "vs_all_pct": 6.3,
-      "vs_class_pct": 24.3,
+      "vs_all_pct": 6.2,
+      "vs_class_pct": 24.4,
       "date": "2026-09-18T01:13:15+00:00"
     },
     "guild_boss": {
       "score": "85288607062",
-      "vs_all_pct": 12.9,
-      "vs_class_pct": 9.2,
+      "vs_all_pct": 12.7,
+      "vs_class_pct": 9,
       "date": "2026-09-04T16:39:34+00:00"
     }
   },
   "history": {
-    "conquest_history": [],
-    "training_ground_history": [
+    "conquest_history": [
       {
-        "date": "2026-09-11T02:47:00+00:00",
-        "score": "11386236"
-      },
+        "date": "2026-10-10T05:52:23+00:00",
+        "score": "307648070744"
+      }
+    ],
+    "training_ground_history": [
       {
         "date": "2026-09-18T01:13:15+00:00",
         "score": "11931558"
@@ -99,15 +100,11 @@
     "guild_boss_battle_history": [],
     "guild_war_history": [
       {
-        "date": "2026-09-10T03:16:52+00:00",
-        "score": "137416701130"
+        "date": "2026-10-11T14:20:15+00:00",
+        "score": "143349468715"
       }
     ],
     "world_boss_history": [
-      {
-        "date": "2026-09-06T06:16:09+00:00",
-        "score": "24810218500000000"
-      },
       {
         "date": "2026-09-23T01:19:27+00:00",
         "score": "27320055000000000"
@@ -115,61 +112,15 @@
       {
         "date": "2026-09-29T04:24:36+00:00",
         "score": "27416866600000000"
+      },
+      {
+        "date": "2026-10-07T04:37:53+00:00",
+        "score": "38599945600000000"
       }
     ],
     "cp_history": [
       {
-        "date": "2026-09-05T11:01:48+00:00",
-        "cpRaw": 2965659796943917,
-        "cpDisplay": "2AA 965T"
-      },
-      {
-        "date": "2026-09-06T10:56:01+00:00",
-        "cpRaw": 3063558080543018,
-        "cpDisplay": "3AA 63T"
-      },
-      {
-        "date": "2026-09-07T04:23:29+00:00",
-        "cpRaw": 3067511000157821,
-        "cpDisplay": "3AA 67T"
-      },
-      {
-        "date": "2026-09-07T17:24:33+00:00",
-        "cpRaw": 3070943536066410,
-        "cpDisplay": "3AA 70T"
-      },
-      {
-        "date": "2026-09-09T04:33:34+00:00",
-        "cpRaw": 3099914771717477,
-        "cpDisplay": "3AA 99T"
-      },
-      {
-        "date": "2026-09-10T04:37:24+00:00",
-        "cpRaw": 3120074967582274,
-        "cpDisplay": "3AA 120T"
-      },
-      {
-        "date": "2026-09-11T02:46:59+00:00",
-        "cpRaw": 3145349000427566,
-        "cpDisplay": "3AA 145T"
-      },
-      {
-        "date": "2026-09-11T06:05:09+00:00",
-        "cpRaw": 3412431348221093,
-        "cpDisplay": "3AA 412T"
-      },
-      {
-        "date": "2026-09-11T17:36:31+00:00",
-        "cpRaw": 3418254545476512,
-        "cpDisplay": "3AA 418T"
-      },
-      {
-        "date": "2026-09-12T04:55:56+00:00",
-        "cpRaw": 3488419387094746,
-        "cpDisplay": "3AA 488T"
-      },
-      {
-        "date": "2026-09-13T01:05:30+00:00",
+        "date": "2026-09-13T08:39:46+00:00",
         "cpRaw": 3490499793105422,
         "cpDisplay": "3AA 490T"
       },
@@ -217,11 +168,21 @@
         "date": "2026-10-02T04:11:46+00:00",
         "cpRaw": 4584798315722918,
         "cpDisplay": "4AA 584T"
+      },
+      {
+        "date": "2026-10-07T04:37:53+00:00",
+        "cpRaw": 4646067363870706,
+        "cpDisplay": "4AA 646T"
+      },
+      {
+        "date": "2026-10-13T05:20:11+00:00",
+        "cpRaw": 4760567750657990,
+        "cpDisplay": "4AA 760T"
       }
     ],
     "level_history": [
       {
-        "date": "2026-09-05T11:01:48+00:00",
+        "date": "2026-09-13T08:39:46+00:00",
         "level": 113
       },
       {
@@ -230,5 +191,5 @@
       }
     ]
   },
-  "scraped_at": "2026-10-05T11:01:48.388129+00:00"
+  "scraped_at": "2026-10-13T08:39:47.283806+00:00"
 }

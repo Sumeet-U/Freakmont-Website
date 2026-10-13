@@ -1,24 +1,24 @@
 {
-  "date": "2026-10-05",
+  "date": "2026-10-13",
   "entries": [
     {
       "name": "poljjak",
       "class": "Bishop",
-      "level": 117,
+      "level": 118,
       "score": 166514185274,
       "rank": 1
     },
     {
       "name": "Debonair",
       "class": "Bowmaster",
-      "level": 117,
+      "level": 118,
       "score": 153912720509,
       "rank": 2
     },
     {
       "name": "kbaFM",
       "class": "Night Lord",
-      "level": 115,
+      "level": 116,
       "score": 149877060018,
       "rank": 3
     },
@@ -81,7 +81,7 @@
     {
       "name": "Caycidia",
       "class": "Arch Mage (Ice/Lightning)",
-      "level": 113,
+      "level": 114,
       "score": 65245556656,
       "rank": 12
     },
@@ -116,7 +116,7 @@
     {
       "name": "xpo168",
       "class": "Arch Mage (Fire/Poison)",
-      "level": 113,
+      "level": 114,
       "score": 55429331517,
       "rank": 17
     },
@@ -144,7 +144,7 @@
     {
       "name": "RefundPuJay",
       "class": "Marksman",
-      "level": 111,
+      "level": 112,
       "score": 50125034652,
       "rank": 21
     },
@@ -200,7 +200,7 @@
     {
       "name": "Chinnychin",
       "class": "Bowmaster",
-      "level": 110,
+      "level": 111,
       "score": 3960092528,
       "rank": 29
     },

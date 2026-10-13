@@ -3,32 +3,32 @@
     "name": "SHlBAL",
     "class": "Night Lord",
     "level": 113,
-    "cpRaw": "6692539820093533",
-    "cpDisplay": "6AA 692T",
-    "fame": 203
+    "cpRaw": "9883363642857324",
+    "cpDisplay": "9AA 883T",
+    "fame": 204
   },
   "ranks": {
     "global": {
-      "rank": 7259,
+      "rank": 7333,
       "percentile": 0.5
     },
     "server": {
-      "rank": 135,
+      "rank": 122,
       "percentile": 0.3
     },
     "world": {
-      "rank": 1296,
+      "rank": 1160,
       "percentile": 0.3
     },
     "job": {
-      "rank": 1008,
+      "rank": 1005,
       "percentile": 0.4
     }
   },
   "performance": {
     "conquest": {
       "score": 418278015563,
-      "percentile": 2.7,
+      "percentile": 2.9,
       "updated": "2026-10-01T04:08:06+00:00"
     },
     "training_ground": {
@@ -42,54 +42,50 @@
       "updated": "2026-09-04T16:40:04+00:00"
     },
     "guild_war": {
-      "score": 159000209664,
-      "percentile": 7.6,
-      "updated": "2026-09-23T00:58:41+00:00"
+      "score": 166348654021,
+      "percentile": 8.7,
+      "updated": "2026-10-11T14:20:13+00:00"
     },
     "world_boss": {
       "score": 54246425100000000,
-      "percentile": 1.9,
+      "percentile": 2.2,
       "updated": "2026-10-02T04:11:46+00:00"
     }
   },
   "scoreComparison": {
     "guild_conquest": {
       "score": "418278015563",
-      "vs_all_pct": 22.6,
-      "vs_class_pct": 28.7,
+      "vs_all_pct": 23.1,
+      "vs_class_pct": 29.4,
       "date": "2026-10-01T04:08:06+00:00"
     },
     "world_boss": {
       "score": "54246425100000000",
-      "vs_all_pct": 8.9,
-      "vs_class_pct": 10.9,
+      "vs_all_pct": 11.3,
+      "vs_class_pct": 13.7,
       "date": "2026-10-02T04:11:46+00:00"
     },
     "guild_war": {
-      "score": "159000209664",
-      "vs_all_pct": -16.3,
-      "vs_class_pct": -17,
-      "date": "2026-09-23T00:58:41+00:00"
+      "score": "166348654021",
+      "vs_all_pct": -12,
+      "vs_class_pct": -12.8,
+      "date": "2026-10-11T14:20:13+00:00"
     },
     "guild_training_ground": {
       "score": "7523760",
-      "vs_all_pct": -38.2,
-      "vs_class_pct": -38.2,
+      "vs_all_pct": -38.3,
+      "vs_class_pct": -38.3,
       "date": "2026-09-18T01:13:39+00:00"
     },
     "guild_boss": {
       "score": "63128590690",
-      "vs_all_pct": -35.6,
-      "vs_class_pct": -34.5,
+      "vs_all_pct": -35.7,
+      "vs_class_pct": -34.6,
       "date": "2026-09-04T16:40:04+00:00"
     }
   },
   "history": {
     "conquest_history": [
-      {
-        "date": "2026-09-08T04:34:26+00:00",
-        "score": "217815638756"
-      },
       {
         "date": "2026-09-16T22:55:11+00:00",
         "score": "239498160973"
@@ -116,23 +112,15 @@
     "guild_boss_battle_history": [],
     "guild_war_history": [
       {
-        "date": "2026-09-10T03:16:55+00:00",
-        "score": "136827212522"
-      },
-      {
         "date": "2026-09-23T00:58:41+00:00",
         "score": "159000209664"
+      },
+      {
+        "date": "2026-10-11T14:20:13+00:00",
+        "score": "166348654021"
       }
     ],
     "world_boss_history": [
-      {
-        "date": "2026-09-06T06:16:07+00:00",
-        "score": "34275330000000000"
-      },
-      {
-        "date": "2026-09-08T04:33:52+00:00",
-        "score": "36107155100000000"
-      },
       {
         "date": "2026-09-16T22:55:04+00:00",
         "score": "39898407500000000"
@@ -148,12 +136,7 @@
     ],
     "cp_history": [
       {
-        "date": "2026-09-05T11:01:12+00:00",
-        "cpRaw": 4364614017316935,
-        "cpDisplay": "4AA 364T"
-      },
-      {
-        "date": "2026-09-06T06:16:07+00:00",
+        "date": "2026-09-13T08:39:03+00:00",
         "cpRaw": 5123563190751052,
         "cpDisplay": "5AA 123T"
       },
@@ -166,11 +149,21 @@
         "date": "2026-10-01T04:08:06+00:00",
         "cpRaw": 6692539820093533,
         "cpDisplay": "6AA 692T"
+      },
+      {
+        "date": "2026-10-09T04:18:13+00:00",
+        "cpRaw": 6896818611891667,
+        "cpDisplay": "6AA 896T"
+      },
+      {
+        "date": "2026-10-12T05:30:58+00:00",
+        "cpRaw": 9883363642857324,
+        "cpDisplay": "9AA 883T"
       }
     ],
     "level_history": [
       {
-        "date": "2026-09-05T11:01:12+00:00",
+        "date": "2026-09-13T08:39:03+00:00",
         "level": 111
       },
       {
@@ -183,5 +176,5 @@
       }
     ]
   },
-  "scraped_at": "2026-10-05T11:01:12.303099+00:00"
+  "scraped_at": "2026-10-13T08:39:04.315251+00:00"
 }

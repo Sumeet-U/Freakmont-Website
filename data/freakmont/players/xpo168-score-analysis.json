@@ -1,17 +1,17 @@
 {
   "conquest": {
-    "score": 236182580035.14203,
-    "snapshotDate": "2026-09-27",
+    "score": 291396317874.3895,
+    "snapshotDate": "2026-10-11",
     "peerRank": 3,
     "peerCount": 12,
     "percentile": 81.8
   },
   "world_boss": {
-    "score": 31222981200000000,
-    "snapshotDate": "2026-10-04",
-    "peerRank": 3,
+    "score": 37475242800000000,
+    "snapshotDate": "2026-10-11",
+    "peerRank": 2,
     "peerCount": 12,
-    "percentile": 81.8
+    "percentile": 90.9
   },
   "training_ground": {
     "score": 8648664,
@@ -21,8 +21,8 @@
     "percentile": null
   },
   "guild_war": {
-    "score": 118199961728.51364,
-    "snapshotDate": "2026-09-29",
+    "score": 118449494567.50444,
+    "snapshotDate": "2026-10-06",
     "peerRank": 7,
     "peerCount": 12,
     "percentile": 45.5
