@@ -1,20 +1,20 @@
 {
   "ranks": {
     "global_rank": {
-      "rank": 8223,
-      "total": 104951
+      "rank": 8228,
+      "total": 105473
     },
     "bera": {
-      "rank": 4679,
-      "total": 51839
+      "rank": 4710,
+      "total": 52119
     },
     "bera_3": {
-      "rank": 570,
+      "rank": 579,
       "total": 4680
     },
     "marksman": {
-      "rank": 901,
-      "total": 7223
+      "rank": 889,
+      "total": 7271
     }
   },
   "performance": {
@@ -23,8 +23,8 @@
       "updated": "Oct 11"
     },
     "world_boss": {
-      "score": 9719232510000000,
-      "updated": "Oct 11"
+      "score": 10951540600000000,
+      "updated": "Oct 18"
     },
     "training_ground": {
       "score": 8114379,
@@ -40,54 +40,6 @@
     }
   },
   "history": [
-    {
-      "date": "9/13",
-      "cpRaw": 482280659738256.94,
-      "cpDisplay": "482T 280B",
-      "level": 109,
-      "globalRank": 7385,
-      "fame": 84
-    },
-    {
-      "date": "9/14",
-      "cpRaw": 482280659738256.94,
-      "cpDisplay": "482T 280B",
-      "level": 109,
-      "globalRank": 7551,
-      "fame": 84
-    },
-    {
-      "date": "9/15",
-      "cpRaw": 487153392005416.44,
-      "cpDisplay": "487T 153B",
-      "level": 109,
-      "globalRank": 7678,
-      "fame": 85
-    },
-    {
-      "date": "9/16",
-      "cpRaw": 487153392005416.44,
-      "cpDisplay": "487T 153B",
-      "level": 109,
-      "globalRank": 7769,
-      "fame": 85
-    },
-    {
-      "date": "9/17",
-      "cpRaw": 487153392005416.44,
-      "cpDisplay": "487T 153B",
-      "level": 109,
-      "globalRank": 7899,
-      "fame": 85
-    },
-    {
-      "date": "9/18",
-      "cpRaw": 499198664563238.25,
-      "cpDisplay": "499T 198B",
-      "level": 109,
-      "globalRank": 7869,
-      "fame": 87
-    },
     {
       "date": "9/19",
       "cpRaw": 499494103750705.1,
@@ -279,7 +231,55 @@
       "level": 110,
       "globalRank": 8223,
       "fame": 92
+    },
+    {
+      "date": "10/13",
+      "cpRaw": 869139946540635.6,
+      "cpDisplay": "869T 139B",
+      "level": 110,
+      "globalRank": 8237,
+      "fame": 93
+    },
+    {
+      "date": "10/14",
+      "cpRaw": 884392256094127.5,
+      "cpDisplay": "884T 392B",
+      "level": 110,
+      "globalRank": 8276,
+      "fame": 93
+    },
+    {
+      "date": "10/15",
+      "cpRaw": 947877850559391.1,
+      "cpDisplay": "947T 877B",
+      "level": 110,
+      "globalRank": 8156,
+      "fame": 93
+    },
+    {
+      "date": "10/16",
+      "cpRaw": 1005566842854716.5,
+      "cpDisplay": "1AA 5T",
+      "level": 110,
+      "globalRank": 8081,
+      "fame": 93
+    },
+    {
+      "date": "10/17",
+      "cpRaw": 1005566842854716.5,
+      "cpDisplay": "1AA 5T",
+      "level": 110,
+      "globalRank": 8149,
+      "fame": 93
+    },
+    {
+      "date": "10/18",
+      "cpRaw": 1005696144623505.5,
+      "cpDisplay": "1AA 5T",
+      "level": 110,
+      "globalRank": 8228,
+      "fame": 94
     }
   ],
-  "scraped_at": "2026-10-13T08:37:33.737132+00:00"
+  "scraped_at": "2026-10-19T05:40:48.541966+00:00"
 }

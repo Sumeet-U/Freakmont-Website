@@ -1,165 +1,165 @@
 {
-  "date": "2026-10-13",
+  "date": "2026-10-18",
   "entries": [
+    {
+      "name": "JaneGarden",
+      "class": "Night Lord",
+      "level": 120,
+      "score": 966768368405.415,
+      "rank": 1
+    },
     {
       "name": "Debonair",
       "class": "Bowmaster",
       "level": 118,
-      "score": 470278842419.221,
-      "rank": 1
+      "score": 596856871833.624,
+      "rank": 2
     },
     {
       "name": "poljjak",
       "class": "Bishop",
       "level": 118,
-      "score": 459679506591.179,
-      "rank": 2
+      "score": 490176607160.047,
+      "rank": 3
     },
     {
       "name": "kbaFM",
       "class": "Night Lord",
       "level": 116,
-      "score": 401215829326.321,
-      "rank": 3
-    },
-    {
-      "name": "Pantshunter",
-      "class": "Hero",
-      "level": 117,
-      "score": 393537647325.854,
+      "score": 470646281811.859,
       "rank": 4
     },
     {
       "name": "JaiLBalT",
       "class": "Shadower",
-      "level": 116,
-      "score": 379599743307.038,
+      "level": 117,
+      "score": 455358619801.801,
       "rank": 5
+    },
+    {
+      "name": "Pantshunter",
+      "class": "Hero",
+      "level": 118,
+      "score": 402488224631.363,
+      "rank": 6
     },
     {
       "name": "KenniTM",
       "class": "Paladin",
-      "level": 115,
-      "score": 371294258800.053,
-      "rank": 6
-    },
-    {
-      "name": "zVinics",
-      "class": "Bishop",
-      "level": 115,
-      "score": 274370195324.738,
+      "level": 116,
+      "score": 388288621215.356,
       "rank": 7
     },
     {
       "name": "iamJinniiez",
       "class": "Ice/Lightning Mage",
-      "level": 116,
-      "score": 259682322873.116,
+      "level": 117,
+      "score": 298202852286.47,
       "rank": 8
+    },
+    {
+      "name": "zVinics",
+      "class": "Bishop",
+      "level": 115,
+      "score": 277302419768.699,
+      "rank": 9
     },
     {
       "name": "YungSeaTurtl",
       "class": "Night Lord",
-      "level": 114,
-      "score": 212634640150.195,
-      "rank": 9
+      "level": 115,
+      "score": 235558132441.02,
+      "rank": 10
     },
     {
       "name": "SHlBAL",
       "class": "Night Lord",
       "level": 113,
       "score": 166348654021.055,
-      "rank": 10
+      "rank": 11
+    },
+    {
+      "name": "SuuperCow",
+      "class": "Paladin",
+      "level": 115,
+      "score": 154919251262.052,
+      "rank": 12
     },
     {
       "name": "Amascut",
       "class": "Bowmaster",
-      "level": 113,
-      "score": 154585618471.558,
-      "rank": 11
-    },
-    {
-      "name": "SAibo",
-      "class": "Dark Knight",
       "level": 114,
-      "score": 150319687211.1,
-      "rank": 12
+      "score": 154585618471.558,
+      "rank": 13
     },
     {
       "name": "Ravenz",
       "class": "Shadower",
-      "level": 113,
+      "level": 114,
       "score": 147997371528.338,
-      "rank": 13
+      "rank": 14
+    },
+    {
+      "name": "Xanite",
+      "class": "Bowmaster",
+      "level": 115,
+      "score": 145770160846.525,
+      "rank": 15
     },
     {
       "name": "Caycidia",
       "class": "Ice/Lightning Mage",
       "level": 114,
       "score": 143775394097.146,
-      "rank": 14
-    },
-    {
-      "name": "Xanite",
-      "class": "Bowmaster",
-      "level": 114,
-      "score": 143701559077.821,
-      "rank": 15
-    },
-    {
-      "name": "SuuperCow",
-      "class": "Paladin",
-      "level": 114,
-      "score": 143349468714.632,
       "rank": 16
+    },
+    {
+      "name": "Lighttt",
+      "class": "Night Lord",
+      "level": 112,
+      "score": 140249050246.456,
+      "rank": 17
     },
     {
       "name": "Soapdayys",
       "class": "Dark Knight",
       "level": 113,
-      "score": 131389236909.846,
-      "rank": 17
+      "score": 131667157940.878,
+      "rank": 18
     },
     {
       "name": "Came",
       "class": "Paladin",
       "level": 113,
-      "score": 123092687530.058,
-      "rank": 18
+      "score": 129276702620.221,
+      "rank": 19
+    },
+    {
+      "name": "xpo168",
+      "class": "Fire/Poison Mage",
+      "level": 114,
+      "score": 125865682505.036,
+      "rank": 20
+    },
+    {
+      "name": "RefundPuJay",
+      "class": "Marksman",
+      "level": 112,
+      "score": 123996669349.432,
+      "rank": 21
     },
     {
       "name": "TimelessIce",
       "class": "Bowmaster",
       "level": 113,
       "score": 123070432917.995,
-      "rank": 19
-    },
-    {
-      "name": "Lighttt",
-      "class": "Night Lord",
-      "level": 112,
-      "score": 119238641949.004,
-      "rank": 20
-    },
-    {
-      "name": "xpo168",
-      "class": "Fire/Poison Mage",
-      "level": 114,
-      "score": 118449494567.504,
-      "rank": 21
-    },
-    {
-      "name": "RefundPuJay",
-      "class": "Marksman",
-      "level": 112,
-      "score": 116746332382.648,
       "rank": 22
     },
     {
       "name": "Chinnychin",
       "class": "Bowmaster",
       "level": 111,
-      "score": 88176544966.4842,
+      "score": 102288887928.626,
       "rank": 23
     },
     {
@@ -173,21 +173,21 @@
       "name": "greenbanana",
       "class": "Corsair",
       "level": 111,
-      "score": 70574198271.5458,
+      "score": 81543806381.5052,
       "rank": 25
     },
     {
       "name": "yclzero",
       "class": "Bowmaster",
       "level": 111,
-      "score": 69394745839.1653,
+      "score": 81184995192.2172,
       "rank": 26
     },
     {
       "name": "Arlooooo",
       "class": "Hero",
-      "level": 111,
-      "score": 66780147555.5319,
+      "level": 112,
+      "score": 73922441291.8078,
       "rank": 27
     },
     {
@@ -201,14 +201,14 @@
       "name": "Byro",
       "class": "Ice/Lightning Mage",
       "level": 111,
-      "score": 52081058919.0361,
+      "score": 63590922842.5861,
       "rank": 29
     },
     {
       "name": "KayaaToast",
       "class": "Marksman",
       "level": 111,
-      "score": 38347397733.5585,
+      "score": 38560877567.8237,
       "rank": 30
     }
   ]

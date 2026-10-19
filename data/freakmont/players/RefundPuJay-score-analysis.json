@@ -7,11 +7,11 @@
     "percentile": 18.2
   },
   "world_boss": {
-    "score": 28354818000000000,
-    "snapshotDate": "2026-10-11",
-    "peerRank": 8,
+    "score": 37914025500000000,
+    "snapshotDate": "2026-10-18",
+    "peerRank": 9,
     "peerCount": 12,
-    "percentile": 36.4
+    "percentile": 27.3
   },
   "training_ground": {
     "score": 11508096,
@@ -21,11 +21,11 @@
     "percentile": 81.8
   },
   "guild_war": {
-    "score": 116746332382.64796,
-    "snapshotDate": "2026-10-06",
-    "peerRank": 10,
+    "score": 123996669349.43182,
+    "snapshotDate": "2026-10-13",
+    "peerRank": 11,
     "peerCount": 12,
-    "percentile": 18.2
+    "percentile": 9.1
   },
   "guild_boss_battle": {
     "score": 50125034651.7871,

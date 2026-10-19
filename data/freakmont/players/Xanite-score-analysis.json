@@ -7,8 +7,8 @@
     "percentile": 18.2
   },
   "world_boss": {
-    "score": 24472995800000000,
-    "snapshotDate": "2026-10-07",
+    "score": 25839238900000000,
+    "snapshotDate": "2026-10-14",
     "peerRank": null,
     "peerCount": 12,
     "percentile": null
@@ -21,11 +21,11 @@
     "percentile": 45.5
   },
   "guild_war": {
-    "score": 143701559077.8212,
-    "snapshotDate": "2026-10-06",
-    "peerRank": 8,
+    "score": 145770160846.52502,
+    "snapshotDate": "2026-10-13",
+    "peerRank": 6,
     "peerCount": 12,
-    "percentile": 36.4
+    "percentile": 54.5
   },
   "guild_boss_battle": {
     "score": 50210412069.739746,

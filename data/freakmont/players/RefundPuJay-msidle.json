@@ -3,33 +3,33 @@
     "name": "RefundPuJay",
     "class": "Marksman",
     "level": 112,
-    "cpRaw": "4310277180986616",
-    "cpDisplay": "4AA 310T",
+    "cpRaw": "4735919654450869",
+    "cpDisplay": "4AA 735T",
     "fame": 47
   },
   "ranks": {
     "global": {
-      "rank": 11548,
+      "rank": 12158,
       "percentile": 0.8
     },
     "server": {
-      "rank": 185,
+      "rank": 197,
       "percentile": 0.4
     },
     "world": {
-      "rank": 1837,
+      "rank": 1899,
       "percentile": 0.4
     },
     "job": {
-      "rank": 654,
-      "percentile": 0.9
+      "rank": 682,
+      "percentile": 1
     }
   },
   "performance": {
     "conquest": {
-      "score": 235157224374,
-      "percentile": 4.8,
-      "updated": "2026-10-09T04:18:13+00:00"
+      "score": 290925560312,
+      "percentile": 4.2,
+      "updated": "2026-10-18T09:05:45+00:00"
     },
     "training_ground": {
       "score": 8765436,
@@ -42,51 +42,51 @@
       "updated": "2026-09-04T16:39:40+00:00"
     },
     "guild_war": {
-      "score": 116746332383,
-      "percentile": 14.4,
-      "updated": "2026-10-11T14:20:25+00:00"
+      "score": 123996669349,
+      "percentile": 13.7,
+      "updated": "2026-10-14T14:15:52+00:00"
     },
     "world_boss": {
-      "score": 32998164100000000,
-      "percentile": 2.8,
-      "updated": "2026-10-13T05:20:16+00:00"
+      "score": 37914025500000000,
+      "percentile": 2.7,
+      "updated": "2026-10-16T15:28:31+00:00"
     }
   },
   "scoreComparison": {
     "chapter": {
       "score": "257",
-      "vs_all_pct": -1.9,
+      "vs_all_pct": -2.3,
       "vs_class_pct": null,
       "date": "2026-07-15T02:50:14+00:00"
     },
     "guild_conquest": {
-      "score": "235157224374",
-      "vs_all_pct": -0.6,
-      "vs_class_pct": -1.7,
-      "date": "2026-10-09T04:18:13+00:00"
+      "score": "290925560312",
+      "vs_all_pct": 6.1,
+      "vs_class_pct": 4.5,
+      "date": "2026-10-18T09:05:45+00:00"
     },
     "world_boss": {
-      "score": "32998164100000000",
-      "vs_all_pct": 8.6,
-      "vs_class_pct": -7.9,
-      "date": "2026-10-13T05:20:16+00:00"
+      "score": "37914025500000000",
+      "vs_all_pct": 19.3,
+      "vs_class_pct": 1.9,
+      "date": "2026-10-16T15:28:31+00:00"
     },
     "guild_war": {
-      "score": "116746332383",
-      "vs_all_pct": -6.8,
-      "vs_class_pct": -8.1,
-      "date": "2026-10-11T14:20:25+00:00"
+      "score": "123996669349",
+      "vs_all_pct": -17.1,
+      "vs_class_pct": -18.2,
+      "date": "2026-10-14T14:15:52+00:00"
     },
     "guild_training_ground": {
       "score": "8765436",
       "vs_all_pct": 3.3,
-      "vs_class_pct": -1.1,
+      "vs_class_pct": -1,
       "date": "2026-09-18T01:13:06+00:00"
     },
     "guild_boss": {
       "score": "50125034652",
-      "vs_all_pct": 14.8,
-      "vs_class_pct": 9.4,
+      "vs_all_pct": 14.7,
+      "vs_class_pct": 9.3,
       "date": "2026-09-04T16:39:40+00:00"
     }
   },
@@ -107,14 +107,13 @@
       {
         "date": "2026-10-09T04:18:13+00:00",
         "score": "235157224374"
-      }
-    ],
-    "training_ground_history": [
+      },
       {
-        "date": "2026-09-18T01:13:06+00:00",
-        "score": "8765436"
+        "date": "2026-10-18T09:05:45+00:00",
+        "score": "290925560312"
       }
     ],
+    "training_ground_history": [],
     "guild_boss_battle_history": [],
     "guild_war_history": [
       {
@@ -124,13 +123,13 @@
       {
         "date": "2026-10-11T14:20:25+00:00",
         "score": "116746332383"
+      },
+      {
+        "date": "2026-10-14T14:15:52+00:00",
+        "score": "123996669349"
       }
     ],
     "world_boss_history": [
-      {
-        "date": "2026-09-16T22:55:17+00:00",
-        "score": "10440843600000000"
-      },
       {
         "date": "2026-09-27T04:51:40+00:00",
         "score": "15024519900000000"
@@ -158,16 +157,15 @@
       {
         "date": "2026-10-13T05:20:16+00:00",
         "score": "32998164100000000"
+      },
+      {
+        "date": "2026-10-16T15:28:31+00:00",
+        "score": "37914025500000000"
       }
     ],
     "cp_history": [
       {
-        "date": "2026-09-13T08:39:55+00:00",
-        "cpRaw": 1127001918429495,
-        "cpDisplay": "1AA 127T"
-      },
-      {
-        "date": "2026-09-15T00:54:04+00:00",
+        "date": "2026-09-19T05:43:21+00:00",
         "cpRaw": 1219695912848832,
         "cpDisplay": "1AA 219T"
       },
@@ -245,11 +243,26 @@
         "date": "2026-10-13T05:20:15+00:00",
         "cpRaw": 4310277180986616,
         "cpDisplay": "4AA 310T"
+      },
+      {
+        "date": "2026-10-16T15:28:31+00:00",
+        "cpRaw": 4641723760170107,
+        "cpDisplay": "4AA 641T"
+      },
+      {
+        "date": "2026-10-18T09:05:45+00:00",
+        "cpRaw": 4648732058005780,
+        "cpDisplay": "4AA 648T"
+      },
+      {
+        "date": "2026-10-19T05:12:20+00:00",
+        "cpRaw": 4735919654450869,
+        "cpDisplay": "4AA 735T"
       }
     ],
     "level_history": [
       {
-        "date": "2026-09-13T08:39:55+00:00",
+        "date": "2026-09-19T05:43:21+00:00",
         "level": 110
       },
       {
@@ -262,5 +275,5 @@
       }
     ]
   },
-  "scraped_at": "2026-10-13T08:39:56.363967+00:00"
+  "scraped_at": "2026-10-19T05:43:20.846424+00:00"
 }

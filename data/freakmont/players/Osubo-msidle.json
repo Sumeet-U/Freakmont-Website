@@ -3,33 +3,33 @@
     "name": "Osubo",
     "class": "Marksman",
     "level": 110,
-    "cpRaw": "869139946540636",
-    "cpDisplay": "869T 139B",
-    "fame": 92
+    "cpRaw": "1005696144623506",
+    "cpDisplay": "1AA 5T",
+    "fame": 93
   },
   "ranks": {
     "global": {
-      "rank": 28852,
+      "rank": 29321,
       "percentile": 1.9
     },
     "server": {
-      "rank": 571,
-      "percentile": 1.2
+      "rank": 589,
+      "percentile": 1.3
     },
     "world": {
-      "rank": 4663,
+      "rank": 4670,
       "percentile": 1.1
     },
     "job": {
-      "rank": 1738,
+      "rank": 1732,
       "percentile": 2.5
     }
   },
   "performance": {
     "conquest": {
-      "score": 136238324110,
-      "percentile": 8,
-      "updated": "2026-10-09T04:18:23+00:00"
+      "score": 147173988636,
+      "percentile": 7.7,
+      "updated": "2026-10-16T17:18:06+00:00"
     },
     "training_ground": {
       "score": 8114379,
@@ -43,44 +43,44 @@
     },
     "guild_war": {
       "score": 65341414315,
-      "percentile": 24,
+      "percentile": 25.3,
       "updated": "2026-10-11T14:21:02+00:00"
     },
     "world_boss": {
-      "score": 10267408100000000,
+      "score": 10951540600000000,
       "percentile": 4.9,
-      "updated": "2026-10-13T05:20:17+00:00"
+      "updated": "2026-10-19T05:12:19+00:00"
     }
   },
   "scoreComparison": {
     "chapter": {
       "score": "202",
-      "vs_all_pct": 4.1,
+      "vs_all_pct": 4.7,
       "vs_class_pct": null,
       "date": "2026-03-25T23:31:01+00:00"
     },
     "guild_conquest": {
-      "score": "136238324110",
-      "vs_all_pct": 23.4,
-      "vs_class_pct": 22,
-      "date": "2026-10-09T04:18:23+00:00"
+      "score": "147173988636",
+      "vs_all_pct": 22.7,
+      "vs_class_pct": 20.9,
+      "date": "2026-10-16T17:18:06+00:00"
     },
     "world_boss": {
-      "score": "10267408100000000",
-      "vs_all_pct": 88.3,
-      "vs_class_pct": 59.7,
-      "date": "2026-10-13T05:20:17+00:00"
+      "score": "10951540600000000",
+      "vs_all_pct": 76.8,
+      "vs_class_pct": 51,
+      "date": "2026-10-19T05:12:19+00:00"
     },
     "guild_war": {
       "score": "65341414315",
-      "vs_all_pct": 6.3,
-      "vs_class_pct": 4.8,
+      "vs_all_pct": 6,
+      "vs_class_pct": 4.6,
       "date": "2026-10-11T14:21:02+00:00"
     },
     "guild_training_ground": {
       "score": "8114379",
       "vs_all_pct": 20.9,
-      "vs_class_pct": 15.8,
+      "vs_class_pct": 15.9,
       "date": "2026-09-11T02:46:42+00:00"
     },
     "guild_boss": {
@@ -107,6 +107,10 @@
       {
         "date": "2026-10-09T04:18:23+00:00",
         "score": "136238324110"
+      },
+      {
+        "date": "2026-10-16T17:18:06+00:00",
+        "score": "147173988636"
       }
     ],
     "training_ground_history": [],
@@ -118,10 +122,6 @@
       }
     ],
     "world_boss_history": [
-      {
-        "date": "2026-09-15T00:54:17+00:00",
-        "score": "3886717280000000"
-      },
       {
         "date": "2026-09-23T01:19:27+00:00",
         "score": "4809444310000000"
@@ -145,26 +145,15 @@
       {
         "date": "2026-10-13T05:20:17+00:00",
         "score": "10267408100000000"
+      },
+      {
+        "date": "2026-10-19T05:12:19+00:00",
+        "score": "10951540600000000"
       }
     ],
     "cp_history": [
       {
-        "date": "2026-09-13T08:41:49+00:00",
-        "cpRaw": 482280659738257,
-        "cpDisplay": "482T 280B"
-      },
-      {
-        "date": "2026-09-15T00:54:17+00:00",
-        "cpRaw": 487153392005416,
-        "cpDisplay": "487T 153B"
-      },
-      {
-        "date": "2026-09-18T04:27:46+00:00",
-        "cpRaw": 499198664563238,
-        "cpDisplay": "499T 198B"
-      },
-      {
-        "date": "2026-09-18T13:10:48+00:00",
+        "date": "2026-09-19T05:44:53+00:00",
         "cpRaw": 499494103750705,
         "cpDisplay": "499T 494B"
       },
@@ -232,11 +221,26 @@
         "date": "2026-10-13T05:20:17+00:00",
         "cpRaw": 869139946540636,
         "cpDisplay": "869T 139B"
+      },
+      {
+        "date": "2026-10-14T13:48:59+00:00",
+        "cpRaw": 884444155676792,
+        "cpDisplay": "884T 444B"
+      },
+      {
+        "date": "2026-10-16T15:28:32+00:00",
+        "cpRaw": 1005566842854716,
+        "cpDisplay": "1AA 5T"
+      },
+      {
+        "date": "2026-10-18T09:05:48+00:00",
+        "cpRaw": 1005696144623506,
+        "cpDisplay": "1AA 5T"
       }
     ],
     "level_history": [
       {
-        "date": "2026-09-13T08:41:49+00:00",
+        "date": "2026-09-19T05:44:53+00:00",
         "level": 109
       },
       {
@@ -245,5 +249,5 @@
       }
     ]
   },
-  "scraped_at": "2026-10-13T08:41:49.806029+00:00"
+  "scraped_at": "2026-10-19T05:44:52.930312+00:00"
 }
