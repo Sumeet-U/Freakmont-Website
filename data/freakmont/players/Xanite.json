@@ -1,38 +1,38 @@
 {
   "ranks": {
     "global_rank": {
-      "rank": 3792,
-      "total": 105473
+      "rank": 3924,
+      "total": 105708
     },
     "bera": {
-      "rank": 2162,
-      "total": 52119
+      "rank": 2242,
+      "total": 52163
     },
     "bera_3": {
-      "rank": 225,
+      "rank": 232,
       "total": 4680
     },
     "bowmaster": {
-      "rank": 257,
-      "total": 6059
+      "rank": 261,
+      "total": 6075
     }
   },
   "performance": {
     "guild_conquest": {
-      "score": 206124386445.46933,
-      "updated": "Oct 11"
+      "score": 215314765970.93057,
+      "updated": "Oct 18"
     },
     "world_boss": {
-      "score": 25839238900000000,
-      "updated": "Oct 14"
+      "score": 31536777900000000,
+      "updated": "Oct 21"
     },
     "training_ground": {
       "score": 12873066,
       "updated": "Sep 24"
     },
     "guild_war": {
-      "score": 145770160846.52502,
-      "updated": "Oct 13"
+      "score": 147101746468.1012,
+      "updated": "Oct 20"
     },
     "guild_boss_battle": {
       "score": 50210412069.739746,
@@ -40,38 +40,6 @@
     }
   },
   "history": [
-    {
-      "date": "9/19",
-      "cpRaw": 2136616242335853.2,
-      "cpDisplay": "2AA 136T",
-      "level": 113,
-      "globalRank": 3292,
-      "fame": 153
-    },
-    {
-      "date": "9/20",
-      "cpRaw": 2138242733718808.5,
-      "cpDisplay": "2AA 138T",
-      "level": 113,
-      "globalRank": 3326,
-      "fame": 153
-    },
-    {
-      "date": "9/21",
-      "cpRaw": 2139139003525555.5,
-      "cpDisplay": "2AA 139T",
-      "level": 113,
-      "globalRank": 3369,
-      "fame": 153
-    },
-    {
-      "date": "9/22",
-      "cpRaw": 2272860435828011.5,
-      "cpDisplay": "2AA 272T",
-      "level": 113,
-      "globalRank": 3324,
-      "fame": 153
-    },
     {
       "date": "9/23",
       "cpRaw": 2732528143511614.5,
@@ -279,7 +247,39 @@
       "level": 115,
       "globalRank": 3792,
       "fame": 164
+    },
+    {
+      "date": "10/19",
+      "cpRaw": 3797242388662089.5,
+      "cpDisplay": "3AA 797T",
+      "level": 115,
+      "globalRank": 3802,
+      "fame": 164
+    },
+    {
+      "date": "10/20",
+      "cpRaw": 3835463395344601,
+      "cpDisplay": "3AA 835T",
+      "level": 115,
+      "globalRank": 3852,
+      "fame": 164
+    },
+    {
+      "date": "10/21",
+      "cpRaw": 3836336237588937,
+      "cpDisplay": "3AA 836T",
+      "level": 115,
+      "globalRank": 3891,
+      "fame": 164
+    },
+    {
+      "date": "10/22",
+      "cpRaw": 3850478249076094.5,
+      "cpDisplay": "3AA 850T",
+      "level": 115,
+      "globalRank": 3924,
+      "fame": 164
     }
   ],
-  "scraped_at": "2026-10-19T05:40:26.525225+00:00"
+  "scraped_at": "2026-10-22T23:17:45.228094+00:00"
 }

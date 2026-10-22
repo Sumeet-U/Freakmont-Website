@@ -9,26 +9,26 @@
   },
   "ranks": {
     "global": {
-      "rank": 11739,
+      "rank": 12067,
       "percentile": 0.8
     },
     "server": {
-      "rank": 188,
+      "rank": 194,
       "percentile": 0.4
     },
     "world": {
-      "rank": 1829,
+      "rank": 1928,
       "percentile": 0.4
     },
     "job": {
-      "rank": 1346,
-      "percentile": 4.9
+      "rank": 1374,
+      "percentile": 5
     }
   },
   "performance": {
     "conquest": {
       "score": 369714184037,
-      "percentile": 3.5,
+      "percentile": 3.6,
       "updated": "2026-10-18T09:05:49+00:00"
     },
     "training_ground": {
@@ -48,39 +48,39 @@
     },
     "world_boss": {
       "score": 55725438300000000,
-      "percentile": 2.2,
+      "percentile": 2.4,
       "updated": "2026-10-19T05:12:23+00:00"
     }
   },
   "scoreComparison": {
     "guild_conquest": {
       "score": "369714184037",
-      "vs_all_pct": 29,
-      "vs_class_pct": 21.2,
+      "vs_all_pct": 29.8,
+      "vs_class_pct": 21.8,
       "date": "2026-10-18T09:05:49+00:00"
     },
     "world_boss": {
       "score": "55725438300000000",
-      "vs_all_pct": 60.5,
-      "vs_class_pct": 39.2,
+      "vs_all_pct": 62.7,
+      "vs_class_pct": 42.8,
       "date": "2026-10-19T05:12:23+00:00"
     },
     "guild_war": {
       "score": "154919251262",
-      "vs_all_pct": -1.8,
-      "vs_class_pct": -4.8,
+      "vs_all_pct": -1.9,
+      "vs_class_pct": -4.7,
       "date": "2026-10-14T14:15:42+00:00"
     },
     "guild_training_ground": {
       "score": "11931558",
       "vs_all_pct": 6.1,
-      "vs_class_pct": 24.4,
+      "vs_class_pct": 24.5,
       "date": "2026-09-18T01:13:15+00:00"
     },
     "guild_boss": {
       "score": "85288607062",
-      "vs_all_pct": 12.6,
-      "vs_class_pct": 9,
+      "vs_all_pct": 12.5,
+      "vs_class_pct": 8.9,
       "date": "2026-09-04T16:39:34+00:00"
     }
   },
@@ -127,17 +127,7 @@
     ],
     "cp_history": [
       {
-        "date": "2026-09-19T05:43:04+00:00",
-        "cpRaw": 3716821383063597,
-        "cpDisplay": "3AA 716T"
-      },
-      {
-        "date": "2026-09-19T22:34:10+00:00",
-        "cpRaw": 3726318277308040,
-        "cpDisplay": "3AA 726T"
-      },
-      {
-        "date": "2026-09-21T06:25:33+00:00",
+        "date": "2026-09-22T23:21:17+00:00",
         "cpRaw": 3733567159487646,
         "cpDisplay": "3AA 733T"
       },
@@ -194,7 +184,7 @@
     ],
     "level_history": [
       {
-        "date": "2026-09-19T05:43:04+00:00",
+        "date": "2026-09-22T23:21:17+00:00",
         "level": 113
       },
       {
@@ -203,5 +193,5 @@
       }
     ]
   },
-  "scraped_at": "2026-10-19T05:43:04.286206+00:00"
+  "scraped_at": "2026-10-22T23:21:17.853930+00:00"
 }

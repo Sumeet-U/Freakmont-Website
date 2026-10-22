@@ -1,26 +1,26 @@
 {
   "ranks": {
     "global_rank": {
-      "rank": 2824,
-      "total": 105473
+      "rank": 2959,
+      "total": 105708
     },
     "bera": {
-      "rank": 1624,
-      "total": 52119
+      "rank": 1703,
+      "total": 52163
     },
     "bera_3": {
-      "rank": 164,
+      "rank": 171,
       "total": 4680
     },
     "night_lord": {
-      "rank": 454,
-      "total": 13644
+      "rank": 467,
+      "total": 13659
     }
   },
   "performance": {
     "guild_conquest": {
-      "score": 378346016303.4189,
-      "updated": "Oct 11"
+      "score": 423785354632.1406,
+      "updated": "Oct 18"
     },
     "world_boss": {
       "score": 85065676800000000,
@@ -31,8 +31,8 @@
       "updated": "Sep 10"
     },
     "guild_war": {
-      "score": 235558132441.01953,
-      "updated": "Oct 13"
+      "score": 242294301798.7143,
+      "updated": "Oct 20"
     },
     "guild_boss_battle": {
       "score": 92917130577.61081,
@@ -40,38 +40,6 @@
     }
   },
   "history": [
-    {
-      "date": "9/19",
-      "cpRaw": 2980566704721197.5,
-      "cpDisplay": "2AA 980T",
-      "level": 113,
-      "globalRank": 2723,
-      "fame": 778
-    },
-    {
-      "date": "9/20",
-      "cpRaw": 3066152661791943.5,
-      "cpDisplay": "3AA 66T",
-      "level": 113,
-      "globalRank": 2705,
-      "fame": 778
-    },
-    {
-      "date": "9/21",
-      "cpRaw": 3370593815344859,
-      "cpDisplay": "3AA 370T",
-      "level": 113,
-      "globalRank": 2595,
-      "fame": 778
-    },
-    {
-      "date": "9/22",
-      "cpRaw": 3542353280714248,
-      "cpDisplay": "3AA 542T",
-      "level": 113,
-      "globalRank": 2585,
-      "fame": 778
-    },
     {
       "date": "9/23",
       "cpRaw": 3793451946900265,
@@ -279,7 +247,39 @@
       "level": 115,
       "globalRank": 2824,
       "fame": 794
+    },
+    {
+      "date": "10/19",
+      "cpRaw": 6061087101022345,
+      "cpDisplay": "6AA 61T",
+      "level": 115,
+      "globalRank": 2862,
+      "fame": 794
+    },
+    {
+      "date": "10/20",
+      "cpRaw": 6061087101022345,
+      "cpDisplay": "6AA 61T",
+      "level": 115,
+      "globalRank": 2896,
+      "fame": 807
+    },
+    {
+      "date": "10/21",
+      "cpRaw": 6061087101022345,
+      "cpDisplay": "6AA 61T",
+      "level": 115,
+      "globalRank": 2926,
+      "fame": 810
+    },
+    {
+      "date": "10/22",
+      "cpRaw": 6061087101022345,
+      "cpDisplay": "6AA 61T",
+      "level": 115,
+      "globalRank": 2959,
+      "fame": 810
     }
   ],
-  "scraped_at": "2026-10-19T05:40:02.346268+00:00"
+  "scraped_at": "2026-10-22T23:17:23.786323+00:00"
 }

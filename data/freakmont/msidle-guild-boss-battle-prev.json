@@ -1,74 +1,74 @@
 {
-  "date": "2026-10-13",
+  "date": "2026-10-18",
   "entries": [
+    {
+      "name": "JaneGarden",
+      "class": "Night Lord",
+      "level": 120,
+      "score": 235474275167,
+      "rank": 1
+    },
     {
       "name": "poljjak",
       "class": "Bishop",
       "level": 118,
       "score": 166514185274,
-      "rank": 1
+      "rank": 2
     },
     {
       "name": "Debonair",
       "class": "Bowmaster",
       "level": 118,
       "score": 153912720509,
-      "rank": 2
+      "rank": 3
     },
     {
       "name": "kbaFM",
       "class": "Night Lord",
       "level": 116,
       "score": 149877060018,
-      "rank": 3
+      "rank": 4
     },
     {
       "name": "Pantshunter",
       "class": "Hero",
       "level": 117,
       "score": 127967505145,
-      "rank": 4
+      "rank": 5
     },
     {
       "name": "iamJinniiez",
       "class": "Arch Mage (Ice/Lightning)",
-      "level": 116,
+      "level": 117,
       "score": 126826710983,
-      "rank": 5
+      "rank": 6
     },
     {
       "name": "JaiLBalT",
       "class": "Shadower",
-      "level": 116,
+      "level": 117,
       "score": 116837254462,
-      "rank": 6
+      "rank": 7
     },
     {
       "name": "zVinics",
       "class": "Bishop",
       "level": 115,
       "score": 102572098587,
-      "rank": 7
+      "rank": 8
     },
     {
       "name": "KenniTM",
       "class": "Paladin",
-      "level": 115,
+      "level": 116,
       "score": 100926204622,
-      "rank": 8
+      "rank": 9
     },
     {
       "name": "YungSeaTurtl",
       "class": "Night Lord",
       "level": 114,
       "score": 92917130578,
-      "rank": 9
-    },
-    {
-      "name": "SAibo",
-      "class": "Dark Knight",
-      "level": 114,
-      "score": 85790593884,
       "rank": 10
     },
     {
@@ -95,7 +95,7 @@
     {
       "name": "Ravenz",
       "class": "Shadower",
-      "level": 113,
+      "level": 114,
       "score": 64162860993,
       "rank": 14
     },
@@ -172,7 +172,7 @@
     {
       "name": "Arlooooo",
       "class": "Hero",
-      "level": 111,
+      "level": 112,
       "score": 5973832528,
       "rank": 25
     },
@@ -207,7 +207,7 @@
     {
       "name": "greenbanana",
       "class": "Corsair",
-      "level": 110,
+      "level": 111,
       "score": 2928291073,
       "rank": 30
     }

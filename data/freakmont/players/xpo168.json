@@ -1,30 +1,30 @@
 {
   "ranks": {
     "global_rank": {
-      "rank": 4299,
-      "total": 105473
+      "rank": 3982,
+      "total": 105708
     },
     "bera": {
-      "rank": 2465,
-      "total": 52119
+      "rank": 2280,
+      "total": 52163
     },
     "bera_3": {
-      "rank": 259,
+      "rank": 236,
       "total": 4680
     },
     "fire/poison_mage": {
-      "rank": 76,
-      "total": 4115
+      "rank": 72,
+      "total": 4123
     }
   },
   "performance": {
     "guild_conquest": {
-      "score": 291396317874.3895,
-      "updated": "Oct 11"
+      "score": 314949313468.8844,
+      "updated": "Oct 18"
     },
     "world_boss": {
-      "score": 44437452700000000,
-      "updated": "Oct 18"
+      "score": 50770507600000000,
+      "updated": "Oct 21"
     },
     "training_ground": {
       "score": 8648664,
@@ -40,38 +40,6 @@
     }
   },
   "history": [
-    {
-      "date": "9/19",
-      "cpRaw": 1755441194696423.5,
-      "cpDisplay": "1AA 755T",
-      "level": 113,
-      "globalRank": 3628,
-      "fame": 357
-    },
-    {
-      "date": "9/20",
-      "cpRaw": 1756417425360369.8,
-      "cpDisplay": "1AA 756T",
-      "level": 113,
-      "globalRank": 3669,
-      "fame": 362
-    },
-    {
-      "date": "9/21",
-      "cpRaw": 1756417425360369.8,
-      "cpDisplay": "1AA 756T",
-      "level": 113,
-      "globalRank": 3732,
-      "fame": 365
-    },
-    {
-      "date": "9/22",
-      "cpRaw": 1764417988117277.8,
-      "cpDisplay": "1AA 764T",
-      "level": 113,
-      "globalRank": 3819,
-      "fame": 365
-    },
     {
       "date": "9/23",
       "cpRaw": 1835067438708586.5,
@@ -279,7 +247,39 @@
       "level": 114,
       "globalRank": 4299,
       "fame": 405
+    },
+    {
+      "date": "10/19",
+      "cpRaw": 3103153407358611.5,
+      "cpDisplay": "3AA 103T",
+      "level": 114,
+      "globalRank": 4348,
+      "fame": 407
+    },
+    {
+      "date": "10/20",
+      "cpRaw": 3124913981048237.5,
+      "cpDisplay": "3AA 124T",
+      "level": 114,
+      "globalRank": 4408,
+      "fame": 415
+    },
+    {
+      "date": "10/21",
+      "cpRaw": 3573305418373012.5,
+      "cpDisplay": "3AA 573T",
+      "level": 114,
+      "globalRank": 4080,
+      "fame": 415
+    },
+    {
+      "date": "10/22",
+      "cpRaw": 3763453974941883,
+      "cpDisplay": "3AA 763T",
+      "level": 114,
+      "globalRank": 3982,
+      "fame": 415
     }
   ],
-  "scraped_at": "2026-10-19T05:40:29.803086+00:00"
+  "scraped_at": "2026-10-22T23:17:49.459072+00:00"
 }

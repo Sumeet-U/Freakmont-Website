@@ -1,38 +1,38 @@
 {
   "ranks": {
     "global_rank": {
-      "rank": 1109,
-      "total": 105473
+      "rank": 1149,
+      "total": 105708
     },
     "bera": {
-      "rank": 655,
-      "total": 52119
+      "rank": 675,
+      "total": 52163
     },
     "bera_3": {
-      "rank": 65,
+      "rank": 67,
       "total": 4680
     },
     "paladin": {
-      "rank": 146,
-      "total": 3568
+      "rank": 143,
+      "total": 3566
     }
   },
   "performance": {
     "guild_conquest": {
-      "score": 1114787625018.3674,
-      "updated": "Oct 11"
+      "score": 1171286872208.622,
+      "updated": "Oct 18"
     },
     "world_boss": {
-      "score": 404987292000000000,
-      "updated": "Oct 18"
+      "score": 425112872000000000,
+      "updated": "Oct 21"
     },
     "training_ground": {
       "score": 8254155,
       "updated": "Jul 16"
     },
     "guild_war": {
-      "score": 388288621215.3561,
-      "updated": "Oct 13"
+      "score": 412528952037.5809,
+      "updated": "Oct 20"
     },
     "guild_boss_battle": {
       "score": 108374736304.20026,
@@ -40,38 +40,6 @@
     }
   },
   "history": [
-    {
-      "date": "9/19",
-      "cpRaw": 9112920150161132,
-      "cpDisplay": "9AA 112T",
-      "level": 113,
-      "globalRank": 1403,
-      "fame": 170
-    },
-    {
-      "date": "9/20",
-      "cpRaw": 9371585957452214,
-      "cpDisplay": "9AA 371T",
-      "level": 114,
-      "globalRank": 1394,
-      "fame": 170
-    },
-    {
-      "date": "9/21",
-      "cpRaw": 9924757777785390,
-      "cpDisplay": "9AA 924T",
-      "level": 114,
-      "globalRank": 1371,
-      "fame": 170
-    },
-    {
-      "date": "9/22",
-      "cpRaw": 10770199549090766,
-      "cpDisplay": "10AA 770T",
-      "level": 114,
-      "globalRank": 1332,
-      "fame": 171
-    },
     {
       "date": "9/23",
       "cpRaw": 11997151135700056,
@@ -279,7 +247,39 @@
       "level": 116,
       "globalRank": 1109,
       "fame": 183
+    },
+    {
+      "date": "10/19",
+      "cpRaw": 32045769566056936,
+      "cpDisplay": "32AA 45T",
+      "level": 116,
+      "globalRank": 1127,
+      "fame": 183
+    },
+    {
+      "date": "10/20",
+      "cpRaw": 32045769566056936,
+      "cpDisplay": "32AA 45T",
+      "level": 116,
+      "globalRank": 1136,
+      "fame": 183
+    },
+    {
+      "date": "10/21",
+      "cpRaw": 32059997387308660,
+      "cpDisplay": "32AA 59T",
+      "level": 116,
+      "globalRank": 1144,
+      "fame": 185
+    },
+    {
+      "date": "10/22",
+      "cpRaw": 32164854674729684,
+      "cpDisplay": "32AA 164T",
+      "level": 116,
+      "globalRank": 1149,
+      "fame": 185
     }
   ],
-  "scraped_at": "2026-10-19T05:39:46.370611+00:00"
+  "scraped_at": "2026-10-22T23:17:04.293796+00:00"
 }

@@ -1,26 +1,26 @@
 {
   "ranks": {
     "global_rank": {
-      "rank": 1357,
-      "total": 105473
+      "rank": 1386,
+      "total": 105708
     },
     "bera": {
-      "rank": 805,
-      "total": 52119
+      "rank": 813,
+      "total": 52163
     },
     "bera_3": {
       "rank": 87,
       "total": 4680
     },
     "bishop": {
-      "rank": 232,
-      "total": 10287
+      "rank": 238,
+      "total": 10314
     }
   },
   "performance": {
     "guild_conquest": {
-      "score": 587305971356.9707,
-      "updated": "Oct 11"
+      "score": 645401760901.333,
+      "updated": "Oct 18"
     },
     "world_boss": {
       "score": 88136347200000000,
@@ -40,38 +40,6 @@
     }
   },
   "history": [
-    {
-      "date": "9/19",
-      "cpRaw": 11795041323410430,
-      "cpDisplay": "11AA 795T",
-      "level": 114,
-      "globalRank": 1225,
-      "fame": 1225
-    },
-    {
-      "date": "9/20",
-      "cpRaw": 12191070741801376,
-      "cpDisplay": "12AA 191T",
-      "level": 114,
-      "globalRank": 1206,
-      "fame": 1225
-    },
-    {
-      "date": "9/21",
-      "cpRaw": 12198508425957202,
-      "cpDisplay": "12AA 198T",
-      "level": 114,
-      "globalRank": 1220,
-      "fame": 1225
-    },
-    {
-      "date": "9/22",
-      "cpRaw": 13021165639420732,
-      "cpDisplay": "13AA 21T",
-      "level": 114,
-      "globalRank": 1206,
-      "fame": 1226
-    },
     {
       "date": "9/23",
       "cpRaw": 13026688787919826,
@@ -279,7 +247,39 @@
       "level": 115,
       "globalRank": 1357,
       "fame": 1232
+    },
+    {
+      "date": "10/19",
+      "cpRaw": 23063347363021184,
+      "cpDisplay": "23AA 63T",
+      "level": 115,
+      "globalRank": 1351,
+      "fame": 1232
+    },
+    {
+      "date": "10/20",
+      "cpRaw": 23086523032407110,
+      "cpDisplay": "23AA 86T",
+      "level": 115,
+      "globalRank": 1368,
+      "fame": 1232
+    },
+    {
+      "date": "10/21",
+      "cpRaw": 23118455906773270,
+      "cpDisplay": "23AA 118T",
+      "level": 115,
+      "globalRank": 1384,
+      "fame": 1232
+    },
+    {
+      "date": "10/22",
+      "cpRaw": 23429976542484564,
+      "cpDisplay": "23AA 429T",
+      "level": 116,
+      "globalRank": 1386,
+      "fame": 1232
     }
   ],
-  "scraped_at": "2026-10-19T05:39:53.049598+00:00"
+  "scraped_at": "2026-10-22T23:17:07.237772+00:00"
 }

@@ -9,26 +9,26 @@
   },
   "ranks": {
     "global": {
-      "rank": 19651,
+      "rank": 20273,
       "percentile": 1.3
     },
     "server": {
-      "rank": 354,
+      "rank": 366,
       "percentile": 0.8
     },
     "world": {
-      "rank": 3072,
-      "percentile": 0.7
+      "rank": 3279,
+      "percentile": 0.8
     },
     "job": {
-      "rank": 1009,
-      "percentile": 1
+      "rank": 1048,
+      "percentile": 1.1
     }
   },
   "performance": {
     "conquest": {
       "score": 196650276455,
-      "percentile": 5.8,
+      "percentile": 6,
       "updated": "2026-10-01T04:08:12+00:00"
     },
     "training_ground": {
@@ -48,7 +48,7 @@
     },
     "world_boss": {
       "score": 23864533800000000,
-      "percentile": 3.5,
+      "percentile": 3.6,
       "updated": "2026-10-13T05:20:10+00:00"
     }
   },
@@ -61,14 +61,14 @@
     },
     "guild_conquest": {
       "score": "196650276455",
-      "vs_all_pct": 45.8,
-      "vs_class_pct": 51,
+      "vs_all_pct": 46.6,
+      "vs_class_pct": 51.7,
       "date": "2026-10-01T04:08:12+00:00"
     },
     "world_boss": {
       "score": "23864533800000000",
-      "vs_all_pct": 125.8,
-      "vs_class_pct": 119.2,
+      "vs_all_pct": 128.7,
+      "vs_class_pct": 121.7,
       "date": "2026-10-13T05:20:10+00:00"
     },
     "guild_war": {
@@ -80,13 +80,13 @@
     "guild_training_ground": {
       "score": "5843667",
       "vs_all_pct": -16.4,
-      "vs_class_pct": -3.1,
+      "vs_class_pct": -3.2,
       "date": "2026-09-18T01:14:45+00:00"
     },
     "guild_boss": {
       "score": "5973832528",
       "vs_all_pct": 11.6,
-      "vs_class_pct": 9.4,
+      "vs_class_pct": 9.5,
       "date": "2026-06-15T08:42:05+00:00"
     }
   },
@@ -145,22 +145,7 @@
     ],
     "cp_history": [
       {
-        "date": "2026-09-19T05:44:11+00:00",
-        "cpRaw": 567750055461658,
-        "cpDisplay": "567T 750B"
-      },
-      {
-        "date": "2026-09-19T22:34:40+00:00",
-        "cpRaw": 569729965613582,
-        "cpDisplay": "569T 729B"
-      },
-      {
-        "date": "2026-09-20T05:01:19+00:00",
-        "cpRaw": 569773676835460,
-        "cpDisplay": "569T 773B"
-      },
-      {
-        "date": "2026-09-20T08:45:58+00:00",
+        "date": "2026-09-22T23:22:32+00:00",
         "cpRaw": 588962277872618,
         "cpDisplay": "588T 962B"
       },
@@ -227,7 +212,7 @@
     ],
     "level_history": [
       {
-        "date": "2026-09-19T05:44:11+00:00",
+        "date": "2026-09-22T23:22:32+00:00",
         "level": 110
       },
       {
@@ -240,5 +225,5 @@
       }
     ]
   },
-  "scraped_at": "2026-10-19T05:44:11.089729+00:00"
+  "scraped_at": "2026-10-22T23:22:32.296958+00:00"
 }

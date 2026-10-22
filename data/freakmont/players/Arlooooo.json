@@ -2,19 +2,19 @@
   "ranks": {
     "global_rank": {
       "rank": 5372,
-      "total": 105473
+      "total": 105708
     },
     "bera": {
-      "rank": 3087,
-      "total": 52119
+      "rank": 3091,
+      "total": 52163
     },
     "bera_3": {
       "rank": 344,
       "total": 4680
     },
     "hero": {
-      "rank": 329,
-      "total": 6762
+      "rank": 332,
+      "total": 6775
     }
   },
   "performance": {
@@ -23,16 +23,16 @@
       "updated": "Oct 4"
     },
     "world_boss": {
-      "score": 23864533800000000,
-      "updated": "Oct 14"
+      "score": 31942371400000000,
+      "updated": "Oct 21"
     },
     "training_ground": {
       "score": 6543771,
       "updated": "Sep 24"
     },
     "guild_war": {
-      "score": 73922441291.80779,
-      "updated": "Oct 13"
+      "score": 87696801263.4234,
+      "updated": "Oct 20"
     },
     "guild_boss_battle": {
       "score": 20595715856.841488,
@@ -40,38 +40,6 @@
     }
   },
   "history": [
-    {
-      "date": "9/19",
-      "cpRaw": 567750055461657.9,
-      "cpDisplay": "567T 750B",
-      "level": 110,
-      "globalRank": 7323,
-      "fame": 334
-    },
-    {
-      "date": "9/20",
-      "cpRaw": 588962277872618,
-      "cpDisplay": "588T 962B",
-      "level": 110,
-      "globalRank": 7212,
-      "fame": 336
-    },
-    {
-      "date": "9/21",
-      "cpRaw": 588962277872618,
-      "cpDisplay": "588T 962B",
-      "level": 110,
-      "globalRank": 7318,
-      "fame": 336
-    },
-    {
-      "date": "9/22",
-      "cpRaw": 648101711913679.2,
-      "cpDisplay": "648T 101B",
-      "level": 110,
-      "globalRank": 7050,
-      "fame": 338
-    },
     {
       "date": "9/23",
       "cpRaw": 651633922573110,
@@ -279,7 +247,39 @@
       "level": 112,
       "globalRank": 5372,
       "fame": 360
+    },
+    {
+      "date": "10/19",
+      "cpRaw": 2083207171655867.8,
+      "cpDisplay": "2AA 83T",
+      "level": 112,
+      "globalRank": 5446,
+      "fame": 360
+    },
+    {
+      "date": "10/20",
+      "cpRaw": 2270573238458124,
+      "cpDisplay": "2AA 270T",
+      "level": 112,
+      "globalRank": 5287,
+      "fame": 360
+    },
+    {
+      "date": "10/21",
+      "cpRaw": 2270573238458124,
+      "cpDisplay": "2AA 270T",
+      "level": 112,
+      "globalRank": 5341,
+      "fame": 362
+    },
+    {
+      "date": "10/22",
+      "cpRaw": 2270573238458124,
+      "cpDisplay": "2AA 270T",
+      "level": 112,
+      "globalRank": 5372,
+      "fame": 362
     }
   ],
-  "scraped_at": "2026-10-19T05:40:34.912131+00:00"
+  "scraped_at": "2026-10-22T23:17:55.567586+00:00"
 }

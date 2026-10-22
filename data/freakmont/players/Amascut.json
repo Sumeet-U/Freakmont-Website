@@ -1,20 +1,20 @@
 {
   "ranks": {
     "global_rank": {
-      "rank": 3489,
-      "total": 105473
+      "rank": 3672,
+      "total": 105708
     },
     "bera": {
-      "rank": 1998,
-      "total": 52119
+      "rank": 2093,
+      "total": 52163
     },
     "bera_3": {
-      "rank": 201,
+      "rank": 210,
       "total": 4680
     },
     "bowmaster": {
-      "rank": 228,
-      "total": 6059
+      "rank": 239,
+      "total": 6075
     }
   },
   "performance": {
@@ -40,38 +40,6 @@
     }
   },
   "history": [
-    {
-      "date": "9/19",
-      "cpRaw": 2843735459683625.5,
-      "cpDisplay": "2AA 843T",
-      "level": 112,
-      "globalRank": 2811,
-      "fame": 246
-    },
-    {
-      "date": "9/20",
-      "cpRaw": 2843735459683625.5,
-      "cpDisplay": "2AA 843T",
-      "level": 112,
-      "globalRank": 2840,
-      "fame": 246
-    },
-    {
-      "date": "9/21",
-      "cpRaw": 2870950135081266,
-      "cpDisplay": "2AA 870T",
-      "level": 112,
-      "globalRank": 2868,
-      "fame": 249
-    },
-    {
-      "date": "9/22",
-      "cpRaw": 3129927262589076.5,
-      "cpDisplay": "3AA 129T",
-      "level": 112,
-      "globalRank": 2786,
-      "fame": 249
-    },
     {
       "date": "9/23",
       "cpRaw": 3170926115810079,
@@ -279,7 +247,39 @@
       "level": 114,
       "globalRank": 3489,
       "fame": 262
+    },
+    {
+      "date": "10/19",
+      "cpRaw": 4250931862614783.5,
+      "cpDisplay": "4AA 250T",
+      "level": 114,
+      "globalRank": 3545,
+      "fame": 262
+    },
+    {
+      "date": "10/20",
+      "cpRaw": 4250931862614783.5,
+      "cpDisplay": "4AA 250T",
+      "level": 114,
+      "globalRank": 3611,
+      "fame": 262
+    },
+    {
+      "date": "10/21",
+      "cpRaw": 4264575832298299.5,
+      "cpDisplay": "4AA 264T",
+      "level": 114,
+      "globalRank": 3647,
+      "fame": 262
+    },
+    {
+      "date": "10/22",
+      "cpRaw": 4264575832298299.5,
+      "cpDisplay": "4AA 264T",
+      "level": 114,
+      "globalRank": 3672,
+      "fame": 262
     }
   ],
-  "scraped_at": "2026-10-19T05:40:23.893691+00:00"
+  "scraped_at": "2026-10-22T23:17:41.431870+00:00"
 }

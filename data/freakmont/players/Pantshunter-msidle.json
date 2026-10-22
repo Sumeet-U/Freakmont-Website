@@ -9,19 +9,19 @@
   },
   "ranks": {
     "global": {
-      "rank": 3648,
+      "rank": 3719,
       "percentile": 0.2
     },
     "server": {
-      "rank": 57,
+      "rank": 58,
       "percentile": 0.1
     },
     "world": {
-      "rank": 581,
+      "rank": 595,
       "percentile": 0.1
     },
     "job": {
-      "rank": 238,
+      "rank": 241,
       "percentile": 0.2
     }
   },
@@ -61,41 +61,37 @@
     },
     "guild_conquest": {
       "score": "1217876303256",
-      "vs_all_pct": 34.4,
-      "vs_class_pct": 39.2,
+      "vs_all_pct": 35.4,
+      "vs_class_pct": 40.1,
       "date": "2026-10-18T05:21:40+00:00"
     },
     "world_boss": {
       "score": "534719360000000000",
-      "vs_all_pct": 54.1,
-      "vs_class_pct": 49.6,
+      "vs_all_pct": 56.4,
+      "vs_class_pct": 51.7,
       "date": "2026-10-19T05:12:25+00:00"
     },
     "guild_war": {
       "score": "402488224631",
-      "vs_all_pct": 6.9,
+      "vs_all_pct": 6.8,
       "vs_class_pct": 9.6,
       "date": "2026-10-14T14:15:21+00:00"
     },
     "guild_training_ground": {
       "score": "8035854",
       "vs_all_pct": -17.9,
-      "vs_class_pct": -4.8,
+      "vs_class_pct": -4.9,
       "date": "2026-07-17T05:53:57+00:00"
     },
     "guild_boss": {
       "score": "127967505145",
-      "vs_all_pct": -15,
-      "vs_class_pct": -16.6,
+      "vs_all_pct": -15.1,
+      "vs_class_pct": -16.7,
       "date": "2026-09-04T16:39:41+00:00"
     }
   },
   "history": {
     "conquest_history": [
-      {
-        "date": "2026-09-20T05:01:43+00:00",
-        "score": "659277644518"
-      },
       {
         "date": "2026-10-04T06:45:08+00:00",
         "score": "1003796346019"
@@ -149,12 +145,7 @@
     ],
     "cp_history": [
       {
-        "date": "2026-09-19T05:41:24+00:00",
-        "cpRaw": 13242604061160600,
-        "cpDisplay": "13AA 242T"
-      },
-      {
-        "date": "2026-09-20T05:01:07+00:00",
+        "date": "2026-09-22T23:18:55+00:00",
         "cpRaw": 13251520421921408,
         "cpDisplay": "13AA 251T"
       },
@@ -231,7 +222,7 @@
     ],
     "level_history": [
       {
-        "date": "2026-09-19T05:41:24+00:00",
+        "date": "2026-09-22T23:18:55+00:00",
         "level": 116
       },
       {
@@ -240,5 +231,5 @@
       }
     ]
   },
-  "scraped_at": "2026-10-19T05:41:24.292509+00:00"
+  "scraped_at": "2026-10-22T23:18:55.956770+00:00"
 }

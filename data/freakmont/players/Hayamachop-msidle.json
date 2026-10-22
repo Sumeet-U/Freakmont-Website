@@ -3,33 +3,33 @@
     "name": "Hayamachop",
     "class": "Hero",
     "level": 111,
-    "cpRaw": "1588889307504040",
-    "cpDisplay": "1AA 588T",
+    "cpRaw": "1703939048474193",
+    "cpDisplay": "1AA 703T",
     "fame": 69
   },
   "ranks": {
     "global": {
-      "rank": 22460,
+      "rank": 22393,
       "percentile": 1.5
     },
     "server": {
-      "rank": 417,
+      "rank": 414,
       "percentile": 0.9
     },
     "world": {
-      "rank": 3526,
+      "rank": 3631,
       "percentile": 0.8
     },
     "job": {
-      "rank": 1152,
+      "rank": 1141,
       "percentile": 1.2
     }
   },
   "performance": {
     "conquest": {
-      "score": 131686132175,
-      "percentile": 8.7,
-      "updated": "2026-10-06T08:26:11+00:00"
+      "score": 135546121298,
+      "percentile": 8.6,
+      "updated": "2026-10-22T05:25:53+00:00"
     },
     "training_ground": {
       "score": 3014280,
@@ -48,7 +48,7 @@
     },
     "world_boss": {
       "score": 7128978760000000,
-      "percentile": 6.1,
+      "percentile": 6.5,
       "updated": "2026-10-19T05:12:21+00:00"
     }
   },
@@ -60,15 +60,15 @@
       "date": "2026-09-08T14:46:30+00:00"
     },
     "guild_conquest": {
-      "score": "131686132175",
-      "vs_all_pct": -4.2,
-      "vs_class_pct": -0.8,
-      "date": "2026-10-06T08:26:11+00:00"
+      "score": "135546121298",
+      "vs_all_pct": -14.6,
+      "vs_class_pct": -11.6,
+      "date": "2026-10-22T05:25:53+00:00"
     },
     "world_boss": {
       "score": "7128978760000000",
-      "vs_all_pct": -29.4,
-      "vs_class_pct": -31.5,
+      "vs_all_pct": -28.5,
+      "vs_class_pct": -30.7,
       "date": "2026-10-19T05:12:21+00:00"
     },
     "guild_war": {
@@ -85,7 +85,7 @@
     },
     "guild_boss": {
       "score": "18360521182",
-      "vs_all_pct": -22.4,
+      "vs_all_pct": -22.5,
       "vs_class_pct": -23.9,
       "date": "2026-09-04T16:40:42+00:00"
     }
@@ -103,6 +103,10 @@
       {
         "date": "2026-10-06T08:26:11+00:00",
         "score": "131686132175"
+      },
+      {
+        "date": "2026-10-22T05:25:53+00:00",
+        "score": "135546121298"
       }
     ],
     "training_ground_history": [],
@@ -145,7 +149,7 @@
     ],
     "cp_history": [
       {
-        "date": "2026-09-19T05:44:20+00:00",
+        "date": "2026-09-22T23:22:43+00:00",
         "cpRaw": 743959356898278,
         "cpDisplay": "743T 959B"
       },
@@ -208,11 +212,16 @@
         "date": "2026-10-19T05:12:21+00:00",
         "cpRaw": 1588889307504040,
         "cpDisplay": "1AA 588T"
+      },
+      {
+        "date": "2026-10-22T05:25:53+00:00",
+        "cpRaw": 1703939048474193,
+        "cpDisplay": "1AA 703T"
       }
     ],
     "level_history": [
       {
-        "date": "2026-09-19T05:44:20+00:00",
+        "date": "2026-09-22T23:22:43+00:00",
         "level": 110
       },
       {
@@ -221,5 +230,5 @@
       }
     ]
   },
-  "scraped_at": "2026-10-19T05:44:19.713403+00:00"
+  "scraped_at": "2026-10-22T23:22:43.337682+00:00"
 }

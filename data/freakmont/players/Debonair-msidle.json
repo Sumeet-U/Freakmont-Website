@@ -3,33 +3,33 @@
     "name": "Debonair",
     "class": "Bowmaster",
     "level": 118,
-    "cpRaw": "60739106765657440",
-    "cpDisplay": "60AA 739T",
+    "cpRaw": "72560184402819920",
+    "cpDisplay": "72AA 560T",
     "fame": 1237
   },
   "ranks": {
     "global": {
-      "rank": 3027,
+      "rank": 2827,
       "percentile": 0.2
     },
     "server": {
-      "rank": 49,
+      "rank": 47,
       "percentile": 0.1
     },
     "world": {
-      "rank": 471,
+      "rank": 446,
       "percentile": 0.1
     },
     "job": {
-      "rank": 140,
+      "rank": 133,
       "percentile": 0.1
     }
   },
   "performance": {
     "conquest": {
-      "score": 1353977973541,
-      "percentile": 1.1,
-      "updated": "2026-10-18T05:21:39+00:00"
+      "score": 1691755847247,
+      "percentile": 0.9,
+      "updated": "2026-10-22T05:26:00+00:00"
     },
     "training_ground": {
       "score": 9830238,
@@ -54,42 +54,38 @@
   },
   "scoreComparison": {
     "guild_conquest": {
-      "score": "1353977973541",
-      "vs_all_pct": 23.1,
-      "vs_class_pct": 28.5,
-      "date": "2026-10-18T05:21:39+00:00"
+      "score": "1691755847247",
+      "vs_all_pct": 40.9,
+      "vs_class_pct": 46.9,
+      "date": "2026-10-22T05:26:00+00:00"
     },
     "world_boss": {
       "score": "1004362419999999872",
-      "vs_all_pct": 102.2,
-      "vs_class_pct": 90.9,
+      "vs_all_pct": 105.4,
+      "vs_class_pct": 94.8,
       "date": "2026-10-19T05:12:23+00:00"
     },
     "guild_war": {
       "score": "596856871834",
-      "vs_all_pct": 16.1,
-      "vs_class_pct": 0.8,
+      "vs_all_pct": 16,
+      "vs_class_pct": 0.7,
       "date": "2026-10-14T14:15:09+00:00"
     },
     "guild_training_ground": {
       "score": "9830238",
-      "vs_all_pct": 8.2,
+      "vs_all_pct": 8.1,
       "vs_class_pct": -20.2,
       "date": "2026-06-19T04:14:37+00:00"
     },
     "guild_boss": {
       "score": "153912720509",
-      "vs_all_pct": -8,
-      "vs_class_pct": -11,
+      "vs_all_pct": -8.1,
+      "vs_class_pct": -11.1,
       "date": "2026-09-04T16:40:17+00:00"
     }
   },
   "history": {
     "conquest_history": [
-      {
-        "date": "2026-09-21T06:25:28+00:00",
-        "score": "640209643168"
-      },
       {
         "date": "2026-09-26T04:50:42+00:00",
         "score": "672743734627"
@@ -105,6 +101,10 @@
       {
         "date": "2026-10-18T05:21:39+00:00",
         "score": "1353977973541"
+      },
+      {
+        "date": "2026-10-22T05:26:00+00:00",
+        "score": "1691755847247"
       }
     ],
     "training_ground_history": [],
@@ -143,7 +143,7 @@
     ],
     "cp_history": [
       {
-        "date": "2026-09-19T05:41:15+00:00",
+        "date": "2026-09-22T23:18:45+00:00",
         "cpRaw": 27938800483394232,
         "cpDisplay": "27AA 938T"
       },
@@ -181,11 +181,16 @@
         "date": "2026-10-18T05:21:38+00:00",
         "cpRaw": 60739106765657440,
         "cpDisplay": "60AA 739T"
+      },
+      {
+        "date": "2026-10-22T05:25:59+00:00",
+        "cpRaw": 72560184402819920,
+        "cpDisplay": "72AA 560T"
       }
     ],
     "level_history": [
       {
-        "date": "2026-09-19T05:41:15+00:00",
+        "date": "2026-09-22T23:18:45+00:00",
         "level": 117
       },
       {
@@ -194,5 +199,5 @@
       }
     ]
   },
-  "scraped_at": "2026-10-19T05:41:14.931792+00:00"
+  "scraped_at": "2026-10-22T23:18:45.189914+00:00"
 }

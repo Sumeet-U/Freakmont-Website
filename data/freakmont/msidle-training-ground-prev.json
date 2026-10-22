@@ -1,18 +1,18 @@
 {
-  "date": "2026-10-13",
+  "date": "2026-10-18",
   "entries": [
+    {
+      "name": "JaneGarden",
+      "class": "Night Lord",
+      "level": 120,
+      "score": 22778547,
+      "rank": 1
+    },
     {
       "name": "poljjak",
       "class": "Bishop",
       "level": 118,
       "score": 18776937,
-      "rank": 1
-    },
-    {
-      "name": "SAibo",
-      "class": "Dark Knight",
-      "level": 114,
-      "score": 14506899,
       "rank": 2
     },
     {
@@ -25,7 +25,7 @@
     {
       "name": "iamJinniiez",
       "class": "Arch Mage (Ice/Lightning)",
-      "level": 116,
+      "level": 117,
       "score": 14045298,
       "rank": 4
     },
@@ -74,7 +74,7 @@
     {
       "name": "JaiLBalT",
       "class": "Shadower",
-      "level": 116,
+      "level": 117,
       "score": 10757229,
       "rank": 11
     },
@@ -102,7 +102,7 @@
     {
       "name": "KenniTM",
       "class": "Paladin",
-      "level": 115,
+      "level": 116,
       "score": 8975166,
       "rank": 15
     },
@@ -151,7 +151,7 @@
     {
       "name": "greenbanana",
       "class": "Corsair",
-      "level": 110,
+      "level": 111,
       "score": 7635654,
       "rank": 22
     },
@@ -186,14 +186,14 @@
     {
       "name": "Ravenz",
       "class": "Shadower",
-      "level": 113,
+      "level": 114,
       "score": 6275238,
       "rank": 27
     },
     {
       "name": "Arlooooo",
       "class": "Hero",
-      "level": 111,
+      "level": 112,
       "score": 5843667,
       "rank": 28
     },

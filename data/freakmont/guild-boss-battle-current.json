@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-18",
+  "date": "2026-10-22",
   "entries": [
     {
       "name": "JaneGarden",
@@ -18,7 +18,7 @@
     {
       "name": "Debonair",
       "class": "Bowmaster",
-      "level": 118,
+      "level": 119,
       "score": 153912720509.266,
       "rank": 3
     },
@@ -60,7 +60,7 @@
     {
       "name": "zVinics",
       "class": "Bishop",
-      "level": 115,
+      "level": 116,
       "score": 102572098586.518,
       "rank": 9
     },
@@ -88,7 +88,7 @@
     {
       "name": "Came",
       "class": "Paladin",
-      "level": 113,
+      "level": 114,
       "score": 64202175011.1479,
       "rank": 13
     },
@@ -102,14 +102,14 @@
     {
       "name": "SHlBAL",
       "class": "Night Lord",
-      "level": 113,
+      "level": 114,
       "score": 63128590689.5957,
       "rank": 15
     },
     {
       "name": "TimelessIce",
       "class": "Bowmaster",
-      "level": 113,
+      "level": 114,
       "score": 55746571963.7208,
       "rank": 16
     },
@@ -151,14 +151,14 @@
     {
       "name": "Lighttt",
       "class": "Night Lord",
-      "level": 112,
+      "level": 113,
       "score": 37887126697.1851,
       "rank": 22
     },
     {
       "name": "yclzero",
       "class": "Bowmaster",
-      "level": 111,
+      "level": 112,
       "score": 27767506854.2504,
       "rank": 23
     },
@@ -207,7 +207,7 @@
     {
       "name": "Hayamachop",
       "class": "Hero",
-      "level": 111,
+      "level": 112,
       "score": 18360521181.5466,
       "rank": 30
     }

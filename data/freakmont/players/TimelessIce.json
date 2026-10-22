@@ -1,20 +1,20 @@
 {
   "ranks": {
     "global_rank": {
-      "rank": 5016,
-      "total": 105473
+      "rank": 5049,
+      "total": 105708
     },
     "bera": {
-      "rank": 2888,
-      "total": 52119
+      "rank": 2897,
+      "total": 52163
     },
     "bera_3": {
-      "rank": 315,
+      "rank": 313,
       "total": 4680
     },
     "bowmaster": {
-      "rank": 336,
-      "total": 6059
+      "rank": 341,
+      "total": 6075
     }
   },
   "performance": {
@@ -23,8 +23,8 @@
       "updated": "Oct 11"
     },
     "world_boss": {
-      "score": 22789844500000000,
-      "updated": "Oct 18"
+      "score": 25284749500000000,
+      "updated": "Oct 21"
     },
     "training_ground": {
       "score": 10323837,
@@ -40,38 +40,6 @@
     }
   },
   "history": [
-    {
-      "date": "9/19",
-      "cpRaw": 1153582967261658,
-      "cpDisplay": "1AA 153T",
-      "level": 112,
-      "globalRank": 4646,
-      "fame": 216
-    },
-    {
-      "date": "9/20",
-      "cpRaw": 1154972626823013.2,
-      "cpDisplay": "1AA 154T",
-      "level": 112,
-      "globalRank": 4677,
-      "fame": 216
-    },
-    {
-      "date": "9/21",
-      "cpRaw": 1173137296362460,
-      "cpDisplay": "1AA 173T",
-      "level": 112,
-      "globalRank": 4727,
-      "fame": 216
-    },
-    {
-      "date": "9/22",
-      "cpRaw": 1280659792936886,
-      "cpDisplay": "1AA 280T",
-      "level": 112,
-      "globalRank": 4585,
-      "fame": 217
-    },
     {
       "date": "9/23",
       "cpRaw": 1318134142399491.5,
@@ -279,7 +247,39 @@
       "level": 113,
       "globalRank": 5016,
       "fame": 230
+    },
+    {
+      "date": "10/19",
+      "cpRaw": 2453790606917369,
+      "cpDisplay": "2AA 453T",
+      "level": 114,
+      "globalRank": 4998,
+      "fame": 230
+    },
+    {
+      "date": "10/20",
+      "cpRaw": 2510293508097030.5,
+      "cpDisplay": "2AA 510T",
+      "level": 114,
+      "globalRank": 5011,
+      "fame": 230
+    },
+    {
+      "date": "10/21",
+      "cpRaw": 2510293508097030.5,
+      "cpDisplay": "2AA 510T",
+      "level": 114,
+      "globalRank": 5056,
+      "fame": 230
+    },
+    {
+      "date": "10/22",
+      "cpRaw": 2545288059727775.5,
+      "cpDisplay": "2AA 545T",
+      "level": 114,
+      "globalRank": 5049,
+      "fame": 230
     }
   ],
-  "scraped_at": "2026-10-19T05:40:32.309452+00:00"
+  "scraped_at": "2026-10-22T23:17:52.090894+00:00"
 }
